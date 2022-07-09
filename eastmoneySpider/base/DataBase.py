@@ -74,6 +74,7 @@ class MongoDataBase(DataBase):
 
     def connect(self):
         self.__client = MongoClient(self.host, self.port)
+        return self.__client
 
     #如果存在获取对象，如果不存在创建一个名字为name的数据库
     def get_db(self, name):
@@ -146,7 +147,7 @@ class MongoDataBase(DataBase):
         return
 
 import mysql.connector
-class mysql(DataBase):
+class mysqldb(DataBase):
     """封装mongo db数据库操作类"""
 
     def __init__(self, host, port, user = None, pwd = None):
@@ -156,14 +157,13 @@ class mysql(DataBase):
         self.pwd = pwd
         self.__client = None
         self.__cursor = None
-
         self.__table = None
 
     def connect(self):
-        self.__client = mysql.connector.connect(self.host,
-                                                self.port,
-                                                self.user,
-                                                self.pwd)
+        self.__client = mysql.connector.connect(host =self.host,
+                                                user = self.user,
+                                                password =self.pwd)
+        return self.__client
 
     # 如果存在获取对象，如果不存在创建一个名字为name的数据库
     def get_db(self, name):
@@ -178,7 +178,6 @@ class mysql(DataBase):
     def get_table(self, name):
         sql = "CREATE TABLE {} {}".format(name[0], name[1])
         self.__cursor.execute(sql)
-        return self.__db[name]
 
     def drop_table(self, name):
         sql = "DROP TABLE IF EXISTS {}".format(name)  # 删除数据表 name
