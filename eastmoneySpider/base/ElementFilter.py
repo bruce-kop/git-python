@@ -43,17 +43,31 @@ class MoneyFlowFilter(ElementFilter):
 
     def element_filter(self):
 
-        n = 5
+        n = 1
         data_table = list()
-        head_table = ['股票代码','股票名称','最新价格','今日涨跌幅','今日主力净流入','今日主力净流入占比','今日超大单净流入','今日超大单净流入占比', '今日大单净流入','今日大单净流入占比',
-                      '今日中单净流入','今日中单净流入占比', '今日小单净流入','今日小单净流入占比']
+        head_table = ['股票代码', '股票名称', '最新价格', '今日涨跌幅', '今日主力净流入', '今日主力净流入占比', '今日超大单净流入', '今日超大单净流入占比', '今日大单净流入',
+                      '今日大单净流入占比',
+                      '今日中单净流入', '今日中单净流入占比', '今日小单净流入', '今日小单净流入占比']
         try:
             for page in range(1, n + 1):
                 self.index_page(page)
-                table = self.source.find_element(By.CSS_SELECTOR, '#dataview > div.dataview-center > div.dataview-body > table > tbody')
-                table_rows = table.find_elements(By.TAG_NAME,'tr')
+                table = self.source.find_element(By.CSS_SELECTOR,
+                                                 '#dataview > div.dataview-center > div.dataview-body > table > tbody')
+                table_rows = table.find_elements(By.TAG_NAME, 'tr')
                 for row in table_rows:
-                    cols = row.find_elements(By.TAG_NAME,'td')
+                    cols = row.find_elements(By.TAG_NAME, 'td')
+                    i = 0
+
+                    def i_func():
+                        nonlocal i
+                        i += 1
+                        return i
+
+                    l = [col.text for col in cols if i_func() not in (1, 4)]  # 推导出去掉第一列和第四列数据的列表
+                    d = dict(zip(head_table, l))  # 使用将表头作为关键字，l做为值，生成字典
+
+                    yield d  # 生成器，返回一条数据
+                    '''
                     i = 0
                     j = 0
                     d = {}
@@ -64,9 +78,13 @@ class MoneyFlowFilter(ElementFilter):
                         d[head_table[j]] =col.text
                         i += 1
                         j += 1
-                    data_table.append(d)
+                    #data_table.append(d)
+                    yield d
+                   '''
+
 
         except exceptions.StaleElementReferenceException:
-            logger.debug("exceptions.StaleElementReferenceException")#表格会定时刷新，刷新的时候可能就会出现异常，这个待处理
+            logger.debug("exceptions.StaleElementReferenceException")  # 表格会定时刷新，刷新的时候可能就会出现异常，这个待处理
+            yield {}
 
-        return data_table
+        # return data_table

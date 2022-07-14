@@ -20,11 +20,11 @@
     <SUITE FILE_PATH="coverage/eastmoneySpider$Unittests_in_test_data_center_spider_py.coverage" NAME="Unittests in test_data_center_spider.py Coverage Results" MODIFIED="1657201585213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testSpider" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
+            <state relative-caret-position="361">
               <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="32" selection-end-column="20" />
               <folding>
                 <element signature="e#27#62#0" expanded="true" />
@@ -36,8 +36,8 @@
       <file leaf-file-name="test_mongodb.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testSpider/test_mongodb.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+            <state relative-caret-position="437">
+              <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -48,7 +48,7 @@
       <file leaf-file-name="BrowserDriver.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/base/BrowserDriver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
+            <state relative-caret-position="456">
               <caret line="27" column="23" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="23" />
               <folding>
                 <element signature="e#27#57#0" expanded="true" />
@@ -60,8 +60,8 @@
       <file leaf-file-name="Spider.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Spider/Spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="35" column="19" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="19" />
+            <state relative-caret-position="475">
+              <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
               <folding>
                 <element signature="e#27#71#0" expanded="true" />
               </folding>
@@ -69,16 +69,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testSpider/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="test_mysql.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testSpider/test_mysql.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="test_data_center_spider.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testSpider/test_data_center_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="399">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -89,8 +96,8 @@
       <file leaf-file-name="DataBase.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/base/DataBase.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2071">
-              <caret line="259" column="34" lean-forward="true" selection-start-line="259" selection-start-column="34" selection-end-line="259" selection-end-column="34" />
+            <state relative-caret-position="4902">
+              <caret line="259" column="34" selection-start-line="259" selection-start-column="34" selection-end-line="259" selection-end-column="34" />
               <folding>
                 <element signature="e#26#57#0" expanded="true" />
               </folding>
@@ -98,16 +105,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_mysql.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testSpider/test_mysql.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file leaf-file-name="ElementFilter.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/base/ElementFilter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-61">
-              <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+            <state relative-caret-position="1181">
+              <caret line="89" selection-start-line="89" selection-end-line="90" />
               <folding>
                 <element signature="e#27#62#0" expanded="true" />
               </folding>
@@ -118,8 +120,8 @@
       <file leaf-file-name="Logger.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/base/Logger.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+            <state relative-caret-position="570">
+              <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
               <folding>
                 <element signature="e#28#42#0" expanded="true" />
               </folding>
@@ -148,13 +150,13 @@
         <option value="$PROJECT_DIR$/base/Logger.py" />
         <option value="$PROJECT_DIR$/base/BrowserDriver.py" />
         <option value="$PROJECT_DIR$/base/time_consuming.py" />
-        <option value="$PROJECT_DIR$/base/ElementFilter.py" />
-        <option value="$PROJECT_DIR$/Spider/Spider.py" />
         <option value="$PROJECT_DIR$/testSpider/test_data_center_spider.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/testSpider/test_mongodb.py" />
         <option value="$PROJECT_DIR$/base/DataBase.py" />
         <option value="$PROJECT_DIR$/testSpider/test_mysql.py" />
+        <option value="$PROJECT_DIR$/base/ElementFilter.py" />
+        <option value="$PROJECT_DIR$/Spider/Spider.py" />
       </list>
     </option>
   </component>
@@ -165,9 +167,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="145" />
-    <option name="y" value="286" />
-    <option name="width" value="1844" />
+    <option name="x" value="-2" />
+    <option name="y" value="25" />
+    <option name="width" value="1845" />
     <option name="height" value="1290" />
   </component>
   <component name="ProjectView">
@@ -206,6 +208,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -297,12 +300,12 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python.Logger" />
-      <item itemvalue="Python.BrowserDriver" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.Spider" />
       <item itemvalue="Python.ElementFilter" />
       <item itemvalue="Python.DataBase" />
+      <item itemvalue="Python.Logger" />
+      <item itemvalue="Python.BrowserDriver" />
       <item itemvalue="Python tests.Unittests in test_data_center_spider.py" />
       <item itemvalue="Python tests.Unittests in test_mongodb.py" />
     </list>
@@ -310,9 +313,6 @@
       <list>
         <item itemvalue="Python tests.Unittests in test_mongodb.py" />
         <item itemvalue="Python tests.Unittests in test_data_center_spider.py" />
-        <item itemvalue="Python.DataBase" />
-        <item itemvalue="Python.ElementFilter" />
-        <item itemvalue="Python.Spider" />
       </list>
     </recent_temporary>
   </component>
@@ -362,29 +362,30 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="97" y="191" width="1229" height="860" extended-state="0" />
+    <frame x="353" y="18" width="1230" height="860" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.36301368" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29803586" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="SciView" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31228667" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,25 +395,276 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../first_package/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="32" selection-end-column="20" />
+          <folding>
+            <element signature="e#27#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testSpider/test_mongodb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/BrowserDriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="23" />
+          <folding>
+            <element signature="e#27#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/Spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="19" />
+          <folding>
+            <element signature="e#27#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testSpider/test_data_center_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/DataBase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4902">
+          <caret line="259" column="34" selection-start-line="259" selection-start-column="34" selection-end-line="259" selection-end-column="34" />
+          <folding>
+            <element signature="e#26#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/ElementFilter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+          <folding>
+            <element signature="e#27#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/Logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+          <folding>
+            <element signature="e#28#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testSpider/test_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="32" selection-end-column="20" />
+          <folding>
+            <element signature="e#27#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testSpider/test_mongodb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/BrowserDriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="23" />
+          <folding>
+            <element signature="e#27#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/Spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="19" />
+          <folding>
+            <element signature="e#27#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testSpider/test_data_center_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/DataBase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4902">
+          <caret line="259" column="34" selection-start-line="259" selection-start-column="34" selection-end-line="259" selection-end-column="34" />
+          <folding>
+            <element signature="e#26#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/ElementFilter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+          <folding>
+            <element signature="e#27#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/Logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+          <folding>
+            <element signature="e#28#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testSpider/test_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="25" column="43" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="32" selection-end-column="20" />
+          <folding>
+            <element signature="e#27#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testSpider/test_mongodb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/BrowserDriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="23" />
+          <folding>
+            <element signature="e#27#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testSpider/test_data_center_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/DataBase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4902">
+          <caret line="259" column="34" lean-forward="true" selection-start-line="259" selection-start-column="34" selection-end-line="259" selection-end-column="34" />
+          <folding>
+            <element signature="e#26#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/ElementFilter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+          <folding>
+            <element signature="e#27#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/Logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+          <folding>
+            <element signature="e#28#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/Spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="19" />
+          <folding>
+            <element signature="e#27#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/base/time_consuming.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="20" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="20" />
-          <folding>
-            <element signature="e#26#37#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testSpider/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
+        <state relative-caret-position="361">
           <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="32" selection-end-column="20" />
           <folding>
             <element signature="e#27#62#0" expanded="true" />
@@ -422,8 +674,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testSpider/test_data_center_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="399">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -432,8 +684,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/base/Logger.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+        <state relative-caret-position="570">
+          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
           <folding>
             <element signature="e#28#42#0" expanded="true" />
           </folding>
@@ -442,8 +694,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testSpider/test_mongodb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        <state relative-caret-position="437">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -452,20 +704,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/base/DataBase.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2071">
-          <caret line="259" column="34" lean-forward="true" selection-start-line="259" selection-start-column="34" selection-end-line="259" selection-end-column="34" />
+        <state relative-caret-position="4902">
+          <caret line="259" column="34" selection-start-line="259" selection-start-column="34" selection-end-line="259" selection-end-column="34" />
           <folding>
             <element signature="e#26#57#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testSpider/test_mysql.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/base/BrowserDriver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
+        <state relative-caret-position="456">
           <caret line="27" column="23" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="23" />
           <folding>
             <element signature="e#27#57#0" expanded="true" />
@@ -473,10 +722,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/testSpider/test_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/base/ElementFilter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-61">
-          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        <state relative-caret-position="1181">
+          <caret line="89" selection-start-line="89" selection-end-line="90" />
           <folding>
             <element signature="e#27#62#0" expanded="true" />
           </folding>
@@ -485,8 +744,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Spider/Spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="35" column="19" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="19" />
+        <state relative-caret-position="475">
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
           <folding>
             <element signature="e#27#71#0" expanded="true" />
           </folding>

@@ -32,6 +32,7 @@ class centerSpider(WebSpider):
 
     def save_money_flow(self, filter):
         data = filter.element_filter()
+        data = list(data)
         self.db.insert_many('IS_money_flow',data)
         return data
 
