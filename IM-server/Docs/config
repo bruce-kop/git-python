@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<database>
+    <mysql>
+        <host>127.0.0.1</host>
+        <port>3306</port>
+        <username>root</username>
+        <password>zkp198624</password>
+        <database>im_data</database>
+    </mysql>
+    <mongoDB>
+        <host>127.0.0.1</host>
+        <port>3306</port>
+        <username>root</username>
+        <password>zkp198624</password>
+        <database>msg_data</database>
+    </mongoDB>
+    <redis>
+        <host>127.0.0.1</host>
+        <port>6379</port>
+    </redis>
+</database>
