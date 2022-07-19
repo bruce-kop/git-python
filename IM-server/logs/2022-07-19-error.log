@@ -1,0 +1,17 @@
+Tue, 19 Jul 2022 21:06:14-root-Logger.py-[line:130]-ERROR-[日志信息]: 'table'
+Tue, 19 Jul 2022 21:07:27-root-Logger.py-[line:130]-ERROR-[日志信息]: collection names cannot be empty
+Tue, 19 Jul 2022 21:08:06-root-Logger.py-[line:130]-ERROR-[日志信息]: collection names cannot be empty
+Tue, 19 Jul 2022 21:08:06-root-Logger.py-[line:130]-ERROR-[日志信息]: 'table'
+Tue, 19 Jul 2022 21:12:16-root-Logger.py-[line:130]-ERROR-[日志信息]: data is empty.
+Tue, 19 Jul 2022 21:14:54-root-Logger.py-[line:130]-ERROR-[日志信息]: documents must be a non-empty list
+Tue, 19 Jul 2022 21:15:38-root-Logger.py-[line:130]-ERROR-[日志信息]: documents must be a non-empty list
+Tue, 19 Jul 2022 21:16:01-root-Logger.py-[line:130]-ERROR-[日志信息]: documents must be a non-empty list
+Tue, 19 Jul 2022 21:16:43-root-Logger.py-[line:130]-ERROR-[日志信息]: 'data_list'
+Tue, 19 Jul 2022 21:17:43-root-Logger.py-[line:130]-ERROR-[日志信息]: 'data_list'
+Tue, 19 Jul 2022 21:20:27-root-Logger.py-[line:130]-ERROR-[日志信息]: documents must be a non-empty list
+Tue, 19 Jul 2022 23:03:31-root-Logger.py-[line:130]-ERROR-[日志信息]: TypeError:update must either be a list or an instance of dict, bson.son.SON, or any other type that inherits from collections.Mapping
+Tue, 19 Jul 2022 23:04:53-root-Logger.py-[line:130]-ERROR-[日志信息]: TypeError:update must either be a list or an instance of dict, bson.son.SON, or any other type that inherits from collections.Mapping
+Tue, 19 Jul 2022 23:18:29-root-Logger.py-[line:130]-ERROR-[日志信息]: TypeError:filter must be an instance of dict, bson.son.SON, or any other type that inherits from collections.Mapping
+Tue, 19 Jul 2022 23:19:07-root-Logger.py-[line:130]-ERROR-[日志信息]: TypeError:filter must be an instance of dict, bson.son.SON, or any other type that inherits from collections.Mapping
+Tue, 19 Jul 2022 23:19:33-root-Logger.py-[line:130]-ERROR-[日志信息]: TypeError:filter must be an instance of dict, bson.son.SON, or any other type that inherits from collections.Mapping
+Tue, 19 Jul 2022 23:19:58-root-Logger.py-[line:130]-ERROR-[日志信息]: TypeError:filter must be an instance of dict, bson.son.SON, or any other type that inherits from collections.Mapping

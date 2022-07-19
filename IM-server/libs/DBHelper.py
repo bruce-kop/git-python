@@ -1,133 +1,193 @@
 #python
 #encoding = utf8
 
+'''
+file: DBHelper.py
+author: bruce zhang
+date:2022-7-19
+core:
+    MongoDBHelper   Mongo DB operation class
+    MysqlDBHelper mysql DB operation class
+'''
+
 from pymongo import MongoClient
 from abc import ABC, abstractmethod
 from libs.Logger import logger
+import pymongo
 
-class DataBase(ABC):
-    def __init__(self, host, port):
-        self.host = host
-        self.port = port
+class DBHelper(ABC):
+    pass
 
-    @abstractmethod
-    def connect(self):
-        pass
-
-    @abstractmethod
-    def get_db(self, name):
-        pass
-
-    @abstractmethod
-    def get_table(self, name):
-        pass
-
-    @abstractmethod
-    def drop_table(self, name):
-        pass
-
-    @abstractmethod
-    def insert_one(self, name, data):
-        pass
-
-    @abstractmethod
-    def insert_many(self, name, datas):
-        pass
-
-    @abstractmethod
-    def delete_one(self, name,data):
-        pass
-
-    @abstractmethod
-    def delete_many(self, name, datas):
-        pass
-
-    @abstractmethod
-    def delete_all(self, name):
-        pass
-
-    @abstractmethod
-    def update_one(self, name, query, newdata):
-        pass
-
-    @abstractmethod
-    def update_many(self, name, query, newdatas):
-        pass
-
-    @abstractmethod
-    def find_first_one(self, name, data):
-        pass
-
-    @abstractmethod
-    def find(self, name, query, fields=None, limit_rec=-1, sort=1):
-        pass
-
-class MongoDBHelper(DataBase):
+class MongoDBHelper(DBHelper):
 
     """封装mongo db数据库操作类"""
 
     def __init__(self, host = '127.0.0.1', port = 27017, user = 'admin', pwd = 'hik12345',database = 'test'):
-        db_addr = "mongodb://{}:{}@{}:{}/{}".format(user, pwd, host, port, database)
+        if user is None:
+            db_addr = "mongodb://{}:{}".format( host, port)
+        else:
+            db_addr = "mongodb://{}:{}@{}:{}/{}".format(user, pwd, host, port, database)
+        logger.info(db_addr)
         self.__client = MongoClient(db_addr)
         self.__db = self.__client[database]
-        self.__table = None
 
-    #如果存在获取对象，如果不存在创建一个名字为name的数据库
-    def get_db(self, name):
-        self.__db = self.__client[name]
-        return self.__db
+    def execute(self, sql):
+        pass
 
-    # 如果存在获取对象，如果不存在创建一个名字为name的集合
-    def get_table(self,name):
-        return self.__db[name]
+    def delete(self,  **kwargs):
+        '''
+         :param kwargs:
+             :key = 'table' collection name
+             :key = 'where' query condition, such as { "name": { "$regex": "^R" } }, delete all the value is{}
+         :return: Returns the number of deleted entries
+         '''
+        try:
+            table_name = kwargs['table']
+            query = kwargs['where']
+            ret = self.__db[table_name].delete_many(query)
+        except KeyError as e:
+            logger.error(e)
+            return 0
+        except pymongo.errors.InvalidName as e:
+            logger.error(e)
+            return 0
+        except TypeError as e:
+            logger.error(e)
+            return 0
+        return ret.deleted_count
 
-    def drop_table(self,name):
-        self.__db[name].drop()
+    def insert_one(self, **kwargs):
+        '''
+        :param kwargs:
+            :key = 'table' collection name
+            :other key is the  insert document.
+        :return: The unique ID of the document
+        '''
+        try:
+            table_name = kwargs['table']
+            kwargs.pop('table')
+            table = self.__db[table_name]
+            if len(kwargs) == 0:
+                logger.error("data is empty.")
+                return None
+            id = table.insert_one(kwargs)
+        except KeyError as e:
+            logger.error(e)
+            return None
+        except pymongo.errors.InvalidName as e:
+            logger.error(e)
+            return None
+        except TypeError as e:
+            logger.error(e)
+            return None
+        return id.inserted_id
 
-    def insert_one(self, name, data):
-        table = self.get_table(name)
-        table.insert_one(data)
+    def insert(self, **kwargs):
+        '''
+        :param kwargs:
+            :key = 'table' collection name
+            :key= 'data_list', such as mylist = [
+                                                { "name": "Taobao", "alexa": "100", "url": "https://www.taobao.com" },
+                                                { "name": "QQ", "alexa": "101", "url": "https://www.qq.com" },
+                                                ]
+        :return: The unique ID of the document
+        '''
+        try:
+            table_name = kwargs['table']
+            data_list = kwargs['data_list']
+            ids = self.__db[table_name].insert_many(data_list)
+        except KeyError as e:
+            logger.error(e)
+            return None
+        except pymongo.errors.InvalidName as e:
+            logger.error(e)
+            return None
+        except TypeError as e:
+            logger.error(e)
+            return None
+        return ids.inserted_ids
 
-    def insert_many(self, name, data):
-        self.get_table(name).insert_many(data)
+    def update(self, **kwargs):
+        '''
+        Method can only repair the first record that is matched
+        :param kwargs:
+            :key = 'table' collection name
+            :key = 'where' query condition, such as { "name": { "$regex": "^R" } }
+            :key='newvalues' such as { "$set": { "alexa": "12345" } }
+        :return: data
+        '''
+        try:
+            table_name = 'table' in kwargs and kwargs['table'] or ''
+            query = 'where' in kwargs and kwargs['where'] or ''
+            newvalues = 'newvalues' in kwargs and kwargs['newvalues'] or None
+            kwargs.pop('table')
+            kwargs.pop('where')
+            table = self.__db[table_name]
+            logger.info(query)
+            logger.info(newvalues)
+            ret = table.update_many(query, newvalues)
+        except KeyError as e:
+            logger.error("KeyError:%s"%e)
+            return None
+        except pymongo.errors.InvalidName as e:
+            logger.error(e)
+            return None
+        except TypeError as e:
+            logger.error("TypeError:%s"%e)
+            return None
+        return ret.modified_count
 
-    def delete_one(self,  name, data):
-        self.get_table(name).delete_one(data)
-        return ""
+    def select_top_one(self, **kwargs):
+        '''
+        :param kwargs:
+            :key = 'table' collection name
+        :return: data
+        '''
+        try:
+            table_name = kwargs['table']
+            ret = self.__db[table_name].find_one()
+        except KeyError as e:
+            logger.error("KeyError:%s"%e)
+            return None
+        except pymongo.errors.InvalidName as e:
+            logger.error(e)
+            return None
+        except TypeError as e:
+            logger.error("TypeError:%s"%e)
+            return None
+        return ret
 
-    def delete_many(self,  name, datas):
-        self.get_table(name).delete_many(datas)
-        return 0
+    def select_all(self, **kwargs):
+        '''
+        :param kwargs:
+            :key = 'table' collection name
+            :key = 'where' query condition, such as { "name": { "$regex": "^R" } }
+            :key= 'field '  the field of select result,such as { "_id": 0, "name": 1, "alexa": 1 }
+            :key = 'sort' 1 indicates the ascending order, 0 indicates descending order
+            :key='limit_rec' limit_rec Returns the number of queries, -1 indicates return all.
+        :return: data
+        '''
+        try:
+            table_name = kwargs['table']
+            query = kwargs['where']
+            field = kwargs['field']
+            sort = kwargs['sort']
+            limit_rec = kwargs['limit_rec']
+            if limit_rec == -1:
+                datas = self.__db[table_name].find(query, field).sort("alexa", sort)
+            else:
+                datas = self.__db[table_name].find(query, field).sort("alexa", sort).limit(limit_rec)
+        except KeyError as e:
+            logger.error("KeyError:%s"%e)
+            return None
+        except pymongo.errors.InvalidName as e:
+            logger.error(e)
+            return None
+        except TypeError as e:
+            logger.error("TypeError:%s"%e)
+            return None
 
-    def delete_all(self, name):
-        self.get_table(name).delete_many({})
-
-    def update_one(self, name, query, newdata):
-        self.get_table(name).update_one(query, newdata)
-
-    def update_many(self,name, query, newdatas):
-        self.get_table(name).update_many(query, newdatas)
-
-    def find_first_one(self, name):
-        return self.get_table(name).find_one()
-
-    """参数query按条件查询，其中条件有正则表达式$regex，比较字符$gt， 或等于某个字段
-    比如myquery = { "name": { "$regex": "^R" } }
-    myquery = { "name": { "$gt": "H" } }，查询全部 myquery = {}
-    参数limit_rec限制返回的查询条数，-1表示不限制
-    参数fields表示指定返回的字段，如{ "_id": 0, "name": 1, "alexa": 1 }
-    除了 _id，你不能在一个对象中同时指定 0 和 1，如果你设置了一个字段为 0，则其他都为 1，反之亦然。
-    参数sort对查询结果排序，sort 1表示升序，-1表示降序，默认升序
-    """
-    def find(self, name, query, fields = None, limit_rec = -1, sort = 1):
-        if limit_rec == -1 and fields is None:
-            return self.get_table(name).find(query).sort("alexa", sort)
-        elif limit_rec != -1 and fields is None:
-            return self.get_table( name).find(query).sort("alexa", sort).limit(limit_rec)
-        elif limit_rec == -1 and fields is not None:
-            return self.get_table( name).find(query, fields).sort("alexa", sort)
-        else:
-            return self.get_table(name).find(query,fields).sort("alexa", sort).limit(limit_rec)
+        return datas
 
     def __enter__(self):
         self.connect()
@@ -142,8 +202,6 @@ class MongoDBHelper(DataBase):
             self.__client.close()
         return
 
-class DBHelper(ABC):
-    pass
 
 import mysql.connector
 class MysqlDBHelper(DBHelper):
