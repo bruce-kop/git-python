@@ -62,20 +62,15 @@ class DataBase(ABC):
     def find(self, name, query, fields=None, limit_rec=-1, sort=1):
         pass
 
-class MongoDataBase(DataBase):
+class MongoDBHelper(DataBase):
 
     """封装mongo db数据库操作类"""
 
-    def __init__(self, host, port):
-        self.host = host
-        self.port = port
-        self.__client = None
-        self.__db = None
+    def __init__(self, host = '127.0.0.1', port = 27017, user = 'admin', pwd = 'hik12345',database = 'test'):
+        db_addr = "mongodb://{}:{}@{}:{}/{}".format(user, pwd, host, port, database)
+        self.__client = MongoClient(db_addr)
+        self.__db = self.__client[database]
         self.__table = None
-
-    def connect(self):
-        self.__client = MongoClient(self.host, self.port)
-        return self.__client
 
     #如果存在获取对象，如果不存在创建一个名字为name的数据库
     def get_db(self, name):

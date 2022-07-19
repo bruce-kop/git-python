@@ -39,7 +39,6 @@ class responseBuilder:
     @staticmethod
     def build_login_suc(token, user_id):
         dg = {'code': 200, 'msg': 'login success.', 'data': {"token":token, "user_id":user_id}}
-        print(dg)
         respose = json.dumps(dg)
         return respose
 

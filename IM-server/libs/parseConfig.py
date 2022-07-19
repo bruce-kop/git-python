@@ -17,14 +17,18 @@ from libs.Logger import logger
 class XMLParser():
     def __init__(self, file):
         self.file = file
+        try:
+            self.tree = ET.parse(file)
+            self.root = self.tree.getroot()
+        except Exception as e:
+            logger.debug(e)
+
 
     def parse_redis_info(self):
         '''parse redis info, if something goes to wrong, return None '''
         try:
-            tree = ET.parse(self.file)
-            root = tree.getroot()
-            redis_ip = root.find('redis/host').text
-            redis_port = root.find('redis/port').text
+            redis_ip = self.root.find('redis/host').text
+            redis_port = self.root.find('redis/port').text
         except Exception as e:
             logger.debug(e)
             return None,None
@@ -33,13 +37,11 @@ class XMLParser():
     def parse_mysql_info(self):
         '''parse mysql info, if something goes to wrong, return None '''
         try:
-            tree = ET.parse(self.file)
-            root = tree.getroot()
-            db_ip = root.find('mysql/host').text
-            db_port = root.find('mysql/port').text
-            db_user = root.find('mysql/username').text
-            db_pwd = root.find('mysql/password').text
-            db_database= root.find('mysql/database').text
+            db_ip = self.root.find('mysql/host').text
+            db_port = self.root.find('mysql/port').text
+            db_user = self.root.find('mysql/username').text
+            db_pwd = self.root.find('mysql/password').text
+            db_database= self.root.find('mysql/database').text
         except Exception as e:
             logger.debug(e)
             return None,None,None,None,None  #unpaking returns
@@ -48,13 +50,11 @@ class XMLParser():
     def parse_mongodb_info(self):
         '''parse mongodb info, if something goes to wrong, return None '''
         try:
-            tree = ET.parse(self.file)
-            root = tree.getroot()
-            db_ip = root.find('mongoDB/host').text
-            db_port = root.find('mongoDB/port').text
-            db_user = root.find('mongoDB/username').text
-            db_pwd = root.find('mongoDB/password').text
-            db_database= root.find('mongoDB/database').text
+            db_ip = self.find('mongoDB/host').text
+            db_port = self.find('mongoDB/port').text
+            db_user = self.find('mongoDB/username').text
+            db_pwd = self.find('mongoDB/password').text
+            db_database= self.find('mongoDB/database').text
         except Exception as e:
             logger.debug(e)
             return None,None,None,None,None  #unpaking returns
@@ -62,7 +62,6 @@ class XMLParser():
 
 
 #Declare global variables
-
 current_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 file = os.path.join(current_path, 'Docs\config')
 xml_parse = XMLParser(file)

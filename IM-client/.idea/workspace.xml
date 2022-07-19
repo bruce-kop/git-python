@@ -65,8 +65,8 @@
       <file leaf-file-name="requestBuild.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/libs/requestBuild.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="304">
+              <caret line="22" column="99" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="99" />
             </state>
           </provider>
         </entry>
@@ -104,8 +104,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="556" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-5" />
+    <option name="y" value="6" />
     <option name="width" value="1845" />
     <option name="height" value="1290" />
   </component>
@@ -262,7 +263,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="371" y="0" width="1230" height="860" extended-state="0" />
+    <frame x="-3" y="4" width="1230" height="860" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -374,8 +375,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/libs/requestBuild.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        <state relative-caret-position="304">
+          <caret line="22" column="99" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="99" />
         </state>
       </provider>
     </entry>

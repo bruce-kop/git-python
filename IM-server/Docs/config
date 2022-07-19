@@ -9,7 +9,7 @@
     </mysql>
     <mongoDB>
         <host>127.0.0.1</host>
-        <port>3306</port>
+        <port>27017</port>
         <username>root</username>
         <password>zkp198624</password>
         <database>msg_data</database>
