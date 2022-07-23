@@ -14,6 +14,7 @@ from pymongo import MongoClient
 from abc import ABC, abstractmethod
 from libs.Logger import logger
 import pymongo
+import traceback
 
 class DBHelper(ABC):
     pass
@@ -163,10 +164,11 @@ class MongoDBHelper(DBHelper):
             :key = 'table' collection name
             :key = 'where' query condition, such as { "name": { "$regex": "^R" } }
             :key= 'field '  the field of select result,such as { "_id": 0, "name": 1, "alexa": 1 }
-            :key = 'sort' 1 indicates the ascending order, 0 indicates descending order
+            :key = 'sort' 1 indicates the ascending order, -1 indicates descending order
             :key='limit_rec' limit_rec Returns the number of queries, -1 indicates return all.
         :return: data
         '''
+
         try:
             table_name = kwargs['table']
             query = kwargs['where']
@@ -182,6 +184,7 @@ class MongoDBHelper(DBHelper):
             return None
         except pymongo.errors.InvalidName as e:
             logger.error(e)
+            logger.error(traceback.format_exc())
             return None
         except TypeError as e:
             logger.error("TypeError:%s"%e)

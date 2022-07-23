@@ -1,7 +1,12 @@
 #python
 #encoding = utf8
-'''include class parse, the class is use to parse the Im protocol'''
 
+'''file:requestParse.py
+   author: bruce zhang
+   Date: 2022-7-19
+   core content:
+        include class parse, the class is use to parse the Im protocol
+'''
 import json
 from json.decoder import JSONDecodeError
 from libs.Logger import logger

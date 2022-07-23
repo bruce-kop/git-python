@@ -9,7 +9,7 @@ derived classes: remote Message Queue  contain kafka
 from queue import Queue
 from libs.Logger import logger
 
-class MessageQueueBase():
+class MessageQueueBase(Queue):
     '''base class: MessageQueueBse;'''
     def config_queue(self, maxsize=0):
         pass

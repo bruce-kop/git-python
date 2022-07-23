@@ -1,0 +1,3 @@
+Wed, 20 Jul 2022 13:33:45-root-DBHelper.py-[line:325]-INFO-[日志信息]: select * from user_info where username like "zkp%" 
+Wed, 20 Jul 2022 13:33:45-root-DBHelper.py-[line:331]-DEBUG-[日志信息]: 1146 (42S02): Table 'test.user_info' doesn't exist
+Wed, 20 Jul 2022 13:33:45-root-DBHelper.py-[line:309]-INFO-[日志信息]: select * from user_info where username like "zkp%" limit 1

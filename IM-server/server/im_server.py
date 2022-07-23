@@ -16,7 +16,7 @@ import redis
 from libs.RedisOperator import RedisOperator
 from libs.Logger import logger
 from libs.Singleton import Singleton
-from libs.DBHelper import MongoDataBase
+from libs.DBHelper import MongoDBHelper
 from libs.MessageQueue import MQLocal
 from libs.VerifyCodeProduce import check_code
 from libs import ImageConvert
@@ -37,20 +37,17 @@ class VerifyUtil:
         return re.match(reg, phone)
 
 @Singleton
-class server:
+class udpserver:
     ''' IM server class'''
 
-    def __init__(self, port):
-        self.host = socket.gethostname()
-        self.port = port
-        self.server_socket = None
-        self.data_queue = None
-
-    def __call__(self, *args, **kwargs):
+    def __init__(self, host, port):
         self.server_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-        address = (self.host, self.port)
+        address = (host, port)
         self.server_socket.bind(address)
         self.data_queue = MQLocal(maxsize=1024)
+
+    def __call__(self, *args, **kwargs):
+
         return self.server_socket
 
     def recvfrom(self,bufsize):
@@ -71,7 +68,7 @@ class server:
         self.server_socket.sendto(data.encode() ,address)
 
     def close_server(self):
-        server.server_socket.close()
+        self.server_socket.close()
 
 class DataProc:
     def __init__(self, parser):

@@ -1,3 +1,9 @@
+#python
+#encoding = utf8
+'''file:tokenProc.py
+   author: bruce zhang
+   Date: 2022-7-19
+'''
 import base64
 import hmac
 import time

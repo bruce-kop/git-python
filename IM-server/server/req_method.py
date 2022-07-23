@@ -1,0 +1,45 @@
+#python
+#encoding = utf8
+
+''' file:req_method.py
+    class: ReqMethod. defines all request methods for the service
+'''
+
+from enum import Enum, unique
+@unique
+class ReqMethod(Enum):
+    LOGIN = 1001
+    REGISTER = 1002
+    GETVERIFYCODE = 1003
+    LOGOUT = 1004
+    MODIFYUSER = 1005
+    SEARCHUSER = 1006
+    FUZZSEARCH = 1007
+
+    FRIENDADD = 2001
+    FRIENDLIST = 2002
+    FRIPERMISSIONSET = 2003
+    FRIENDDEL = 2004
+
+    GROUPADD = 3001
+    GROUPLIST = 3002
+    GROUPNAMESET = 3003
+    GROUPNOTICESET = 3004
+    GROUPNOTESET = 3005
+    GETQRCODE = 3006
+    SAVETOADDRLIST = 3007
+    MENBERPERMISSION = 3008
+
+    LOGINMSG = 4001
+    SENDMSG = 4002
+    SVRTRANMITMSG = 4003
+    MSGREAD = 4004
+    MSGSEARCHBY_USER = 4005
+    MSGSEARCHBY_DATE = 4006
+    MSGSEARCH_BY_PI_RREC = 4007
+    MSGSEARCHBY_FILE = 4008
+    MSGSEARCHBY_LINK = 4009
+    MSGSEARCHBY_KEYWORD = 4010
+    MSGSEARCHBY_CHAT = 4011
+    MSGDELETE = 4012
+

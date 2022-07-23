@@ -1,6 +1,11 @@
 #python
 #encoding = utf8
-
+'''file:responseBuild.py
+   author: bruce zhang
+   Date: 2022-7-19
+   core content:
+        build the response
+'''
 import json
 
 class responseBuilder:

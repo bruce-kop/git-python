@@ -1,0 +1,20 @@
+Wed, 20 Jul 2022 12:38:56-root-Logger.py-[line:126]-DEBUG-[日志信息]: this is a log.
+Wed, 20 Jul 2022 12:40:04-root-Logger.py-[line:126]-DEBUG-[日志信息]: this is a log.
+Wed, 20 Jul 2022 12:42:19-root-Logger.py-[line:124]-INFO-[日志信息]: this is a log.
+Wed, 20 Jul 2022 13:11:35-myloger-Logger.py-[line:124]-INFO-[日志信息]: this is a log.
+Wed, 20 Jul 2022 13:17:36-root-Logger.py-[line:124]-INFO-[日志信息]: this is a log.
+Wed, 20 Jul 2022 13:21:36-root-test.py-[line:7]-INFO-[日志信息]: a log
+Wed, 20 Jul 2022 13:21:36-root-Logger.py-[line:124]-INFO-[日志信息]: this is a log.
+Wed, 20 Jul 2022 13:23:19-root-test.py-[line:6]-INFO-[日志信息]: this is a log.
+Wed, 20 Jul 2022 13:24:03-root-test.py-[line:6]-INFO-[日志信息]: this is a log.
+Wed, 20 Jul 2022 13:24:31-root-test.py-[line:6]-INFO-[日志信息]: this is a log.
+Wed, 20 Jul 2022 13:24:31-root-test.py-[line:8]-INFO-[日志信息]: this is a log 1.
+Wed, 20 Jul 2022 13:24:45-root-test.py-[line:6]-INFO-[日志信息]: this is a log.
+Wed, 20 Jul 2022 13:24:45-root-test.py-[line:8]-INFO-[日志信息]: this is a log 1.
+Wed, 20 Jul 2022 13:24:45-root-test.py-[line:9]-DEBUG-[日志信息]: this is a log 2.
+Wed, 20 Jul 2022 13:25:33-root-test.py-[line:6]-INFO-[日志信息]: this is a log.
+Wed, 20 Jul 2022 13:25:33-root-test.py-[line:8]-INFO-[日志信息]: this is a log 1.
+Wed, 20 Jul 2022 13:25:33-root-test.py-[line:9]-WARNING-[日志信息]: this is a log 2.
+Wed, 20 Jul 2022 13:25:33-root-test.py-[line:10]-DEBUG-[日志信息]: this is a log 3.
+Wed, 20 Jul 2022 13:25:33-root-test.py-[line:11]-ERROR-[日志信息]: this is a log 4.
+Wed, 20 Jul 2022 13:25:33-root-test.py-[line:12]-CRITICAL-[日志信息]: this is a log 5.

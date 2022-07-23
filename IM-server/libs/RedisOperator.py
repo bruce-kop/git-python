@@ -1,6 +1,12 @@
 #python
 #encoding = utf8
-
+'''file:RedisOperator.py
+   author: bruce zhang
+   Date: 2022-7-19
+   core content:
+        RedisOperator class can operate the redis.
+        RedisConnErr is Exception class
+'''
 import redis
 from libs.Singleton import Singleton
 from libs.Logger import logger

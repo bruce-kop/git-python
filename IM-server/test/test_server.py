@@ -4,7 +4,7 @@ from server.im_server import IMDataProc
 import  json
 from libs.requestParse import parser
 
-class MyTestCase(unittest.TestCase):
+class DataProcTestCase(unittest.TestCase):
 
     def setUp(self):
         self.data_parser = parser()

@@ -106,55 +106,40 @@ class HandleLog:
         """
         file_handler.close()
 
-    def __console(self, level, message):
+    def construct_log_collector(self):
         """构造日志收集器"""
-        all_logger_handler = self.__init_logger_handler(self.__all_log_path)  # 创建日志文件
-        error_logger_handler = self.__init_logger_handler(self.__error_log_path)#创建错误日志的句柄
-        console_handle = self.__init_console_handle()  #创建控制台句柄
+        self.all_logger_handler = self.__init_logger_handler(self.__all_log_path)  # 创建日志文件
+        self.error_logger_handler = self.__init_logger_handler(self.__error_log_path)#创建错误日志的句柄
+        self.console_handle = self.__init_console_handle()  #创建控制台句柄
 
-        self.__set_log_formatter(all_logger_handler)  # 设置日志格式
-        self.__set_log_formatter(error_logger_handler)
-        self.__set_color_formatter(console_handle, log_colors_config)
+        self.__set_log_formatter(self.all_logger_handler)  # 设置日志格式
+        self.__set_log_formatter(self.error_logger_handler)
+        self.__set_color_formatter(self.console_handle, log_colors_config)
 
-        self.__set_log_handler(all_logger_handler)  # 设置handler级别并添加到logger收集器
-        self.__set_log_handler(error_logger_handler, level=logging.ERROR)
-        self.__set_color_handle(console_handle)
-
-        if level == 'info':
-            self.__logger.info(message)
-        elif level == 'debug':
-            self.__logger.debug(message)
-        elif level == 'warning':
-            self.__logger.warning(message)
-        elif level == 'error':
-            self.__logger.error(message)
-        elif level == 'critical':
-            self.__logger.critical(message)
-
-        self.__logger.removeHandler(all_logger_handler)  # 避免日志输出重复问题
-        self.__logger.removeHandler(error_logger_handler)
-        self.__logger.removeHandler(console_handle)
-
-        self.__close_handler(all_logger_handler)  # 关闭handler
-        self.__close_handler(error_logger_handler)
-
-    def debug(self, message):
-        self.__console('debug', message)
-
-    def info(self, message):
-        self.__console('info', message)
-
-    def warning(self, message):
-        self.__console('warning', message)
-
-    def error(self, message):
-        self.__console('error', message)
-
-    def critical(self, message):
-        self.__console('critical', message)
+        self.__set_log_handler(self.all_logger_handler)  # 设置handler级别并添加到logger收集器
+        self.__set_log_handler(self.error_logger_handler, level=logging.ERROR)
+        self.__set_color_handle(self.console_handle)
 
 
-logger = HandleLog()
 
+    def deestroy_log_collector(self):
+        self.__logger.removeHandler(self.all_logger_handler)  # 避免日志输出重复问题
+        self.__logger.removeHandler(self.error_logger_handler)
+        self.__logger.removeHandler(self.console_handle)
+
+        self.__close_handler(self.all_logger_handler)  # 关闭handler
+        self.__close_handler(self.error_logger_handler)
+
+
+    @property
+    def logger(self):
+        return self.__logger
+
+
+loggerObj = HandleLog()
+loggerObj.construct_log_collector()
+logger = loggerObj.logger
+
+#logger.deestroy_log_collector() #日志不用时，销毁句柄
 
 

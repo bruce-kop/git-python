@@ -39,7 +39,7 @@ def recvdata():
 def recvdata_fe():
     while True:
         try:
-            dg = {"method": "4003", "body": {"userid": "234567","msg":"hello", "to": "6234567"}}
+            dg = {"method": "4003", "body": {"userid": "6234567","msg":"hello", "to": "234567"}}
             sendmsg(s, dg)
             recv_data = s.recv(1024)
             print(recv_data.decode(encoding='utf-8'))
@@ -49,14 +49,13 @@ def recvdata_fe():
 
 if __name__ == '__main__':
     s = start_client('127.0.0.1', 8801)
-    dg = {"method": "4001", "body": {"userid": "234567"}}
+    dg = {"method": "4001", "body": {"userid": "6234567"}}
     sendmsg(s,dg)
-    while True:
-        recvdata()
-        time.sleep(1)
+    recvdata()
+
+    time.sleep(1)
 
 
 
-
-    #recvdata_fe()
+    recvdata_fe()
 

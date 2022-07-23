@@ -68,7 +68,7 @@ class MyTestCase(unittest.TestCase):
 
     @unittest.skip("no reason")
     def test_update_suc_001(self):
-        where =  { "username": { "$regex": "^z" } }
+        where =  { "username": { "$regex": "^zkp" } }
         newvalues = { "$set": { "phone": "15382359899" } }
         res = self.dbObj.update(table='user_info', where = where, newvalues=newvalues)
         print(res)
@@ -81,11 +81,11 @@ class MyTestCase(unittest.TestCase):
         self.assertIsNotNone(res)
 
     def test_select_all_suc_001(self):
-        #query = { "username": { "$regex": "^z" } }
-        query = {}
+        query = { "username": { "$regex": "^\"" } }
+        query = {"nickname": "\"bruce\"" }
         field =  {"_id": 0, "username": 1, "phone": 1 }
-        sort = 1
-        limit_rec = 3
+        sort = -1
+        limit_rec = -1
         res = self.dbObj.select_all(table='user_info',where = query, field = field, sort=sort,limit_rec=limit_rec)
         for x in res:
             print(x)

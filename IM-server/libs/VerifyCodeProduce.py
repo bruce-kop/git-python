@@ -1,3 +1,9 @@
+#python
+#encoding = utf8
+'''file:VerifyCodeProduce.py
+   author: bruce zhang
+   Date: 2022-7-19
+'''
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 import random
 

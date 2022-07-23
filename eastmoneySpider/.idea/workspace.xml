@@ -21,13 +21,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="24" column="33" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="33" />
+            <state relative-caret-position="418">
+              <caret line="27" column="32" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="33" />
               <folding>
                 <element signature="e#27#62#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_thread.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/pythonprogram/first_package/test_thread.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="14" selection-start-line="4" selection-end-line="4" selection-end-column="16" />
+              <folding>
+                <element signature="e#27#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_thread_tongbu.py" pinned="false" current-in-tab="true">
+        <entry file="file://D:/pythonprogram/first_package/test_thread_tongbu.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="931">
+              <caret line="52" column="18" lean-forward="true" selection-start-line="48" selection-start-column="4" selection-end-line="52" selection-end-column="18" />
+              <folding>
+                <element signature="e#27#43#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,18 +141,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Logger.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base/Logger.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
-              <folding>
-                <element signature="e#28#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -167,8 +179,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="237" />
-    <option name="y" value="118" />
+    <option name="x" value="10" />
+    <option name="y" value="52" />
     <option name="width" value="1845" />
     <option name="height" value="1290" />
   </component>
@@ -208,7 +220,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../IM-server" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -362,7 +374,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="158" y="79" width="1230" height="860" extended-state="0" />
+    <frame x="7" y="35" width="1230" height="860" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -834,10 +846,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="24" column="33" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="33" />
+        <state relative-caret-position="418">
+          <caret line="27" column="32" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="33" />
           <folding>
             <element signature="e#27#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/pythonprogram/first_package/test_thread.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="14" selection-start-line="4" selection-end-line="4" selection-end-column="16" />
+          <folding>
+            <element signature="e#27#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/pythonprogram/first_package/test_thread_tongbu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="52" column="18" lean-forward="true" selection-start-line="48" selection-start-column="4" selection-end-line="52" selection-end-column="18" />
+          <folding>
+            <element signature="e#27#43#0" expanded="true" />
           </folding>
         </state>
       </provider>

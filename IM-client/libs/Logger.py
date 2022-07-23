@@ -153,8 +153,37 @@ class HandleLog:
     def critical(self, message):
         self.__console('critical', message)
 
+    @property
+    def logger(self):
+        return self.__logger
+
+    def config_logger(self):
+        """构造日志收集器"""
+        self.all_logger_handler = self.__init_logger_handler(self.__all_log_path)  # 创建日志文件
+        self.error_logger_handler = self.__init_logger_handler(self.__error_log_path)#创建错误日志的句柄
+        self.console_handle = self.__init_console_handle()  #创建控制台句柄
+
+        self.__set_log_formatter(self.all_logger_handler)  # 设置日志格式
+        self.__set_log_formatter(self.error_logger_handler)
+        self.__set_color_formatter(self.console_handle, log_colors_config)
+
+        self.__set_log_handler(self.all_logger_handler)  # 设置handler级别并添加到logger收集器
+        self.__set_log_handler(self.error_logger_handler, level=logging.ERROR)
+        self.__set_color_handle(self.console_handle)
+
+
+    def close_handle(self):
+        self.__logger.removeHandler(self.all_logger_handler)  # 避免日志输出重复问题
+        self.__logger.removeHandler(self.error_logger_handler)
+        self.__logger.removeHandler(self.console_handle)
+
+        self.__close_handler(self.all_logger_handler)  # 关闭handler
+        self.__close_handler(self.error_logger_handler)
+
 
 logger = HandleLog()
+
+logger.config_logger()
 
 
 

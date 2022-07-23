@@ -1,10 +1,5 @@
 #python
 #encoding = utf8
-
-import xml.etree.ElementTree as ET
-from libs.Singleton import Singleton
-import os
-from libs.Logger import logger
 '''file:parseconfig.py
    author: bruce zhang
    Date: 2022-7-19
@@ -12,6 +7,10 @@ from libs.Logger import logger
         XMLParse class to parse the system's config file.
         XMLParse is a singleton class
 '''
+import xml.etree.ElementTree as ET
+from libs.Singleton import Singleton
+import os
+from libs.Logger import logger
 
 @Singleton
 class XMLParser():
