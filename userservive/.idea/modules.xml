@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../msg_push_servive/.idea/msg_push_service.iml" filepath="$PROJECT_DIR$/../msg_push_servive/.idea/msg_push_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/userservive.iml" filepath="$PROJECT_DIR$/.idea/userservive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../friend_servive/.idea/userservive.iml" filepath="$PROJECT_DIR$/../friend_servive/.idea/userservive.iml" />
+    </modules>
+  </component>
+</project>

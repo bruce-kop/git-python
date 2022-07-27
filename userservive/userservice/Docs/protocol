@@ -1,0 +1,424 @@
+采用udp传输
+
+
+1、register:
+
+request{
+'method’：‘register’
+'version':1.0
+"params":{
+    'username':' '
+    'phone':
+    'password':' '#md5加密
+    'nickname':''
+    'verifycode':''
+    }
+}
+
+respose
+{
+"code":""
+"msg":""
+"data":""
+}
+2、get verify code
+request{
+"method"："get verify code"
+"params":{}
+}
+
+respose
+{
+"code":""
+"msg":""
+"data":{"verifycode":''}
+}
+3、login:
+
+request{
+"method"："login"
+"params":{
+    "username":""
+    "phone":""
+    "password":""#md5加密
+    "verifycode":""
+    "token":""
+    }
+}
+
+respose
+{
+"code":""
+"msg":""
+"data":{"userID"}
+}
+4、add friend
+request{
+"method"："add friend"
+"params":{
+    "phone":""
+    "userID":""
+    "token":""
+    }
+}
+
+respose
+{
+"code":""
+"msg":""
+"data":{}
+}
+5、search user from all users
+request{
+"method"："search user from all users"
+"params":{
+    "keyword":""#phone or username  precise query, search from all users
+    "token":""
+    }
+}
+
+respose
+{
+"code":""
+"msg":""
+"data":{[
+        {"userID":"",
+        "username":""
+        "nickname":""
+         "phone":""}
+        ,{"userID":"",
+        "username":""
+        "nickname":""
+         "phone":""}
+    ]}
+}
+
+
+6、search user from address list
+request{
+"method"："search user from address list"
+"params":{
+    "keyword":""#phone or username  fuzzy query, search from all users
+    "token":""
+    }
+}
+
+respose
+{
+"code":""
+"msg":""
+"data":{[
+        {"userID":"",
+        "username":""
+        "nickname":""
+         "phone":""}
+        ,{"userID":"",
+        "username":""
+        "nickname":""
+         "phone":""}
+    ]}
+}
+
+7、get address list
+request{
+"method"："get-address-list"
+"params":{
+    "userID":""# get the address list of the user
+    "timestamp ":9238798  #数据获取的时间，后台根据该时间来获取最新数据，针对本地缓存
+    "pageIndex":1
+    "pageSize":20
+    "token":""
+    }
+}
+
+respose
+{
+"code":""
+"msg":""
+"data":{[
+        {"userID":"",
+        "username":""
+        "nickname":""
+        "phone":""}
+        ,{"userID":"",
+        "username":""
+        "nickname":""
+         "phone":""}
+    ]}
+    "pageIndex":1
+    "pageSize":20
+    "totalcount":1
+    "totalpage":20
+}
+
+8、creat a group
+request{
+"method"："creat a group",
+"params":{
+    "groupname":"",# get the address list of the user
+    "token":"",
+    "users":{
+        ["userId":"","userId":""]  # at most 500 users
+        }
+    }
+}
+
+respose
+{
+"code":""
+"msg":""
+"data":{"groupID":"",
+        "groupname":""
+        "users":{
+            [
+            {"userID":"",
+            "username":""
+            "nickname":""
+            "phone":""}
+            ,{"userID":"",
+            "username":""
+            "nickname":""
+             "phone":""}
+            ]#return 20 users at most
+            }
+
+       }
+}
+9、get group list
+request{
+"method"："get group list ",
+"params":{
+    "timestamp ":9238798  #数据获取的时间，后台根据该时间来获取最新数据，针对本地缓存
+    "token":"",
+    }
+}
+
+respose
+{
+"code":""
+"msg":""
+"data":{"[{groupID":"", #return group but p2p
+        "groupname":""]}
+        }
+ }
+
+
+10、get group users
+#return 20 users at most
+request{
+"method"："get more users from group",
+"params":{
+    "groupid":"",
+    "token":"",
+    }
+}
+
+respose
+{
+"code":""
+"msg":""
+"data":{"groupID":"",
+        "groupname":""
+        "users":{
+            [
+            {"userID":"",
+            "username":""
+            "nickname":""
+            "phone":""}
+            ,{"userID":"",
+            "username":""
+            "nickname":""
+             "phone":""}
+            ]#return 20 users
+            }
+
+       }
+}
+
+11、get more users from group
+request{
+"method"："get more users from group",
+"params":{
+    "groupid":"",
+    "token":"",
+    }
+}
+
+respose
+{
+"code":""
+"msg":""
+"data":{"groupID":"",
+        "groupname":""
+        "users":{
+            [
+            {"userID":"",
+            "username":""
+            "nickname":""
+            "phone":""}
+            ,{"userID":"",
+            "username":""
+            "nickname":""
+             "phone":""}
+            ]#return remainder
+            }
+
+       }
+}
+
+12、get chatting records
+request{
+"method"："get chatting records ",
+"params":{
+    "groupid":"",
+    "timestamp ":9238798  #数据获取的时间，后台根据该时间来获取最新数据，针对本地缓存
+    "token":"",
+    }
+}
+
+respose
+{
+"code":""
+"msg":""
+"data":{"[{groupID":"", #if p2p chat the groupID is null
+        "groupname":"",  if it is temp group,the name is "temp group"
+        "lastest_record":""#the lastest record of the group
+        "recordID":""
+        "users":{
+            [
+            {"userID":"",
+            "username":""
+            "nickname":""
+            "phone":""}
+            ,{"userID":"",
+            "username":""
+            "nickname":""
+             "phone":""}
+            ]#return 3 user at most, if the group is temp group show three users, if p2p chat show one user
+            }
+            ]
+            ]
+
+       }
+}
+
+13、send message
+
+request{
+"method"："send message",
+"params":{
+    "msg":"",
+    "isgroup": 1# 1 means group, then send to de all users of group, 0 means p2p send to one user
+    "to":""#userID  or groupid
+    "token":"",
+    }
+}
+
+respose
+{
+"code":""
+"msg":""
+"data":""
+}
+
+14、get messages
+request{
+"method"："get message",
+"params":{
+    "recordid":"",
+    "PageIndex": 1,
+    "PageSize": 20,
+    "timestamp ":9238798  #数据获取的时间，后台根据该时间来获取最新数据，针对本地缓存
+    "token":"",
+    }
+}
+
+respose
+{
+"code":""
+"msg":""
+"data":{
+    [
+        {"msg":""
+        "msgId":""
+        "isread":1}# 1 means is readed, 0 means unread
+    ],
+    "PageIndex": 1,
+    "PageSize": 20,
+    "TotalCount": 53521,
+    "TotalPage": 2677
+
+
+    }
+}
+
+15、delete friends
+request{
+"method"："send message",
+"params":{
+    "useID":"",
+    "friendIds":{["useID":""]}
+    "token":"",
+    }
+}
+
+respose
+{
+"code":""
+"msg":""
+"data":""
+}
+16、delete groups
+request{
+"method"："send message",
+"params":{
+    "useID":"",
+    "groupIdS":{["groupId":""]}
+    "token":"",
+    }
+}
+
+respose
+{
+"code":""
+"msg":""
+"data":""
+}
+
+17、delete chatting records
+request{
+"method"："send message",
+"params":{
+    "useID":"",
+    "recordIds":{["recordId":""]}
+    "token":"",
+    }
+}
+
+respose
+{
+"code":""
+"msg":""
+"data":""
+}
+
+
+
+code             msg
+200             request success
+201             login faild, username or password are incorrect
+202             login faild, verify code incorrect
+203             register faild
+204             add friend faild
+205             add group faild
+206             search user faild
+207             get address list faild
+208             get group list faild
+209             get group users faild
+210             get chatting records faild
+211             get message faild
+212             send message faild
+213             delete friends faild
+214             delete chatting records faild
+215             delete groups faild
+216             get verify code faild

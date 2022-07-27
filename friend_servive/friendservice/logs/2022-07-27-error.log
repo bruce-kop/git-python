@@ -1,0 +1,33 @@
+Wed, 27 Jul 2022 09:04:41-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/friend/list [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\friend_servive\friendservice\views\friends.py", line 114, in list_friend
+    return jsonify(responseBuilder.build_response(ResCode.FRIEND_LIST_SUCCESS.value,
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 295, in jsonify
+    raise TypeError("jsonify() behavior undefined when passed both args and kwargs")
+TypeError: jsonify() behavior undefined when passed both args and kwargs
+Wed, 27 Jul 2022 09:32:44-root-friends.py-[line:107]-ERROR-[日志信息]: Could not locate column in row for column 'phone'
+Wed, 27 Jul 2022 09:45:39-root-friends.py-[line:109]-ERROR-[日志信息]: type object 'Friend' has no attribute 'creat_at'
+Wed, 27 Jul 2022 09:49:59-root-friends.py-[line:109]-ERROR-[日志信息]: Could not locate column in row for column 'Column'
+Wed, 27 Jul 2022 10:02:02-root-friends.py-[line:109]-ERROR-[日志信息]: 'BaseQuery' object has no attribute 'keys'
+Wed, 27 Jul 2022 10:02:34-root-friends.py-[line:110]-ERROR-[日志信息]: 'BaseQuery' object has no attribute 'keys'
+Wed, 27 Jul 2022 10:02:53-root-friends.py-[line:110]-ERROR-[日志信息]: 'BaseQuery' object has no attribute 'keys'
+Wed, 27 Jul 2022 10:04:30-root-friends.py-[line:110]-ERROR-[日志信息]: 'BaseQuery' object has no attribute '__table__'
+Wed, 27 Jul 2022 10:19:37-root-friends.py-[line:111]-ERROR-[日志信息]: 'BaseQuery' object has no attribute '__table__'
+Wed, 27 Jul 2022 10:21:01-root-friends.py-[line:113]-ERROR-[日志信息]: 'BaseQuery' object has no attribute '__table__'
+Wed, 27 Jul 2022 10:22:13-root-friends.py-[line:111]-ERROR-[日志信息]: unsupported operand type(s) for +: 'Row' and 'int'
+Wed, 27 Jul 2022 10:25:40-root-friends.py-[line:112]-ERROR-[日志信息]: unsupported operand type(s) for +: 'Row' and 'int'
+Wed, 27 Jul 2022 10:28:20-root-friends.py-[line:111]-ERROR-[日志信息]: can only concatenate str (not "int") to str
+Wed, 27 Jul 2022 10:30:04-root-friends.py-[line:111]-ERROR-[日志信息]: can only concatenate str (not "int") to str
+Wed, 27 Jul 2022 10:30:27-root-friends.py-[line:111]-ERROR-[日志信息]: Query.get() being called on a Query with existing criterion. 
+Wed, 27 Jul 2022 10:37:35-root-friends.py-[line:109]-ERROR-[日志信息]: Could not locate column in row for column 'key'
+Wed, 27 Jul 2022 10:39:33-root-friends.py-[line:109]-ERROR-[日志信息]: getattr(): attribute name must be string
+Wed, 27 Jul 2022 10:40:05-root-friends.py-[line:110]-ERROR-[日志信息]: getattr(): attribute name must be string
+Wed, 27 Jul 2022 10:40:48-root-friends.py-[line:111]-ERROR-[日志信息]: getattr(): attribute name must be string

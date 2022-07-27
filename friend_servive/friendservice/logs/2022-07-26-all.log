@@ -1,0 +1,671 @@
+Tue, 26 Jul 2022 22:21:07-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:21:07-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTAwNjcuMTYwNTgzLCJ1c2VyaWQiOiJiYTBiN2RmMC1hN2NhLTRhMzEtOTNkNi1lMGJjZWZjNDFkZGMifQ.kM7OzSZEFjw6jAOgBgeWcxwaM5honD8z7AlHjXxZJuQ
+Tue, 26 Jul 2022 22:21:07-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659450067.160583, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:22:21-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:22:21-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTAxNDEuNTgzMjQ5NiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.9h7O1LHdgM4XVHlD-RiVbMhLu6mSxtjyR95bvnG1S8o
+Tue, 26 Jul 2022 22:22:21-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659450141.5832496, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:24:11-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:24:11-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTAyNTEuMzgyMzQsInVzZXJpZCI6ImJhMGI3ZGYwLWE3Y2EtNGEzMS05M2Q2LWUwYmNlZmM0MWRkYyJ9.hB42BDhB5KwgNyK6opTIvFeaOfRcons-x-XNoCdLm7M
+Tue, 26 Jul 2022 22:24:11-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659450251.38234, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:24:16-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:24:16-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTAyNTYuMzU3OTYzNiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.fJSMK095DGDFeLtyXnw4LSk9zM-DfFq4xj9RJKwSXSA
+Tue, 26 Jul 2022 22:24:16-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659450256.3579636, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:24:21-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:24:21-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTAyNjEuNjcxODYxMiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.2Nii8m5rHKmkk0lZNkx2PajG4EWiR4TUXrhexce1ccg
+Tue, 26 Jul 2022 22:24:21-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659450261.6718612, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:25:53-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/del
+Tue, 26 Jul 2022 22:25:53-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTAzNTMuMjY2NDAwNiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.N8DSj8WpF5K_lL-vCfXclT0_LgBxbGiyqExJnzGqg-c
+Tue, 26 Jul 2022 22:25:53-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659450353.2664006, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:27:23-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/del
+Tue, 26 Jul 2022 22:27:23-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTA0NDMuNDU5NzMzLCJ1c2VyaWQiOiJiYTBiN2RmMC1hN2NhLTRhMzEtOTNkNi1lMGJjZWZjNDFkZGMifQ.QRbwwnS8Z40d5jirxTXRzBsdLbha01ynR2KocxkWw94
+Tue, 26 Jul 2022 22:27:23-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659450443.459733, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:29:51-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:29:51-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTA1OTEuNjYyMTY3LCJ1c2VyaWQiOiJiYTBiN2RmMC1hN2NhLTRhMzEtOTNkNi1lMGJjZWZjNDFkZGMifQ.JgyNMmWSgUtaeDcOq_vITgfyj8Da9B46j4b1c60xkws
+Tue, 26 Jul 2022 22:29:51-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659450591.662167, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:31:06-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:31:06-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTA2NjYuMjg2MzI0NywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.08RKozFqszNbFXOFx5docxGcfdqDT2lIvAVV__S_IGg
+Tue, 26 Jul 2022 22:31:06-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659450666.2863247, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:31:06-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/del
+Tue, 26 Jul 2022 22:31:06-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTA2NjYuMjg2MzI0NywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.08RKozFqszNbFXOFx5docxGcfdqDT2lIvAVV__S_IGg
+Tue, 26 Jul 2022 22:31:06-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659450666.2863247, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:31:06-root-friends.py-[line:60]-ERROR-[日志信息]: Query.filter() got an unexpected keyword argument 'friend_id'
+Tue, 26 Jul 2022 22:32:04-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/del
+Tue, 26 Jul 2022 22:32:04-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTA3MjQuNzIwNjMzMywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.iCdjRVmUz6xDE0-G1q9gSBi3NSbNchLqjkpkqmp7VIQ
+Tue, 26 Jul 2022 22:32:04-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659450724.7206333, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:32:04-root-friends.py-[line:60]-ERROR-[日志信息]: SQL expression for WHERE/HAVING role expected, got {'friend_id': '005ebcc8-8105-4f33-abe9-ffb5a938229b'}.
+Tue, 26 Jul 2022 22:33:02-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/del
+Tue, 26 Jul 2022 22:33:02-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTA3ODIuMzAxNjc5OCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.mY1zNnSBJUATAQCbwtlUR1R8FikBYUB07EYdkJqXB8w
+Tue, 26 Jul 2022 22:33:02-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659450782.3016798, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:33:02-root-friends.py-[line:60]-ERROR-[日志信息]: Query.filter() got an unexpected keyword argument 'friend_id'
+Tue, 26 Jul 2022 22:34:22-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/del
+Tue, 26 Jul 2022 22:34:22-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTA4NjIuODE0ODEzLCJ1c2VyaWQiOiJiYTBiN2RmMC1hN2NhLTRhMzEtOTNkNi1lMGJjZWZjNDFkZGMifQ.QN9W0JyxQmLV2_4yK7muEWAdYoLkhjlCqDcW20zV61s
+Tue, 26 Jul 2022 22:34:22-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659450862.814813, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:34:22-root-friends.py-[line:54]-INFO-[日志信息]: 005ebcc8-8105-4f33-abe9-ffb5a938229b
+Tue, 26 Jul 2022 22:34:22-root-friends.py-[line:61]-ERROR-[日志信息]: Query.filter() got an unexpected keyword argument 'friend_id'
+Tue, 26 Jul 2022 22:35:26-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/del
+Tue, 26 Jul 2022 22:35:26-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTA5MjYuNDU3OTYzNywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.QWiMblyGYQjkyC8MhkrAfyMM1qkv1et_v9g_y1TKztk
+Tue, 26 Jul 2022 22:35:26-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659450926.4579637, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:35:26-root-friends.py-[line:54]-INFO-[日志信息]: 005ebcc8-8105-4f33-abe9-ffb5a938229b
+Tue, 26 Jul 2022 22:35:26-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/friend/del [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\friend_servive\friendservice\views\friends.py", line 64, in del_friend
+    return jsonify(responseBuilder.build_response(ResCode.FRIEND_DEL_SUCCESS.value,
+  File "D:\Programs\Python\Python310\lib\enum.py", line 437, in __getattr__
+    raise AttributeError(name) from None
+AttributeError: FRIEND_DEL_SUCCESS
+Tue, 26 Jul 2022 22:38:00-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/del
+Tue, 26 Jul 2022 22:38:00-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTEwODAuMTU3MzU1MywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.BpieO0_xLhBKpgiRRmVFDsZxXkq_a3SQyIbUiTBWo8Y
+Tue, 26 Jul 2022 22:38:00-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659451080.1573553, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:38:00-root-friends.py-[line:54]-INFO-[日志信息]: 005ebcc8-8105-4f33-abe9-ffb5a938229b
+Tue, 26 Jul 2022 22:38:46-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:38:46-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTExMjYuMDY3NDMxNCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.lnGUEFxCq_iGt3avqYC4tRJr89ceYtyMO4brYbyYonQ
+Tue, 26 Jul 2022 22:38:46-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659451126.0674314, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:38:46-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/set_permission
+Tue, 26 Jul 2022 22:38:46-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTExMjYuMDY3NDMxNCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.lnGUEFxCq_iGt3avqYC4tRJr89ceYtyMO4brYbyYonQ
+Tue, 26 Jul 2022 22:38:46-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659451126.0674314, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:38:46-root-friends.py-[line:126]-ERROR-[日志信息]: Query.filter() got an unexpected keyword argument 'friend_id'
+Tue, 26 Jul 2022 22:38:46-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/set_permission
+Tue, 26 Jul 2022 22:38:46-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTExMjYuMDY3NDMxNCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.lnGUEFxCq_iGt3avqYC4tRJr89ceYtyMO4brYbyYonQ
+Tue, 26 Jul 2022 22:38:46-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659451126.0674314, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:40:09-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/set_permission
+Tue, 26 Jul 2022 22:40:09-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTEyMDkuODgxMjg3NiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.vQvFg-Y2x7NFs0ZZehLIPi2pGTImiL0pK4FbHvojhkQ
+Tue, 26 Jul 2022 22:40:09-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659451209.8812876, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:40:09-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/set_permission
+Tue, 26 Jul 2022 22:40:09-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTEyMDkuODgxMjg3NiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.vQvFg-Y2x7NFs0ZZehLIPi2pGTImiL0pK4FbHvojhkQ
+Tue, 26 Jul 2022 22:40:09-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659451209.8812876, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:41:19-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/set_permission
+Tue, 26 Jul 2022 22:41:19-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTEyNzkuNDQxMjA5NiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.qaHueXqMmQp8nSZPh_3k04BlAdZkAJYAFGkLk0Z_Xck
+Tue, 26 Jul 2022 22:41:19-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659451279.4412096, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:41:19-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/set_permission
+Tue, 26 Jul 2022 22:41:19-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTEyNzkuNDQxMjA5NiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.qaHueXqMmQp8nSZPh_3k04BlAdZkAJYAFGkLk0Z_Xck
+Tue, 26 Jul 2022 22:41:19-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659451279.4412096, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:41:23-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/set_permission
+Tue, 26 Jul 2022 22:41:23-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTEyODMuOTU0OTI0LCJ1c2VyaWQiOiJiYTBiN2RmMC1hN2NhLTRhMzEtOTNkNi1lMGJjZWZjNDFkZGMifQ.L_T84Cd_bmYKMlsfv9hM-_vg3XTkQQsc2PZG43E4-lc
+Tue, 26 Jul 2022 22:41:23-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659451283.954924, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:41:23-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/set_permission
+Tue, 26 Jul 2022 22:41:23-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTEyODMuOTU0OTI0LCJ1c2VyaWQiOiJiYTBiN2RmMC1hN2NhLTRhMzEtOTNkNi1lMGJjZWZjNDFkZGMifQ.L_T84Cd_bmYKMlsfv9hM-_vg3XTkQQsc2PZG43E4-lc
+Tue, 26 Jul 2022 22:41:23-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659451283.954924, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:42:29-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/set_permission
+Tue, 26 Jul 2022 22:42:29-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTEzNDkuNTM2MjQwMywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.gmyWIT98npxTYUQt1vHI6zfq4q9_QBlCcfR0bCEIaP8
+Tue, 26 Jul 2022 22:42:29-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659451349.5362403, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:42:29-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/set_note
+Tue, 26 Jul 2022 22:42:29-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTEzNDkuNTM2MjQwMywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.gmyWIT98npxTYUQt1vHI6zfq4q9_QBlCcfR0bCEIaP8
+Tue, 26 Jul 2022 22:42:29-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659451349.5362403, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:42:29-root-friends.py-[line:142]-INFO-[日志信息]: {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTEzNDkuNTM2MjQwMywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.gmyWIT98npxTYUQt1vHI6zfq4q9_QBlCcfR0bCEIaP8', 'friend_id': '005ebcc8-8105-4f33-abe9-ffb5a938229b', 'note': 'RTC业务部'}
+Tue, 26 Jul 2022 22:47:23-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/set_permission
+Tue, 26 Jul 2022 22:47:23-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTE2NDMuNzA5NjIzMywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.qig22JYmrYQWWadSpplyo5VLBeQfpEd_J8bVIpKz6v0
+Tue, 26 Jul 2022 22:47:23-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659451643.7096233, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:47:23-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/set_note
+Tue, 26 Jul 2022 22:47:23-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTE2NDMuNzA5NjIzMywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.qig22JYmrYQWWadSpplyo5VLBeQfpEd_J8bVIpKz6v0
+Tue, 26 Jul 2022 22:47:23-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659451643.7096233, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:47:23-root-friends.py-[line:142]-INFO-[日志信息]: {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTE2NDMuNzA5NjIzMywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.qig22JYmrYQWWadSpplyo5VLBeQfpEd_J8bVIpKz6v0', 'friend_id': '005ebcc8-8105-4f33-abe9-ffb5a938229b', 'note': 'RTC业务部'}
+Tue, 26 Jul 2022 22:47:23-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/set_label
+Tue, 26 Jul 2022 22:47:23-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTE2NDMuNzA5NjIzMywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.qig22JYmrYQWWadSpplyo5VLBeQfpEd_J8bVIpKz6v0
+Tue, 26 Jul 2022 22:47:23-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659451643.7096233, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:47:23-root-friends.py-[line:167]-INFO-[日志信息]: {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTE2NDMuNzA5NjIzMywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.qig22JYmrYQWWadSpplyo5VLBeQfpEd_J8bVIpKz6v0', 'friend_id': '005ebcc8-8105-4f33-abe9-ffb5a938229b', 'friend_label': 'kebi'}
+Tue, 26 Jul 2022 22:53:32-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:53:32-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIwMTIuOTQ5MjkxNywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.e7I90mH8V4SbGIOzEJk3R8snRP5K-ibolc3L4WuOVP8
+Tue, 26 Jul 2022 22:53:32-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452012.9492917, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:53:32-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/set_permission
+Tue, 26 Jul 2022 22:53:32-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIwMTIuOTQ5MjkxNywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.e7I90mH8V4SbGIOzEJk3R8snRP5K-ibolc3L4WuOVP8
+Tue, 26 Jul 2022 22:53:32-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452012.9492917, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:53:32-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/set_note
+Tue, 26 Jul 2022 22:53:32-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIwMTIuOTQ5MjkxNywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.e7I90mH8V4SbGIOzEJk3R8snRP5K-ibolc3L4WuOVP8
+Tue, 26 Jul 2022 22:53:32-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452012.9492917, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:53:32-root-friends.py-[line:142]-INFO-[日志信息]: {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIwMTIuOTQ5MjkxNywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.e7I90mH8V4SbGIOzEJk3R8snRP5K-ibolc3L4WuOVP8', 'friend_id': '005ebcc8-8105-4f33-abe9-ffb5a938229b', 'note': 'RTC业务部'}
+Tue, 26 Jul 2022 22:53:33-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/set_label
+Tue, 26 Jul 2022 22:53:33-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIwMTIuOTQ5MjkxNywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.e7I90mH8V4SbGIOzEJk3R8snRP5K-ibolc3L4WuOVP8
+Tue, 26 Jul 2022 22:53:33-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452012.9492917, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:53:33-root-friends.py-[line:167]-INFO-[日志信息]: {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIwMTIuOTQ5MjkxNywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.e7I90mH8V4SbGIOzEJk3R8snRP5K-ibolc3L4WuOVP8', 'friend_id': '005ebcc8-8105-4f33-abe9-ffb5a938229b', 'friend_label': 'kebi'}
+Tue, 26 Jul 2022 22:53:53-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:53:53-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIwMzMuNDQ5NDY0NiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.SPcFq4EcM7WRf2mGoiBLoeDZry5krq17N6z6jrqHN28
+Tue, 26 Jul 2022 22:53:53-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452033.4494646, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:54:47-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:54:47-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIwODcuOTA2OTc4NiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.UClDWuYa-LlTDi6-_3NXvb1eRLwtr5e5tbw0shcvLVQ
+Tue, 26 Jul 2022 22:54:47-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452087.9069786, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:54:51-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:54:51-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIwOTEuNTU3NTgzMywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.sWRvAnff27AahFKdt8OPJLow2WRcsvlff6odHKytEHQ
+Tue, 26 Jul 2022 22:54:51-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452091.5575833, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:54:51-root-friends.py-[line:38]-ERROR-[日志信息]: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc-005ebcc8-8105-4f33-abe9-ffb' for key 'friend_addr_book.PRIMARY'")
+[SQL: INSERT INTO friend_addr_book (id, user_id, friend_id, friend_label, friend_au, note) VALUES (%(id)s, %(user_id)s, %(friend_id)s, %(friend_label)s, %(friend_au)s, %(note)s)]
+[parameters: {'id': UUID('dc23bdac-e19d-4206-9648-99c687650e82'), 'user_id': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc', 'friend_id': '005ebcc8-8105-4f33-abe9-ffb5a938229b', 'friend_label': '', 'friend_au': '', 'note': ''}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+Tue, 26 Jul 2022 22:55:00-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:55:00-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxMDAuODYxMjAyMiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.KGD9fzaBPs0pp0GvCkXyA5RZ0uNdijbrvQee5KmnLZE
+Tue, 26 Jul 2022 22:55:00-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452100.8612022, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:55:00-root-friends.py-[line:38]-ERROR-[日志信息]: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc-005ebcc8-8105-4f33-abe9-ffb' for key 'friend_addr_book.PRIMARY'")
+[SQL: INSERT INTO friend_addr_book (id, user_id, friend_id, friend_label, friend_au, note) VALUES (%(id)s, %(user_id)s, %(friend_id)s, %(friend_label)s, %(friend_au)s, %(note)s)]
+[parameters: {'id': UUID('09ecf4bc-7380-498a-b42c-8a7df7421a48'), 'user_id': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc', 'friend_id': '005ebcc8-8105-4f33-abe9-ffb5a938229b', 'friend_label': '', 'friend_au': '', 'note': ''}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:11-root-friends.py-[line:38]-ERROR-[日志信息]: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc-005ebcc8-8105-4f33-abe9-ffb' for key 'friend_addr_book.PRIMARY'")
+[SQL: INSERT INTO friend_addr_book (id, user_id, friend_id, friend_label, friend_au, note) VALUES (%(id)s, %(user_id)s, %(friend_id)s, %(friend_label)s, %(friend_au)s, %(note)s)]
+[parameters: {'id': UUID('83a30bde-cd86-44bb-89b8-b8d982ab9fc2'), 'user_id': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc', 'friend_id': '005ebcc8-8105-4f33-abe9-ffb5a938229b', 'friend_label': '', 'friend_au': '', 'note': ''}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:11-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/add
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIxNzEuNTc0NzkwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._Bc1k4phVTKmx8cW559TluLyWgTHQpoZf_iBhYz5kLs
+Tue, 26 Jul 2022 22:56:12-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452171.5747905, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:59:49-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/list
+Tue, 26 Jul 2022 22:59:49-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTIzODkuNzYwNTk5NiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.pFWC6z6de_tw1ItlL9GR1IuRe8p2jdBbl8mqBxJ6QG8
+Tue, 26 Jul 2022 22:59:49-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452389.7605996, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 22:59:49-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/friend/list [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\friend_servive\friendservice\views\friends.py", line 80, in list_friend
+    return jsonify(responseBuilder.build_response(ResCode.FRIEND_LIST_PARAM_INVALID.value,
+  File "D:\Programs\Python\Python310\lib\enum.py", line 437, in __getattr__
+    raise AttributeError(name) from None
+AttributeError: FRIEND_LIST_PARAM_INVALID
+Tue, 26 Jul 2022 23:01:40-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/list
+Tue, 26 Jul 2022 23:01:40-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTI1MDAuNzMwOTI1NiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.aT2rR7qL7S04Yhi1ygcp7IocdIv-dyUGUDHkA1mwJKM
+Tue, 26 Jul 2022 23:01:40-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452500.7309256, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 23:02:32-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/list
+Tue, 26 Jul 2022 23:02:32-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTI1NTIuMTA1NTk2MywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.TtDORZptAr3XQb2xvnPO_vkkj__Kb46hE_oZUPAaK0Y
+Tue, 26 Jul 2022 23:02:32-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452552.1055963, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 23:02:32-root-friends.py-[line:76]-INFO-[日志信息]: {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTI1NTIuMTA1NTk2MywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.TtDORZptAr3XQb2xvnPO_vkkj__Kb46hE_oZUPAaK0Y', 'pageSize': 10, 'currentPage': 0}
+Tue, 26 Jul 2022 23:03:19-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/list
+Tue, 26 Jul 2022 23:03:19-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTI1OTkuMDkyOTY3NywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.hGVN3Lb-vuOkEFngG9WfQ7s9Ng-L0hz4176pnlDk2FI
+Tue, 26 Jul 2022 23:03:19-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452599.0929677, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 23:03:19-root-friends.py-[line:76]-INFO-[日志信息]: {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTI1OTkuMDkyOTY3NywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.hGVN3Lb-vuOkEFngG9WfQ7s9Ng-L0hz4176pnlDk2FI', 'pageSize': 10, 'currentPage': 0}
+Tue, 26 Jul 2022 23:04:26-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/list
+Tue, 26 Jul 2022 23:04:26-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTI2NjYuMDc5MzkzNiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.aZyAjakgEph3I0Nt5KQJudmNlaiLgzy-8SwnQ-jnRDQ
+Tue, 26 Jul 2022 23:04:26-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452666.0793936, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 23:04:26-root-friends.py-[line:76]-INFO-[日志信息]: {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTI2NjYuMDc5MzkzNiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.aZyAjakgEph3I0Nt5KQJudmNlaiLgzy-8SwnQ-jnRDQ', 'pageSize': 10, 'currentPage': 0}
+Tue, 26 Jul 2022 23:04:50-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/list
+Tue, 26 Jul 2022 23:04:50-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTI2OTAuMDY5Nzg0NCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.DFW9Fq4pnmIbz0DKEc2K1kpyEGLZOp-BQZoUHijMXOk
+Tue, 26 Jul 2022 23:04:50-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452690.0697844, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 23:04:50-root-friends.py-[line:76]-INFO-[日志信息]: {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTI2OTAuMDY5Nzg0NCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.DFW9Fq4pnmIbz0DKEc2K1kpyEGLZOp-BQZoUHijMXOk', 'pageSize': 10, 'currentPage': 0}
+Tue, 26 Jul 2022 23:04:50-root-friends.py-[line:96]-ERROR-[日志信息]: Query.filter() got an unexpected keyword argument 'user_id'
+Tue, 26 Jul 2022 23:05:44-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/list
+Tue, 26 Jul 2022 23:05:44-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTI3NDQuMDk0NTM4MiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.rsyo2kIAeBj-qawvh-Jjme5dtlgOroIqJ3WT8sTFhUU
+Tue, 26 Jul 2022 23:05:44-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452744.0945382, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 23:05:44-root-friends.py-[line:76]-INFO-[日志信息]: {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTI3NDQuMDk0NTM4MiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.rsyo2kIAeBj-qawvh-Jjme5dtlgOroIqJ3WT8sTFhUU', 'pageSize': 10, 'currentPage': 0}
+Tue, 26 Jul 2022 23:05:44-root-friends.py-[line:79]-INFO-[日志信息]: 10
+Tue, 26 Jul 2022 23:05:44-root-friends.py-[line:96]-ERROR-[日志信息]: Query.filter() got an unexpected keyword argument 'user_id'
+Tue, 26 Jul 2022 23:06:01-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/list
+Tue, 26 Jul 2022 23:06:01-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTI3NjEuNzkxMDkyLCJ1c2VyaWQiOiJiYTBiN2RmMC1hN2NhLTRhMzEtOTNkNi1lMGJjZWZjNDFkZGMifQ.c75HNdDbJDGVkTRD2T4-dcYdM2UQ46wSRaAUSVzM4Hk
+Tue, 26 Jul 2022 23:06:01-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452761.791092, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 23:06:01-root-friends.py-[line:76]-INFO-[日志信息]: {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTI3NjEuNzkxMDkyLCJ1c2VyaWQiOiJiYTBiN2RmMC1hN2NhLTRhMzEtOTNkNi1lMGJjZWZjNDFkZGMifQ.c75HNdDbJDGVkTRD2T4-dcYdM2UQ46wSRaAUSVzM4Hk', 'pageSize': 10, 'currentPage': 0}
+Tue, 26 Jul 2022 23:06:01-root-friends.py-[line:79]-INFO-[日志信息]: 0
+Tue, 26 Jul 2022 23:06:01-root-friends.py-[line:96]-ERROR-[日志信息]: Query.filter() got an unexpected keyword argument 'user_id'
+Tue, 26 Jul 2022 23:06:19-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/list
+Tue, 26 Jul 2022 23:06:19-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTI3NzkuOTM2ODE0LCJ1c2VyaWQiOiJiYTBiN2RmMC1hN2NhLTRhMzEtOTNkNi1lMGJjZWZjNDFkZGMifQ.vkZ1zLuuzxwM2AjtaTMrePVBsLp3p6op2VBZRYMnUgU
+Tue, 26 Jul 2022 23:06:19-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452779.936814, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 23:06:19-root-friends.py-[line:76]-INFO-[日志信息]: {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTI3NzkuOTM2ODE0LCJ1c2VyaWQiOiJiYTBiN2RmMC1hN2NhLTRhMzEtOTNkNi1lMGJjZWZjNDFkZGMifQ.vkZ1zLuuzxwM2AjtaTMrePVBsLp3p6op2VBZRYMnUgU', 'pageSize': 10, 'currentPage': 0}
+Tue, 26 Jul 2022 23:06:19-root-friends.py-[line:79]-INFO-[日志信息]: 1
+Tue, 26 Jul 2022 23:06:19-root-friends.py-[line:96]-ERROR-[日志信息]: Query.filter() got an unexpected keyword argument 'user_id'
+Tue, 26 Jul 2022 23:07:16-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/list
+Tue, 26 Jul 2022 23:07:16-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTI4MzYuNzcyNzE5NiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.8UWozci6UsH8zIvB9DXfZUIoYx9Q4a-puQOUjM6TRFc
+Tue, 26 Jul 2022 23:07:16-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452836.7727196, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 23:07:16-root-friends.py-[line:76]-INFO-[日志信息]: {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTI4MzYuNzcyNzE5NiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.8UWozci6UsH8zIvB9DXfZUIoYx9Q4a-puQOUjM6TRFc', 'pageSize': 10, 'currentPage': 0}
+Tue, 26 Jul 2022 23:07:16-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/friend/list [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\friend_servive\friendservice\views\friends.py", line 79, in list_friend
+    currentPage.data.get('currentPage')
+AttributeError: 'int' object has no attribute 'data'
+Tue, 26 Jul 2022 23:07:32-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/list
+Tue, 26 Jul 2022 23:07:32-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTI4NTIuNDE5OTAwNCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.3fICTMsDTX8xCus6V84ZhAbDoHrqjwzNdJAutrSWY5A
+Tue, 26 Jul 2022 23:07:32-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452852.4199004, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 23:07:32-root-friends.py-[line:76]-INFO-[日志信息]: {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTI4NTIuNDE5OTAwNCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.3fICTMsDTX8xCus6V84ZhAbDoHrqjwzNdJAutrSWY5A', 'pageSize': 10, 'currentPage': 0}
+Tue, 26 Jul 2022 23:07:32-root-friends.py-[line:80]-INFO-[日志信息]: 0
+Tue, 26 Jul 2022 23:07:32-root-friends.py-[line:97]-ERROR-[日志信息]: Query.filter() got an unexpected keyword argument 'user_id'
+Tue, 26 Jul 2022 23:08:55-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/list
+Tue, 26 Jul 2022 23:08:55-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTI5MzUuNDUzODI3MSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.ULs_7lU18atozosX-LizPc_OQoRPLOkLXOdOAEZ8Nxs
+Tue, 26 Jul 2022 23:08:55-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452935.4538271, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 23:08:55-root-friends.py-[line:79]-INFO-[日志信息]: 0
+Tue, 26 Jul 2022 23:08:55-root-friends.py-[line:96]-ERROR-[日志信息]: Query.filter() got an unexpected keyword argument 'user_id'
+Tue, 26 Jul 2022 23:09:11-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/list
+Tue, 26 Jul 2022 23:09:11-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTI5NTEuNzY1ODcwMywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.L8N1OHU1FZRbvWw_j3rWP3A8GFhBGUxHywBjqlk27Iw
+Tue, 26 Jul 2022 23:09:11-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659452951.7658703, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 23:09:11-root-friends.py-[line:79]-INFO-[日志信息]: 0
+Tue, 26 Jul 2022 23:09:11-root-friends.py-[line:96]-ERROR-[日志信息]: (pymysql.err.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 4")
+[SQL: SELECT friend_addr_book.friend_id AS friend_addr_book_friend_id 
+FROM friend_addr_book 
+WHERE true = 1 
+ LIMIT %(param_1)s, %(param_2)s]
+[parameters: {'param_1': -10, 'param_2': 10}]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+Tue, 26 Jul 2022 23:12:20-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/list
+Tue, 26 Jul 2022 23:12:20-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTMxNDAuOTIxNjI4NywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.duj2jYx038k6oOS8lLv26ok0-eNzrGoOH5V1yFSUpvo
+Tue, 26 Jul 2022 23:12:20-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659453140.9216287, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 23:12:20-root-friends.py-[line:79]-INFO-[日志信息]: 1
+Tue, 26 Jul 2022 23:12:20-root-friends.py-[line:96]-ERROR-[日志信息]: Could not locate column in row for column '_aslist'
+Tue, 26 Jul 2022 23:19:45-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/list
+Tue, 26 Jul 2022 23:19:45-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTM1ODUuMDg0ODU1OCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.pIBTaws9Dzm3BvAxDcRHxPyN_kMjVxu4S6LwufLC_YM
+Tue, 26 Jul 2022 23:19:45-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659453585.0848558, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 23:19:45-root-friends.py-[line:79]-INFO-[日志信息]: 1
+Tue, 26 Jul 2022 23:19:45-root-friends.py-[line:96]-ERROR-[日志信息]: 'Friend' object has no attribute '_aslist'
+Tue, 26 Jul 2022 23:20:19-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/list
+Tue, 26 Jul 2022 23:20:19-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTM2MTkuNDM1MDk5LCJ1c2VyaWQiOiJiYTBiN2RmMC1hN2NhLTRhMzEtOTNkNi1lMGJjZWZjNDFkZGMifQ.5VmWjxUc2Jx43GEvmC0F2asVAeONME8liuc8ajwsqwE
+Tue, 26 Jul 2022 23:20:19-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659453619.435099, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 23:20:19-root-friends.py-[line:79]-INFO-[日志信息]: 1
+Tue, 26 Jul 2022 23:20:19-root-friends.py-[line:96]-ERROR-[日志信息]: Could not locate column in row for column '_aslist'
+Tue, 26 Jul 2022 23:21:40-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/list
+Tue, 26 Jul 2022 23:21:40-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTM3MDAuNzc3NjY2NiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.KuQK1b31cYIHVLYb66SVwGjnO0NUh4NY6Fz_X8cBBEk
+Tue, 26 Jul 2022 23:21:40-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659453700.7776666, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 23:21:40-root-friends.py-[line:79]-INFO-[日志信息]: 1
+Tue, 26 Jul 2022 23:21:40-root-friends.py-[line:87]-INFO-[日志信息]: ('005ebcc8-8105-4f33-abe9-ffb5a938229b',)
+Tue, 26 Jul 2022 23:21:40-root-friends.py-[line:96]-ERROR-[日志信息]: Could not locate column in row for column '_aslist'
+Tue, 26 Jul 2022 23:22:10-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/list
+Tue, 26 Jul 2022 23:22:10-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTM3MjkuOTk2ODE3NiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.EA8lTKtZ9z4IURZMr77biw2ZzphZAtrSNt-efLnxOIU
+Tue, 26 Jul 2022 23:22:10-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659453729.9968176, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 23:22:10-root-friends.py-[line:79]-INFO-[日志信息]: 1
+Tue, 26 Jul 2022 23:22:10-root-friends.py-[line:89]-INFO-[日志信息]: SELECT friend_addr_book.id AS friend_addr_book_id, friend_addr_book.user_id AS friend_addr_book_user_id, friend_addr_book.friend_id AS friend_addr_book_friend_id, friend_addr_book.friend_label AS friend_addr_book_friend_label, friend_addr_book.friend_au AS friend_addr_book_friend_au, friend_addr_book.note AS friend_addr_book_note 
+FROM friend_addr_book 
+WHERE count(%(count_1)s)
+Tue, 26 Jul 2022 23:22:10-root-friends.py-[line:96]-ERROR-[日志信息]: Could not locate column in row for column '_aslist'
+Tue, 26 Jul 2022 23:28:29-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/list
+Tue, 26 Jul 2022 23:28:29-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTQxMDkuMzQzOTc5MSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.WRv-Fst4o3NW0bQSnczXFM8HvnNxD5OK1P1qLep6-n4
+Tue, 26 Jul 2022 23:28:29-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659454109.3439791, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 23:28:29-root-friends.py-[line:79]-INFO-[日志信息]: 1
+Tue, 26 Jul 2022 23:28:29-root-friends.py-[line:96]-ERROR-[日志信息]: (pymysql.err.ProgrammingError) (1111, 'Invalid use of group function')
+[SQL: SELECT friend_addr_book.id AS friend_addr_book_id, friend_addr_book.user_id AS friend_addr_book_user_id, friend_addr_book.friend_id AS friend_addr_book_friend_id, friend_addr_book.friend_label AS friend_addr_book_friend_label, friend_addr_book.friend_au AS friend_addr_book_friend_au, friend_addr_book.note AS friend_addr_book_note 
+FROM friend_addr_book 
+WHERE count(%(count_1)s)]
+[parameters: {'count_1': 1}]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+Tue, 26 Jul 2022 23:29:40-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/list
+Tue, 26 Jul 2022 23:29:40-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTQxODAuNzAxODYzLCJ1c2VyaWQiOiJiYTBiN2RmMC1hN2NhLTRhMzEtOTNkNi1lMGJjZWZjNDFkZGMifQ.v4B4A72MeIgNZ_zBF9fvnQWXWeUG2NICbrTMz-lEOFA
+Tue, 26 Jul 2022 23:29:40-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659454180.701863, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 23:29:40-root-friends.py-[line:79]-INFO-[日志信息]: 1
+Tue, 26 Jul 2022 23:29:40-root-friends.py-[line:89]-INFO-[日志信息]: 70
+Tue, 26 Jul 2022 23:29:40-root-friends.py-[line:96]-ERROR-[日志信息]: Could not locate column in row for column '_aslist'
+Tue, 26 Jul 2022 23:33:05-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/list
+Tue, 26 Jul 2022 23:33:05-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTQzODUuNzIwNTYzNywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.Umun07Hv7YduP5JTPJd7nBlAqmla5_qILbe75pnfPKY
+Tue, 26 Jul 2022 23:33:05-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659454385.7205637, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 23:33:05-root-friends.py-[line:79]-INFO-[日志信息]: 1
+Tue, 26 Jul 2022 23:33:05-root-friends.py-[line:89]-INFO-[日志信息]: <class 'flask_sqlalchemy.BaseQuery'>
+Tue, 26 Jul 2022 23:33:05-root-friends.py-[line:90]-INFO-[日志信息]: SELECT friend_addr_book.friend_id AS friend_addr_book_friend_id 
+FROM friend_addr_book 
+WHERE true = 1 
+ LIMIT %(param_1)s, %(param_2)s
+Tue, 26 Jul 2022 23:33:05-root-friends.py-[line:97]-ERROR-[日志信息]: Could not locate column in row for column '_aslist'
+Tue, 26 Jul 2022 23:38:33-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/list
+Tue, 26 Jul 2022 23:38:33-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTQ3MTMuNDg1NTc0NywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.t8ulR5BCei7B4Na3sXZZj6rwgy6LPi5VdtCEXLL-EWk
+Tue, 26 Jul 2022 23:38:33-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659454713.4855747, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 23:38:33-root-friends.py-[line:79]-INFO-[日志信息]: 1
+Tue, 26 Jul 2022 23:38:33-root-friends.py-[line:89]-INFO-[日志信息]: <class 'flask_sqlalchemy.BaseQuery'>
+Tue, 26 Jul 2022 23:38:33-root-friends.py-[line:97]-ERROR-[日志信息]: 'BaseQuery' object has no attribute 'to_dict'
+Tue, 26 Jul 2022 23:39:36-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/list
+Tue, 26 Jul 2022 23:39:36-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTQ3NzYuOTM5ODU0OSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.3s6fVPtTVAi-lsn6rqMGv3HIQZMZZ06gKreA46BkFRA
+Tue, 26 Jul 2022 23:39:36-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659454776.9398549, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 23:39:36-root-friends.py-[line:79]-INFO-[日志信息]: 1
+Tue, 26 Jul 2022 23:39:36-root-friends.py-[line:89]-INFO-[日志信息]: <class 'flask_sqlalchemy.BaseQuery'>
+Tue, 26 Jul 2022 23:39:36-root-friends.py-[line:97]-ERROR-[日志信息]: 'BaseQuery' object has no attribute '__table__'
+Tue, 26 Jul 2022 23:40:46-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/list
+Tue, 26 Jul 2022 23:40:46-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTQ4NDYuNDY0MDEzMywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.sKhAw154Hh_a5tX-9uZezcdRv9SRy6e8Q6NA2Cza7UU
+Tue, 26 Jul 2022 23:40:46-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659454846.4640133, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 23:40:46-root-friends.py-[line:79]-INFO-[日志信息]: 1
+Tue, 26 Jul 2022 23:40:46-root-friends.py-[line:89]-INFO-[日志信息]: <class 'flask_sqlalchemy.BaseQuery'>
+Tue, 26 Jul 2022 23:40:46-root-friends.py-[line:99]-ERROR-[日志信息]: 'BaseQuery' object has no attribute '__table__'
+Tue, 26 Jul 2022 23:40:58-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/list
+Tue, 26 Jul 2022 23:40:58-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTQ4NTguMDUxOTIyLCJ1c2VyaWQiOiJiYTBiN2RmMC1hN2NhLTRhMzEtOTNkNi1lMGJjZWZjNDFkZGMifQ.DHIBMrcLZWw0DKIXsvB8hBmWU22_g6Y3HVjUVhEu2X8
+Tue, 26 Jul 2022 23:40:58-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659454858.051922, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 23:40:58-root-friends.py-[line:79]-INFO-[日志信息]: 1
+Tue, 26 Jul 2022 23:40:58-root-friends.py-[line:89]-INFO-[日志信息]: <class 'flask_sqlalchemy.BaseQuery'>
+Tue, 26 Jul 2022 23:40:58-root-friends.py-[line:91]-INFO-[日志信息]: ('005ebcc8-8105-4f33-abe9-ffb5a938229b',)
+Tue, 26 Jul 2022 23:40:58-root-friends.py-[line:91]-INFO-[日志信息]: ('00a94fd7-550e-478f-b5b5-dc6801537ab3',)
+Tue, 26 Jul 2022 23:40:58-root-friends.py-[line:91]-INFO-[日志信息]: ('00b4cd05-8774-4512-b643-eddd519cac43',)
+Tue, 26 Jul 2022 23:40:58-root-friends.py-[line:91]-INFO-[日志信息]: ('00c211fa-f43f-401b-848e-db03c9af2485',)
+Tue, 26 Jul 2022 23:40:58-root-friends.py-[line:91]-INFO-[日志信息]: ('00ffc2db-7c77-49e2-a71d-155362fd2db5',)
+Tue, 26 Jul 2022 23:40:58-root-friends.py-[line:91]-INFO-[日志信息]: ('0142ecea-222e-4116-bce9-893fe09e83a8',)
+Tue, 26 Jul 2022 23:40:58-root-friends.py-[line:91]-INFO-[日志信息]: ('017ff76b-15ee-4dcf-9b1b-1a2124e25f8f',)
+Tue, 26 Jul 2022 23:40:58-root-friends.py-[line:91]-INFO-[日志信息]: ('01869816-82f2-4df3-b2e4-2426860d08d0',)
+Tue, 26 Jul 2022 23:40:58-root-friends.py-[line:91]-INFO-[日志信息]: ('01a56fb0-f093-445e-98ec-59c301d9d0f1',)
+Tue, 26 Jul 2022 23:40:58-root-friends.py-[line:91]-INFO-[日志信息]: ('01b3067d-9ea9-4d01-9d92-250ce9f33caa',)
+Tue, 26 Jul 2022 23:40:58-root-friends.py-[line:98]-ERROR-[日志信息]: Could not locate column in row for column '_aslist'
+Tue, 26 Jul 2022 23:42:09-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/list
+Tue, 26 Jul 2022 23:42:09-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTQ5MjkuMjQ0Njg4NywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.njbkr7ao7IV8WJIzikAwV-UUtvHsIypiqo4qbFXLkjk
+Tue, 26 Jul 2022 23:42:09-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659454929.2446887, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 23:42:09-root-friends.py-[line:79]-INFO-[日志信息]: 1
+Tue, 26 Jul 2022 23:42:09-root-friends.py-[line:91]-INFO-[日志信息]: [('005ebcc8-8105-4f33-abe9-ffb5a938229b',), ('00a94fd7-550e-478f-b5b5-dc6801537ab3',), ('00b4cd05-8774-4512-b643-eddd519cac43',), ('00c211fa-f43f-401b-848e-db03c9af2485',), ('00ffc2db-7c77-49e2-a71d-155362fd2db5',), ('0142ecea-222e-4116-bce9-893fe09e83a8',), ('017ff76b-15ee-4dcf-9b1b-1a2124e25f8f',), ('01869816-82f2-4df3-b2e4-2426860d08d0',), ('01a56fb0-f093-445e-98ec-59c301d9d0f1',), ('01b3067d-9ea9-4d01-9d92-250ce9f33caa',)]
+Tue, 26 Jul 2022 23:42:09-root-friends.py-[line:92]-INFO-[日志信息]: [('005ebcc8-8105-4f33-abe9-ffb5a938229b',), ('00a94fd7-550e-478f-b5b5-dc6801537ab3',), ('00b4cd05-8774-4512-b643-eddd519cac43',), ('00c211fa-f43f-401b-848e-db03c9af2485',), ('00ffc2db-7c77-49e2-a71d-155362fd2db5',), ('0142ecea-222e-4116-bce9-893fe09e83a8',), ('017ff76b-15ee-4dcf-9b1b-1a2124e25f8f',), ('01869816-82f2-4df3-b2e4-2426860d08d0',), ('01a56fb0-f093-445e-98ec-59c301d9d0f1',), ('01b3067d-9ea9-4d01-9d92-250ce9f33caa',)]
+Tue, 26 Jul 2022 23:42:09-root-friends.py-[line:94]-INFO-[日志信息]: SELECT user.id AS user_id, user.name AS user_name, user.avatar AS user_avatar, user.phone AS user_phone, user.pwd AS user_pwd, user.created_at AS user_created_at, user.updated_at AS user_updated_at 
+FROM user 
+WHERE false = 1
+Tue, 26 Jul 2022 23:42:09-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/friend/list [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\friend_servive\friendservice\views\friends.py", line 105, in list_friend
+    return jsonify(responseBuilder.build_response(ResCode.FRIEND_LIST_SUCCESS.value,
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 295, in jsonify
+    raise TypeError("jsonify() behavior undefined when passed both args and kwargs")
+TypeError: jsonify() behavior undefined when passed both args and kwargs
+Tue, 26 Jul 2022 23:42:33-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/list
+Tue, 26 Jul 2022 23:42:33-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTQ5NTMuMjE3MDI0MywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.z8djcKGtuEbrPO9FnLKvh55K1GQVIAZnoNOZ3289boc
+Tue, 26 Jul 2022 23:42:33-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659454953.2170243, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 23:42:33-root-friends.py-[line:79]-INFO-[日志信息]: 1
+Tue, 26 Jul 2022 23:42:33-root-friends.py-[line:91]-INFO-[日志信息]: ['005ebcc8-8105-4f33-abe9-ffb5a938229b', '00a94fd7-550e-478f-b5b5-dc6801537ab3', '00b4cd05-8774-4512-b643-eddd519cac43', '00c211fa-f43f-401b-848e-db03c9af2485', '00ffc2db-7c77-49e2-a71d-155362fd2db5', '0142ecea-222e-4116-bce9-893fe09e83a8', '017ff76b-15ee-4dcf-9b1b-1a2124e25f8f', '01869816-82f2-4df3-b2e4-2426860d08d0', '01a56fb0-f093-445e-98ec-59c301d9d0f1', '01b3067d-9ea9-4d01-9d92-250ce9f33caa']
+Tue, 26 Jul 2022 23:42:33-root-friends.py-[line:92]-INFO-[日志信息]: ['005ebcc8-8105-4f33-abe9-ffb5a938229b', '00a94fd7-550e-478f-b5b5-dc6801537ab3', '00b4cd05-8774-4512-b643-eddd519cac43', '00c211fa-f43f-401b-848e-db03c9af2485', '00ffc2db-7c77-49e2-a71d-155362fd2db5', '0142ecea-222e-4116-bce9-893fe09e83a8', '017ff76b-15ee-4dcf-9b1b-1a2124e25f8f', '01869816-82f2-4df3-b2e4-2426860d08d0', '01a56fb0-f093-445e-98ec-59c301d9d0f1', '01b3067d-9ea9-4d01-9d92-250ce9f33caa']
+Tue, 26 Jul 2022 23:42:33-root-friends.py-[line:94]-INFO-[日志信息]: SELECT user.id AS user_id, user.name AS user_name, user.avatar AS user_avatar, user.phone AS user_phone, user.pwd AS user_pwd, user.created_at AS user_created_at, user.updated_at AS user_updated_at 
+FROM user 
+WHERE false = 1
+Tue, 26 Jul 2022 23:42:33-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/friend/list [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\friend_servive\friendservice\views\friends.py", line 105, in list_friend
+    return jsonify(responseBuilder.build_response(ResCode.FRIEND_LIST_SUCCESS.value,
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 295, in jsonify
+    raise TypeError("jsonify() behavior undefined when passed both args and kwargs")
+TypeError: jsonify() behavior undefined when passed both args and kwargs
+Tue, 26 Jul 2022 23:43:37-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/list
+Tue, 26 Jul 2022 23:43:37-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTUwMTcuNjgyOTM5MywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.JvFNn6amvfQrVqFTsv7FFuhLq9MTaW8DgjHL_oEFbRM
+Tue, 26 Jul 2022 23:43:37-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659455017.6829393, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 23:43:37-root-friends.py-[line:79]-INFO-[日志信息]: 1
+Tue, 26 Jul 2022 23:43:37-root-friends.py-[line:91]-INFO-[日志信息]: ['005ebcc8-8105-4f33-abe9-ffb5a938229b', '00a94fd7-550e-478f-b5b5-dc6801537ab3', '00b4cd05-8774-4512-b643-eddd519cac43', '00c211fa-f43f-401b-848e-db03c9af2485', '00ffc2db-7c77-49e2-a71d-155362fd2db5', '0142ecea-222e-4116-bce9-893fe09e83a8', '017ff76b-15ee-4dcf-9b1b-1a2124e25f8f', '01869816-82f2-4df3-b2e4-2426860d08d0', '01a56fb0-f093-445e-98ec-59c301d9d0f1', '01b3067d-9ea9-4d01-9d92-250ce9f33caa']
+Tue, 26 Jul 2022 23:43:37-root-friends.py-[line:93]-INFO-[日志信息]: None
+Tue, 26 Jul 2022 23:43:37-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/friend/list [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\friend_servive\friendservice\views\friends.py", line 104, in list_friend
+    return jsonify(responseBuilder.build_response(ResCode.FRIEND_LIST_SUCCESS.value,
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 295, in jsonify
+    raise TypeError("jsonify() behavior undefined when passed both args and kwargs")
+TypeError: jsonify() behavior undefined when passed both args and kwargs
+Tue, 26 Jul 2022 23:46:32-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/list
+Tue, 26 Jul 2022 23:46:32-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTUxOTIuODI2MjQ1OCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.cleWIoAjufMd_iVMb98wmvvZMmkFPdzVX5dDxfEWyGw
+Tue, 26 Jul 2022 23:46:32-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659455192.8262458, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 23:46:32-root-friends.py-[line:79]-INFO-[日志信息]: 1
+Tue, 26 Jul 2022 23:46:32-root-friends.py-[line:91]-INFO-[日志信息]: ['005ebcc8-8105-4f33-abe9-ffb5a938229b', '00a94fd7-550e-478f-b5b5-dc6801537ab3', '00b4cd05-8774-4512-b643-eddd519cac43', '00c211fa-f43f-401b-848e-db03c9af2485', '00ffc2db-7c77-49e2-a71d-155362fd2db5', '0142ecea-222e-4116-bce9-893fe09e83a8', '017ff76b-15ee-4dcf-9b1b-1a2124e25f8f', '01869816-82f2-4df3-b2e4-2426860d08d0', '01a56fb0-f093-445e-98ec-59c301d9d0f1', '01b3067d-9ea9-4d01-9d92-250ce9f33caa']
+Tue, 26 Jul 2022 23:46:32-root-friends.py-[line:96]-ERROR-[日志信息]: 'str' object has no attribute 'in_'
+Tue, 26 Jul 2022 23:48:52-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/list
+Tue, 26 Jul 2022 23:48:52-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTUzMzIuMTM0NzkxLCJ1c2VyaWQiOiJiYTBiN2RmMC1hN2NhLTRhMzEtOTNkNi1lMGJjZWZjNDFkZGMifQ.HbJhvmUI4mBJYEvauiptEFeSM6oaNqG6eONAyIcmnNk
+Tue, 26 Jul 2022 23:48:52-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659455332.134791, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 23:48:52-root-friends.py-[line:79]-INFO-[日志信息]: 1
+Tue, 26 Jul 2022 23:48:52-root-friends.py-[line:91]-INFO-[日志信息]: ['005ebcc8-8105-4f33-abe9-ffb5a938229b', '00a94fd7-550e-478f-b5b5-dc6801537ab3', '00b4cd05-8774-4512-b643-eddd519cac43', '00c211fa-f43f-401b-848e-db03c9af2485', '00ffc2db-7c77-49e2-a71d-155362fd2db5', '0142ecea-222e-4116-bce9-893fe09e83a8', '017ff76b-15ee-4dcf-9b1b-1a2124e25f8f', '01869816-82f2-4df3-b2e4-2426860d08d0', '01a56fb0-f093-445e-98ec-59c301d9d0f1', '01b3067d-9ea9-4d01-9d92-250ce9f33caa']
+Tue, 26 Jul 2022 23:48:52-root-friends.py-[line:93]-INFO-[日志信息]: <User 005ebcc8-8105-4f33-abe9-ffb5a938229b>
+Tue, 26 Jul 2022 23:48:52-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/friend/list [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\friend_servive\friendservice\views\friends.py", line 104, in list_friend
+    return jsonify(responseBuilder.build_response(ResCode.FRIEND_LIST_SUCCESS.value,
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 295, in jsonify
+    raise TypeError("jsonify() behavior undefined when passed both args and kwargs")
+TypeError: jsonify() behavior undefined when passed both args and kwargs
+Tue, 26 Jul 2022 23:49:47-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/list
+Tue, 26 Jul 2022 23:49:47-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NTUzODcuNDM5OTU0MywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.fW5SLzspe1nGn8rdMSKQy_DfyELErMVnzr-DbCSJCGg
+Tue, 26 Jul 2022 23:49:47-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659455387.4399543, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Tue, 26 Jul 2022 23:49:47-root-friends.py-[line:79]-INFO-[日志信息]: 1
+Tue, 26 Jul 2022 23:49:47-root-friends.py-[line:91]-INFO-[日志信息]: ['005ebcc8-8105-4f33-abe9-ffb5a938229b', '00a94fd7-550e-478f-b5b5-dc6801537ab3', '00b4cd05-8774-4512-b643-eddd519cac43', '00c211fa-f43f-401b-848e-db03c9af2485', '00ffc2db-7c77-49e2-a71d-155362fd2db5', '0142ecea-222e-4116-bce9-893fe09e83a8', '017ff76b-15ee-4dcf-9b1b-1a2124e25f8f', '01869816-82f2-4df3-b2e4-2426860d08d0', '01a56fb0-f093-445e-98ec-59c301d9d0f1', '01b3067d-9ea9-4d01-9d92-250ce9f33caa']
+Tue, 26 Jul 2022 23:49:47-root-friends.py-[line:95]-INFO-[日志信息]: 0FWKcEPg
+Tue, 26 Jul 2022 23:49:47-root-friends.py-[line:95]-INFO-[日志信息]: A41zN57h
+Tue, 26 Jul 2022 23:49:47-root-friends.py-[line:95]-INFO-[日志信息]: g1VmQL8l
+Tue, 26 Jul 2022 23:49:47-root-friends.py-[line:95]-INFO-[日志信息]: Nt2lxqYd
+Tue, 26 Jul 2022 23:49:47-root-friends.py-[line:95]-INFO-[日志信息]: CyUqW0u7
+Tue, 26 Jul 2022 23:49:47-root-friends.py-[line:95]-INFO-[日志信息]: 4D9AKRmx
+Tue, 26 Jul 2022 23:49:47-root-friends.py-[line:95]-INFO-[日志信息]: ZcByLE1x
+Tue, 26 Jul 2022 23:49:47-root-friends.py-[line:95]-INFO-[日志信息]: 0HPKQRk8
+Tue, 26 Jul 2022 23:49:47-root-friends.py-[line:95]-INFO-[日志信息]: fuhN4TKb
+Tue, 26 Jul 2022 23:49:47-root-friends.py-[line:95]-INFO-[日志信息]: kEA9xZzD
+Tue, 26 Jul 2022 23:49:47-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/friend/list [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\friend_servive\friendservice\views\friends.py", line 106, in list_friend
+    return jsonify(responseBuilder.build_response(ResCode.FRIEND_LIST_SUCCESS.value,
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 295, in jsonify
+    raise TypeError("jsonify() behavior undefined when passed both args and kwargs")
+TypeError: jsonify() behavior undefined when passed both args and kwargs

@@ -9,8 +9,9 @@
 '''
 import json
 from json.decoder import JSONDecodeError
-from libs.Logger import logger
+from userservice.utils.Logger import logger
 from functools import wraps
+from flask import jsonify
 
 def dg_common_check( method = None):
     """decorater：the common check fun of request data."""
@@ -60,6 +61,7 @@ class parser:
     @dg_common_check('register')
     def parse_register(self, jdata):
         # parse register  datagram, the datagram must contain keys username, phone, password and verifycode
+        jsonify().
         data = json.loads(jdata)
         params = data.get('params')
         if params.get('username') and params.get('phone') and params.get('password') and params.get('verifycode'):

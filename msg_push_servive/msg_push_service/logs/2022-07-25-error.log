@@ -1,0 +1,115 @@
+Mon, 25 Jul 2022 10:26:25-root-users.py-[line:68]-ERROR-[日志信息]: usetid
+Mon, 25 Jul 2022 11:01:56-root-users.py-[line:100]-ERROR-[日志信息]: 'NoneType' object has no attribute 'get'
+Mon, 25 Jul 2022 11:03:18-root-users.py-[line:101]-ERROR-[日志信息]: Boolean value of this clause is not defined
+Mon, 25 Jul 2022 11:09:56-root-users.py-[line:100]-ERROR-[日志信息]: Boolean value of this clause is not defined
+Mon, 25 Jul 2022 11:10:08-root-users.py-[line:100]-ERROR-[日志信息]: Boolean value of this clause is not defined
+Mon, 25 Jul 2022 11:13:06-root-users.py-[line:101]-ERROR-[日志信息]: <module 'traceback' from 'D:\\Programs\\Python\\Python310\\lib\\traceback.py'>
+Mon, 25 Jul 2022 11:13:50-root-users.py-[line:101]-ERROR-[日志信息]: None
+Mon, 25 Jul 2022 11:15:16-root-users.py-[line:101]-ERROR-[日志信息]: None
+Mon, 25 Jul 2022 11:16:27-root-users.py-[line:101]-ERROR-[日志信息]: None
+Mon, 25 Jul 2022 11:17:39-root-users.py-[line:102]-ERROR-[日志信息]: None
+Mon, 25 Jul 2022 11:21:13-root-users.py-[line:102]-ERROR-[日志信息]: None
+Mon, 25 Jul 2022 11:45:37-root-users.py-[line:97]-ERROR-[日志信息]: None
+Mon, 25 Jul 2022 11:47:54-root-users.py-[line:97]-ERROR-[日志信息]: None
+Mon, 25 Jul 2022 11:49:20-root-users.py-[line:97]-ERROR-[日志信息]: None
+Mon, 25 Jul 2022 11:50:04-root-users.py-[line:98]-ERROR-[日志信息]: None
+Mon, 25 Jul 2022 11:50:34-root-users.py-[line:98]-ERROR-[日志信息]: None
+Mon, 25 Jul 2022 11:51:01-root-users.py-[line:98]-ERROR-[日志信息]: None
+Mon, 25 Jul 2022 11:51:32-root-users.py-[line:98]-ERROR-[日志信息]: None
+Mon, 25 Jul 2022 11:53:42-root-users.py-[line:99]-ERROR-[日志信息]: None
+Mon, 25 Jul 2022 12:04:08-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/phone/modify [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1520, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1539, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1695, in make_response
+    raise TypeError(
+TypeError: The view function for 'users.user_phone_modify' did not return a valid response. The function either returned None or ended without a return statement.
+Mon, 25 Jul 2022 12:13:55-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/user/precise_query [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\users.py", line 137, in user_precise_query
+    try:
+AttributeError: type object 'parser' has no attribute 'parse_percise_query'
+Mon, 25 Jul 2022 13:52:30-root-users.py-[line:54]-ERROR-[日志信息]: responseBuilder.build_common_suc() missing 1 required positional argument: 'msg'
+Mon, 25 Jul 2022 14:02:55-root-users.py-[line:54]-ERROR-[日志信息]: responseBuilder.build_common_suc() missing 1 required positional argument: 'msg'
+Mon, 25 Jul 2022 16:21:34-root-users.py-[line:53]-ERROR-[日志信息]: None
+Mon, 25 Jul 2022 16:22:52-root-users.py-[line:53]-ERROR-[日志信息]: None
+Mon, 25 Jul 2022 16:24:46-root-users.py-[line:53]-ERROR-[日志信息]: None
+Mon, 25 Jul 2022 16:28:02-root-users.py-[line:53]-ERROR-[日志信息]: None
+Mon, 25 Jul 2022 16:31:16-root-users.py-[line:55]-ERROR-[日志信息]: None
+Mon, 25 Jul 2022 16:32:54-root-users.py-[line:55]-ERROR-[日志信息]: None
+Mon, 25 Jul 2022 16:33:19-root-users.py-[line:55]-ERROR-[日志信息]: None
+Mon, 25 Jul 2022 16:34:47-root-users.py-[line:55]-ERROR-[日志信息]: None
+Mon, 25 Jul 2022 16:40:32-root-users.py-[line:55]-ERROR-[日志信息]: None
+Mon, 25 Jul 2022 22:55:46-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 22:56:07-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 22:56:28-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 22:56:49-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 22:57:10-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 22:57:31-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 22:57:52-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 22:58:13-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 22:58:34-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 22:58:55-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 22:59:16-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 22:59:37-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 22:59:58-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:00:19-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:00:40-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:01:24-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:01:45-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:02:06-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:02:27-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:02:48-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:03:09-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:03:30-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:03:51-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:04:12-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:04:33-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:04:54-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:05:15-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:06:13-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:06:34-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:06:55-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:07:16-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:07:37-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:08:29-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:08:50-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:09:11-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:09:32-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:09:53-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:10:15-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:10:36-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:10:57-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:11:18-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:11:39-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:12:00-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:12:48-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:13:09-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:13:30-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:13:51-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:14:12-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:14:33-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:15:46-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:16:07-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:16:28-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:16:49-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:17:10-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:17:31-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:17:52-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:18:52-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:19:43-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:20:42-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:21:03-root-client.py-[line:148]-ERROR-[日志信息]: recv time out
+Mon, 25 Jul 2022 23:21:24-root-client.py-[line:148]-ERROR-[日志信息]: recv time out

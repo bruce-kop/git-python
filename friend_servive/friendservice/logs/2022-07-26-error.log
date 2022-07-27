@@ -1,0 +1,166 @@
+Tue, 26 Jul 2022 22:31:06-root-friends.py-[line:60]-ERROR-[日志信息]: Query.filter() got an unexpected keyword argument 'friend_id'
+Tue, 26 Jul 2022 22:32:04-root-friends.py-[line:60]-ERROR-[日志信息]: SQL expression for WHERE/HAVING role expected, got {'friend_id': '005ebcc8-8105-4f33-abe9-ffb5a938229b'}.
+Tue, 26 Jul 2022 22:33:02-root-friends.py-[line:60]-ERROR-[日志信息]: Query.filter() got an unexpected keyword argument 'friend_id'
+Tue, 26 Jul 2022 22:34:22-root-friends.py-[line:61]-ERROR-[日志信息]: Query.filter() got an unexpected keyword argument 'friend_id'
+Tue, 26 Jul 2022 22:35:26-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/friend/del [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\friend_servive\friendservice\views\friends.py", line 64, in del_friend
+    return jsonify(responseBuilder.build_response(ResCode.FRIEND_DEL_SUCCESS.value,
+  File "D:\Programs\Python\Python310\lib\enum.py", line 437, in __getattr__
+    raise AttributeError(name) from None
+AttributeError: FRIEND_DEL_SUCCESS
+Tue, 26 Jul 2022 22:38:46-root-friends.py-[line:126]-ERROR-[日志信息]: Query.filter() got an unexpected keyword argument 'friend_id'
+Tue, 26 Jul 2022 22:54:51-root-friends.py-[line:38]-ERROR-[日志信息]: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc-005ebcc8-8105-4f33-abe9-ffb' for key 'friend_addr_book.PRIMARY'")
+[SQL: INSERT INTO friend_addr_book (id, user_id, friend_id, friend_label, friend_au, note) VALUES (%(id)s, %(user_id)s, %(friend_id)s, %(friend_label)s, %(friend_au)s, %(note)s)]
+[parameters: {'id': UUID('dc23bdac-e19d-4206-9648-99c687650e82'), 'user_id': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc', 'friend_id': '005ebcc8-8105-4f33-abe9-ffb5a938229b', 'friend_label': '', 'friend_au': '', 'note': ''}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+Tue, 26 Jul 2022 22:55:00-root-friends.py-[line:38]-ERROR-[日志信息]: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc-005ebcc8-8105-4f33-abe9-ffb' for key 'friend_addr_book.PRIMARY'")
+[SQL: INSERT INTO friend_addr_book (id, user_id, friend_id, friend_label, friend_au, note) VALUES (%(id)s, %(user_id)s, %(friend_id)s, %(friend_label)s, %(friend_au)s, %(note)s)]
+[parameters: {'id': UUID('09ecf4bc-7380-498a-b42c-8a7df7421a48'), 'user_id': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc', 'friend_id': '005ebcc8-8105-4f33-abe9-ffb5a938229b', 'friend_label': '', 'friend_au': '', 'note': ''}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+Tue, 26 Jul 2022 22:56:11-root-friends.py-[line:38]-ERROR-[日志信息]: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc-005ebcc8-8105-4f33-abe9-ffb' for key 'friend_addr_book.PRIMARY'")
+[SQL: INSERT INTO friend_addr_book (id, user_id, friend_id, friend_label, friend_au, note) VALUES (%(id)s, %(user_id)s, %(friend_id)s, %(friend_label)s, %(friend_au)s, %(note)s)]
+[parameters: {'id': UUID('83a30bde-cd86-44bb-89b8-b8d982ab9fc2'), 'user_id': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc', 'friend_id': '005ebcc8-8105-4f33-abe9-ffb5a938229b', 'friend_label': '', 'friend_au': '', 'note': ''}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+Tue, 26 Jul 2022 22:59:49-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/friend/list [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\friend_servive\friendservice\views\friends.py", line 80, in list_friend
+    return jsonify(responseBuilder.build_response(ResCode.FRIEND_LIST_PARAM_INVALID.value,
+  File "D:\Programs\Python\Python310\lib\enum.py", line 437, in __getattr__
+    raise AttributeError(name) from None
+AttributeError: FRIEND_LIST_PARAM_INVALID
+Tue, 26 Jul 2022 23:04:50-root-friends.py-[line:96]-ERROR-[日志信息]: Query.filter() got an unexpected keyword argument 'user_id'
+Tue, 26 Jul 2022 23:05:44-root-friends.py-[line:96]-ERROR-[日志信息]: Query.filter() got an unexpected keyword argument 'user_id'
+Tue, 26 Jul 2022 23:06:01-root-friends.py-[line:96]-ERROR-[日志信息]: Query.filter() got an unexpected keyword argument 'user_id'
+Tue, 26 Jul 2022 23:06:19-root-friends.py-[line:96]-ERROR-[日志信息]: Query.filter() got an unexpected keyword argument 'user_id'
+Tue, 26 Jul 2022 23:07:16-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/friend/list [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\friend_servive\friendservice\views\friends.py", line 79, in list_friend
+    currentPage.data.get('currentPage')
+AttributeError: 'int' object has no attribute 'data'
+Tue, 26 Jul 2022 23:07:32-root-friends.py-[line:97]-ERROR-[日志信息]: Query.filter() got an unexpected keyword argument 'user_id'
+Tue, 26 Jul 2022 23:08:55-root-friends.py-[line:96]-ERROR-[日志信息]: Query.filter() got an unexpected keyword argument 'user_id'
+Tue, 26 Jul 2022 23:09:11-root-friends.py-[line:96]-ERROR-[日志信息]: (pymysql.err.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 4")
+[SQL: SELECT friend_addr_book.friend_id AS friend_addr_book_friend_id 
+FROM friend_addr_book 
+WHERE true = 1 
+ LIMIT %(param_1)s, %(param_2)s]
+[parameters: {'param_1': -10, 'param_2': 10}]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+Tue, 26 Jul 2022 23:12:20-root-friends.py-[line:96]-ERROR-[日志信息]: Could not locate column in row for column '_aslist'
+Tue, 26 Jul 2022 23:19:45-root-friends.py-[line:96]-ERROR-[日志信息]: 'Friend' object has no attribute '_aslist'
+Tue, 26 Jul 2022 23:20:19-root-friends.py-[line:96]-ERROR-[日志信息]: Could not locate column in row for column '_aslist'
+Tue, 26 Jul 2022 23:21:40-root-friends.py-[line:96]-ERROR-[日志信息]: Could not locate column in row for column '_aslist'
+Tue, 26 Jul 2022 23:22:10-root-friends.py-[line:96]-ERROR-[日志信息]: Could not locate column in row for column '_aslist'
+Tue, 26 Jul 2022 23:28:29-root-friends.py-[line:96]-ERROR-[日志信息]: (pymysql.err.ProgrammingError) (1111, 'Invalid use of group function')
+[SQL: SELECT friend_addr_book.id AS friend_addr_book_id, friend_addr_book.user_id AS friend_addr_book_user_id, friend_addr_book.friend_id AS friend_addr_book_friend_id, friend_addr_book.friend_label AS friend_addr_book_friend_label, friend_addr_book.friend_au AS friend_addr_book_friend_au, friend_addr_book.note AS friend_addr_book_note 
+FROM friend_addr_book 
+WHERE count(%(count_1)s)]
+[parameters: {'count_1': 1}]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+Tue, 26 Jul 2022 23:29:40-root-friends.py-[line:96]-ERROR-[日志信息]: Could not locate column in row for column '_aslist'
+Tue, 26 Jul 2022 23:33:05-root-friends.py-[line:97]-ERROR-[日志信息]: Could not locate column in row for column '_aslist'
+Tue, 26 Jul 2022 23:38:33-root-friends.py-[line:97]-ERROR-[日志信息]: 'BaseQuery' object has no attribute 'to_dict'
+Tue, 26 Jul 2022 23:39:36-root-friends.py-[line:97]-ERROR-[日志信息]: 'BaseQuery' object has no attribute '__table__'
+Tue, 26 Jul 2022 23:40:46-root-friends.py-[line:99]-ERROR-[日志信息]: 'BaseQuery' object has no attribute '__table__'
+Tue, 26 Jul 2022 23:40:58-root-friends.py-[line:98]-ERROR-[日志信息]: Could not locate column in row for column '_aslist'
+Tue, 26 Jul 2022 23:42:09-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/friend/list [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\friend_servive\friendservice\views\friends.py", line 105, in list_friend
+    return jsonify(responseBuilder.build_response(ResCode.FRIEND_LIST_SUCCESS.value,
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 295, in jsonify
+    raise TypeError("jsonify() behavior undefined when passed both args and kwargs")
+TypeError: jsonify() behavior undefined when passed both args and kwargs
+Tue, 26 Jul 2022 23:42:33-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/friend/list [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\friend_servive\friendservice\views\friends.py", line 105, in list_friend
+    return jsonify(responseBuilder.build_response(ResCode.FRIEND_LIST_SUCCESS.value,
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 295, in jsonify
+    raise TypeError("jsonify() behavior undefined when passed both args and kwargs")
+TypeError: jsonify() behavior undefined when passed both args and kwargs
+Tue, 26 Jul 2022 23:43:37-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/friend/list [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\friend_servive\friendservice\views\friends.py", line 104, in list_friend
+    return jsonify(responseBuilder.build_response(ResCode.FRIEND_LIST_SUCCESS.value,
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 295, in jsonify
+    raise TypeError("jsonify() behavior undefined when passed both args and kwargs")
+TypeError: jsonify() behavior undefined when passed both args and kwargs
+Tue, 26 Jul 2022 23:46:32-root-friends.py-[line:96]-ERROR-[日志信息]: 'str' object has no attribute 'in_'
+Tue, 26 Jul 2022 23:48:52-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/friend/list [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\friend_servive\friendservice\views\friends.py", line 104, in list_friend
+    return jsonify(responseBuilder.build_response(ResCode.FRIEND_LIST_SUCCESS.value,
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 295, in jsonify
+    raise TypeError("jsonify() behavior undefined when passed both args and kwargs")
+TypeError: jsonify() behavior undefined when passed both args and kwargs
+Tue, 26 Jul 2022 23:49:47-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/friend/list [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\friend_servive\friendservice\views\friends.py", line 106, in list_friend
+    return jsonify(responseBuilder.build_response(ResCode.FRIEND_LIST_SUCCESS.value,
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 295, in jsonify
+    raise TypeError("jsonify() behavior undefined when passed both args and kwargs")
+TypeError: jsonify() behavior undefined when passed both args and kwargs

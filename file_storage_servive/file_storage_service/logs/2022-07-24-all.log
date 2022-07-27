@@ -1,0 +1,1607 @@
+Sun, 24 Jul 2022 16:17:17-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /verifycode [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 611, in connect
+    sock = self.retry.call_with_retry(
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 612, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 677, in _connect
+    raise err
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 665, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\verifycode.py", line 18, in get_verifycode
+    redis.setex("{}-code".format(client), 30, code)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\commands\core.py", line 2245, in setex
+    return self.execute_command("SETEX", name, time, value)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\client.py", line 1235, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 1387, in get_connection
+    connection.connect()
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 617, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+Sun, 24 Jul 2022 16:18:09-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /verifycode [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 611, in connect
+    sock = self.retry.call_with_retry(
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 612, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 677, in _connect
+    raise err
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 665, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\verifycode.py", line 18, in get_verifycode
+    redis.setex("{}-code".format(client), 30, code)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\commands\core.py", line 2245, in setex
+    return self.execute_command("SETEX", name, time, value)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\client.py", line 1235, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 1387, in get_connection
+    connection.connect()
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 617, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+Sun, 24 Jul 2022 16:19:47-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /verifycode [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 611, in connect
+    sock = self.retry.call_with_retry(
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 612, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 677, in _connect
+    raise err
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 665, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\verifycode.py", line 18, in get_verifycode
+    redis.setex("{}-code".format(client), 30, code)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\commands\core.py", line 2245, in setex
+    return self.execute_command("SETEX", name, time, value)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\client.py", line 1235, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 1387, in get_connection
+    connection.connect()
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 617, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+Sun, 24 Jul 2022 16:26:29-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /verifycode [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 611, in connect
+    sock = self.retry.call_with_retry(
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 612, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 677, in _connect
+    raise err
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 665, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\verifycode.py", line 18, in get_verifycode
+    redis.setex("{}-code".format(client), 30, code)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\commands\core.py", line 2245, in setex
+    return self.execute_command("SETEX", name, time, value)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\client.py", line 1235, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 1387, in get_connection
+    connection.connect()
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 617, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+Sun, 24 Jul 2022 16:27:01-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /verifycode [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 611, in connect
+    sock = self.retry.call_with_retry(
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 612, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 677, in _connect
+    raise err
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 665, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\verifycode.py", line 18, in get_verifycode
+    redis.setex("{}-code".format(client), 30, code)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\commands\core.py", line 2245, in setex
+    return self.execute_command("SETEX", name, time, value)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\client.py", line 1235, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 1387, in get_connection
+    connection.connect()
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 617, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+Sun, 24 Jul 2022 16:27:16-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /verifycode [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 611, in connect
+    sock = self.retry.call_with_retry(
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 612, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 677, in _connect
+    raise err
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 665, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\verifycode.py", line 18, in get_verifycode
+    redis.setex("{}-code".format(client), 30, code)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\commands\core.py", line 2245, in setex
+    return self.execute_command("SETEX", name, time, value)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\client.py", line 1235, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 1387, in get_connection
+    connection.connect()
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 617, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+Sun, 24 Jul 2022 16:28:34-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /verifycode [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 611, in connect
+    sock = self.retry.call_with_retry(
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 612, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 677, in _connect
+    raise err
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 665, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\verifycode.py", line 18, in get_verifycode
+    redis.setex("{}-code".format(client), 30, code)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\commands\core.py", line 2245, in setex
+    return self.execute_command("SETEX", name, time, value)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\client.py", line 1235, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 1387, in get_connection
+    connection.connect()
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 617, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+Sun, 24 Jul 2022 16:33:24-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /verifycode [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 611, in connect
+    sock = self.retry.call_with_retry(
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 612, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 677, in _connect
+    raise err
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 665, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\verifycode.py", line 19, in get_verifycode
+    redis.setex("{}-code".format(client), 30, code)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\commands\core.py", line 2245, in setex
+    return self.execute_command("SETEX", name, time, value)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\client.py", line 1235, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 1387, in get_connection
+    connection.connect()
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 617, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+Sun, 24 Jul 2022 16:44:14-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /register [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\users.py", line 12, in user_register
+    print(request.data)
+  File "D:\git-python\userservive\userservice\utils\requestParse.py", line 22, in wrapper
+    data = json.loads(arg[1])
+IndexError: tuple index out of range
+Sun, 24 Jul 2022 16:59:10-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /register [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\users.py", line 15, in user_register
+    user_data = parser.parse_register(request.data)
+  File "D:\git-python\userservive\userservice\utils\requestParse.py", line 22, in wrapper
+    data = json.loads(arg[1])
+IndexError: tuple index out of range
+Sun, 24 Jul 2022 16:59:56-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /register [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\users.py", line 15, in user_register
+    user_data = parser.parse_register(request.data)
+  File "D:\git-python\userservive\userservice\utils\requestParse.py", line 22, in wrapper
+    data = json.loads(arg[1])
+IndexError: tuple index out of range
+Sun, 24 Jul 2022 17:07:57-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /register [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\users.py", line 15, in user_register
+    user_data = parser.parse_register(request.data)
+  File "D:\git-python\userservive\userservice\utils\requestParse.py", line 26, in wrapper
+    ret = func(*arg, **kwargs)
+TypeError: parser.parse_register() missing 1 required positional argument: 'jdata'
+Sun, 24 Jul 2022 17:09:25-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /register [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\users.py", line 15, in user_register
+    user_data = parser.parse_register(request.data)
+  File "D:\git-python\userservive\userservice\utils\requestParse.py", line 26, in wrapper
+    ret = func(*arg, **kwargs)
+TypeError: parser.parse_register() missing 1 required positional argument: 'jdata'
+Sun, 24 Jul 2022 17:10:05-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /register [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\users.py", line 15, in user_register
+    user_data = parser.parse_register(request.data)
+  File "D:\git-python\userservive\userservice\utils\requestParse.py", line 26, in wrapper
+    ret = func(*arg, **kwargs)
+TypeError: parser.parse_register() missing 1 required positional argument: 'jdata'
+Sun, 24 Jul 2022 17:10:47-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /register [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\users.py", line 14, in user_register
+    user_data = parser.parse_register(request.data)
+  File "D:\git-python\userservive\userservice\utils\requestParse.py", line 26, in wrapper
+    ret = func(*arg, **kwargs)
+TypeError: parser.parse_register() missing 1 required positional argument: 'jdata'
+Sun, 24 Jul 2022 17:11:30-root-requestParse.py-[line:21]-DEBUG-[日志信息]: (b'"{\\"username\\": \\"zkp\\", \\"phone\\": \\"15382359899\\", \\"pwd\\": \\"12345\\", \\"verfifycode\\": \\"VGXCN\\"}"',)
+Sun, 24 Jul 2022 17:11:30-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /register [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\users.py", line 14, in user_register
+    user_data = parser.parse_register(request.data)
+  File "D:\git-python\userservive\userservice\utils\requestParse.py", line 26, in wrapper
+    ret = func(*arg, **kwargs)
+TypeError: parser.parse_register() missing 1 required positional argument: 'jdata'
+Sun, 24 Jul 2022 17:12:54-root-requestParse.py-[line:21]-DEBUG-[日志信息]: (b'"{\\"username\\": \\"zkp\\", \\"phone\\": \\"15382359899\\", \\"pwd\\": \\"12345\\", \\"verfifycode\\": \\"HFVBE\\"}"',)
+Sun, 24 Jul 2022 17:12:54-root-requestParse.py-[line:51]-DEBUG-[日志信息]: b'"{\\"username\\": \\"zkp\\", \\"phone\\": \\"15382359899\\", \\"pwd\\": \\"12345\\", \\"verfifycode\\": \\"HFVBE\\"}"'
+Sun, 24 Jul 2022 17:12:54-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /register [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\users.py", line 14, in user_register
+    user_data = parser.parse_register(request.data)
+  File "D:\git-python\userservive\userservice\utils\requestParse.py", line 26, in wrapper
+    ret = func(*arg, **kwargs)
+  File "D:\git-python\userservive\userservice\utils\requestParse.py", line 53, in parse_register
+    if data.get('username') and data.get('phone') and data.get('password') and data.get('verifycode'):
+AttributeError: 'str' object has no attribute 'get'
+Sun, 24 Jul 2022 17:13:52-root-requestParse.py-[line:21]-DEBUG-[日志信息]: (b'"{\\"username\\": \\"zkp\\", \\"phone\\": \\"15382359899\\", \\"pwd\\": \\"12345\\", \\"verfifycode\\": \\"YSZQI\\"}"',)
+Sun, 24 Jul 2022 17:13:52-root-requestParse.py-[line:51]-DEBUG-[日志信息]: <class 'bytes'>
+Sun, 24 Jul 2022 17:13:52-root-requestParse.py-[line:53]-DEBUG-[日志信息]: <class 'str'>
+Sun, 24 Jul 2022 17:13:52-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /register [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\users.py", line 14, in user_register
+    user_data = parser.parse_register(request.data)
+  File "D:\git-python\userservive\userservice\utils\requestParse.py", line 26, in wrapper
+    ret = func(*arg, **kwargs)
+  File "D:\git-python\userservive\userservice\utils\requestParse.py", line 54, in parse_register
+    if data.get('username') and data.get('phone') and data.get('password') and data.get('verifycode'):
+AttributeError: 'str' object has no attribute 'get'
+Sun, 24 Jul 2022 17:14:53-root-requestParse.py-[line:21]-DEBUG-[日志信息]: (b'"{\\"username\\": \\"zkp\\", \\"phone\\": \\"15382359899\\", \\"pwd\\": \\"12345\\", \\"verfifycode\\": \\"ZZSYK\\"}"',)
+Sun, 24 Jul 2022 17:14:53-root-requestParse.py-[line:51]-DEBUG-[日志信息]: <class 'bytes'>
+Sun, 24 Jul 2022 17:14:53-root-requestParse.py-[line:53]-DEBUG-[日志信息]: <class 'str'>
+Sun, 24 Jul 2022 17:14:53-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /register [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\users.py", line 14, in user_register
+    user_data = parser.parse_register(request.data)
+  File "D:\git-python\userservive\userservice\utils\requestParse.py", line 26, in wrapper
+    ret = func(*arg, **kwargs)
+  File "D:\git-python\userservive\userservice\utils\requestParse.py", line 54, in parse_register
+    if data.get('username') and data.get('phone') and data.get('password') and data.get('verifycode'):
+AttributeError: 'str' object has no attribute 'get'
+Sun, 24 Jul 2022 17:16:51-root-requestParse.py-[line:50]-DEBUG-[日志信息]: <class 'bytes'>
+Sun, 24 Jul 2022 17:16:51-root-requestParse.py-[line:54]-DEBUG-[日志信息]: <class 'str'>
+Sun, 24 Jul 2022 17:16:51-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /register [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\users.py", line 14, in user_register
+    user_data = parser.parse_register(request.data)
+  File "D:\git-python\userservive\userservice\utils\requestParse.py", line 25, in wrapper
+    ret = func(*arg, **kwargs)
+  File "D:\git-python\userservive\userservice\utils\requestParse.py", line 55, in parse_register
+    if data.get('username') and data.get('phone') and data.get('password') and data.get('verifycode'):
+AttributeError: 'str' object has no attribute 'get'
+Sun, 24 Jul 2022 17:18:43-root-requestParse.py-[line:50]-DEBUG-[日志信息]: <class 'bytes'>
+Sun, 24 Jul 2022 17:18:43-root-requestParse.py-[line:54]-DEBUG-[日志信息]: <class 'str'>
+Sun, 24 Jul 2022 17:18:43-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /register [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\users.py", line 14, in user_register
+    user_data = parser.parse_register(request.data)
+  File "D:\git-python\userservive\userservice\utils\requestParse.py", line 25, in wrapper
+    ret = func(*arg, **kwargs)
+  File "D:\git-python\userservive\userservice\utils\requestParse.py", line 55, in parse_register
+    if data.get('username') and data.get('phone') and data.get('password') and data.get('verifycode'):
+AttributeError: 'str' object has no attribute 'get'
+Sun, 24 Jul 2022 17:19:11-root-requestParse.py-[line:52]-DEBUG-[日志信息]: <class 'str'>
+Sun, 24 Jul 2022 17:19:11-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /register [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\users.py", line 14, in user_register
+    user_data = parser.parse_register(request.data)
+  File "D:\git-python\userservive\userservice\utils\requestParse.py", line 25, in wrapper
+    ret = func(*arg, **kwargs)
+  File "D:\git-python\userservive\userservice\utils\requestParse.py", line 53, in parse_register
+    if data.get('username') and data.get('phone') and data.get('password') and data.get('verifycode'):
+AttributeError: 'str' object has no attribute 'get'
+Sun, 24 Jul 2022 17:20:36-root-requestParse.py-[line:50]-DEBUG-[日志信息]: <class 'str'>
+Sun, 24 Jul 2022 17:20:36-root-requestParse.py-[line:52]-DEBUG-[日志信息]: <class 'dict'>
+Sun, 24 Jul 2022 17:20:36-root-requestParse.py-[line:55]-DEBUG-[日志信息]: keys is error.
+Sun, 24 Jul 2022 17:20:36-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /register [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\users.py", line 17, in user_register
+    new_user.name = user_data['username']
+TypeError: 'NoneType' object is not subscriptable
+Sun, 24 Jul 2022 17:21:16-root-requestParse.py-[line:53]-DEBUG-[日志信息]: keys is error.
+Sun, 24 Jul 2022 17:21:16-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /register [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\users.py", line 17, in user_register
+    new_user.name = user_data['username']
+TypeError: 'NoneType' object is not subscriptable
+Sun, 24 Jul 2022 17:22:20-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /register [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\users.py", line 22, in user_register
+    if VerifyUtil(new_user.phone):
+TypeError: VerifyUtil() takes no arguments
+Sun, 24 Jul 2022 17:26:15-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /register [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\users.py", line 25, in user_register
+    return responseBuilder.build_register_faild(msg)
+TypeError: responseBuilder.build_register_faild() takes 0 positional arguments but 1 was given
+Sun, 24 Jul 2022 17:27:40-root-users.py-[line:24]-DEBUG-[日志信息]: 15382359899
+Sun, 24 Jul 2022 17:33:27-root-users.py-[line:16]-INFO-[日志信息]: {'username': 'zkp', 'phone': '15382359899', 'pwd': '12345', 'verifycode': 'GLXXX'}
+Sun, 24 Jul 2022 17:33:28-root-users.py-[line:25]-DEBUG-[日志信息]: 15382359899
+Sun, 24 Jul 2022 17:36:01-root-users.py-[line:16]-INFO-[日志信息]: {'username': 'zkp', 'phone': '15382359899', 'pwd': '12345', 'verifycode': 'CFBII'}
+Sun, 24 Jul 2022 17:36:01-root-users.py-[line:22]-INFO-[日志信息]: pbkdf2:sha256:260000$bo4GitaRhQdJRBhy$91730d0a4dca4db26a0b0f9a508cc1e38587a9826ac0931f01f81053b437ca31
+Sun, 24 Jul 2022 17:36:01-root-users.py-[line:26]-DEBUG-[日志信息]: 15382359899
+Sun, 24 Jul 2022 17:36:50-root-users.py-[line:16]-INFO-[日志信息]: {'username': 'zkp', 'phone': '15382359899', 'pwd': '12345', 'verifycode': 'VZNDW'}
+Sun, 24 Jul 2022 17:39:19-root-users.py-[line:16]-INFO-[日志信息]: {'username': 'bruce', 'phone': '18969196681', 'pwd': '12345', 'verifycode': 'UVOTA'}
+Sun, 24 Jul 2022 17:40:20-root-users.py-[line:16]-INFO-[日志信息]: {'username': 'bruce', 'phone': '18969196681', 'pwd': '12345', 'verifycode': 'ADECK'}
+Sun, 24 Jul 2022 17:42:15-root-users.py-[line:16]-INFO-[日志信息]: {'username': 'bruce', 'phone': '18969196681', 'pwd': '12345', 'verifycode': 'ZDIMB'}
+Sun, 24 Jul 2022 17:42:33-root-users.py-[line:16]-INFO-[日志信息]: {'username': 'bruce', 'phone': '18969196681', 'pwd': '12345', 'verifycode': 'QHHXS'}
+Sun, 24 Jul 2022 17:42:33-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /register [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1819, in _execute_context
+    self.dialect.do_execute(
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\engine\default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+  File "D:\Programs\Python\Python310\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\Programs\Python\Python310\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\Programs\Python\Python310\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Programs\Python\Python310\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\Programs\Python\Python310\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Programs\Python\Python310\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "D:\Programs\Python\Python310\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Programs\Python\Python310\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry 'bruce' for key 'user.name'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\users.py", line 36, in user_register
+    db.session.commit()
+  File "<string>", line 2, in commit
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py", line 1451, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py", line 829, in commit
+    self._prepare_impl()
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py", line 808, in _prepare_impl
+    self.session.flush()
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py", line 3383, in flush
+    self._flush(objects)
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py", line 3522, in _flush
+    with util.safe_reraise():
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\compat.py", line 208, in raise_
+    raise exception
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py", line 3483, in _flush
+    flush_context.execute()
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 456, in execute
+    rec.execute(self)
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 630, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\persistence.py", line 245, in save_obj
+    _emit_insert_statements(
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\persistence.py", line 1097, in _emit_insert_statements
+    c = connection._execute_20(
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1631, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\sql\elements.py", line 332, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1498, in _execute_clauseelement
+    ret = self._execute_context(
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1862, in _execute_context
+    self._handle_dbapi_exception(
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 2043, in _handle_dbapi_exception
+    util.raise_(
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\compat.py", line 208, in raise_
+    raise exception
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1819, in _execute_context
+    self.dialect.do_execute(
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\engine\default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+  File "D:\Programs\Python\Python310\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\Programs\Python\Python310\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\Programs\Python\Python310\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Programs\Python\Python310\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\Programs\Python\Python310\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Programs\Python\Python310\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "D:\Programs\Python\Python310\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Programs\Python\Python310\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.IntegrityError: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'bruce' for key 'user.name'")
+[SQL: INSERT INTO user (id, name, avatar, phone, pwd) VALUES (%(id)s, %(name)s, %(avatar)s, %(phone)s, %(pwd)s)]
+[parameters: {'id': UUID('5917550f-4515-4ed9-9f81-a18587451094'), 'name': 'bruce', 'avatar': None, 'phone': '18969196681', 'pwd': 'pbkdf2:sha256:260000$5qMzBBwrxAy8c7Yb$5c9fe21b69053a9fdae8d4cf997c0200862362e334f9aef8d159a60fe3ef4ad6'}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+Sun, 24 Jul 2022 17:44:34-root-users.py-[line:16]-INFO-[日志信息]: {'username': 'bruce', 'phone': '18969196681', 'pwd': '12345', 'verifycode': 'MQDJU'}
+Sun, 24 Jul 2022 17:44:34-root-users.py-[line:39]-DEBUG-[日志信息]: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'bruce' for key 'user.name'")
+[SQL: INSERT INTO user (id, name, avatar, phone, pwd) VALUES (%(id)s, %(name)s, %(avatar)s, %(phone)s, %(pwd)s)]
+[parameters: {'id': UUID('6a31681f-1957-41fc-8799-b556ebc72d5f'), 'name': 'bruce', 'avatar': None, 'phone': '18969196681', 'pwd': 'pbkdf2:sha256:260000$d3c6TKvRoJySgT3m$534a35676994ebeadeedbd777f79b26293ed1916f8dcfa02200d9b7a16ab9bd6'}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+Sun, 24 Jul 2022 18:48:31-root-users.py-[line:17]-INFO-[日志信息]: {'username': 'bruce', 'phone': '15382359899', 'pwd': '12345', 'verifycode': 'LDGQH'}
+Sun, 24 Jul 2022 18:48:32-root-users.py-[line:41]-DEBUG-[日志信息]: (pymysql.err.OperationalError) (1054, "Unknown column 'create_at' in 'field list'")
+[SQL: INSERT INTO user (id, name, avatar, phone, pwd, create_at, update_at) VALUES (%(id)s, %(name)s, %(avatar)s, %(phone)s, %(pwd)s, %(create_at)s, %(update_at)s)]
+[parameters: {'id': UUID('c1adc077-5430-4e33-bb0f-9b699f0addd9'), 'name': 'bruce', 'avatar': None, 'phone': '15382359899', 'pwd': 'pbkdf2:sha256:260000$o11sShjpw1P5FJOB$bddf3ca58adbab24be3a1e2e7cefa80a6cd94c3ea7f6b70a89d717578f26dc5e', 'create_at': datetime.datetime(2022, 7, 24, 18, 48, 32, 192848), 'update_at': None}]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+Sun, 24 Jul 2022 18:49:53-root-users.py-[line:17]-INFO-[日志信息]: {'username': 'bruce', 'phone': '15382359899', 'pwd': '12345', 'verifycode': 'ENEQH'}
+Sun, 24 Jul 2022 19:36:40-root-users.py-[line:47]-DEBUG-[日志信息]: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'bruce' for key 'user.name'")
+[SQL: INSERT INTO user (id, name, avatar, phone, pwd, created_at, updated_at) VALUES (%(id)s, %(name)s, %(avatar)s, %(phone)s, %(pwd)s, %(created_at)s, %(updated_at)s)]
+[parameters: {'id': UUID('0546c0de-061d-4297-9822-bf1032d9798b'), 'name': 'bruce', 'avatar': None, 'phone': '15382359899', 'pwd': 'pbkdf2:sha256:260000$Q3FnJKSGKfEIZJ3B$bfb1a3f5c9b14dcc23d574eaec1824868ec07195d015464e6bb40e61a6a40635', 'created_at': datetime.datetime(2022, 7, 24, 19, 36, 40, 738599), 'updated_at': None}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+Sun, 24 Jul 2022 20:20:09-root-auth.py-[line:33]-ERROR-[日志信息]: 'str' object has no attribute 'get'
+Sun, 24 Jul 2022 20:20:09-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /login [POST]
+Traceback (most recent call last):
+  File "D:\git-python\userservive\userservice\views\auth.py", line 23, in login
+    data = parser.parse_login(request.data)
+  File "D:\git-python\userservive\userservice\utils\requestParse.py", line 25, in wrapper
+    ret = func(*arg, **kwargs)
+  File "D:\git-python\userservive\userservice\utils\requestParse.py", line 60, in parse_login
+    if (params.get('username') or params.get('phone')) and params.get('pwd'):
+AttributeError: 'str' object has no attribute 'get'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\auth.py", line 34, in login
+    responseBuilder.build_login_faild(ResMSG.LOGIN_INNER_ERR)
+  File "D:\git-python\userservive\userservice\utils\responseBuild.py", line 37, in build_login_faild
+    respose = json.dumps(dg)
+  File "D:\Programs\Python\Python310\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ResMSG is not JSON serializable
+Sun, 24 Jul 2022 20:20:55-root-auth.py-[line:33]-ERROR-[日志信息]: Object of type bytes is not JSON serializable
+Sun, 24 Jul 2022 20:20:55-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /login [POST]
+Traceback (most recent call last):
+  File "D:\git-python\userservive\userservice\views\auth.py", line 29, in login
+    return responseBuilder.build_login_suc(ResMSG.LONIN_SUCCESS.value, token, userid)
+  File "D:\git-python\userservive\userservice\utils\responseBuild.py", line 43, in build_login_suc
+    respose = json.dumps(dg)
+  File "D:\Programs\Python\Python310\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bytes is not JSON serializable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\auth.py", line 34, in login
+    responseBuilder.build_login_faild(ResMSG.LOGIN_INNER_ERR)
+  File "D:\git-python\userservive\userservice\utils\responseBuild.py", line 37, in build_login_faild
+    respose = json.dumps(dg)
+  File "D:\Programs\Python\Python310\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ResMSG is not JSON serializable
+Sun, 24 Jul 2022 20:21:43-root-auth.py-[line:33]-ERROR-[日志信息]: Object of type bytes is not JSON serializable
+Sun, 24 Jul 2022 20:22:54-root-auth.py-[line:22]-INFO-[日志信息]: b'"{\\"username\\": \\"kop\\", \\"phone\\": \\"18969196681\\", \\"pwd\\": \\"Hik12345\\"}"'
+Sun, 24 Jul 2022 20:22:54-root-auth.py-[line:34]-ERROR-[日志信息]: Object of type bytes is not JSON serializable
+Sun, 24 Jul 2022 20:23:30-root-auth.py-[line:22]-INFO-[日志信息]: b'"{\\"username\\": \\"kop\\", \\"phone\\": \\"18969196681\\", \\"pwd\\": \\"Hik12345\\"}"'
+Sun, 24 Jul 2022 20:23:30-root-auth.py-[line:34]-ERROR-[日志信息]: Object of type bytes is not JSON serializable
+Sun, 24 Jul 2022 20:24:33-root-auth.py-[line:22]-INFO-[日志信息]: b'"{\\"username\\": \\"kop\\", \\"phone\\": \\"18969196681\\", \\"pwd\\": \\"Hik12345\\"}"'
+Sun, 24 Jul 2022 20:24:33-root-requestParse.py-[line:59]-INFO-[日志信息]: {"username": "kop", "phone": "18969196681", "pwd": "Hik12345"}
+Sun, 24 Jul 2022 20:24:33-root-auth.py-[line:34]-ERROR-[日志信息]: Object of type bytes is not JSON serializable
+Sun, 24 Jul 2022 20:25:27-root-auth.py-[line:22]-INFO-[日志信息]: b'"{\\"username\\": \\"kop\\", \\"phone\\": \\"18969196681\\", \\"pwd\\": \\"Hik12345\\"}"'
+Sun, 24 Jul 2022 20:25:27-root-requestParse.py-[line:59]-INFO-[日志信息]: {"username": "kop", "phone": "18969196681", "pwd": "Hik12345"}
+Sun, 24 Jul 2022 20:25:28-root-auth.py-[line:35]-ERROR-[日志信息]: Object of type bytes is not JSON serializable
+Sun, 24 Jul 2022 20:26:16-root-auth.py-[line:22]-INFO-[日志信息]: b'"{\\"username\\": \\"kop\\", \\"phone\\": \\"18969196681\\", \\"pwd\\": \\"Hik12345\\"}"'
+Sun, 24 Jul 2022 20:26:16-root-requestParse.py-[line:59]-INFO-[日志信息]: <class 'str'>
+Sun, 24 Jul 2022 20:26:17-root-auth.py-[line:35]-ERROR-[日志信息]: Object of type bytes is not JSON serializable
+Sun, 24 Jul 2022 20:26:51-root-auth.py-[line:22]-INFO-[日志信息]: b'"{\\"username\\": \\"kop\\", \\"phone\\": \\"18969196681\\", \\"pwd\\": \\"Hik12345\\"}"'
+Sun, 24 Jul 2022 20:26:51-root-requestParse.py-[line:59]-INFO-[日志信息]: <class 'str'>
+Sun, 24 Jul 2022 20:26:51-root-requestParse.py-[line:61]-INFO-[日志信息]: {'username': 'kop', 'phone': '18969196681', 'pwd': 'Hik12345'}
+Sun, 24 Jul 2022 20:26:51-root-auth.py-[line:35]-ERROR-[日志信息]: Object of type bytes is not JSON serializable
+Sun, 24 Jul 2022 20:27:29-root-auth.py-[line:22]-INFO-[日志信息]: b'"{\\"username\\": \\"kop\\", \\"phone\\": \\"18969196681\\", \\"pwd\\": \\"Hik12345\\"}"'
+Sun, 24 Jul 2022 20:27:29-root-requestParse.py-[line:59]-INFO-[日志信息]: <class 'str'>
+Sun, 24 Jul 2022 20:27:29-root-requestParse.py-[line:61]-INFO-[日志信息]: <class 'dict'>
+Sun, 24 Jul 2022 20:27:29-root-auth.py-[line:35]-ERROR-[日志信息]: Object of type bytes is not JSON serializable
+Sun, 24 Jul 2022 20:28:38-root-auth.py-[line:34]-ERROR-[日志信息]: Object of type bytes is not JSON serializable
+Sun, 24 Jul 2022 20:29:15-root-auth.py-[line:35]-ERROR-[日志信息]: Object of type bytes is not JSON serializable
+Sun, 24 Jul 2022 20:30:28-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /login [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1520, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1539, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1714, in make_response
+    rv = jsonify(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 302, in jsonify
+    f"{dumps(data, indent=indent, separators=separators)}\n",
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 132, in dumps
+    return _json.dumps(obj, **kwargs)
+  File "D:\Programs\Python\Python310\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 51, in default
+    return super().default(o)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bytes is not JSON serializable
+Sun, 24 Jul 2022 20:33:45-root-auth.py-[line:33]-ERROR-[日志信息]: Object of type bytes is not JSON serializable
+Sun, 24 Jul 2022 20:39:26-root-auth.py-[line:33]-ERROR-[日志信息]: responseBuilder.build_login_response() takes from 0 to 2 positional arguments but 3 were given
+Sun, 24 Jul 2022 20:39:56-root-auth.py-[line:33]-ERROR-[日志信息]: Object of type bytes is not JSON serializable
+Sun, 24 Jul 2022 20:41:24-root-auth.py-[line:33]-ERROR-[日志信息]: Object of type bytes is not JSON serializable
+Sun, 24 Jul 2022 20:41:49-root-auth.py-[line:33]-ERROR-[日志信息]: Object of type bytes is not JSON serializable
+Sun, 24 Jul 2022 20:43:01-root-auth.py-[line:36]-ERROR-[日志信息]: Object of type bytes is not JSON serializable
+Sun, 24 Jul 2022 20:47:18-root-auth.py-[line:36]-ERROR-[日志信息]: Object of type bytes is not JSON serializable
+Sun, 24 Jul 2022 20:51:13-root-auth.py-[line:36]-ERROR-[日志信息]: Object of type bytes is not JSON serializable
+Sun, 24 Jul 2022 20:52:16-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /login [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\auth.py", line 31, in login
+    return jsonify(response)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 302, in jsonify
+    f"{dumps(data, indent=indent, separators=separators)}\n",
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 132, in dumps
+    return _json.dumps(obj, **kwargs)
+  File "D:\Programs\Python\Python310\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 51, in default
+    return super().default(o)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bytes is not JSON serializable
+Sun, 24 Jul 2022 20:53:37-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /login [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1520, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1539, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1714, in make_response
+    rv = jsonify(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 302, in jsonify
+    f"{dumps(data, indent=indent, separators=separators)}\n",
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 132, in dumps
+    return _json.dumps(obj, **kwargs)
+  File "D:\Programs\Python\Python310\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 51, in default
+    return super().default(o)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bytes is not JSON serializable
+Sun, 24 Jul 2022 20:55:18-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /logini [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1520, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1539, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1714, in make_response
+    rv = jsonify(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 302, in jsonify
+    f"{dumps(data, indent=indent, separators=separators)}\n",
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 132, in dumps
+    return _json.dumps(obj, **kwargs)
+  File "D:\Programs\Python\Python310\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 51, in default
+    return super().default(o)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bytes is not JSON serializable
+Sun, 24 Jul 2022 20:59:03-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /login [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1520, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1539, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1714, in make_response
+    rv = jsonify(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 302, in jsonify
+    f"{dumps(data, indent=indent, separators=separators)}\n",
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 132, in dumps
+    return _json.dumps(obj, **kwargs)
+  File "D:\Programs\Python\Python310\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 51, in default
+    return super().default(o)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bytes is not JSON serializable
+Sun, 24 Jul 2022 21:00:56-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /login [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1520, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1539, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1714, in make_response
+    rv = jsonify(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 302, in jsonify
+    f"{dumps(data, indent=indent, separators=separators)}\n",
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 132, in dumps
+    return _json.dumps(obj, **kwargs)
+  File "D:\Programs\Python\Python310\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 51, in default
+    return super().default(o)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bytes is not JSON serializable
+Sun, 24 Jul 2022 21:01:59-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /login [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1520, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1539, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1714, in make_response
+    rv = jsonify(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 302, in jsonify
+    f"{dumps(data, indent=indent, separators=separators)}\n",
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 132, in dumps
+    return _json.dumps(obj, **kwargs)
+  File "D:\Programs\Python\Python310\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 51, in default
+    return super().default(o)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bytes is not JSON serializable
+Sun, 24 Jul 2022 21:02:28-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /login [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\auth.py", line 28, in login
+    response = responseBuilder.build_login_response(ResMSG.LONIN_SUCCESS.value, token, userid)
+  File "D:\git-python\userservive\userservice\utils\responseBuild.py", line 41, in build_login_response
+    respose = json.dunmps(respose)
+AttributeError: module 'json' has no attribute 'dunmps'
+Sun, 24 Jul 2022 21:02:47-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /login [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\auth.py", line 28, in login
+    response = responseBuilder.build_login_response(ResMSG.LONIN_SUCCESS.value, token, userid)
+  File "D:\git-python\userservive\userservice\utils\responseBuild.py", line 41, in build_login_response
+    respose = json.dumps(respose)
+  File "D:\Programs\Python\Python310\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bytes is not JSON serializable
+Sun, 24 Jul 2022 21:03:05-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /login [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\auth.py", line 28, in login
+    response = responseBuilder.build_login_response(ResMSG.LONIN_SUCCESS.value, token, userid)
+  File "D:\git-python\userservive\userservice\utils\responseBuild.py", line 41, in build_login_response
+    respose = json.dumps(respose)
+  File "D:\Programs\Python\Python310\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bytes is not JSON serializable
+Sun, 24 Jul 2022 21:04:03-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /login [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1520, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1539, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1714, in make_response
+    rv = jsonify(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 302, in jsonify
+    f"{dumps(data, indent=indent, separators=separators)}\n",
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 132, in dumps
+    return _json.dumps(obj, **kwargs)
+  File "D:\Programs\Python\Python310\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 51, in default
+    return super().default(o)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bytes is not JSON serializable
+Sun, 24 Jul 2022 21:05:59-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /login [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1520, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1539, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1714, in make_response
+    rv = jsonify(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 302, in jsonify
+    f"{dumps(data, indent=indent, separators=separators)}\n",
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 132, in dumps
+    return _json.dumps(obj, **kwargs)
+  File "D:\Programs\Python\Python310\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 51, in default
+    return super().default(o)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bytes is not JSON serializable
+Sun, 24 Jul 2022 21:57:23-root-auth.py-[line:53]-ERROR-[日志信息]: 'NoneType' object has no attribute 'id'
+Sun, 24 Jul 2022 21:57:23-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /login [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\auth.py", line 57, in login
+    if not login_err_count_verify(userid):
+UnboundLocalError: local variable 'userid' referenced before assignment
+Sun, 24 Jul 2022 22:05:46-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /login [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\auth.py", line 60, in login
+    if not login_err_count_verify(userid):
+  File "D:\git-python\userservive\userservice\views\auth.py", line 28, in login_err_count_verify
+    if login_err_count > GlobalEnum.LOGIN_ERR_COUNT_LIMIT.value:
+TypeError: '>' not supported between instances of 'str' and 'int'
+Sun, 24 Jul 2022 22:07:36-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /login [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\auth.py", line 61, in login
+    if not login_err_count_verify(CUI):
+  File "D:\git-python\userservive\userservice\views\auth.py", line 28, in login_err_count_verify
+    if login_err_count > GlobalEnum.LOGIN_ERR_COUNT_LIMIT.value:
+TypeError: '>' not supported between instances of 'str' and 'int'
+Sun, 24 Jul 2022 22:08:11-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /login [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\auth.py", line 61, in login
+    if not login_err_count_verify(CUI):
+  File "D:\git-python\userservive\userservice\views\auth.py", line 28, in login_err_count_verify
+    if login_err_count > int(GlobalEnum.LOGIN_ERR_COUNT_LIMIT.value):
+TypeError: '>' not supported between instances of 'str' and 'int'
+Sun, 24 Jul 2022 22:08:21-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /login [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\auth.py", line 61, in login
+    if not login_err_count_verify(CUI):
+  File "D:\git-python\userservive\userservice\views\auth.py", line 28, in login_err_count_verify
+    if login_err_count > int(GlobalEnum.LOGIN_ERR_COUNT_LIMIT.value):
+TypeError: '>' not supported between instances of 'str' and 'int'
+Sun, 24 Jul 2022 22:09:18-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /login [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\auth.py", line 61, in login
+    if not login_err_count_verify(CUI):
+  File "D:\git-python\userservive\userservice\views\auth.py", line 31, in login_err_count_verify
+    redis.setex('{}-login_err_count'.format(CUI), 3600 * 24 * 7, login_err_count + 1)
+TypeError: can only concatenate str (not "int") to str
+Sun, 24 Jul 2022 22:11:12-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /login [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\auth.py", line 63, in login
+    if not login_err_count_verify(CUI):
+  File "D:\git-python\userservive\userservice\views\auth.py", line 30, in login_err_count_verify
+    if login_err_count > int(GlobalEnum.LOGIN_ERR_COUNT_LIMIT.value):
+TypeError: '>' not supported between instances of 'str' and 'int'
+Sun, 24 Jul 2022 22:21:42-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /login [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\auth.py", line 60, in login
+    if not login_err_count_verify(CUI):
+  File "D:\git-python\userservive\userservice\views\auth.py", line 30, in login_err_count_verify
+    if login_err_count > int(GlobalEnum.LOGIN_ERR_COUNT_LIMIT.value):
+TypeError: '>' not supported between instances of 'str' and 'int'
+Sun, 24 Jul 2022 22:21:47-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /login [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\auth.py", line 60, in login
+    if not login_err_count_verify(CUI):
+  File "D:\git-python\userservive\userservice\views\auth.py", line 30, in login_err_count_verify
+    if login_err_count > int(GlobalEnum.LOGIN_ERR_COUNT_LIMIT.value):
+TypeError: '>' not supported between instances of 'str' and 'int'
+Sun, 24 Jul 2022 22:21:49-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /login [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\auth.py", line 60, in login
+    if not login_err_count_verify(CUI):
+  File "D:\git-python\userservive\userservice\views\auth.py", line 30, in login_err_count_verify
+    if login_err_count > int(GlobalEnum.LOGIN_ERR_COUNT_LIMIT.value):
+TypeError: '>' not supported between instances of 'str' and 'int'
+Sun, 24 Jul 2022 22:21:50-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /login [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\auth.py", line 60, in login
+    if not login_err_count_verify(CUI):
+  File "D:\git-python\userservive\userservice\views\auth.py", line 30, in login_err_count_verify
+    if login_err_count > int(GlobalEnum.LOGIN_ERR_COUNT_LIMIT.value):
+TypeError: '>' not supported between instances of 'str' and 'int'
+Sun, 24 Jul 2022 22:21:52-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /login [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\auth.py", line 60, in login
+    if not login_err_count_verify(CUI):
+  File "D:\git-python\userservive\userservice\views\auth.py", line 30, in login_err_count_verify
+    if login_err_count > int(GlobalEnum.LOGIN_ERR_COUNT_LIMIT.value):
+TypeError: '>' not supported between instances of 'str' and 'int'
+Sun, 24 Jul 2022 22:21:53-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /login [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\auth.py", line 60, in login
+    if not login_err_count_verify(CUI):
+  File "D:\git-python\userservive\userservice\views\auth.py", line 30, in login_err_count_verify
+    if login_err_count > int(GlobalEnum.LOGIN_ERR_COUNT_LIMIT.value):
+TypeError: '>' not supported between instances of 'str' and 'int'
+Sun, 24 Jul 2022 22:22:53-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /login [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\auth.py", line 60, in login
+    if not login_err_count_verify(CUI):
+  File "D:\git-python\userservive\userservice\views\auth.py", line 30, in login_err_count_verify
+    if login_err_count > int(GlobalEnum.LOGIN_ERR_COUNT_LIMIT.value):
+TypeError: '>' not supported between instances of 'str' and 'int'
+Sun, 24 Jul 2022 23:03:14-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /verifycode [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1515, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1857, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "D:\git-python\userservive\userservice\views\logout.py", line 25, in token_virify
+    token = data.get('token')
+AttributeError: 'NoneType' object has no attribute 'get'
+Sun, 24 Jul 2022 23:03:57-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /verifycode [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1515, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1857, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "D:\git-python\userservive\userservice\views\logout.py", line 26, in token_virify
+    token = data.get('token')
+AttributeError: 'NoneType' object has no attribute 'get'
+Sun, 24 Jul 2022 23:04:16-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /verifycode [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1515, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1857, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "D:\git-python\userservive\userservice\views\logout.py", line 26, in token_virify
+    token = data.get('token')
+AttributeError: 'NoneType' object has no attribute 'get'
+Sun, 24 Jul 2022 23:04:56-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /verifycode [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1515, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1857, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "D:\git-python\userservive\userservice\views\logout.py", line 26, in token_virify
+    token = data.get('token')
+AttributeError: 'NoneType' object has no attribute 'get'
+Sun, 24 Jul 2022 23:05:05-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /verifycode [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1515, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1857, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "D:\git-python\userservive\userservice\views\logout.py", line 26, in token_virify
+    token = data.get('token')
+AttributeError: 'NoneType' object has no attribute 'get'
+Sun, 24 Jul 2022 23:11:37-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/verifycode [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1515, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1857, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "D:\git-python\userservive\userservice\views\logout.py", line 25, in token_virify
+    data = parser.parse_logout(request.data)
+AttributeError: type object 'parser' has no attribute 'parse_logout'
+Sun, 24 Jul 2022 23:12:09-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/verifycode [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1515, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1857, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "D:\git-python\userservive\userservice\views\logout.py", line 27, in token_virify
+    token = data.get('token')
+AttributeError: 'NoneType' object has no attribute 'get'
+Sun, 24 Jul 2022 23:16:42-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/verifycode [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1515, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1857, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "D:\git-python\userservive\userservice\views\logout.py", line 30, in token_virify
+    token = data.get('token')
+AttributeError: 'NoneType' object has no attribute 'get'
+Sun, 24 Jul 2022 23:20:54-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/verifycode [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1515, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1857, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "D:\git-python\userservive\userservice\views\logout.py", line 31, in token_virify
+    token = data.get('token')
+AttributeError: 'NoneType' object has no attribute 'get'
+Sun, 24 Jul 2022 23:22:51-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/verifycode [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1515, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1857, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "D:\git-python\userservive\userservice\views\logout.py", line 32, in token_virify
+    token = data.get('token')
+AttributeError: 'NoneType' object has no attribute 'get'
+Sun, 24 Jul 2022 23:23:36-root-logout.py-[line:28]-INFO-[日志信息]: /api/verifycode
+Sun, 24 Jul 2022 23:23:36-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/verifycode [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1520, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1539, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1730, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a int.
+Sun, 24 Jul 2022 23:26:18-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/login [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1515, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1857, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "D:\git-python\userservive\userservice\views\logout.py", line 30, in token_virify
+    token = data.get('token')
+AttributeError: 'NoneType' object has no attribute 'get'
+Sun, 24 Jul 2022 23:28:41-root-logout.py-[line:27]-INFO-[日志信息]: /api/verifycode
+Sun, 24 Jul 2022 23:28:41-root-logout.py-[line:27]-INFO-[日志信息]: /api/login
+Sun, 24 Jul 2022 23:28:41-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/login [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1515, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1857, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "D:\git-python\userservive\userservice\views\logout.py", line 29, in token_virify
+    data = parser.parse_comom(request.data)
+AttributeError: type object 'parser' has no attribute 'parse_comom'
+Sun, 24 Jul 2022 23:30:16-root-logout.py-[line:27]-INFO-[日志信息]: /api/verifycode
+Sun, 24 Jul 2022 23:30:16-root-logout.py-[line:38]-INFO-[日志信息]: reuquest api:/api/verifycode
+Sun, 24 Jul 2022 23:30:16-root-logout.py-[line:27]-INFO-[日志信息]: /api/login
+Sun, 24 Jul 2022 23:30:16-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/login [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1515, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1857, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "D:\git-python\userservive\userservice\views\logout.py", line 30, in token_virify
+    token = data.get('token')
+AttributeError: 'NoneType' object has no attribute 'get'
+Sun, 24 Jul 2022 23:30:44-root-logout.py-[line:27]-INFO-[日志信息]: /api/verifycode
+Sun, 24 Jul 2022 23:30:44-root-logout.py-[line:38]-INFO-[日志信息]: reuquest api:/api/verifycode
+Sun, 24 Jul 2022 23:30:44-root-logout.py-[line:27]-INFO-[日志信息]: /api/login
+Sun, 24 Jul 2022 23:30:44-root-logout.py-[line:38]-INFO-[日志信息]: reuquest api:/api/login
+Sun, 24 Jul 2022 23:31:17-root-logout.py-[line:27]-INFO-[日志信息]: /api/verifycode
+Sun, 24 Jul 2022 23:31:17-root-logout.py-[line:38]-INFO-[日志信息]: reuquest api:/api/verifycode
+Sun, 24 Jul 2022 23:31:17-root-logout.py-[line:27]-INFO-[日志信息]: /api/login
+Sun, 24 Jul 2022 23:31:17-root-logout.py-[line:38]-INFO-[日志信息]: reuquest api:/api/login
+Sun, 24 Jul 2022 23:31:40-root-logout.py-[line:27]-INFO-[日志信息]: /api/verifycode
+Sun, 24 Jul 2022 23:31:40-root-logout.py-[line:38]-INFO-[日志信息]: reuquest api:/api/verifycode
+Sun, 24 Jul 2022 23:31:40-root-logout.py-[line:27]-INFO-[日志信息]: /api/login
+Sun, 24 Jul 2022 23:31:40-root-logout.py-[line:38]-INFO-[日志信息]: reuquest api:/api/login
+Sun, 24 Jul 2022 23:31:41-root-logout.py-[line:27]-INFO-[日志信息]: /api/logout
+Sun, 24 Jul 2022 23:34:59-root-logout.py-[line:38]-INFO-[日志信息]: reuquest api:/api/login
+Sun, 24 Jul 2022 23:35:00-root-logout.py-[line:35]-INFO-[日志信息]: {'exp': 1659281699.998387, 'userid': '6ef9de83-c521-465b-9ea5-faa4f42b5fef'}
+Sun, 24 Jul 2022 23:35:39-root-logout.py-[line:38]-INFO-[日志信息]: reuquest api:/api/login
+Sun, 24 Jul 2022 23:35:39-root-logout.py-[line:35]-INFO-[日志信息]: {'exp': 1659281739.4550085, 'userid': '6ef9de83-c521-465b-9ea5-faa4f42b5fef'}
+Sun, 24 Jul 2022 23:37:25-root-logout.py-[line:38]-INFO-[日志信息]: reuquest api:/api/login
+Sun, 24 Jul 2022 23:37:26-root-logout.py-[line:35]-INFO-[日志信息]: {'exp': 1659281846.0220363, 'userid': '6ef9de83-c521-465b-9ea5-faa4f42b5fef'}
+Sun, 24 Jul 2022 23:44:41-root-logout.py-[line:27]-INFO-[日志信息]: /api/login
+Sun, 24 Jul 2022 23:44:41-root-logout.py-[line:39]-INFO-[日志信息]: reuquest api:/api/login
+Sun, 24 Jul 2022 23:44:41-root-logout.py-[line:27]-INFO-[日志信息]: /api/logout
+Sun, 24 Jul 2022 23:44:41-root-logout.py-[line:36]-INFO-[日志信息]: {'exp': 1659282281.5683298, 'userid': '6ef9de83-c521-465b-9ea5-faa4f42b5fef'}
+Sun, 24 Jul 2022 23:48:00-root-logout.py-[line:27]-INFO-[日志信息]: /api/login
+Sun, 24 Jul 2022 23:48:00-root-logout.py-[line:40]-INFO-[日志信息]: reuquest api:/api/login
+Sun, 24 Jul 2022 23:48:01-root-logout.py-[line:27]-INFO-[日志信息]: /api/logout
+Sun, 24 Jul 2022 23:48:01-root-logout.py-[line:36]-INFO-[日志信息]: {'exp': 1659282481.003795, 'userid': '6ef9de83-c521-465b-9ea5-faa4f42b5fef'}
+Sun, 24 Jul 2022 23:50:03-root-logout.py-[line:27]-INFO-[日志信息]: /api/login
+Sun, 24 Jul 2022 23:50:03-root-logout.py-[line:40]-INFO-[日志信息]: reuquest api:/api/login
+Sun, 24 Jul 2022 23:50:04-root-logout.py-[line:27]-INFO-[日志信息]: /api/logout
+Sun, 24 Jul 2022 23:50:04-root-logout.py-[line:36]-INFO-[日志信息]: {'exp': 1659282604.019766, 'userid': '6ef9de83-c521-465b-9ea5-faa4f42b5fef'}
+Sun, 24 Jul 2022 23:50:04-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/logout [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1515, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1857, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "D:\git-python\userservive\userservice\views\logout.py", line 38, in authenticate
+    return  redirect(url_for('user_logout'))
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\helpers.py", line 336, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\helpers.py", line 323, in url_for
+    rv = url_adapter.build(
+  File "D:\Programs\Python\Python310\lib\site-packages\werkzeug\routing.py", line 2305, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'user_logout'. Did you mean 'logout.logout' instead?
+Sun, 24 Jul 2022 23:50:50-root-logout.py-[line:27]-INFO-[日志信息]: /api/login
+Sun, 24 Jul 2022 23:50:50-root-logout.py-[line:40]-INFO-[日志信息]: reuquest api:/api/login
+Sun, 24 Jul 2022 23:50:50-root-logout.py-[line:27]-INFO-[日志信息]: /api/logout
+Sun, 24 Jul 2022 23:50:50-root-logout.py-[line:36]-INFO-[日志信息]: {'exp': 1659282650.7981346, 'userid': '6ef9de83-c521-465b-9ea5-faa4f42b5fef'}
+Sun, 24 Jul 2022 23:50:50-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/logout [GET]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1520, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1539, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1714, in make_response
+    rv = jsonify(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 302, in jsonify
+    f"{dumps(data, indent=indent, separators=separators)}\n",
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 132, in dumps
+    return _json.dumps(obj, **kwargs)
+  File "D:\Programs\Python\Python310\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 51, in default
+    return super().default(o)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ResMSG is not JSON serializable
+Sun, 24 Jul 2022 23:55:59-root-logout.py-[line:28]-INFO-[日志信息]: /api/logout
+Sun, 24 Jul 2022 23:55:59-root-logout.py-[line:37]-INFO-[日志信息]: {'exp': 1659282959.2749898, 'userid': '6ef9de83-c521-465b-9ea5-faa4f42b5fef'}
+Sun, 24 Jul 2022 23:55:59-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/logout [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1520, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1539, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1714, in make_response
+    rv = jsonify(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 302, in jsonify
+    f"{dumps(data, indent=indent, separators=separators)}\n",
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 132, in dumps
+    return _json.dumps(obj, **kwargs)
+  File "D:\Programs\Python\Python310\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 51, in default
+    return super().default(o)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ResMSG is not JSON serializable
+Sun, 24 Jul 2022 23:57:51-root-logout.py-[line:27]-INFO-[日志信息]: /api/logout
+Sun, 24 Jul 2022 23:57:51-root-logout.py-[line:36]-INFO-[日志信息]: {'exp': 1659283071.3420916, 'userid': '6ef9de83-c521-465b-9ea5-faa4f42b5fef'}
+Sun, 24 Jul 2022 23:58:27-root-logout.py-[line:27]-INFO-[日志信息]: /api/login
+Sun, 24 Jul 2022 23:58:27-root-logout.py-[line:39]-INFO-[日志信息]: reuquest api:/api/login
+Sun, 24 Jul 2022 23:58:27-root-logout.py-[line:27]-INFO-[日志信息]: /api/logout
+Sun, 24 Jul 2022 23:58:27-root-logout.py-[line:36]-INFO-[日志信息]: {'exp': 1659283107.3871536, 'userid': '6ef9de83-c521-465b-9ea5-faa4f42b5fef'}
