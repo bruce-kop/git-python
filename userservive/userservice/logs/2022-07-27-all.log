@@ -2146,3 +2146,57 @@ Wed, 27 Jul 2022 10:43:03-root-friends.py-[line:78]-INFO-[日志信息]: <class 
 Wed, 27 Jul 2022 10:43:03-root-friends.py-[line:78]-INFO-[日志信息]: <class 'str'>
 Wed, 27 Jul 2022 10:43:03-root-friends.py-[line:78]-INFO-[日志信息]: <class 'str'>
 Wed, 27 Jul 2022 10:43:03-root-friends.py-[line:122]-INFO-[日志信息]: {'code': 1500, 'msg': 'friend list success.', 'data': {'currentPage': 1, 'pageSize': 10, 'pageCount': 7, 'totalCount': 70, 'friends': [{'id': '005ebcc8-8105-4f33-abe9-ffb5a938229b', 'name': '0FWKcEPg', 'avatar': None}, {'id': '00a94fd7-550e-478f-b5b5-dc6801537ab3', 'name': 'A41zN57h', 'avatar': None}, {'id': '00b4cd05-8774-4512-b643-eddd519cac43', 'name': 'g1VmQL8l', 'avatar': None}, {'id': '00c211fa-f43f-401b-848e-db03c9af2485', 'name': 'Nt2lxqYd', 'avatar': None}, {'id': '00ffc2db-7c77-49e2-a71d-155362fd2db5', 'name': 'CyUqW0u7', 'avatar': None}, {'id': '0142ecea-222e-4116-bce9-893fe09e83a8', 'name': '4D9AKRmx', 'avatar': None}, {'id': '017ff76b-15ee-4dcf-9b1b-1a2124e25f8f', 'name': 'ZcByLE1x', 'avatar': None}, {'id': '01869816-82f2-4df3-b2e4-2426860d08d0', 'name': '0HPKQRk8', 'avatar': None}, {'id': '01a56fb0-f093-445e-98ec-59c301d9d0f1', 'name': 'fuhN4TKb', 'avatar': None}, {'id': '01b3067d-9ea9-4d01-9d92-250ce9f33caa', 'name': 'kEA9xZzD', 'avatar': None}]}}
+Wed, 27 Jul 2022 14:55:58-root-app.py-[line:39]-INFO-[日志信息]: /api/login
+Wed, 27 Jul 2022 14:55:58-root-app.py-[line:64]-INFO-[日志信息]: reuquest api:/api/login
+Wed, 27 Jul 2022 14:55:58-root-app.py-[line:38]-INFO-[日志信息]: /api/friend/list
+Wed, 27 Jul 2022 14:55:58-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MDk3NTguNTQwMjc4MiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.TvbGeBA4T4EzTzf1gIPlpEsY_dLuGznlTcHdmOwN7Qw
+Wed, 27 Jul 2022 14:55:58-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659509758.5402782, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 14:55:58-root-friends.py-[line:90]-INFO-[日志信息]: 1
+Wed, 27 Jul 2022 14:55:58-root-friends.py-[line:103]-INFO-[日志信息]: ['005ebcc8-8105-4f33-abe9-ffb5a938229b', '00a94fd7-550e-478f-b5b5-dc6801537ab3', '00b4cd05-8774-4512-b643-eddd519cac43', '00c211fa-f43f-401b-848e-db03c9af2485', '00ffc2db-7c77-49e2-a71d-155362fd2db5', '0142ecea-222e-4116-bce9-893fe09e83a8', '017ff76b-15ee-4dcf-9b1b-1a2124e25f8f', '01869816-82f2-4df3-b2e4-2426860d08d0', '01a56fb0-f093-445e-98ec-59c301d9d0f1', '01b3067d-9ea9-4d01-9d92-250ce9f33caa']
+Wed, 27 Jul 2022 14:55:58-root-friends.py-[line:119]-INFO-[日志信息]: {'code': 1500, 'msg': 'friend list success.', 'data': {'currentPage': 1, 'pageSize': 10, 'pageCount': 7, 'totalCount': 70, 'friends': [{'id': '005ebcc8-8105-4f33-abe9-ffb5a938229b', 'name': '0FWKcEPg', 'avatar': None}, {'id': '00a94fd7-550e-478f-b5b5-dc6801537ab3', 'name': 'A41zN57h', 'avatar': None}, {'id': '00b4cd05-8774-4512-b643-eddd519cac43', 'name': 'g1VmQL8l', 'avatar': None}, {'id': '00c211fa-f43f-401b-848e-db03c9af2485', 'name': 'Nt2lxqYd', 'avatar': None}, {'id': '00ffc2db-7c77-49e2-a71d-155362fd2db5', 'name': 'CyUqW0u7', 'avatar': None}, {'id': '0142ecea-222e-4116-bce9-893fe09e83a8', 'name': '4D9AKRmx', 'avatar': None}, {'id': '017ff76b-15ee-4dcf-9b1b-1a2124e25f8f', 'name': 'ZcByLE1x', 'avatar': None}, {'id': '01869816-82f2-4df3-b2e4-2426860d08d0', 'name': '0HPKQRk8', 'avatar': None}, {'id': '01a56fb0-f093-445e-98ec-59c301d9d0f1', 'name': 'fuhN4TKb', 'avatar': None}, {'id': '01b3067d-9ea9-4d01-9d92-250ce9f33caa', 'name': 'kEA9xZzD', 'avatar': None}]}}
+Wed, 27 Jul 2022 14:56:13-root-app.py-[line:39]-INFO-[日志信息]: /api/login
+Wed, 27 Jul 2022 14:56:13-root-app.py-[line:64]-INFO-[日志信息]: reuquest api:/api/login
+Wed, 27 Jul 2022 14:56:13-root-app.py-[line:38]-INFO-[日志信息]: /api/group/add
+Wed, 27 Jul 2022 14:56:13-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MDk3NzMuMjYyMDkyNCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.Nz8_MMdWC2t2-NrqpDUV--ik6kqY-NU_v3dXezLwSfM
+Wed, 27 Jul 2022 14:56:13-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659509773.2620924, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 14:56:33-root-app.py-[line:39]-INFO-[日志信息]: /api/login
+Wed, 27 Jul 2022 14:56:33-root-app.py-[line:64]-INFO-[日志信息]: reuquest api:/api/login
+Wed, 27 Jul 2022 14:56:33-root-app.py-[line:38]-INFO-[日志信息]: /api/group/add
+Wed, 27 Jul 2022 14:56:33-root-app.py-[line:43]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MDk3OTMuNjg1NzcyNywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.1ysODSNzraJ_UnXLnHbf02gV0KqxrvveQTg0_h2TOCk
+Wed, 27 Jul 2022 14:56:33-root-app.py-[line:54]-INFO-[日志信息]: {'exp': 1659509793.6857727, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 15:00:51-root-app.py-[line:39]-INFO-[日志信息]: /api/login
+Wed, 27 Jul 2022 15:00:51-root-app.py-[line:64]-INFO-[日志信息]: reuquest api:/api/login
+Wed, 27 Jul 2022 15:02:04-root-app.py-[line:39]-INFO-[日志信息]: /api/login
+Wed, 27 Jul 2022 15:02:04-root-app.py-[line:64]-INFO-[日志信息]: reuquest api:/api/login
+Wed, 27 Jul 2022 15:04:20-root-app.py-[line:39]-INFO-[日志信息]: /api/login
+Wed, 27 Jul 2022 15:04:20-root-app.py-[line:64]-INFO-[日志信息]: reuquest api:/api/login
+Wed, 27 Jul 2022 15:05:01-root-app.py-[line:39]-INFO-[日志信息]: /api/login
+Wed, 27 Jul 2022 15:05:01-root-app.py-[line:64]-INFO-[日志信息]: reuquest api:/api/login
+Wed, 27 Jul 2022 15:07:01-root-app.py-[line:39]-INFO-[日志信息]: /api/login
+Wed, 27 Jul 2022 15:07:01-root-app.py-[line:64]-INFO-[日志信息]: reuquest api:/api/login
+Wed, 27 Jul 2022 15:26:54-root-app.py-[line:39]-INFO-[日志信息]: /api/login
+Wed, 27 Jul 2022 15:26:54-root-app.py-[line:64]-INFO-[日志信息]: reuquest api:/api/login
+Wed, 27 Jul 2022 15:27:23-root-app.py-[line:39]-INFO-[日志信息]: /api/login
+Wed, 27 Jul 2022 15:27:23-root-app.py-[line:64]-INFO-[日志信息]: reuquest api:/api/login
+Wed, 27 Jul 2022 15:27:46-root-app.py-[line:39]-INFO-[日志信息]: /api/login
+Wed, 27 Jul 2022 15:27:46-root-app.py-[line:64]-INFO-[日志信息]: reuquest api:/api/login
+Wed, 27 Jul 2022 15:34:33-root-app.py-[line:39]-INFO-[日志信息]: /api/login
+Wed, 27 Jul 2022 15:34:33-root-app.py-[line:64]-INFO-[日志信息]: reuquest api:/api/login
+Wed, 27 Jul 2022 15:35:17-root-app.py-[line:39]-INFO-[日志信息]: /api/login
+Wed, 27 Jul 2022 15:35:17-root-app.py-[line:64]-INFO-[日志信息]: reuquest api:/api/login
+Wed, 27 Jul 2022 15:42:25-root-app.py-[line:39]-INFO-[日志信息]: /api/login
+Wed, 27 Jul 2022 15:42:25-root-app.py-[line:64]-INFO-[日志信息]: reuquest api:/api/login
+Wed, 27 Jul 2022 15:44:39-root-app.py-[line:39]-INFO-[日志信息]: /api/login
+Wed, 27 Jul 2022 15:44:39-root-app.py-[line:64]-INFO-[日志信息]: reuquest api:/api/login
+Wed, 27 Jul 2022 15:45:14-root-app.py-[line:39]-INFO-[日志信息]: /api/login
+Wed, 27 Jul 2022 15:45:14-root-app.py-[line:64]-INFO-[日志信息]: reuquest api:/api/login
+Wed, 27 Jul 2022 15:59:50-root-app.py-[line:39]-INFO-[日志信息]: /api/login
+Wed, 27 Jul 2022 15:59:50-root-app.py-[line:64]-INFO-[日志信息]: reuquest api:/api/login
+Wed, 27 Jul 2022 16:01:13-root-app.py-[line:39]-INFO-[日志信息]: /api/login
+Wed, 27 Jul 2022 16:01:13-root-app.py-[line:64]-INFO-[日志信息]: reuquest api:/api/login
+Wed, 27 Jul 2022 16:04:34-root-app.py-[line:39]-INFO-[日志信息]: /api/login
+Wed, 27 Jul 2022 16:04:34-root-app.py-[line:64]-INFO-[日志信息]: reuquest api:/api/login
+Wed, 27 Jul 2022 16:05:43-root-app.py-[line:39]-INFO-[日志信息]: /api/login
+Wed, 27 Jul 2022 16:05:43-root-app.py-[line:64]-INFO-[日志信息]: reuquest api:/api/login
+Wed, 27 Jul 2022 16:07:50-root-app.py-[line:39]-INFO-[日志信息]: /api/login
+Wed, 27 Jul 2022 16:07:50-root-app.py-[line:64]-INFO-[日志信息]: reuquest api:/api/login

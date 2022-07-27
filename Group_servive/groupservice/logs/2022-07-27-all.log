@@ -1,0 +1,97 @@
+Wed, 27 Jul 2022 15:00:14-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 15:00:32-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 15:00:52-root-app.py-[line:39]-INFO-[日志信息]: /api/group/add
+Wed, 27 Jul 2022 15:00:52-root-app.py-[line:44]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MTAwNTIuMDIzMjQ1LCJ1c2VyaWQiOiJiYTBiN2RmMC1hN2NhLTRhMzEtOTNkNi1lMGJjZWZjNDFkZGMifQ.MBFudNnEceQuSAQsc-xM0Lj3T8JvlieQ5kWLyD3vg98
+Wed, 27 Jul 2022 15:00:52-root-app.py-[line:51]-INFO-[日志信息]: {'exp': 1659510052.023245, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 15:02:03-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 15:02:04-root-app.py-[line:39]-INFO-[日志信息]: /api/group/add
+Wed, 27 Jul 2022 15:02:04-root-app.py-[line:44]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MTAxMjQuNjEzMDExLCJ1c2VyaWQiOiJiYTBiN2RmMC1hN2NhLTRhMzEtOTNkNi1lMGJjZWZjNDFkZGMifQ.WdJ9ZxXxyrqUB8GCMb7FQv_Ep990En7Zp2nI0ZdbaNE
+Wed, 27 Jul 2022 15:02:04-root-app.py-[line:51]-INFO-[日志信息]: {'exp': 1659510124.613011, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 15:02:04-root-groups.py-[line:50]-INFO-[日志信息]: [<GroupUser (transient 2013625913584)>, <GroupUser (transient 2013625913728)>, <GroupUser (transient 2013625913920)>, <GroupUser (transient 2013625914496)>, <GroupUser (transient 2013625914688)>, <GroupUser (transient 2013625914880)>, <GroupUser (transient 2013625915072)>, <GroupUser (transient 2013625915264)>, <GroupUser (transient 2013625915456)>, <GroupUser (transient 2013625915648)>, <GroupUser (transient 2013625915840)>, <GroupUser (transient 2013625916032)>, <GroupUser (transient 2013625916224)>, <GroupUser (transient 2013625916416)>, <GroupUser (transient 2013625916608)>, <GroupUser (transient 2013625916800)>, <GroupUser (transient 2013625916992)>, <GroupUser (transient 2013625917184)>, <GroupUser (transient 2013625917376)>, <GroupUser (transient 2013625917568)>, <GroupUser (transient 2013625917760)>, <GroupUser (transient 2013625917952)>, <GroupUser (transient 2013625918144)>, <GroupUser (transient 2013625918336)>, <GroupUser (transient 2013625918528)>, <GroupUser (transient 2013625918720)>, <GroupUser (transient 2013625918912)>, <GroupUser (transient 2013625919104)>, <GroupUser (transient 2013625919296)>, <GroupUser (transient 2013625919488)>, <GroupUser (transient 2013625919680)>, <GroupUser (transient 2013625919872)>, <GroupUser (transient 2013625920064)>, <GroupUser (transient 2013625920256)>, <GroupUser (transient 2013625920448)>, <GroupUser (transient 2013625920640)>, <GroupUser (transient 2013625920832)>, <GroupUser (transient 2013625921024)>, <GroupUser (transient 2013625921216)>, <GroupUser (transient 2013625921408)>, <GroupUser (transient 2013625921600)>, <GroupUser (transient 2013625921792)>, <GroupUser (transient 2013625921984)>, <GroupUser (transient 2013625922176)>, <GroupUser (transient 2013625922368)>, <GroupUser (transient 2013625922560)>, <GroupUser (transient 2013625922752)>, <GroupUser (transient 2013625922944)>, <GroupUser (transient 2013625923136)>, <GroupUser (transient 2013625923328)>, <GroupUser (transient 2013625923520)>, <GroupUser (transient 2013625923712)>, <GroupUser (transient 2013625923904)>, <GroupUser (transient 2013625924096)>, <GroupUser (transient 2013625924288)>, <GroupUser (transient 2013625924480)>, <GroupUser (transient 2013625924672)>, <GroupUser (transient 2013625924864)>, <GroupUser (transient 2013625925056)>, <GroupUser (transient 2013625925248)>, <GroupUser (transient 2013625925440)>, <GroupUser (transient 2013625925584)>, <GroupUser (transient 2013626204416)>, <GroupUser (transient 2013626204608)>, <GroupUser (transient 2013626204800)>, <GroupUser (transient 2013626204992)>, <GroupUser (transient 2013626205184)>, <GroupUser (transient 2013626205376)>, <GroupUser (transient 2013626205568)>, <GroupUser (transient 2013626205760)>, <GroupUser (transient 2013626205952)>]
+Wed, 27 Jul 2022 15:04:21-root-app.py-[line:39]-INFO-[日志信息]: /api/group/add
+Wed, 27 Jul 2022 15:04:21-root-app.py-[line:44]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MTAyNjEuMDQzMTMzNywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.1gGAvLQhS78Qjgk5riEx2Agb2dg9saN2HKcG-jjYIg8
+Wed, 27 Jul 2022 15:04:21-root-app.py-[line:51]-INFO-[日志信息]: {'exp': 1659510261.0431337, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 15:04:21-root-groups.py-[line:50]-INFO-[日志信息]: [<GroupUser (transient 2013625925536)>, <GroupUser (transient 2013625913104)>, <GroupUser (transient 2013625914736)>, <GroupUser (transient 2013625914880)>, <GroupUser (transient 2013625915024)>, <GroupUser (transient 2013625915504)>, <GroupUser (transient 2013625915648)>, <GroupUser (transient 2013625915792)>, <GroupUser (transient 2013625916272)>, <GroupUser (transient 2013625916416)>, <GroupUser (transient 2013625916560)>, <GroupUser (transient 2013625917040)>, <GroupUser (transient 2013625917184)>, <GroupUser (transient 2013625917328)>, <GroupUser (transient 2013625917808)>, <GroupUser (transient 2013625917952)>, <GroupUser (transient 2013625918096)>, <GroupUser (transient 2013625918576)>, <GroupUser (transient 2013625918720)>, <GroupUser (transient 2013625918864)>, <GroupUser (transient 2013625919344)>, <GroupUser (transient 2013625919488)>, <GroupUser (transient 2013625919632)>, <GroupUser (transient 2013625920112)>, <GroupUser (transient 2013625920256)>, <GroupUser (transient 2013625920400)>, <GroupUser (transient 2013625920880)>, <GroupUser (transient 2013625921024)>, <GroupUser (transient 2013625921168)>, <GroupUser (transient 2013625921648)>, <GroupUser (transient 2013625921792)>, <GroupUser (transient 2013625921936)>, <GroupUser (transient 2013625922416)>, <GroupUser (transient 2013625922560)>, <GroupUser (transient 2013625922704)>, <GroupUser (transient 2013625923184)>, <GroupUser (transient 2013625923328)>, <GroupUser (transient 2013625923472)>, <GroupUser (transient 2013625923952)>, <GroupUser (transient 2013625924096)>, <GroupUser (transient 2013625924240)>, <GroupUser (transient 2013625924720)>, <GroupUser (transient 2013625924864)>, <GroupUser (transient 2013625925008)>, <GroupUser (transient 2013625925488)>, <GroupUser (transient 2013625913248)>, <GroupUser (transient 2013625913296)>, <GroupUser (transient 2013625925344)>, <GroupUser (transient 2013625916896)>, <GroupUser (transient 2013625920736)>, <GroupUser (transient 2013625924576)>, <GroupUser (transient 2013625916128)>, <GroupUser (transient 2013625919968)>, <GroupUser (transient 2013625923808)>, <GroupUser (transient 2013625915360)>, <GroupUser (transient 2013625919200)>, <GroupUser (transient 2013625923040)>, <GroupUser (transient 2013625914592)>, <GroupUser (transient 2013625922464)>, <GroupUser (transient 2013625922272)>, <GroupUser (transient 2013625917856)>, <GroupUser (transient 2013626206240)>, <GroupUser (transient 2013626204272)>, <GroupUser (transient 2013626204368)>, <GroupUser (transient 2013626204848)>, <GroupUser (transient 2013626204992)>, <GroupUser (transient 2013626205136)>, <GroupUser (transient 2013626205616)>, <GroupUser (transient 2013626205760)>, <GroupUser (transient 2013626206624)>, <GroupUser (transient 2013626206336)>]
+Wed, 27 Jul 2022 15:04:45-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 15:05:01-root-app.py-[line:39]-INFO-[日志信息]: /api/group/add
+Wed, 27 Jul 2022 15:05:01-root-app.py-[line:44]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MTAzMDEuNjAzMTkxLCJ1c2VyaWQiOiJiYTBiN2RmMC1hN2NhLTRhMzEtOTNkNi1lMGJjZWZjNDFkZGMifQ.NB4igK34JYWMzEB27amq5HVRLpHupJihKstP7ymXhgE
+Wed, 27 Jul 2022 15:05:01-root-app.py-[line:51]-INFO-[日志信息]: {'exp': 1659510301.603191, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 15:05:01-root-groups.py-[line:55]-ERROR-[日志信息]: (pymysql.err.OperationalError) (1054, "Unknown column 'phone' in 'field list'")
+[SQL: INSERT INTO `group` (id, name, avatar, phone, pwd, created_at, updated_at) VALUES (%(id)s, %(name)s, %(avatar)s, %(phone)s, %(pwd)s, %(created_at)s, %(updated_at)s)]
+[parameters: {'id': UUID('471857e5-0816-442d-8281-56bd92557d4b'), 'name': 'RTC业务部', 'avatar': None, 'phone': None, 'pwd': None, 'created_at': datetime.datetime(2022, 7, 27, 15, 5, 1, 622811), 'updated_at': None}]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+Wed, 27 Jul 2022 15:06:59-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 15:07:02-root-app.py-[line:39]-INFO-[日志信息]: /api/group/add
+Wed, 27 Jul 2022 15:07:02-root-app.py-[line:44]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MTA0MjEuOTk1NTI3LCJ1c2VyaWQiOiJiYTBiN2RmMC1hN2NhLTRhMzEtOTNkNi1lMGJjZWZjNDFkZGMifQ.rU2BoLHsRvrz0nUShZag7kcdugcx6ka_rJ-RVFC8Edw
+Wed, 27 Jul 2022 15:07:02-root-app.py-[line:51]-INFO-[日志信息]: {'exp': 1659510421.995527, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 15:26:51-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 15:27:46-root-app.py-[line:39]-INFO-[日志信息]: /api/group/del
+Wed, 27 Jul 2022 15:27:46-root-app.py-[line:44]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MTE2NjYuNzQzNjUxOSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.ZVdXBZ1te9IxavqYlmPtoCXJHpToNpSp_u2mNB3RuKA
+Wed, 27 Jul 2022 15:27:46-root-app.py-[line:51]-INFO-[日志信息]: {'exp': 1659511666.7436519, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 15:33:21-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 15:34:33-root-app.py-[line:39]-INFO-[日志信息]: /api/group/add
+Wed, 27 Jul 2022 15:34:33-root-app.py-[line:44]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MTIwNzMuNjY2MTE0OCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.qAvp6QBp-HjAyWzKj3E7z3uVgPSVtsbFLNs1Bxnizxo
+Wed, 27 Jul 2022 15:34:33-root-app.py-[line:51]-INFO-[日志信息]: {'exp': 1659512073.6661148, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 15:35:18-root-app.py-[line:39]-INFO-[日志信息]: /api/group/del_member
+Wed, 27 Jul 2022 15:35:18-root-app.py-[line:44]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MTIxMTguMDQ2NTg0NCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.1PYxUK_zR7ppmp_Fneqw-_C1qGqyIktHqToEn3HGZ7M
+Wed, 27 Jul 2022 15:35:18-root-app.py-[line:51]-INFO-[日志信息]: {'exp': 1659512118.0465844, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 15:42:17-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 15:42:25-root-app.py-[line:39]-INFO-[日志信息]: /api/group/add_member
+Wed, 27 Jul 2022 15:42:25-root-app.py-[line:44]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MTI1NDUuMjM1MDk3MiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.c_ZFWO9FaPR5wDf-aCw91BsjItxCOEQL0Stjxpr6mGs
+Wed, 27 Jul 2022 15:42:25-root-app.py-[line:51]-INFO-[日志信息]: {'exp': 1659512545.2350972, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 15:42:25-root-groups.py-[line:138]-ERROR-[日志信息]: Class 'builtins.list' is not mapped
+Wed, 27 Jul 2022 15:44:32-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 15:44:39-root-app.py-[line:39]-INFO-[日志信息]: /api/group/add_member
+Wed, 27 Jul 2022 15:44:39-root-app.py-[line:44]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MTI2NzkuMjA5Nzg3OCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.bN9pRmAtPu5w7Tp8D9Q8E3KwkjmRklNc9hzSn84q9j4
+Wed, 27 Jul 2022 15:44:39-root-app.py-[line:51]-INFO-[日志信息]: {'exp': 1659512679.2097878, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 15:44:39-root-groups.py-[line:138]-ERROR-[日志信息]: Class 'builtins.list' is not mapped
+Wed, 27 Jul 2022 15:45:12-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 15:45:14-root-app.py-[line:39]-INFO-[日志信息]: /api/group/add_member
+Wed, 27 Jul 2022 15:45:14-root-app.py-[line:44]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MTI3MTQuNDg0OTk4NSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.E7fVB666u0ufxNOk4nKK4A5eqLroth3ScTIFNoq6qEw
+Wed, 27 Jul 2022 15:45:14-root-app.py-[line:51]-INFO-[日志信息]: {'exp': 1659512714.4849985, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 15:59:47-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 15:59:50-root-app.py-[line:39]-INFO-[日志信息]: /api/group/set_name
+Wed, 27 Jul 2022 15:59:50-root-app.py-[line:44]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MTM1OTAuMzQwODY5NCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.ZDk7ewABBUZ2XETubAappMa7LyNreDNA-yeKDiC7xU4
+Wed, 27 Jul 2022 15:59:50-root-app.py-[line:51]-INFO-[日志信息]: {'exp': 1659513590.3408694, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 15:59:50-root-app.py-[line:39]-INFO-[日志信息]: /api/group/set_note
+Wed, 27 Jul 2022 15:59:50-root-app.py-[line:44]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MTM1OTAuMzQwODY5NCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.ZDk7ewABBUZ2XETubAappMa7LyNreDNA-yeKDiC7xU4
+Wed, 27 Jul 2022 15:59:50-root-app.py-[line:51]-INFO-[日志信息]: {'exp': 1659513590.3408694, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 15:59:50-root-app.py-[line:39]-INFO-[日志信息]: /api/group/set_notice
+Wed, 27 Jul 2022 15:59:50-root-app.py-[line:44]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MTM1OTAuMzQwODY5NCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.ZDk7ewABBUZ2XETubAappMa7LyNreDNA-yeKDiC7xU4
+Wed, 27 Jul 2022 15:59:50-root-app.py-[line:51]-INFO-[日志信息]: {'exp': 1659513590.3408694, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 16:01:11-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 16:01:14-root-app.py-[line:39]-INFO-[日志信息]: /api/group/set_name
+Wed, 27 Jul 2022 16:01:14-root-app.py-[line:44]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MTM2NzMuOTgzNzE5MywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.SavQclTdJmgsaCOG0-g0EyrH0h-bUhdrVfOg7K3tG1g
+Wed, 27 Jul 2022 16:01:14-root-app.py-[line:51]-INFO-[日志信息]: {'exp': 1659513673.9837193, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 16:01:14-root-groups.py-[line:155]-INFO-[日志信息]: {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MTM2NzMuOTgzNzE5MywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.SavQclTdJmgsaCOG0-g0EyrH0h-bUhdrVfOg7K3tG1g', 'groupid': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'name': 'RTC研发'}
+Wed, 27 Jul 2022 16:01:14-root-groups.py-[line:156]-INFO-[日志信息]: RTC研发
+Wed, 27 Jul 2022 16:01:14-root-app.py-[line:39]-INFO-[日志信息]: /api/group/set_note
+Wed, 27 Jul 2022 16:01:14-root-app.py-[line:44]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MTM2NzMuOTgzNzE5MywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.SavQclTdJmgsaCOG0-g0EyrH0h-bUhdrVfOg7K3tG1g
+Wed, 27 Jul 2022 16:01:14-root-app.py-[line:51]-INFO-[日志信息]: {'exp': 1659513673.9837193, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 16:01:14-root-app.py-[line:39]-INFO-[日志信息]: /api/group/set_notice
+Wed, 27 Jul 2022 16:01:14-root-app.py-[line:44]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MTM2NzMuOTgzNzE5MywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.SavQclTdJmgsaCOG0-g0EyrH0h-bUhdrVfOg7K3tG1g
+Wed, 27 Jul 2022 16:01:14-root-app.py-[line:51]-INFO-[日志信息]: {'exp': 1659513673.9837193, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 16:05:41-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 16:05:43-root-app.py-[line:39]-INFO-[日志信息]: /api/group/set_name
+Wed, 27 Jul 2022 16:05:43-root-app.py-[line:44]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MTM5NDMuMjE1NDI1MywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.Wm23rrDNiLOmTVqcRxutM85JbgOZipBMgaXjBm1CHZY
+Wed, 27 Jul 2022 16:05:43-root-app.py-[line:51]-INFO-[日志信息]: {'exp': 1659513943.2154253, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 16:05:43-root-groups.py-[line:155]-INFO-[日志信息]: {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MTM5NDMuMjE1NDI1MywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.Wm23rrDNiLOmTVqcRxutM85JbgOZipBMgaXjBm1CHZY', 'groupid': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'name': 'RTC研发'}
+Wed, 27 Jul 2022 16:05:43-root-groups.py-[line:156]-INFO-[日志信息]: RTC研发
+Wed, 27 Jul 2022 16:05:43-root-app.py-[line:39]-INFO-[日志信息]: /api/group/set_note
+Wed, 27 Jul 2022 16:05:43-root-app.py-[line:44]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MTM5NDMuMjE1NDI1MywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.Wm23rrDNiLOmTVqcRxutM85JbgOZipBMgaXjBm1CHZY
+Wed, 27 Jul 2022 16:05:43-root-app.py-[line:51]-INFO-[日志信息]: {'exp': 1659513943.2154253, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 16:05:43-root-app.py-[line:39]-INFO-[日志信息]: /api/group/set_notice
+Wed, 27 Jul 2022 16:05:43-root-app.py-[line:44]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MTM5NDMuMjE1NDI1MywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.Wm23rrDNiLOmTVqcRxutM85JbgOZipBMgaXjBm1CHZY
+Wed, 27 Jul 2022 16:05:43-root-app.py-[line:51]-INFO-[日志信息]: {'exp': 1659513943.2154253, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 16:07:48-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 16:07:50-root-app.py-[line:39]-INFO-[日志信息]: /api/group/set_name
+Wed, 27 Jul 2022 16:07:50-root-app.py-[line:44]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MTQwNzAuMzY5OTQ0NiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.hvD5RZEwTJsE7mjjFlD8HnBMfr0R07OrvkCHtgaaY38
+Wed, 27 Jul 2022 16:07:50-root-app.py-[line:51]-INFO-[日志信息]: {'exp': 1659514070.3699446, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 16:07:50-root-groups.py-[line:155]-INFO-[日志信息]: {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MTQwNzAuMzY5OTQ0NiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.hvD5RZEwTJsE7mjjFlD8HnBMfr0R07OrvkCHtgaaY38', 'groupid': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'name': 'RTC研发'}
+Wed, 27 Jul 2022 16:07:50-root-groups.py-[line:156]-INFO-[日志信息]: RTC研发
+Wed, 27 Jul 2022 16:07:50-root-app.py-[line:39]-INFO-[日志信息]: /api/group/set_note
+Wed, 27 Jul 2022 16:07:50-root-app.py-[line:44]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MTQwNzAuMzY5OTQ0NiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.hvD5RZEwTJsE7mjjFlD8HnBMfr0R07OrvkCHtgaaY38
+Wed, 27 Jul 2022 16:07:50-root-app.py-[line:51]-INFO-[日志信息]: {'exp': 1659514070.3699446, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 16:07:50-root-app.py-[line:39]-INFO-[日志信息]: /api/group/set_notice
+Wed, 27 Jul 2022 16:07:50-root-app.py-[line:44]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MTQwNzAuMzY5OTQ0NiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.hvD5RZEwTJsE7mjjFlD8HnBMfr0R07OrvkCHtgaaY38
+Wed, 27 Jul 2022 16:07:50-root-app.py-[line:51]-INFO-[日志信息]: {'exp': 1659514070.3699446, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}

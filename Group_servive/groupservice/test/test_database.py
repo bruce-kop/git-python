@@ -3,14 +3,7 @@ from groupservice.models import database
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):
-
-        user = database.User()
-        user.set_password('Hik123456')
-        print(user.pwd)
-        user.set_password('Hik123456')
-        res = user.authenticate('Hik123456')
-        print(user.pwd)
-        self.assertEqual(res, True)
+        self.assertEqual(False, True)
 
 
 if __name__ == '__main__':

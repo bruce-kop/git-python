@@ -1,7 +1,7 @@
 import os
 from flask import Flask, Blueprint,request,g
 from gevent import pywsgi
-from groupservice.models.database import db, User
+from groupservice.models.database import db,User
 from groupservice.views import blueprints
 from groupservice.utils.Logger import logger
 from groupservice.utils.requestParse import parser
@@ -20,6 +20,7 @@ def create_app():
     for bp in blueprints:
         app.register_blueprint(bp)
         bp.app = app
+        logger.info(bp)
 
     db.init_app(app)
     #login_manager.init_app(app)
@@ -57,6 +58,6 @@ def authenticate():
 
 if __name__ == '__main__':
 
-    server = pywsgi.WSGIServer(('127.0.0.1', 5000), app)
+    server = pywsgi.WSGIServer(('127.0.0.1', 5002), app)
     server.serve_forever()
     #app.run()#开发环境运行

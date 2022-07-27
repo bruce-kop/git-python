@@ -1,0 +1,6 @@
+Wed, 27 Jul 2022 15:05:01-root-groups.py-[line:55]-ERROR-[日志信息]: (pymysql.err.OperationalError) (1054, "Unknown column 'phone' in 'field list'")
+[SQL: INSERT INTO `group` (id, name, avatar, phone, pwd, created_at, updated_at) VALUES (%(id)s, %(name)s, %(avatar)s, %(phone)s, %(pwd)s, %(created_at)s, %(updated_at)s)]
+[parameters: {'id': UUID('471857e5-0816-442d-8281-56bd92557d4b'), 'name': 'RTC业务部', 'avatar': None, 'phone': None, 'pwd': None, 'created_at': datetime.datetime(2022, 7, 27, 15, 5, 1, 622811), 'updated_at': None}]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+Wed, 27 Jul 2022 15:42:25-root-groups.py-[line:138]-ERROR-[日志信息]: Class 'builtins.list' is not mapped
+Wed, 27 Jul 2022 15:44:39-root-groups.py-[line:138]-ERROR-[日志信息]: Class 'builtins.list' is not mapped

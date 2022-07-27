@@ -43,6 +43,41 @@ class ResCode(Enum):
     PHONE_MODIFY_SUCCESS = 1000
     PHONE_MODIFY_FAILED = 1001
 
+    FRIEND_ADD_SUCCESS = 1100
+    FRIEND_ADD_FRIENDID_INVALID = 1101
+
+    FRIEND_DEL_SUCCESS = 1200
+    FRIEND_DEL_FRIENDID_INVALID = 1201
+
+    FRIEND_SET_SUCCESS = 1300
+    FRIEND_SET_PARAM_INVALID = 1301
+
+    FRIEND_SET_NOTE_SUCCESS = 1400
+    FRIEND_SET_NOTE_PARAM_INVALID =1401
+
+    FRIEND_LIST_PARAM_INVALID = 1501
+    FRIEND_LIST_SUCCESS = 1500
+
+    FRIEND_SET_LABEL_SUCCESS = 1600
+    FRIEND_SET_LABEL_PARAM_INVALID = 1601
+
+    GROUP_ADD_SUCCESS = 1700
+    GROUP_ADD_FRIENDS_INVALID = 1701
+    GROUP_DEL_SUCCESS = 1800
+    GROUP_DEL_GROUPID_INVALID =1801
+    GROUP_MEMBERS_DEL_SUCCESS = 1900
+    GROUP_MEMBER_DEL_GROUPID_INVALID = 1901
+    GROUP_MEMBERS_ADD_SUCCESS = 2000
+    GROUP_MEMBER_ADD_GROUPID_INVALID = 2001
+
+    GROUP_SET_NAME_PARAMS_INVALID = 2101
+    GROUP_SET_NAME_SUCCESS = 2100
+
+    GROUP_SET_NOTICE_PARAMS_INVALID = 2201
+    GROUP_SET_NOTICE_SUCCESS = 2200
+    GROUP_SET_NOTE_PARAMS_INVALID = 2301
+    GROUP_SET_NOTE_SUCCESS = 2300
+
 @unique
 class ResMSG(Enum):
     COMMON_SUCCESS = 'request success.'
@@ -79,3 +114,37 @@ class ResMSG(Enum):
 
     PHONE_MODIFY_SUCCESS = 'phone is modified.'
     PHONE_MODIFY_FAILED = 'phone modify failure.'
+
+    FRIEND_ADD_SUCCESS = 'friend add success.'
+    FRIEND_ADD_FRIENDID_INVALID = 'ADD friend id is invalid.'
+
+    FRIEND_DEL_SUCCESS = 'friend delete success.'
+    FRIEND_DEL_FRIENDID_INVALID = 'DEL friend id is invalid.'
+
+    FRIEND_SET_SUCCESS = 'friend set permission success.'
+    FRIEND_SET_PARAM_INVALID = 'friend id or permission is invalid.'
+
+    FRIEND_SET_NOTE_SUCCESS = 'friend set note success.'
+    FRIEND_SET_NOTE_PARAM_INVALID = 'friend id or note is invalid.'
+
+    FRIEND_LIST_PARAM_INVALID = 'friend pageSize and currentPage is invalid.'
+    FRIEND_LIST_SUCCESS = 'friend list success.'
+
+    FRIEND_SET_LABEL_SUCCESS = 'friend set label success.'
+    FRIEND_SET_LABEL_PARAM_INVALID = 'friend id or label is invalid.'
+
+    GROUP_ADD_SUCCESS = 'group add success.'
+    GROUP_ADD_FRIENDS_INVALID = 'group add  friends field is invalid.'
+    GROUP_DEL_SUCCESS = 'group del success.'
+    GROUP_DEL_GROUPID_INVALID = 'group del  groupid field is invalid.'
+    GROUP_MEMBERS_DEL_SUCCESS = 'group member del success.'
+    GROUP_MEMBER_DEL_GROUPID_INVALID = 'group member  del members field is invalid.'
+    GROUP_MEMBERS_ADD_SUCCESS = 'group member add success.'
+    GROUP_MEMBER_ADD_GROUPID_INVALID = 'group member  add members field is invalid.'
+
+    GROUP_SET_NAME_PARAMS_INVALID = 'group set name param is invalid.'
+    GROUP_SET_NAME_SUCCESS = 'group name set success.'
+    GROUP_SET_NOTICE_PARAMS_INVALID = 'group set notice param is invalid.'
+    GROUP_SET_NOTICE_SUCCESS = 'group notice set success.'
+    GROUP_SET_NOTE_PARAMS_INVALID = 'group set note field is invalid.'
+    GROUP_SET_NOTE_SUCCESS = 'group note set success.'
