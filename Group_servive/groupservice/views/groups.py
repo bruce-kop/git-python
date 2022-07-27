@@ -213,3 +213,27 @@ def set_group_note():
                                                       ResMSG.GROUP_SET_NOTE_SUCCESS.value))
     return jsonify(responseBuilder.build_response(ResCode.PARAMS_IS_EMPTY.value,
                                                   ResMSG.PARAMS_IS_EMPTY.value))
+
+@group_svr.route('/api/group/get_groups', methods=['POST'])
+def get_groups():
+    pass
+
+@group_svr.route('/api/group/save_to_addr', methods=['POST'])
+def save_to_addr():
+    pass
+
+@group_svr.route('/api/group/QR_code', methods=['POST'])
+def get_QR_code():
+    pass
+
+@group_svr.route('/api/group/set_member_role', methods=['POST'])
+def set_member_role():
+    pass
+
+@group_svr.route('/api/group/member_list', methods=['POST'])
+def member_list():
+    pass
+
+@group_svr.route('/api/group/member_info', methods=['POST'])
+def member_list():
+    pass

@@ -287,6 +287,66 @@ def set_group_note(token, groupid,note):
 
     print(res.text)
 
+def group_list(token, groupid,note):
+    hd = get_base_head()
+    p = {'token': token}
+    p = json.dumps(p)
+    url = 'http://127.0.0.1:5002/api/group/get_groups'
+    print(p)
+    res = requests.post(url, headers=hd, json=p)
+
+    print(res.text)
+
+def save_to_addr(token, groupid):
+    hd = get_base_head()
+    p = {'token': token,'groupid':groupid}
+    p = json.dumps(p)
+    url = 'http://127.0.0.1:5002/api/group/save_to_addr'
+    print(p)
+    res = requests.post(url, headers=hd, json=p)
+
+    print(res.text)
+
+def QR_code(token, groupid):
+    hd = get_base_head()
+    p = {'token': token,'groupid':groupid}
+    p = json.dumps(p)
+    url = 'http://127.0.0.1:5002/api/group/QR_code'
+    print(p)
+    res = requests.post(url, headers=hd, json=p)
+
+    print(res.text)
+
+def set_member_role(token,groupid,members):
+    hd = get_base_head()
+    p = {'token': token,'groupid':groupid,"members":members}
+    p = json.dumps(p)
+    url = 'http://127.0.0.1:5002/api/group/set_member_role'
+    print(p)
+    res = requests.post(url, headers=hd, json=p)
+
+    print(res.text)
+
+def member_list(token,groupid):
+    hd = get_base_head()
+    p = {'token': token,'groupid':groupid}
+    p = json.dumps(p)
+    url = 'http://127.0.0.1:5002/api/group/member_list'
+    print(p)
+    res = requests.post(url, headers=hd, json=p)
+
+    print(res.text)
+
+def member_info(token,groupid,memberid):
+    hd = get_base_head()
+    p = {'token': token,'groupid':groupid, 'memberid':memberid}
+    p = json.dumps(p)
+    url = 'http://127.0.0.1:5002/api/group/member_list'
+    print(p)
+    res = requests.post(url, headers=hd, json=p)
+
+    print(res.text)
+
 if __name__ == '__main__':
 
     #register_users()
