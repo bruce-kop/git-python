@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../file_storage_servive/.idea/file_storage_servive.iml" filepath="$PROJECT_DIR$/../file_storage_servive/.idea/file_storage_servive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../friend_servive/.idea/friend_servive.iml" filepath="$PROJECT_DIR$/../friend_servive/.idea/friend_servive.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/groupservive.iml" filepath="$PROJECT_DIR$/.idea/groupservive.iml" />
     </modules>
   </component>

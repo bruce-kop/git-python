@@ -1,17 +1,15 @@
 #encoding = utf8
 from flask import Blueprint, request,jsonify,g
-from ..utils.requestParse import parser
-from ..utils.responseBuild import responseBuilder
-from ..utils.RedisOperator import redis
-from ..utils.Logger import logger
+from groupservice.utils.requestParse import parser
+from groupservice.utils.responseBuild import responseBuilder
+from groupservice.utils.Logger import logger
 from sqlalchemy import and_
-from ..utils.res_msg_enum import ResMSG, ResCode
+from groupservice.utils.res_msg_enum import ResMSG, ResCode
 import uuid
-from ..models.database import db, Group,GroupAddrBook,GroupAu,GroupRole,GroupRoleAu,GroupUser
-from ..utils.tokenProc import Jwt,TOKEN_PRODUCE_KEY
-from ..utils.global_enum import GlobalEnum
-from sqlalchemy import func
+from groupservice.models.database import db, Group,GroupAddrBook,GroupAu,GroupRole,GroupRoleAu,GroupUser
 import datetime
+from sqlalchemy.orm import relationship
+from groupservice.utils.datac_onversion import query_res_to_dict
 
 group_svr = Blueprint('group_svr', __name__)
 
@@ -98,7 +96,7 @@ def del_members():
 
         member_list = [member['memberid'] for member in members]
         try:
-            db.session.query(GroupUser).filter(and_(groupid == groupid, GroupUser.user_id.in_(member_list))).delete()
+            db.session.query(GroupUser).filter(and_(GroupUser.group_id == groupid, GroupUser.user_id.in_(member_list))).delete()
             db.session.commit()
         except Exception as e:
             logger.error(e)
@@ -216,11 +214,60 @@ def set_group_note():
 
 @group_svr.route('/api/group/get_groups', methods=['POST'])
 def get_groups():
-    pass
+    if not g.userid:
+        return jsonify(responseBuilder.build_response(ResCode.TOKEN_INVALID.value, ResMSG.TOKEN_INVALID.value))
+    if request.data:
+        data = parser.parse_to_dict(request.data)
+
+        try:
+            q = db.session.query(Group.id,Group.name,Group.avatar).filter(Group.id == GroupUser.group_id).filter(GroupUser.user_id == g.userid)
+            db.session.commit()
+        except Exception as e:
+            logger.error(e)
+            return jsonify(responseBuilder.build_response(ResCode.INNER_ERR.value,
+                                                          ResMSG.INNER_ERR.value))
+
+        groups = query_res_to_dict(q)
+        count = len(groups)
+
+        return jsonify(responseBuilder.build_response(ResCode.GROUP_SET_NAME_SUCCESS.value,
+                                                      ResMSG.GROUP_SET_NAME_SUCCESS.value,count = count,groups = groups))
+    return jsonify(responseBuilder.build_response(ResCode.PARAMS_IS_EMPTY.value,
+                                                  ResMSG.PARAMS_IS_EMPTY.value))
 
 @group_svr.route('/api/group/save_to_addr', methods=['POST'])
 def save_to_addr():
-    pass
+    if not g.userid:
+        return jsonify(responseBuilder.build_response(ResCode.TOKEN_INVALID.value, ResMSG.TOKEN_INVALID.value))
+    if request.data:
+        data = parser.parse_to_dict(request.data)
+        try:
+            groupid =data.get('groupid')
+        except Exception as e:
+            logger.debug(e)
+
+        try:
+            q = db.session.query(Group.id).filter(Group.id == groupid)
+            logger.info(q.first())
+            if q:
+                grou_addr_book =GroupAddrBook()
+                grou_addr_book.id = uuid.uuid4()
+                grou_addr_book.group_id = groupid
+                grou_addr_book.user_id = g.userid
+                db.session.add(grou_addr_book)
+                db.session.commit()
+            else:
+                return jsonify(responseBuilder.build_response(ResCode.GROUP_PARAM_IS_INVALID,
+                                                              ResMSG.GROUP_PARAM_IS_INVALID.value))
+        except Exception as e:
+            logger.error(e)
+            return jsonify(responseBuilder.build_response(ResCode.INNER_ERR.value,
+                                                          ResMSG.INNER_ERR.value))
+
+        return jsonify(responseBuilder.build_response(ResCode.GROUP_SAVE_TO_ADDR_SUCCESS.value,
+                                                      ResMSG.GROUP_SAVE_TO_ADDR_SUCCESS.value))
+    return jsonify(responseBuilder.build_response(ResCode.PARAMS_IS_EMPTY.value,
+                                                  ResMSG.PARAMS_IS_EMPTY.value))
 
 @group_svr.route('/api/group/QR_code', methods=['POST'])
 def get_QR_code():
@@ -228,12 +275,43 @@ def get_QR_code():
 
 @group_svr.route('/api/group/set_member_role', methods=['POST'])
 def set_member_role():
-    pass
+    if not g.userid:
+        return jsonify(responseBuilder.build_response(ResCode.TOKEN_INVALID.value, ResMSG.TOKEN_INVALID.value))
+    if request.data:
+        data = parser.parse_to_dict(request.data)
+        try:
+            groupid= data.get('groupid')
+            members = data.get('members')
+        except  Exception as e:
+            logger.error(e)
+            return jsonify(responseBuilder.build_response(ResCode.GROUP_MEMBER_ROLE_SET_PARAM_INVALID.value,
+                                                          ResMSG.GROUP_MEMBER_ROLE_SET_PARAM_INVALID.value))
+        try:
+            group_user = GroupUser()
+            role_id = data.get('role_id')
+            member_list = [member['memberid'] for member in members]
+            logger.info(member_list)
+            logger.info(role_id)
+            q = db.session.query(GroupUser).filter(and_(GroupUser.group_id == groupid, GroupUser.user_id.in_(member_list))).update({"role_id":role_id})
+            db.session.commit()
+        except Exception as e:
+            logger.error(e)
+            return jsonify(responseBuilder.build_response(ResCode.INNER_ERR.value,
+                                                          ResMSG.INNER_ERR.value))
+
+        return jsonify(responseBuilder.build_response(ResCode.GROUP_MEMBER_ROLE_SET_SUCCESS.value,
+                                                      ResMSG.GROUP_MEMBER_ROLE_SET_SUCCESS.value))
+    return jsonify(responseBuilder.build_response(ResCode.PARAMS_IS_EMPTY.value,
+                                                  ResMSG.PARAMS_IS_EMPTY.value))
 
 @group_svr.route('/api/group/member_list', methods=['POST'])
 def member_list():
     pass
 
 @group_svr.route('/api/group/member_info', methods=['POST'])
-def member_list():
+def member_info():
+    pass
+
+@group_svr.route('/api/group/groups_in_addr_book', methods=['POST'])
+def groups_in_addr_book():
     pass

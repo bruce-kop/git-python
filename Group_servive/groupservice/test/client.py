@@ -287,7 +287,7 @@ def set_group_note(token, groupid,note):
 
     print(res.text)
 
-def group_list(token, groupid,note):
+def group_list(token):
     hd = get_base_head()
     p = {'token': token}
     p = json.dumps(p)
@@ -317,9 +317,9 @@ def QR_code(token, groupid):
 
     print(res.text)
 
-def set_member_role(token,groupid,members):
+def set_member_role(token,groupid,role_id,members):
     hd = get_base_head()
-    p = {'token': token,'groupid':groupid,"members":members}
+    p = {'token': token,'groupid':groupid, "role_id":role_id, "members":members}
     p = json.dumps(p)
     url = 'http://127.0.0.1:5002/api/group/set_member_role'
     print(p)
@@ -438,12 +438,16 @@ if __name__ == '__main__':
         member['memberid'] = user
         members.append(member)
 
-    print(members)
+    #print(members)
 
     #add_group(token, "RTC业务部", members)
     #members1 = [{'memberid':'13ded83a-f2be-4def-9ad9-f8669c79ca1f'},{'memberid':'143024ee-6310-4edd-b341-cfe5378ea841'}]
     #add_members(token, '42177ae4-81bf-4bc8-8fc5-74a025cd154f',members1)
+    #group_list(token)
+    #set_group_name(token, '42177ae4-81bf-4bc8-8fc5-74a025cd154f', "RTC研发")
+    #set_group_note(token, '42177ae4-81bf-4bc8-8fc5-74a025cd154f', "部门私有群")
+    #set_group_notice(token, '42177ae4-81bf-4bc8-8fc5-74a025cd154f', "明天早上开个早会")
+    #save_to_addr(token,  '42177ae4-81bf-4bc8-8fc5-74a025cd154f')
+    members2 = [{"memberid":"005ebcc8-8105-4f33-abe9-ffb5a938229b"},{"memberid":"00a94fd7-550e-478f-b5b5-dc6801537ab3", "role_id":1}]
+    set_member_role(token,  '42177ae4-81bf-4bc8-8fc5-74a025cd154f',role_id=1,members = members2)
 
-    set_group_name(token, '42177ae4-81bf-4bc8-8fc5-74a025cd154f', "RTC研发")
-    set_group_note(token, '42177ae4-81bf-4bc8-8fc5-74a025cd154f', "部门私有群")
-    set_group_notice(token, '42177ae4-81bf-4bc8-8fc5-74a025cd154f', "明天早上开个早会")

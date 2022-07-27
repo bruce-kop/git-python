@@ -95,3 +95,247 @@ Wed, 27 Jul 2022 16:07:50-root-app.py-[line:51]-INFO-[日志信息]: {'exp': 165
 Wed, 27 Jul 2022 16:07:50-root-app.py-[line:39]-INFO-[日志信息]: /api/group/set_notice
 Wed, 27 Jul 2022 16:07:50-root-app.py-[line:44]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MTQwNzAuMzY5OTQ0NiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.hvD5RZEwTJsE7mjjFlD8HnBMfr0R07OrvkCHtgaaY38
 Wed, 27 Jul 2022 16:07:50-root-app.py-[line:51]-INFO-[日志信息]: {'exp': 1659514070.3699446, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 21:42:20-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 21:42:34-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 21:42:42-root-app.py-[line:40]-INFO-[日志信息]: /api/group/set_name
+Wed, 27 Jul 2022 21:42:42-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MzQxNjIuMDExMzQ1NiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.5G-2GPWEByaN3Gcf9PMB0EcZnnalA634b1WYOvKVH9k
+Wed, 27 Jul 2022 21:42:42-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659534162.0113456, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 21:42:42-root-groups.py-[line:151]-INFO-[日志信息]: {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MzQxNjIuMDExMzQ1NiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.5G-2GPWEByaN3Gcf9PMB0EcZnnalA634b1WYOvKVH9k', 'groupid': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'name': 'RTC研发'}
+Wed, 27 Jul 2022 21:42:42-root-groups.py-[line:152]-INFO-[日志信息]: RTC研发
+Wed, 27 Jul 2022 21:42:42-root-app.py-[line:40]-INFO-[日志信息]: /api/group/set_note
+Wed, 27 Jul 2022 21:42:42-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MzQxNjIuMDExMzQ1NiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.5G-2GPWEByaN3Gcf9PMB0EcZnnalA634b1WYOvKVH9k
+Wed, 27 Jul 2022 21:42:42-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659534162.0113456, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 21:42:42-root-app.py-[line:40]-INFO-[日志信息]: /api/group/set_notice
+Wed, 27 Jul 2022 21:42:42-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MzQxNjIuMDExMzQ1NiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.5G-2GPWEByaN3Gcf9PMB0EcZnnalA634b1WYOvKVH9k
+Wed, 27 Jul 2022 21:42:42-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659534162.0113456, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 21:57:41-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 21:59:58-root-app.py-[line:40]-INFO-[日志信息]: /api/group/get_groups
+Wed, 27 Jul 2022 21:59:58-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MzUxOTguMTEyMzExLCJ1c2VyaWQiOiJiYTBiN2RmMC1hN2NhLTRhMzEtOTNkNi1lMGJjZWZjNDFkZGMifQ.jqV20kQnwW6sK2h137AEozuL5SxJRtBR7IfvULZqnkU
+Wed, 27 Jul 2022 21:59:58-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659535198.112311, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 21:59:58-root-groups.py-[line:224]-ERROR-[日志信息]: Could not determine join condition between parent/child tables on relationship GroupUser.group - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression.
+Wed, 27 Jul 2022 22:07:40-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 22:07:45-root-app.py-[line:40]-INFO-[日志信息]: /api/group/get_groups
+Wed, 27 Jul 2022 22:07:45-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MzU2NjUuOTY1OTc1OCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.g2K7QqnhSRCBOwRhsprT-nhrLRysf1wAcvSm3DhRD6k
+Wed, 27 Jul 2022 22:07:45-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659535665.9659758, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 22:07:45-root-groups.py-[line:224]-ERROR-[日志信息]: Could not determine join condition between parent/child tables on relationship GroupUser.group - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression.
+Wed, 27 Jul 2022 22:08:46-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 22:08:48-root-app.py-[line:40]-INFO-[日志信息]: /api/group/get_groups
+Wed, 27 Jul 2022 22:08:48-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MzU3MjguNzE1MDE0NywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.JXLYklU9Leg736DhDHWWHpmeoMkzqzG-vMUB_Slnihw
+Wed, 27 Jul 2022 22:08:48-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659535728.7150147, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 22:08:48-root-groups.py-[line:224]-ERROR-[日志信息]: Could not determine join condition between parent/child tables on relationship GroupUser.group - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression.
+Wed, 27 Jul 2022 22:09:58-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 22:10:02-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 22:10:04-root-app.py-[line:40]-INFO-[日志信息]: /api/group/get_groups
+Wed, 27 Jul 2022 22:10:04-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MzU4MDQuMTMzOTAxNiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.NGDPcM4FHsOAL4WL1xvlu9UY9YsOqkQrCTt3GDQhLIw
+Wed, 27 Jul 2022 22:10:04-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659535804.1339016, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 22:10:04-root-groups.py-[line:224]-ERROR-[日志信息]: Could not determine join condition between parent/child tables on relationship GroupUser.group - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression.
+Wed, 27 Jul 2022 22:14:49-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 22:14:54-root-app.py-[line:40]-INFO-[日志信息]: /api/group/get_groups
+Wed, 27 Jul 2022 22:14:54-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MzYwOTQuMDg5MDMzLCJ1c2VyaWQiOiJiYTBiN2RmMC1hN2NhLTRhMzEtOTNkNi1lMGJjZWZjNDFkZGMifQ.YVaVZHKuZcIedfL7pc2GRhXni-07WXq-QGaUJJ20TPE
+Wed, 27 Jul 2022 22:14:54-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659536094.089033, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 22:14:54-root-groups.py-[line:224]-ERROR-[日志信息]: Could not determine join condition between parent/child tables on relationship GroupUser.group - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression.
+Wed, 27 Jul 2022 22:16:37-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 22:16:40-root-app.py-[line:40]-INFO-[日志信息]: /api/group/get_groups
+Wed, 27 Jul 2022 22:16:40-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MzYyMDAuNTUwODY1NywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.J2rfqyO94jWAvWkIonKmwTObq80J1yTrx7skNDflIAE
+Wed, 27 Jul 2022 22:16:40-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659536200.5508657, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 22:16:40-root-groups.py-[line:224]-ERROR-[日志信息]: Could not determine join condition between parent/child tables on relationship Group.group_user - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression.
+Wed, 27 Jul 2022 22:17:17-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 22:17:19-root-app.py-[line:40]-INFO-[日志信息]: /api/group/get_groups
+Wed, 27 Jul 2022 22:17:19-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MzYyMzkuMTcxMzU5LCJ1c2VyaWQiOiJiYTBiN2RmMC1hN2NhLTRhMzEtOTNkNi1lMGJjZWZjNDFkZGMifQ.LMI9rxO0Pgwcfo14PftS28qA3ffewPmPb2cbD1yjUJg
+Wed, 27 Jul 2022 22:17:19-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659536239.171359, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 22:17:19-root-groups.py-[line:224]-ERROR-[日志信息]: Could not determine join condition between parent/child tables on relationship GroupUser.group - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression.
+Wed, 27 Jul 2022 22:21:07-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 22:21:11-root-app.py-[line:40]-INFO-[日志信息]: /api/group/get_groups
+Wed, 27 Jul 2022 22:21:11-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MzY0NzEuNTM4OTYxNiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.Feiqcp9MtrM1eKIz1tPxXbYgshv0q0m53u2OJepKRVg
+Wed, 27 Jul 2022 22:21:11-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659536471.5389616, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 22:21:11-root-groups.py-[line:227]-INFO-[日志信息]: <bound method Query.first of <flask_sqlalchemy.BaseQuery object at 0x0000023341F85360>>
+Wed, 27 Jul 2022 22:21:37-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 22:21:39-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 22:21:40-root-app.py-[line:40]-INFO-[日志信息]: /api/group/get_groups
+Wed, 27 Jul 2022 22:21:40-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MzY1MDAuNDA4NjQ5LCJ1c2VyaWQiOiJiYTBiN2RmMC1hN2NhLTRhMzEtOTNkNi1lMGJjZWZjNDFkZGMifQ.F0LaKZ0lyZKFTpkuAbC1jinQGXqjuEl286vVOm9lNMA
+Wed, 27 Jul 2022 22:21:40-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659536500.408649, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 22:21:40-root-groups.py-[line:227]-INFO-[日志信息]: (<Group 42177ae4-81bf-4bc8-8fc5-74a025cd154f>, <GroupUser 378a796e-0a5b-4c9b-bbd2-2c8dbca28826>)
+Wed, 27 Jul 2022 22:24:08-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 22:24:11-root-app.py-[line:40]-INFO-[日志信息]: /api/group/get_groups
+Wed, 27 Jul 2022 22:24:11-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MzY2NTEuNDMwNTEzNCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.zN2vhjJpgC3w10JiaskvSz7hTu7Q4-Av28Q-pJej5o4
+Wed, 27 Jul 2022 22:24:11-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659536651.4305134, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 22:24:11-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/group/get_groups [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\Group_servive\groupservice\views\groups.py", line 227, in get_groups
+    logger.info(q.first()[0].id, q.first()[0].name,q.first()[2].group_id)
+IndexError: tuple index out of range
+Wed, 27 Jul 2022 22:24:36-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 22:24:38-root-app.py-[line:40]-INFO-[日志信息]: /api/group/get_groups
+Wed, 27 Jul 2022 22:24:38-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MzY2NzguNzc1MDMzMiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.V8KJig7-HNGPCFZ9sklVfZ_7hmGstkCo13Qqm7AcsZI
+Wed, 27 Jul 2022 22:24:38-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659536678.7750332, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 22:25:28-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 22:25:29-root-app.py-[line:40]-INFO-[日志信息]: /api/group/get_groups
+Wed, 27 Jul 2022 22:25:29-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MzY3MjkuNzk2NDE2LCJ1c2VyaWQiOiJiYTBiN2RmMC1hN2NhLTRhMzEtOTNkNi1lMGJjZWZjNDFkZGMifQ.B2-Wx8BflMCdwBwd2i10mzEUp_Mlm2F4vcPjcRLLWkA
+Wed, 27 Jul 2022 22:25:29-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659536729.796416, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 22:25:29-root-groups.py-[line:228]-INFO-[日志信息]: 42177ae4-81bf-4bc8-8fc5-74a025cd154f
+Wed, 27 Jul 2022 22:26:05-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 22:26:07-root-app.py-[line:40]-INFO-[日志信息]: /api/group/get_groups
+Wed, 27 Jul 2022 22:26:07-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MzY3NjcuMjEzMTQ2NCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.uvRJd3fhnGLQRt3vZTUgl3V82INIAR6ccBQ_lKFVub0
+Wed, 27 Jul 2022 22:26:07-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659536767.2131464, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 22:26:07-root-groups.py-[line:227]-INFO-[日志信息]: 42177ae4-81bf-4bc8-8fc5-74a025cd154f
+Wed, 27 Jul 2022 22:26:07-root-groups.py-[line:228]-INFO-[日志信息]: RTC研发
+Wed, 27 Jul 2022 22:26:07-root-groups.py-[line:229]-INFO-[日志信息]: 42177ae4-81bf-4bc8-8fc5-74a025cd154f
+Wed, 27 Jul 2022 22:33:04-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 22:33:16-root-app.py-[line:40]-INFO-[日志信息]: /api/group/get_groups
+Wed, 27 Jul 2022 22:33:16-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MzcxOTYuNzU1MjQ5NywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.EbL_b5r1UdoHsJaG76ISEgaaw-JS3G41WM6_CErrJuM
+Wed, 27 Jul 2022 22:33:16-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659537196.7552497, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 22:33:16-root-groups.py-[line:224]-ERROR-[日志信息]: local variable 'group' referenced before assignment
+Wed, 27 Jul 2022 22:33:20-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 22:33:23-root-app.py-[line:40]-INFO-[日志信息]: /api/group/get_groups
+Wed, 27 Jul 2022 22:33:23-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MzcyMDMuNjI2NjY1OCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.8wA2u9XJHy6JAscNu8O15SwLurH7KsW9R7vikCQHbrs
+Wed, 27 Jul 2022 22:33:23-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659537203.6266658, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 22:33:23-root-groups.py-[line:224]-ERROR-[日志信息]: local variable 'group' referenced before assignment
+Wed, 27 Jul 2022 22:33:38-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 22:33:40-root-app.py-[line:40]-INFO-[日志信息]: /api/group/get_groups
+Wed, 27 Jul 2022 22:33:40-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MzcyMjAuODE4NzE0MSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.73ACCtYRZJ0y-XJQ9HyBOo5rus8GmEXrmYx-kwNm-zs
+Wed, 27 Jul 2022 22:33:40-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659537220.8187141, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 22:33:40-root-groups.py-[line:224]-ERROR-[日志信息]: name 'group' is not defined
+Wed, 27 Jul 2022 22:34:03-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 22:34:07-root-app.py-[line:40]-INFO-[日志信息]: /api/group/get_groups
+Wed, 27 Jul 2022 22:34:07-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MzcyNDcuMDEwODk2NywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.7PudWXb9MEq6nwac2XABo9cZFGwYASRWDAJOhqJVV6k
+Wed, 27 Jul 2022 22:34:07-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659537247.0108967, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 22:34:07-root-groups.py-[line:227]-INFO-[日志信息]: ('42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'RTC研发', None, <GroupUser 378a796e-0a5b-4c9b-bbd2-2c8dbca28826>)
+Wed, 27 Jul 2022 22:34:22-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 22:34:25-root-app.py-[line:40]-INFO-[日志信息]: /api/group/get_groups
+Wed, 27 Jul 2022 22:34:25-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MzcyNjUuNzgwNjgzLCJ1c2VyaWQiOiJiYTBiN2RmMC1hN2NhLTRhMzEtOTNkNi1lMGJjZWZjNDFkZGMifQ.ekj7W0Bnxim2UOVjblbr8eUW3g_7oVw7FRaCHg5jf4I
+Wed, 27 Jul 2022 22:34:25-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659537265.780683, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 22:34:25-root-groups.py-[line:227]-INFO-[日志信息]: ('42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'RTC研发', None)
+Wed, 27 Jul 2022 22:35:34-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 22:35:37-root-app.py-[line:40]-INFO-[日志信息]: /api/group/get_groups
+Wed, 27 Jul 2022 22:35:37-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1MzczMzcuNTY4MDgxMSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.i3gNfTIGpi-AYfdZg6Nf-kgSp6Ix6ySKr7-gStRVjT4
+Wed, 27 Jul 2022 22:35:37-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659537337.5680811, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 22:35:37-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/group/get_groups [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\Group_servive\groupservice\views\groups.py", line 228, in get_groups
+    groups = query_res_to_dict(q)
+NameError: name 'query_res_to_dict' is not defined
+Wed, 27 Jul 2022 22:38:44-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 22:38:46-root-app.py-[line:40]-INFO-[日志信息]: /api/group/get_groups
+Wed, 27 Jul 2022 22:38:46-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1Mzc1MjYuNjIxMTA0NSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.UVkQucClAjf1AVLRKVrhknTgxVHZ58IuBoZbi1PjCS0
+Wed, 27 Jul 2022 22:38:46-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659537526.6211045, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 22:38:46-root-groups.py-[line:231]-INFO-[日志信息]: [{'id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'name': 'RTC研发', 'avatar': None}]
+Wed, 27 Jul 2022 22:38:46-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/group/get_groups [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\Group_servive\groupservice\views\groups.py", line 233, in get_groups
+    return jsonify(responseBuilder.build_response(ResCode.GROUP_SET_NAME_SUCCESS.value,
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 295, in jsonify
+    raise TypeError("jsonify() behavior undefined when passed both args and kwargs")
+TypeError: jsonify() behavior undefined when passed both args and kwargs
+Wed, 27 Jul 2022 22:41:23-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 22:41:25-root-app.py-[line:40]-INFO-[日志信息]: /api/group/get_groups
+Wed, 27 Jul 2022 22:41:25-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1Mzc2ODUuMTMyNjk0MiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.MChYqrLmTv9wfbzcdyMH7vQcd9jhkNcroXzrpd2bww4
+Wed, 27 Jul 2022 22:41:25-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659537685.1326942, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 22:41:25-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/group/get_groups [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\Group_servive\groupservice\views\groups.py", line 233, in get_groups
+    return jsonify(responseBuilder.build_response(ResCode.GROUP_SET_NAME_SUCCESS.value,
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 295, in jsonify
+    raise TypeError("jsonify() behavior undefined when passed both args and kwargs")
+TypeError: jsonify() behavior undefined when passed both args and kwargs
+Wed, 27 Jul 2022 22:43:48-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 22:43:50-root-app.py-[line:40]-INFO-[日志信息]: /api/group/get_groups
+Wed, 27 Jul 2022 22:43:50-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1Mzc4MzAuNTEyNjY0NiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.9nBCJhlXhbXugYC8xuD1kTJuu6WGk5_gMoOLn6Ua4Rk
+Wed, 27 Jul 2022 22:43:50-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659537830.5126646, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 22:53:09-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 22:53:50-root-app.py-[line:40]-INFO-[日志信息]: /api/group/save_to_addr
+Wed, 27 Jul 2022 22:53:50-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1Mzg0MzAuNDQ3OTM1MywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.oBlGnKnoTOuDBem2ie8a3QloXur7tpEAeRn6lMhvXXY
+Wed, 27 Jul 2022 22:53:50-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659538430.4479353, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 22:53:50-root-groups.py-[line:251]-INFO-[日志信息]: ('42177ae4-81bf-4bc8-8fc5-74a025cd154f',)
+Wed, 27 Jul 2022 22:57:09-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 22:57:13-root-app.py-[line:40]-INFO-[日志信息]: /api/group/save_to_addr
+Wed, 27 Jul 2022 22:57:13-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1Mzg2MzMuMjAyMTUyNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.VT7jPX6oOUEeYVqCzcPHycQpdtKEOqkDzQ9KHYkMnHI
+Wed, 27 Jul 2022 22:57:13-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659538633.2021525, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 22:57:13-root-groups.py-[line:251]-INFO-[日志信息]: ('42177ae4-81bf-4bc8-8fc5-74a025cd154f',)
+Wed, 27 Jul 2022 23:01:59-root-app.py-[line:40]-INFO-[日志信息]: /api/group/save_to_addr
+Wed, 27 Jul 2022 23:01:59-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1Mzg5MTkuNjk0MDg3NSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.jX-WEN3uw0mW7-sLhjJdrXpT2HnUd-uXccIAhPFV1dA
+Wed, 27 Jul 2022 23:01:59-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659538919.6940875, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 23:01:59-root-groups.py-[line:251]-INFO-[日志信息]: ('42177ae4-81bf-4bc8-8fc5-74a025cd154f',)
+Wed, 27 Jul 2022 23:02:10-root-app.py-[line:40]-INFO-[日志信息]: /api/group/save_to_addr
+Wed, 27 Jul 2022 23:02:10-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1Mzg5MzAuNDIxOTEwNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.NoP7-vlpQLJ_11z91LyqeESuqR5LDhjyPI9Cmic_F6U
+Wed, 27 Jul 2022 23:02:10-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659538930.4219105, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 23:02:10-root-groups.py-[line:251]-INFO-[日志信息]: ('42177ae4-81bf-4bc8-8fc5-74a025cd154f',)
+Wed, 27 Jul 2022 23:02:10-root-groups.py-[line:263]-ERROR-[日志信息]: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc-42177ae4-81bf-4bc8-8fc5-74a' for key 'group_addr_book.PRIMARY'")
+[SQL: INSERT INTO group_addr_book (id, group_id, user_id, note) VALUES (%(id)s, %(group_id)s, %(user_id)s, %(note)s)]
+[parameters: {'id': UUID('56aff21f-3714-4731-9bc8-6356c5f1a5ee'), 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'user_id': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc', 'note': None}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+Wed, 27 Jul 2022 23:21:18-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 23:21:20-root-app.py-[line:40]-INFO-[日志信息]: /api/group/set_member_role
+Wed, 27 Jul 2022 23:21:20-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1NDAwODAuOTIwMjM3MywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.1Wmk5F2VAGJhASpPHSc7BoOFy1RD3sU-rs4-74TE5rM
+Wed, 27 Jul 2022 23:21:20-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659540080.9202373, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 23:21:20-root-groups.py-[line:296]-ERROR-[日志信息]: argument of type 'function' is not iterable
+Wed, 27 Jul 2022 23:22:32-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 23:22:35-root-app.py-[line:40]-INFO-[日志信息]: /api/group/set_member_role
+Wed, 27 Jul 2022 23:22:35-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1NDAxNTUuNzgyODc5NiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.IEZ3XXPUrrYTxEMx9oYn94MeJ57FqT9eqgr8oRyocQA
+Wed, 27 Jul 2022 23:22:35-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659540155.7828796, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 23:22:35-root-groups.py-[line:297]-ERROR-[日志信息]: Neither 'AsBoolean' object nor 'Comparator' object has an attribute 'update'
+Wed, 27 Jul 2022 23:23:26-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 23:23:28-root-app.py-[line:40]-INFO-[日志信息]: /api/group/set_member_role
+Wed, 27 Jul 2022 23:23:28-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1NDAyMDguNjIyODk4LCJ1c2VyaWQiOiJiYTBiN2RmMC1hN2NhLTRhMzEtOTNkNi1lMGJjZWZjNDFkZGMifQ.TzqO8SIkWmIHsGdzis9QokRuOOMdo2stzpJ303FoE5s
+Wed, 27 Jul 2022 23:23:28-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659540208.622898, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 23:23:28-root-groups.py-[line:293]-INFO-[日志信息]: ['005ebcc8-8105-4f33-abe9-ffb5a938229b', '00a94fd7-550e-478f-b5b5-dc6801537ab3']
+Wed, 27 Jul 2022 23:23:28-root-groups.py-[line:294]-INFO-[日志信息]: None
+Wed, 27 Jul 2022 23:23:28-root-groups.py-[line:299]-ERROR-[日志信息]: Neither 'AsBoolean' object nor 'Comparator' object has an attribute 'update'
+Wed, 27 Jul 2022 23:25:08-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 23:26:04-root-app.py-[line:40]-INFO-[日志信息]: /api/group/set_member_role
+Wed, 27 Jul 2022 23:26:04-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1NDAzNjQuNDI4NzA5LCJ1c2VyaWQiOiJiYTBiN2RmMC1hN2NhLTRhMzEtOTNkNi1lMGJjZWZjNDFkZGMifQ.wA5V5YghhAbc69zmhD1tXqXRWzZ_30dxhiw-xx9K4aA
+Wed, 27 Jul 2022 23:26:04-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659540364.428709, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 23:26:04-root-groups.py-[line:293]-INFO-[日志信息]: ['005ebcc8-8105-4f33-abe9-ffb5a938229b', '00a94fd7-550e-478f-b5b5-dc6801537ab3']
+Wed, 27 Jul 2022 23:26:04-root-groups.py-[line:294]-INFO-[日志信息]: 1
+Wed, 27 Jul 2022 23:26:04-root-groups.py-[line:299]-ERROR-[日志信息]: Neither 'AsBoolean' object nor 'Comparator' object has an attribute 'update'
+Wed, 27 Jul 2022 23:26:55-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 23:26:57-root-app.py-[line:40]-INFO-[日志信息]: /api/group/set_member_role
+Wed, 27 Jul 2022 23:26:57-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1NDA0MTcuNzYxNjIwOCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.8fL-R0ljjBCd2I0vq3IU-xo9cflbqLSxAJSLwXWcv80
+Wed, 27 Jul 2022 23:26:57-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659540417.7616208, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 23:26:57-root-groups.py-[line:293]-INFO-[日志信息]: ['005ebcc8-8105-4f33-abe9-ffb5a938229b', '00a94fd7-550e-478f-b5b5-dc6801537ab3']
+Wed, 27 Jul 2022 23:26:57-root-groups.py-[line:294]-INFO-[日志信息]: 1
+Wed, 27 Jul 2022 23:26:57-root-groups.py-[line:298]-ERROR-[日志信息]: Could not evaluate current criteria in Python: "Cannot evaluate AsBoolean with operator <function is_true at 0x00000209DCF985E0>". Specify 'fetch' or False for the synchronize_session execution option.
+Wed, 27 Jul 2022 23:27:01-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 23:27:03-root-app.py-[line:40]-INFO-[日志信息]: /api/group/set_member_role
+Wed, 27 Jul 2022 23:27:03-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1NDA0MjMuODczODE0NiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.K2hXs_vEBg0cdpPOlUKR9SQz7WkKlEk9_RJwvzMGnBI
+Wed, 27 Jul 2022 23:27:03-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659540423.8738146, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 23:27:03-root-groups.py-[line:293]-INFO-[日志信息]: ['005ebcc8-8105-4f33-abe9-ffb5a938229b', '00a94fd7-550e-478f-b5b5-dc6801537ab3']
+Wed, 27 Jul 2022 23:27:03-root-groups.py-[line:294]-INFO-[日志信息]: 1
+Wed, 27 Jul 2022 23:27:03-root-groups.py-[line:298]-ERROR-[日志信息]: Could not evaluate current criteria in Python: "Cannot evaluate AsBoolean with operator <function is_true at 0x000002948AA685E0>". Specify 'fetch' or False for the synchronize_session execution option.
+Wed, 27 Jul 2022 23:31:45-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 27 Jul 2022 23:31:47-root-app.py-[line:40]-INFO-[日志信息]: /api/group/set_member_role
+Wed, 27 Jul 2022 23:31:47-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1NDA3MDcuNDI0OTg5NywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.Bzs2WpfCQhl6_BcO-YR8j5JK18DJS8y6X0ZI0SkLhMQ
+Wed, 27 Jul 2022 23:31:47-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659540707.4249897, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Wed, 27 Jul 2022 23:31:47-root-groups.py-[line:293]-INFO-[日志信息]: ['005ebcc8-8105-4f33-abe9-ffb5a938229b', '00a94fd7-550e-478f-b5b5-dc6801537ab3']
+Wed, 27 Jul 2022 23:31:47-root-groups.py-[line:294]-INFO-[日志信息]: 1

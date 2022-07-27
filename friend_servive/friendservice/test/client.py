@@ -293,13 +293,12 @@ if __name__ == '__main__':
      '1354bad9-cf2b-43da-a8e2-2623500e9a32',
      '13ded83a-f2be-4def-9ad9-f8669c79ca1f',
      '143024ee-6310-4edd-b341-cfe5378ea841']
-    '''
+
     for friend in friends:
-        #add_friend(token, friend)
+        add_friend(token, friend)
         set_permission_friend(token, friend,'1,2,3,4,5')
         set_note_friend(token, friend,"RTC业务部")
         set_label_friend(token, friend, "kebi")
-    # del_friend(token, '005ebcc8-8105-4f33-abe9-ffb5a938229b')
-    list_friend(token, pageSize=10, currentPage=1)
-    '''
+    #del_friend(token, '005ebcc8-8105-4f33-abe9-ffb5a938229b')
+
     list_friend(token, pageSize=10, currentPage=1)

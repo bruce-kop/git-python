@@ -4,3 +4,79 @@ Wed, 27 Jul 2022 15:05:01-root-groups.py-[line:55]-ERROR-[日志信息]: (pymysq
 (Background on this error at: https://sqlalche.me/e/14/e3q8)
 Wed, 27 Jul 2022 15:42:25-root-groups.py-[line:138]-ERROR-[日志信息]: Class 'builtins.list' is not mapped
 Wed, 27 Jul 2022 15:44:39-root-groups.py-[line:138]-ERROR-[日志信息]: Class 'builtins.list' is not mapped
+Wed, 27 Jul 2022 21:59:58-root-groups.py-[line:224]-ERROR-[日志信息]: Could not determine join condition between parent/child tables on relationship GroupUser.group - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression.
+Wed, 27 Jul 2022 22:07:45-root-groups.py-[line:224]-ERROR-[日志信息]: Could not determine join condition between parent/child tables on relationship GroupUser.group - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression.
+Wed, 27 Jul 2022 22:08:48-root-groups.py-[line:224]-ERROR-[日志信息]: Could not determine join condition between parent/child tables on relationship GroupUser.group - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression.
+Wed, 27 Jul 2022 22:10:04-root-groups.py-[line:224]-ERROR-[日志信息]: Could not determine join condition between parent/child tables on relationship GroupUser.group - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression.
+Wed, 27 Jul 2022 22:14:54-root-groups.py-[line:224]-ERROR-[日志信息]: Could not determine join condition between parent/child tables on relationship GroupUser.group - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression.
+Wed, 27 Jul 2022 22:16:40-root-groups.py-[line:224]-ERROR-[日志信息]: Could not determine join condition between parent/child tables on relationship Group.group_user - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression.
+Wed, 27 Jul 2022 22:17:19-root-groups.py-[line:224]-ERROR-[日志信息]: Could not determine join condition between parent/child tables on relationship GroupUser.group - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression.
+Wed, 27 Jul 2022 22:24:11-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/group/get_groups [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\Group_servive\groupservice\views\groups.py", line 227, in get_groups
+    logger.info(q.first()[0].id, q.first()[0].name,q.first()[2].group_id)
+IndexError: tuple index out of range
+Wed, 27 Jul 2022 22:33:16-root-groups.py-[line:224]-ERROR-[日志信息]: local variable 'group' referenced before assignment
+Wed, 27 Jul 2022 22:33:23-root-groups.py-[line:224]-ERROR-[日志信息]: local variable 'group' referenced before assignment
+Wed, 27 Jul 2022 22:33:40-root-groups.py-[line:224]-ERROR-[日志信息]: name 'group' is not defined
+Wed, 27 Jul 2022 22:35:37-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/group/get_groups [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\Group_servive\groupservice\views\groups.py", line 228, in get_groups
+    groups = query_res_to_dict(q)
+NameError: name 'query_res_to_dict' is not defined
+Wed, 27 Jul 2022 22:38:46-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/group/get_groups [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\Group_servive\groupservice\views\groups.py", line 233, in get_groups
+    return jsonify(responseBuilder.build_response(ResCode.GROUP_SET_NAME_SUCCESS.value,
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 295, in jsonify
+    raise TypeError("jsonify() behavior undefined when passed both args and kwargs")
+TypeError: jsonify() behavior undefined when passed both args and kwargs
+Wed, 27 Jul 2022 22:41:25-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/group/get_groups [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\Group_servive\groupservice\views\groups.py", line 233, in get_groups
+    return jsonify(responseBuilder.build_response(ResCode.GROUP_SET_NAME_SUCCESS.value,
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 295, in jsonify
+    raise TypeError("jsonify() behavior undefined when passed both args and kwargs")
+TypeError: jsonify() behavior undefined when passed both args and kwargs
+Wed, 27 Jul 2022 23:02:10-root-groups.py-[line:263]-ERROR-[日志信息]: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc-42177ae4-81bf-4bc8-8fc5-74a' for key 'group_addr_book.PRIMARY'")
+[SQL: INSERT INTO group_addr_book (id, group_id, user_id, note) VALUES (%(id)s, %(group_id)s, %(user_id)s, %(note)s)]
+[parameters: {'id': UUID('56aff21f-3714-4731-9bc8-6356c5f1a5ee'), 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'user_id': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc', 'note': None}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+Wed, 27 Jul 2022 23:21:20-root-groups.py-[line:296]-ERROR-[日志信息]: argument of type 'function' is not iterable
+Wed, 27 Jul 2022 23:22:35-root-groups.py-[line:297]-ERROR-[日志信息]: Neither 'AsBoolean' object nor 'Comparator' object has an attribute 'update'
+Wed, 27 Jul 2022 23:23:28-root-groups.py-[line:299]-ERROR-[日志信息]: Neither 'AsBoolean' object nor 'Comparator' object has an attribute 'update'
+Wed, 27 Jul 2022 23:26:04-root-groups.py-[line:299]-ERROR-[日志信息]: Neither 'AsBoolean' object nor 'Comparator' object has an attribute 'update'
+Wed, 27 Jul 2022 23:26:57-root-groups.py-[line:298]-ERROR-[日志信息]: Could not evaluate current criteria in Python: "Cannot evaluate AsBoolean with operator <function is_true at 0x00000209DCF985E0>". Specify 'fetch' or False for the synchronize_session execution option.
+Wed, 27 Jul 2022 23:27:03-root-groups.py-[line:298]-ERROR-[日志信息]: Could not evaluate current criteria in Python: "Cannot evaluate AsBoolean with operator <function is_true at 0x000002948AA685E0>". Specify 'fetch' or False for the synchronize_session execution option.

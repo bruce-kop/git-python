@@ -77,6 +77,11 @@ class ResCode(Enum):
     GROUP_SET_NOTICE_SUCCESS = 2200
     GROUP_SET_NOTE_PARAMS_INVALID = 2301
     GROUP_SET_NOTE_SUCCESS = 2300
+    GROUP_LIST_SUCCESS = 2400
+    GROUP_SAVE_TO_ADDR_SUCCESS = 2500
+    GROUP_PARAM_IS_INVALID = 2501
+    GROUP_MEMBER_ROLE_SET_PARAM_INVALID = 2601
+    GROUP_MEMBER_ROLE_SET_SUCCESS = 2600
 
 @unique
 class ResMSG(Enum):
@@ -148,3 +153,8 @@ class ResMSG(Enum):
     GROUP_SET_NOTICE_SUCCESS = 'group notice set success.'
     GROUP_SET_NOTE_PARAMS_INVALID = 'group set note field is invalid.'
     GROUP_SET_NOTE_SUCCESS = 'group note set success.'
+    GROUP_LIST_SUCCESS = 'get group list success.'
+    GROUP_SAVE_TO_ADDR_SUCCESS = 'save the group to group addr book success'
+    GROUP_PARAM_IS_INVALID ="param is invalid."
+    GROUP_MEMBER_ROLE_SET_PARAM_INVALID = "member role set param is invalid."
+    GROUP_MEMBER_ROLE_SET_SUCCESS = "member role set success."

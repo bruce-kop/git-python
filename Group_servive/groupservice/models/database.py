@@ -1,8 +1,8 @@
 # encoding: utf8
 from werkzeug.security import generate_password_hash, check_password_hash
-from sqlalchemy.orm import relationship
 from flask_sqlalchemy import SQLAlchemy
-
+from sqlalchemy.orm import relationship
+from sqlalchemy import ForeignKey
 
 db = SQLAlchemy()
 
@@ -17,7 +17,7 @@ class Group(db.Model):
     note = db.Column(db.String(512))
     created_at = db.Column(db.Date)
     updated_at = db.Column(db.Date)
-
+    #group_user = relationship("GroupUser", backref="group")
     def __init__(self, *args, **kw):
         super(Group, self).__init__(*args, **kw)
 
@@ -44,6 +44,9 @@ class GroupUser(db.Model):
     role_id = db.Column(db.Integer)
     nickname = db.Column(db.String(128))
     note = db.Column(db.String(512))
+
+    #group = relationship("Group", backref="group_user")
+
 
 class GroupAddrBook(db.Model):
     __tablename__ = 'group_addr_book'
