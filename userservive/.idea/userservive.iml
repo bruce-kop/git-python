@@ -5,12 +5,12 @@
     <orderEntry type="jdk" jdkName="Python 3.1 (robot)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="msg_push_service" />
+    <orderEntry type="module" module-name="groupservive" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Jinja2" />
   </component>
   <component name="TestRunnerService">
-    <option name="projectConfiguration" value="Twisted Trial" />
     <option name="PROJECT_TEST_RUNNER" value="Twisted Trial" />
   </component>
 </module>

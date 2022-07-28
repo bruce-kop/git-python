@@ -341,7 +341,17 @@ def member_info(token,groupid,memberid):
     hd = get_base_head()
     p = {'token': token,'groupid':groupid, 'memberid':memberid}
     p = json.dumps(p)
-    url = 'http://127.0.0.1:5002/api/group/member_list'
+    url = 'http://127.0.0.1:5002/api/group/member_info'
+    print(p)
+    res = requests.post(url, headers=hd, json=p)
+
+    print(res.text)
+
+def group_list_in_addr(token):
+    hd = get_base_head()
+    p = {'token': token}
+    p = json.dumps(p)
+    url = 'http://127.0.0.1:5002/api/group/groups_in_addr_book'
     print(p)
     res = requests.post(url, headers=hd, json=p)
 
@@ -448,6 +458,9 @@ if __name__ == '__main__':
     #set_group_note(token, '42177ae4-81bf-4bc8-8fc5-74a025cd154f', "部门私有群")
     #set_group_notice(token, '42177ae4-81bf-4bc8-8fc5-74a025cd154f', "明天早上开个早会")
     #save_to_addr(token,  '42177ae4-81bf-4bc8-8fc5-74a025cd154f')
-    members2 = [{"memberid":"005ebcc8-8105-4f33-abe9-ffb5a938229b"},{"memberid":"00a94fd7-550e-478f-b5b5-dc6801537ab3", "role_id":1}]
-    set_member_role(token,  '42177ae4-81bf-4bc8-8fc5-74a025cd154f',role_id=1,members = members2)
+    #members2 = [{"memberid":"005ebcc8-8105-4f33-abe9-ffb5a938229b"},{"memberid":"00a94fd7-550e-478f-b5b5-dc6801537ab3", "role_id":1}]
+    #set_member_role(token,  '42177ae4-81bf-4bc8-8fc5-74a025cd154f',role_id=1,members = members2)
+    #group_list_in_addr(token)
 
+    member_list(token,'42177ae4-81bf-4bc8-8fc5-74a025cd154f')
+    member_info(token, '42177ae4-81bf-4bc8-8fc5-74a025cd154f', "005ebcc8-8105-4f33-abe9-ffb5a938229b")

@@ -1,0 +1,155 @@
+Thu, 28 Jul 2022 11:32:38-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/group/member_list [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\Group_servive\groupservice\views\groups.py", line 332, in member_list
+    return jsonify(responseBuilder.build_response(ResCode.GROUP_MEMBER_LIST_SUCCESS.value,
+  File "D:\Programs\Python\Python310\lib\enum.py", line 437, in __getattr__
+    raise AttributeError(name) from None
+AttributeError: GROUP_MEMBER_LIST_SUCCESS
+Thu, 28 Jul 2022 11:32:38-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/group/member_list [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\Group_servive\groupservice\views\groups.py", line 332, in member_list
+    return jsonify(responseBuilder.build_response(ResCode.GROUP_MEMBER_LIST_SUCCESS.value,
+  File "D:\Programs\Python\Python310\lib\enum.py", line 437, in __getattr__
+    raise AttributeError(name) from None
+AttributeError: GROUP_MEMBER_LIST_SUCCESS
+Thu, 28 Jul 2022 11:41:24-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/group/member_list [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\Group_servive\groupservice\views\groups.py", line 329, in member_list
+    users = query_res_to_dict_list(q)
+NameError: name 'query_res_to_dict_list' is not defined
+Thu, 28 Jul 2022 11:41:24-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/group/member_info [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\Group_servive\groupservice\views\groups.py", line 361, in member_info
+    user = query_res_to_dict(q)
+  File "D:\git-python\Group_servive\groupservice\utils\data_conversion.py", line 14, in query_res_to_dict
+    descripsions = query_res.column_descriptions
+NameError: name 'query_res' is not defined
+Thu, 28 Jul 2022 11:41:50-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/group/member_list [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\Group_servive\groupservice\views\groups.py", line 329, in member_list
+    users = query_res_to_dict_list(q)
+NameError: name 'query_res_to_dict_list' is not defined
+Thu, 28 Jul 2022 11:41:50-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/group/member_info [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\Group_servive\groupservice\views\groups.py", line 361, in member_info
+    user = query_res_to_dict(q)
+  File "D:\git-python\Group_servive\groupservice\utils\data_conversion.py", line 15, in query_res_to_dict
+    obj = query_res.fist()
+NameError: name 'query_res' is not defined
+Thu, 28 Jul 2022 11:42:37-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/group/member_list [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\Group_servive\groupservice\views\groups.py", line 329, in member_list
+    users = query_res_to_dict_list(q)
+NameError: name 'query_res_to_dict_list' is not defined
+Thu, 28 Jul 2022 11:42:37-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/group/member_info [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\Group_servive\groupservice\views\groups.py", line 361, in member_info
+    user = query_res_to_dict(q)
+  File "D:\git-python\Group_servive\groupservice\utils\data_conversion.py", line 15, in query_res_to_dict
+    obj_1 = obj.fist()
+AttributeError: 'BaseQuery' object has no attribute 'fist'
+Thu, 28 Jul 2022 11:43:35-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/group/member_info [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\Group_servive\groupservice\views\groups.py", line 361, in member_info
+    user = query_res_to_dict(q)
+  File "D:\git-python\Group_servive\groupservice\utils\data_conversion.py", line 15, in query_res_to_dict
+    obj_1 = obj.fist()
+AttributeError: 'BaseQuery' object has no attribute 'fist'
+Thu, 28 Jul 2022 11:44:04-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/group/member_info [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\Group_servive\groupservice\views\groups.py", line 365, in member_info
+    users=users))
+NameError: name 'users' is not defined
+Thu, 28 Jul 2022 11:44:08-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/group/member_info [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\Group_servive\groupservice\views\groups.py", line 365, in member_info
+    users=users))
+NameError: name 'users' is not defined

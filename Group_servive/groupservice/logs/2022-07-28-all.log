@@ -1,0 +1,235 @@
+Thu, 28 Jul 2022 11:20:22-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Thu, 28 Jul 2022 11:20:42-root-app.py-[line:40]-INFO-[日志信息]: /api/group/groups_in_addr_book
+Thu, 28 Jul 2022 11:20:42-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1ODMyNDIuMDA0NTQyOCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.l8tlG2GFTBsdeSTbbk7vBxGEQvFhteggrLk-itvyz8g
+Thu, 28 Jul 2022 11:20:42-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659583242.0045428, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 11:32:35-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Thu, 28 Jul 2022 11:32:38-root-app.py-[line:40]-INFO-[日志信息]: /api/group/member_list
+Thu, 28 Jul 2022 11:32:38-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1ODM5NTguODg0MzA1NSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.BvRmaJ55k3EAB2CdNTqWgyLylteS_Vrt_VVOraz0nWc
+Thu, 28 Jul 2022 11:32:38-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659583958.8843055, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 11:32:38-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/group/member_list [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\Group_servive\groupservice\views\groups.py", line 332, in member_list
+    return jsonify(responseBuilder.build_response(ResCode.GROUP_MEMBER_LIST_SUCCESS.value,
+  File "D:\Programs\Python\Python310\lib\enum.py", line 437, in __getattr__
+    raise AttributeError(name) from None
+AttributeError: GROUP_MEMBER_LIST_SUCCESS
+Thu, 28 Jul 2022 11:32:38-root-app.py-[line:40]-INFO-[日志信息]: /api/group/member_list
+Thu, 28 Jul 2022 11:32:38-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1ODM5NTguODg0MzA1NSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.BvRmaJ55k3EAB2CdNTqWgyLylteS_Vrt_VVOraz0nWc
+Thu, 28 Jul 2022 11:32:38-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659583958.8843055, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 11:32:38-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/group/member_list [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\Group_servive\groupservice\views\groups.py", line 332, in member_list
+    return jsonify(responseBuilder.build_response(ResCode.GROUP_MEMBER_LIST_SUCCESS.value,
+  File "D:\Programs\Python\Python310\lib\enum.py", line 437, in __getattr__
+    raise AttributeError(name) from None
+AttributeError: GROUP_MEMBER_LIST_SUCCESS
+Thu, 28 Jul 2022 11:34:15-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Thu, 28 Jul 2022 11:34:19-root-app.py-[line:40]-INFO-[日志信息]: /api/group/member_list
+Thu, 28 Jul 2022 11:34:19-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1ODQwNTkuMTYxMjg2NiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.iwIjvz9eTjg5a65q3ijCNqK2lyxGxXFinkJ8NG3Hq4M
+Thu, 28 Jul 2022 11:34:19-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659584059.1612866, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 11:34:19-root-app.py-[line:40]-INFO-[日志信息]: /api/group/member_list
+Thu, 28 Jul 2022 11:34:19-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1ODQwNTkuMTYxMjg2NiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.iwIjvz9eTjg5a65q3ijCNqK2lyxGxXFinkJ8NG3Hq4M
+Thu, 28 Jul 2022 11:34:19-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659584059.1612866, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 11:35:42-root-app.py-[line:40]-INFO-[日志信息]: /api/group/member_list
+Thu, 28 Jul 2022 11:35:42-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1ODQxNDIuMjIxMDE0NywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.JcUAOZtv6U39DJVbMYjYuDuOXkafLVJTfPVil3XaO_U
+Thu, 28 Jul 2022 11:35:42-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659584142.2210147, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 11:35:42-root-app.py-[line:40]-INFO-[日志信息]: /api/group/member_info
+Thu, 28 Jul 2022 11:35:42-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1ODQxNDIuMjIxMDE0NywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.JcUAOZtv6U39DJVbMYjYuDuOXkafLVJTfPVil3XaO_U
+Thu, 28 Jul 2022 11:35:42-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659584142.2210147, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 11:41:14-root-app.py-[line:40]-INFO-[日志信息]: /api/group/member_list
+Thu, 28 Jul 2022 11:41:14-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1ODQ0NzQuMjg1NDYxLCJ1c2VyaWQiOiJiYTBiN2RmMC1hN2NhLTRhMzEtOTNkNi1lMGJjZWZjNDFkZGMifQ.sf0fcT7PzzM6QgKYj_eJoKUGD46nnrd4XbWfU1AnHcM
+Thu, 28 Jul 2022 11:41:14-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659584474.285461, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 11:41:14-root-app.py-[line:40]-INFO-[日志信息]: /api/group/member_info
+Thu, 28 Jul 2022 11:41:14-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1ODQ0NzQuMjg1NDYxLCJ1c2VyaWQiOiJiYTBiN2RmMC1hN2NhLTRhMzEtOTNkNi1lMGJjZWZjNDFkZGMifQ.sf0fcT7PzzM6QgKYj_eJoKUGD46nnrd4XbWfU1AnHcM
+Thu, 28 Jul 2022 11:41:14-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659584474.285461, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 11:41:22-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Thu, 28 Jul 2022 11:41:24-root-app.py-[line:40]-INFO-[日志信息]: /api/group/member_list
+Thu, 28 Jul 2022 11:41:24-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1ODQ0ODQuNzI3NTcwOCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.vbRc-VDq9QGXI-Rxi1zOakm1UzjE84I2TrqzycvqUlg
+Thu, 28 Jul 2022 11:41:24-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659584484.7275708, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 11:41:24-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/group/member_list [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\Group_servive\groupservice\views\groups.py", line 329, in member_list
+    users = query_res_to_dict_list(q)
+NameError: name 'query_res_to_dict_list' is not defined
+Thu, 28 Jul 2022 11:41:24-root-app.py-[line:40]-INFO-[日志信息]: /api/group/member_info
+Thu, 28 Jul 2022 11:41:24-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1ODQ0ODQuNzI3NTcwOCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.vbRc-VDq9QGXI-Rxi1zOakm1UzjE84I2TrqzycvqUlg
+Thu, 28 Jul 2022 11:41:24-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659584484.7275708, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 11:41:24-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/group/member_info [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\Group_servive\groupservice\views\groups.py", line 361, in member_info
+    user = query_res_to_dict(q)
+  File "D:\git-python\Group_servive\groupservice\utils\data_conversion.py", line 14, in query_res_to_dict
+    descripsions = query_res.column_descriptions
+NameError: name 'query_res' is not defined
+Thu, 28 Jul 2022 11:41:46-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Thu, 28 Jul 2022 11:41:50-root-app.py-[line:40]-INFO-[日志信息]: /api/group/member_list
+Thu, 28 Jul 2022 11:41:50-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1ODQ1MTAuNzE4NjkyNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.BoG0k9Vy-NvG0tgC8iqs2wM1NZW0LwO1OeOoW41FRWs
+Thu, 28 Jul 2022 11:41:50-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659584510.7186925, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 11:41:50-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/group/member_list [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\Group_servive\groupservice\views\groups.py", line 329, in member_list
+    users = query_res_to_dict_list(q)
+NameError: name 'query_res_to_dict_list' is not defined
+Thu, 28 Jul 2022 11:41:50-root-app.py-[line:40]-INFO-[日志信息]: /api/group/member_info
+Thu, 28 Jul 2022 11:41:50-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1ODQ1MTAuNzE4NjkyNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.BoG0k9Vy-NvG0tgC8iqs2wM1NZW0LwO1OeOoW41FRWs
+Thu, 28 Jul 2022 11:41:50-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659584510.7186925, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 11:41:50-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/group/member_info [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\Group_servive\groupservice\views\groups.py", line 361, in member_info
+    user = query_res_to_dict(q)
+  File "D:\git-python\Group_servive\groupservice\utils\data_conversion.py", line 15, in query_res_to_dict
+    obj = query_res.fist()
+NameError: name 'query_res' is not defined
+Thu, 28 Jul 2022 11:42:33-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Thu, 28 Jul 2022 11:42:37-root-app.py-[line:40]-INFO-[日志信息]: /api/group/member_list
+Thu, 28 Jul 2022 11:42:37-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1ODQ1NTcuMDMxNjk5MiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.9jdQt76p7Kskf2l1hOppTxpu_5QJVWZDkojfHHTK9rc
+Thu, 28 Jul 2022 11:42:37-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659584557.0316992, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 11:42:37-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/group/member_list [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\Group_servive\groupservice\views\groups.py", line 329, in member_list
+    users = query_res_to_dict_list(q)
+NameError: name 'query_res_to_dict_list' is not defined
+Thu, 28 Jul 2022 11:42:37-root-app.py-[line:40]-INFO-[日志信息]: /api/group/member_info
+Thu, 28 Jul 2022 11:42:37-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1ODQ1NTcuMDMxNjk5MiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.9jdQt76p7Kskf2l1hOppTxpu_5QJVWZDkojfHHTK9rc
+Thu, 28 Jul 2022 11:42:37-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659584557.0316992, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 11:42:37-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/group/member_info [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\Group_servive\groupservice\views\groups.py", line 361, in member_info
+    user = query_res_to_dict(q)
+  File "D:\git-python\Group_servive\groupservice\utils\data_conversion.py", line 15, in query_res_to_dict
+    obj_1 = obj.fist()
+AttributeError: 'BaseQuery' object has no attribute 'fist'
+Thu, 28 Jul 2022 11:43:32-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Thu, 28 Jul 2022 11:43:35-root-app.py-[line:40]-INFO-[日志信息]: /api/group/member_list
+Thu, 28 Jul 2022 11:43:35-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1ODQ2MTUuNTAwNzc0NiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.rAGeAS_1dU829-QhpWRyjFMGM43YFE3UAARBaV0JSrM
+Thu, 28 Jul 2022 11:43:35-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659584615.5007746, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 11:43:35-root-app.py-[line:40]-INFO-[日志信息]: /api/group/member_info
+Thu, 28 Jul 2022 11:43:35-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1ODQ2MTUuNTAwNzc0NiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.rAGeAS_1dU829-QhpWRyjFMGM43YFE3UAARBaV0JSrM
+Thu, 28 Jul 2022 11:43:35-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659584615.5007746, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 11:43:35-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/group/member_info [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\Group_servive\groupservice\views\groups.py", line 361, in member_info
+    user = query_res_to_dict(q)
+  File "D:\git-python\Group_servive\groupservice\utils\data_conversion.py", line 15, in query_res_to_dict
+    obj_1 = obj.fist()
+AttributeError: 'BaseQuery' object has no attribute 'fist'
+Thu, 28 Jul 2022 11:44:01-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Thu, 28 Jul 2022 11:44:04-root-app.py-[line:40]-INFO-[日志信息]: /api/group/member_list
+Thu, 28 Jul 2022 11:44:04-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1ODQ2NDQuMDY1MzMyMiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.QALve8MJgwfyyBNNT13_pH7EPCqElU3V8M6b8x8yWH0
+Thu, 28 Jul 2022 11:44:04-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659584644.0653322, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 11:44:04-root-app.py-[line:40]-INFO-[日志信息]: /api/group/member_info
+Thu, 28 Jul 2022 11:44:04-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1ODQ2NDQuMDY1MzMyMiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.QALve8MJgwfyyBNNT13_pH7EPCqElU3V8M6b8x8yWH0
+Thu, 28 Jul 2022 11:44:04-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659584644.0653322, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 11:44:04-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/group/member_info [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\Group_servive\groupservice\views\groups.py", line 365, in member_info
+    users=users))
+NameError: name 'users' is not defined
+Thu, 28 Jul 2022 11:44:06-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Thu, 28 Jul 2022 11:44:08-root-app.py-[line:40]-INFO-[日志信息]: /api/group/member_list
+Thu, 28 Jul 2022 11:44:08-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1ODQ2NDguNDc1OTAxMSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.QWv359WI4yviB3pTumAKqShDOZvknrBwWS4mXoXZFok
+Thu, 28 Jul 2022 11:44:08-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659584648.4759011, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 11:44:08-root-app.py-[line:40]-INFO-[日志信息]: /api/group/member_info
+Thu, 28 Jul 2022 11:44:08-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1ODQ2NDguNDc1OTAxMSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.QWv359WI4yviB3pTumAKqShDOZvknrBwWS4mXoXZFok
+Thu, 28 Jul 2022 11:44:08-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659584648.4759011, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 11:44:08-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/group/member_info [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\Group_servive\groupservice\views\groups.py", line 365, in member_info
+    users=users))
+NameError: name 'users' is not defined
+Thu, 28 Jul 2022 11:44:25-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Thu, 28 Jul 2022 11:45:21-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Thu, 28 Jul 2022 11:45:25-root-app.py-[line:40]-INFO-[日志信息]: /api/group/member_list
+Thu, 28 Jul 2022 11:45:25-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1ODQ3MjUuMzkwNzg1NSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.ggnYEgNWtL5QT7ZWobZETX0fMtl7k5okIw6bRa5u17o
+Thu, 28 Jul 2022 11:45:25-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659584725.3907855, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 11:45:25-root-app.py-[line:40]-INFO-[日志信息]: /api/group/member_info
+Thu, 28 Jul 2022 11:45:25-root-app.py-[line:45]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk1ODQ3MjUuMzkwNzg1NSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.ggnYEgNWtL5QT7ZWobZETX0fMtl7k5okIw6bRa5u17o
+Thu, 28 Jul 2022 11:45:25-root-app.py-[line:62]-INFO-[日志信息]: {'exp': 1659584725.3907855, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}

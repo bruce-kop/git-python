@@ -83,6 +83,14 @@ class ResCode(Enum):
     GROUP_MEMBER_ROLE_SET_PARAM_INVALID = 2601
     GROUP_MEMBER_ROLE_SET_SUCCESS = 2600
 
+    GROUP_LIST_IN_ADDR_BOOK_SUCCESS =2700
+
+    GROUP_MEMBER_INFO_SUCCESS = 2800
+    GROUP_MEMBER_INFO_PARAM_INVALID = 2801
+
+    GROUP_MEMBER_LIST_SUCCESS = 2900
+    GROUP_MEMBER_LIST_PARAM_INVALID = 2901
+
 @unique
 class ResMSG(Enum):
     COMMON_SUCCESS = 'request success.'
@@ -158,3 +166,12 @@ class ResMSG(Enum):
     GROUP_PARAM_IS_INVALID ="param is invalid."
     GROUP_MEMBER_ROLE_SET_PARAM_INVALID = "member role set param is invalid."
     GROUP_MEMBER_ROLE_SET_SUCCESS = "member role set success."
+
+    GROUP_LIST_IN_ADDR_BOOK_SUCCESS = "get groups from addr book success."
+
+    GROUP_MEMBER_LIST_SUCCESS = "get members from group success."
+    GROUP_MEMBER_LIST_PARAM_INVALID = "get members param is invalid."
+
+    GROUP_MEMBER_INFO_SUCCESS = "get members info from group success."
+    GROUP_MEMBER_INFO_PARAM_INVALID = "get members info param is invalid."
+

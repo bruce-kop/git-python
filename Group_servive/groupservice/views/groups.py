@@ -6,10 +6,10 @@ from groupservice.utils.Logger import logger
 from sqlalchemy import and_
 from groupservice.utils.res_msg_enum import ResMSG, ResCode
 import uuid
-from groupservice.models.database import db, Group,GroupAddrBook,GroupAu,GroupRole,GroupRoleAu,GroupUser
+from groupservice.models.database import db, Group,GroupAddrBook,GroupAu,GroupRole,GroupRoleAu,GroupUser,User
 import datetime
 from sqlalchemy.orm import relationship
-from groupservice.utils.datac_onversion import query_res_to_dict
+from groupservice.utils.data_conversion import query_res_to_dict_list, query_res_to_dict
 
 group_svr = Blueprint('group_svr', __name__)
 
@@ -227,11 +227,11 @@ def get_groups():
             return jsonify(responseBuilder.build_response(ResCode.INNER_ERR.value,
                                                           ResMSG.INNER_ERR.value))
 
-        groups = query_res_to_dict(q)
+        groups = query_res_to_dict_list(q)
         count = len(groups)
 
-        return jsonify(responseBuilder.build_response(ResCode.GROUP_SET_NAME_SUCCESS.value,
-                                                      ResMSG.GROUP_SET_NAME_SUCCESS.value,count = count,groups = groups))
+        return jsonify(responseBuilder.build_response(ResCode.GROUP_LIST_SUCCESS.value,
+                                                      ResMSG.GROUP_LIST_SUCCESS.value,count = count,groups = groups))
     return jsonify(responseBuilder.build_response(ResCode.PARAMS_IS_EMPTY.value,
                                                   ResMSG.PARAMS_IS_EMPTY.value))
 
@@ -306,12 +306,86 @@ def set_member_role():
 
 @group_svr.route('/api/group/member_list', methods=['POST'])
 def member_list():
-    pass
+    if not g.userid:
+        return jsonify(responseBuilder.build_response(ResCode.TOKEN_INVALID.value, ResMSG.TOKEN_INVALID.value))
+    if request.data:
+        data = parser.parse_to_dict(request.data)
+        try:
+            groupid = data.get('groupid')
+        except  Exception as e:
+            logger.error(e)
+            return jsonify(responseBuilder.build_response(ResCode.GROUP_MEMBER_LIST_PARAM_INVALID.value,
+                                                          ResMSG.GROUP_MEMBER_LIST_PARAM_INVALID.value))
+
+        try:
+            q = db.session.query(User.id, User.name, User.avatar).filter(User.id == GroupUser.user_id).filter(
+                GroupUser.group_id == groupid)
+            db.session.commit()
+        except Exception as e:
+            logger.error(e)
+            return jsonify(responseBuilder.build_response(ResCode.INNER_ERR.value,
+                                                          ResMSG.INNER_ERR.value))
+
+        users = query_res_to_dict_list(q)
+        count = len(users)
+
+        return jsonify(responseBuilder.build_response(ResCode.GROUP_MEMBER_LIST_SUCCESS.value,
+                                                      ResMSG.GROUP_MEMBER_LIST_SUCCESS.value, count=count,
+                                                      users=users))
+    return jsonify(responseBuilder.build_response(ResCode.PARAMS_IS_EMPTY.value,
+                                                  ResMSG.PARAMS_IS_EMPTY.value))
 
 @group_svr.route('/api/group/member_info', methods=['POST'])
 def member_info():
-    pass
+    if not g.userid:
+        return jsonify(responseBuilder.build_response(ResCode.TOKEN_INVALID.value, ResMSG.TOKEN_INVALID.value))
+    if request.data:
+        data = parser.parse_to_dict(request.data)
+        try:
+            groupid = data.get('groupid')
+            memberid = data.get('memberid')
+        except  Exception as e:
+            logger.error(e)
+            return jsonify(responseBuilder.build_response(ResCode.GROUP_MEMBER_INFO_PARAM_INVALID.value,
+                                                          ResMSG.GROUP_MEMBER_INFO_PARAM_INVALID.value))
+
+        try:
+            q = db.session.query(User.id, User.name, User.avatar).filter(User.id == GroupUser.user_id).filter(
+                GroupUser.user_id == memberid)
+            db.session.commit()
+        except Exception as e:
+            logger.error(e)
+            return jsonify(responseBuilder.build_response(ResCode.INNER_ERR.value,
+                                                          ResMSG.INNER_ERR.value))
+
+        member = query_res_to_dict(q)
+
+        return jsonify(responseBuilder.build_response(ResCode.GROUP_MEMBER_INFO_SUCCESS.value,
+                                                      ResMSG.GROUP_MEMBER_INFO_SUCCESS.value,
+                                                      member=member))
+    return jsonify(responseBuilder.build_response(ResCode.PARAMS_IS_EMPTY.value,
+                                                  ResMSG.PARAMS_IS_EMPTY.value))
 
 @group_svr.route('/api/group/groups_in_addr_book', methods=['POST'])
 def groups_in_addr_book():
-    pass
+    if not g.userid:
+        return jsonify(responseBuilder.build_response(ResCode.TOKEN_INVALID.value, ResMSG.TOKEN_INVALID.value))
+    if request.data:
+        data = parser.parse_to_dict(request.data)
+
+        try:
+            q = db.session.query(Group.id, Group.name, Group.avatar).filter(Group.id == GroupAddrBook.group_id).filter(
+                GroupAddrBook.user_id == g.userid)
+            db.session.commit()
+        except Exception as e:
+            logger.error(e)
+            return jsonify(responseBuilder.build_response(ResCode.INNER_ERR.value,
+                                                          ResMSG.INNER_ERR.value))
+
+        groups = query_res_to_dict_list(q)
+        count = len(groups)
+
+        return jsonify(responseBuilder.build_response(ResCode.GROUP_LIST_IN_ADDR_BOOK_SUCCESS.value,
+                                                      ResMSG.GROUP_LIST_IN_ADDR_BOOK_SUCCESS.value, count=count, groups=groups))
+    return jsonify(responseBuilder.build_response(ResCode.PARAMS_IS_EMPTY.value,
+                                                  ResMSG.PARAMS_IS_EMPTY.value))

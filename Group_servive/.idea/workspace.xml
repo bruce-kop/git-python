@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a10a2427-da0b-494a-a0d4-12c8fc0c8841" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/groupservice/utils/datac_onversion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../file_storage_servive/file_storage_service/logs/2022-07-27-all.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../file_storage_servive/file_storage_service/logs/2022-07-27-error.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../userservive/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/groupservive.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/groupservive.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/groupservice/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/groupservice/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/groupservice/logs/2022-07-27-all.log" beforeDir="false" afterPath="$PROJECT_DIR$/groupservice/logs/2022-07-27-all.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/groupservice/logs/2022-07-27-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/groupservice/logs/2022-07-27-error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/groupservice/models/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/groupservice/models/database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/groupservice/test/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/groupservice/test/client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/groupservice/utils/res_msg_enum.py" beforeDir="false" afterPath="$PROJECT_DIR$/groupservice/utils/res_msg_enum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/groupservice/views/groups.py" beforeDir="false" afterPath="$PROJECT_DIR$/groupservice/views/groups.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../friend_servive/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../friend_servive/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../friend_servive/friendservice/logs/2022-07-27-all.log" beforeDir="false" afterPath="$PROJECT_DIR$/../friend_servive/friendservice/logs/2022-07-27-all.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../friend_servive/friendservice/test/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/../friend_servive/friendservice/test/client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../userservive/.idea/userservive.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../userservive/.idea/userservive.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../userservive/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../userservive/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../userservive/userservice/logs/2022-07-27-all.log" beforeDir="false" afterPath="$PROJECT_DIR$/../userservive/userservice/logs/2022-07-27-all.log" afterDir="false" />
-    </list>
+    <list default="true" id="a10a2427-da0b-494a-a0d4-12c8fc0c8841" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
