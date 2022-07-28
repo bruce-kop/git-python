@@ -186,11 +186,12 @@ class tcpserver:
                 if s in outputs:
                     outputs.remove(s)
                 self.__destroy(s)
+
 from msg_push_service.utils.parseConfig import xml_parse
 import time
-mongo_ip,mongo_port,mongo_user,mongopwd,mongo_database = xml_parse.parse_mongodb_info()
-mysql_ip,mysql_port,mysql_user,mysql_pwd,mysql_database = xml_parse.parse_mysql_info()
-mysql = MysqlDBHelper(host=mysql_ip, port=int(mysql_port),user=mysql_user,pwd=mysql_pwd,database=mysql_database)
+mongo_ip, mongo_port, mongo_user, mongopwd, mongo_database = xml_parse.parse_mongodb_info()
+mysql_ip, mysql_port, mysql_user, mysql_pwd, mysql_database = xml_parse.parse_mysql_info()
+mysql = MysqlDBHelper(host=mysql_ip, port=int(mysql_port), user=mysql_user, pwd=mysql_pwd, database=mysql_database)
 mongodb = MongoDBHelper(host=mongo_ip, port=mongo_port, database=mongo_database)
 
 
@@ -232,11 +233,14 @@ class DataProcThread(threading.Thread):
                     else:
                         #save to reis
                         pass
+                    created_at = datetime.datetime.now()
+                    group_id = ''
+                    msg_id = str(uuid.uuid4())
                     data_list = [
-                        {"user_id": to,"centent":msg, "from_u": userid,"is_send":is_send, 'create_data' :datetime.datetime.now()}
+                        {"msg_id": msg_id, "user_id": to, "content": msg, "from_u": userid, "group_id": group_id, "is_send": is_send, "created_at": created_at}
                     ]
-                    res = mongodb.insert(table = 'message', data_list=data_list)
-                    if  not res:
+                    res = mongodb.insert(table='message', data_list=data_list)
+                    if not res:
                         logger.error("insert message to mongdb failed.")
                     id = uuid.uuid4()
                     res = mysql.insert(table = 'message', id = "\"{}\"".format(id), user_id = "\"{}\"".format(to), content="\"{}\"".format(msg),

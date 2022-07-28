@@ -1,0 +1,590 @@
+Thu, 28 Jul 2022 17:14:51-root-DBHelper.py-[line:33]-INFO-[日志信息]: mongodb://127.0.0.1:27017
+Thu, 28 Jul 2022 17:15:07-root-tcpservser.py-[line:157]-DEBUG-[日志信息]: 客户端连接。
+Thu, 28 Jul 2022 17:15:08-urllib3.connectionpool-connectionpool.py-[line:228]-DEBUG-[日志信息]: Starting new HTTP connection (1): 127.0.0.1:5000
+Thu, 28 Jul 2022 17:15:08-urllib3.connectionpool-connectionpool.py-[line:456]-DEBUG-[日志信息]: http://127.0.0.1:5000 "POST /api/login HTTP/1.1" 200 337
+Thu, 28 Jul 2022 17:15:08-root-tcpservser.py-[line:128]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?\xdd\x00\x00\x00'
+Thu, 28 Jul 2022 17:15:08-root-tcpservser.py-[line:133]-DEBUG-[日志信息]: 收到包体:b'{"method": "4001", "body": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDQ1MDguMTk3OTYxOCwidXNlcmlkIjoiZjY5MmI1MTMtOGUxYy00MTBhLTkyN2ItNTg2ODdiODVkY2M4In0.6Lbcl14ne1Q-tYC5q5f7opV_ZPGeRcMdgJE0LMiOiC0"}}'
+Thu, 28 Jul 2022 17:15:08-root-tcpservser.py-[line:77]-INFO-[日志信息]: 解析头耗时：0.0044708251953125
+Thu, 28 Jul 2022 17:15:08-root-tcpservser.py-[line:165]-INFO-[日志信息]: 耗时：0.004865169525146484
+Thu, 28 Jul 2022 17:15:08-root-tcpservser.py-[line:181]-DEBUG-[日志信息]: 客户端可写。
+Thu, 28 Jul 2022 17:15:09-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:15:10-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:15:11-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:15:12-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:15:13-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:15:14-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:15:15-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:15:16-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:15:17-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:15:18-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:15:19-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:15:20-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:15:21-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:15:22-root-tcpservser.py-[line:157]-DEBUG-[日志信息]: 客户端连接。
+Thu, 28 Jul 2022 17:15:22-urllib3.connectionpool-connectionpool.py-[line:228]-DEBUG-[日志信息]: Starting new HTTP connection (1): 127.0.0.1:5000
+Thu, 28 Jul 2022 17:15:22-urllib3.connectionpool-connectionpool.py-[line:456]-DEBUG-[日志信息]: http://127.0.0.1:5000 "POST /api/login HTTP/1.1" 200 339
+Thu, 28 Jul 2022 17:15:22-root-tcpservser.py-[line:128]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?\xdd\x00\x00\x00'
+Thu, 28 Jul 2022 17:15:22-root-tcpservser.py-[line:133]-DEBUG-[日志信息]: 收到包体:b'{"method": "4001", "body": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDQ1MjIuMjA5NjQ4OCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.2NYLgBWBg28fsa56JgcdTOcBVMGdhkz0zO-XlSe_2sI"}}'
+Thu, 28 Jul 2022 17:15:22-root-tcpservser.py-[line:77]-INFO-[日志信息]: 解析头耗时：0.000997304916381836
+Thu, 28 Jul 2022 17:15:22-root-tcpservser.py-[line:165]-INFO-[日志信息]: 耗时：0.0019598007202148438
+Thu, 28 Jul 2022 17:15:22-root-tcpservser.py-[line:181]-DEBUG-[日志信息]: 客户端可写。
+Thu, 28 Jul 2022 17:15:22-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:15:24-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:15:24-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:15:25-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:15:25-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:15:26-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:15:26-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:15:27-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:15:27-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:15:28-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:15:28-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:15:29-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:15:29-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:15:30-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:15:30-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:15:30-root-tcpservser.py-[line:128]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?\x1f\x01\x00\x00'
+Thu, 28 Jul 2022 17:15:30-root-tcpservser.py-[line:133]-DEBUG-[日志信息]: 收到包体:b'{"method": "4003", "body": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDQ1MjIuMjA5NjQ4OCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.2NYLgBWBg28fsa56JgcdTOcBVMGdhkz0zO-XlSe_2sI", "msg": "ni hao a ", "to": "f692b513-8e1c-410a-927b-58687b85dcc8"}}'
+Thu, 28 Jul 2022 17:15:30-root-tcpservser.py-[line:88]-INFO-[日志信息]: 解析包体耗时：0.0009970664978027344
+Thu, 28 Jul 2022 17:15:30-root-tcpservser.py-[line:165]-INFO-[日志信息]: 耗时：0.0033037662506103516
+Thu, 28 Jul 2022 17:15:30-root-tcpservser.py-[line:181]-DEBUG-[日志信息]: 客户端可写。
+Thu, 28 Jul 2022 17:15:31-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:15:40-root-tcpservser.py-[line:128]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?"\x01\x00\x00'
+Thu, 28 Jul 2022 17:15:40-root-tcpservser.py-[line:133]-DEBUG-[日志信息]: 收到包体:b'{"method": "4003", "body": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDQ1MDguMTk3OTYxOCwidXNlcmlkIjoiZjY5MmI1MTMtOGUxYy00MTBhLTkyN2ItNTg2ODdiODVkY2M4In0.6Lbcl14ne1Q-tYC5q5f7opV_ZPGeRcMdgJE0LMiOiC0", "msg": "wo hen  hao ", "to": "ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc"}}'
+Thu, 28 Jul 2022 17:15:40-root-tcpservser.py-[line:88]-INFO-[日志信息]: 解析包体耗时：0.0005543231964111328
+Thu, 28 Jul 2022 17:15:40-root-tcpservser.py-[line:165]-INFO-[日志信息]: 耗时：0.0019941329956054688
+Thu, 28 Jul 2022 17:15:40-root-tcpservser.py-[line:181]-DEBUG-[日志信息]: 客户端可写。
+Thu, 28 Jul 2022 17:15:45-root-tcpservser.py-[line:128]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?*\x01\x00\x00'
+Thu, 28 Jul 2022 17:15:45-root-tcpservser.py-[line:133]-DEBUG-[日志信息]: 收到包体:b'{"method": "4003", "body": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDQ1MDguMTk3OTYxOCwidXNlcmlkIjoiZjY5MmI1MTMtOGUxYy00MTBhLTkyN2ItNTg2ODdiODVkY2M4In0.6Lbcl14ne1Q-tYC5q5f7opV_ZPGeRcMdgJE0LMiOiC0", "msg": "nin zuijin zmyang o ", "to": "ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc"}}'
+Thu, 28 Jul 2022 17:15:45-root-tcpservser.py-[line:88]-INFO-[日志信息]: 解析包体耗时：0.000997304916381836
+Thu, 28 Jul 2022 17:15:45-root-tcpservser.py-[line:165]-INFO-[日志信息]: 耗时：0.002610445022583008
+Thu, 28 Jul 2022 17:15:45-root-tcpservser.py-[line:181]-DEBUG-[日志信息]: 客户端可写。
+Thu, 28 Jul 2022 17:15:53-root-tcpservser.py-[line:128]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?#\x01\x00\x00'
+Thu, 28 Jul 2022 17:15:53-root-tcpservser.py-[line:133]-DEBUG-[日志信息]: 收到包体:b'{"method": "4003", "body": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDQ1MjIuMjA5NjQ4OCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.2NYLgBWBg28fsa56JgcdTOcBVMGdhkz0zO-XlSe_2sI", "msg": "wo ye bucuou ", "to": "f692b513-8e1c-410a-927b-58687b85dcc8"}}'
+Thu, 28 Jul 2022 17:15:53-root-tcpservser.py-[line:88]-INFO-[日志信息]: 解析包体耗时：0.0
+Thu, 28 Jul 2022 17:15:53-root-tcpservser.py-[line:165]-INFO-[日志信息]: 耗时：0.001995086669921875
+Thu, 28 Jul 2022 17:15:53-root-tcpservser.py-[line:181]-DEBUG-[日志信息]: 客户端可写。
+Thu, 28 Jul 2022 17:16:00-root-tcpservser.py-[line:128]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?&\x01\x00\x00'
+Thu, 28 Jul 2022 17:16:00-root-tcpservser.py-[line:133]-DEBUG-[日志信息]: 收到包体:b'{"method": "4003", "body": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDQ1MjIuMjA5NjQ4OCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.2NYLgBWBg28fsa56JgcdTOcBVMGdhkz0zO-XlSe_2sI", "msg": "gai tian juju a ", "to": "f692b513-8e1c-410a-927b-58687b85dcc8"}}'
+Thu, 28 Jul 2022 17:16:00-root-tcpservser.py-[line:88]-INFO-[日志信息]: 解析包体耗时：0.0009984970092773438
+Thu, 28 Jul 2022 17:16:00-root-tcpservser.py-[line:165]-INFO-[日志信息]: 耗时：0.0032186508178710938
+Thu, 28 Jul 2022 17:16:00-root-tcpservser.py-[line:181]-DEBUG-[日志信息]: 客户端可写。
+Thu, 28 Jul 2022 17:16:05-root-tcpservser.py-[line:128]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?\x1c\x01\x00\x00'
+Thu, 28 Jul 2022 17:16:05-root-tcpservser.py-[line:133]-DEBUG-[日志信息]: 收到包体:b'{"method": "4003", "body": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDQ1MDguMTk3OTYxOCwidXNlcmlkIjoiZjY5MmI1MTMtOGUxYy00MTBhLTkyN2ItNTg2ODdiODVkY2M4In0.6Lbcl14ne1Q-tYC5q5f7opV_ZPGeRcMdgJE0LMiOiC0", "msg": "haode ", "to": "ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc"}}'
+Thu, 28 Jul 2022 17:16:05-root-tcpservser.py-[line:88]-INFO-[日志信息]: 解析包体耗时：0.0009963512420654297
+Thu, 28 Jul 2022 17:16:05-root-tcpservser.py-[line:165]-INFO-[日志信息]: 耗时：0.0019931793212890625
+Thu, 28 Jul 2022 17:16:05-root-tcpservser.py-[line:181]-DEBUG-[日志信息]: 客户端可写。
+Thu, 28 Jul 2022 17:16:09-root-tcpservser.py-[line:128]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?(\x01\x00\x00'
+Thu, 28 Jul 2022 17:16:09-root-tcpservser.py-[line:133]-DEBUG-[日志信息]: 收到包体:b'{"method": "4003", "body": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDQ1MDguMTk3OTYxOCwidXNlcmlkIjoiZjY5MmI1MTMtOGUxYy00MTBhLTkyN2ItNTg2ODdiODVkY2M4In0.6Lbcl14ne1Q-tYC5q5f7opV_ZPGeRcMdgJE0LMiOiC0", "msg": "wo xian chifan le ", "to": "ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc"}}'
+Thu, 28 Jul 2022 17:16:09-root-tcpservser.py-[line:88]-INFO-[日志信息]: 解析包体耗时：0.0009949207305908203
+Thu, 28 Jul 2022 17:16:09-root-tcpservser.py-[line:165]-INFO-[日志信息]: 耗时：0.0033371448516845703
+Thu, 28 Jul 2022 17:16:09-root-tcpservser.py-[line:181]-DEBUG-[日志信息]: 客户端可写。
+Thu, 28 Jul 2022 17:16:16-root-tcpservser.py-[line:128]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?!\x01\x00\x00'
+Thu, 28 Jul 2022 17:16:16-root-tcpservser.py-[line:133]-DEBUG-[日志信息]: 收到包体:b'{"method": "4003", "body": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDQ1MjIuMjA5NjQ4OCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.2NYLgBWBg28fsa56JgcdTOcBVMGdhkz0zO-XlSe_2sI", "msg": "hao de byby", "to": "f692b513-8e1c-410a-927b-58687b85dcc8"}}'
+Thu, 28 Jul 2022 17:16:16-root-tcpservser.py-[line:88]-INFO-[日志信息]: 解析包体耗时：0.0009968280792236328
+Thu, 28 Jul 2022 17:16:16-root-tcpservser.py-[line:165]-INFO-[日志信息]: 耗时：0.0029914379119873047
+Thu, 28 Jul 2022 17:16:16-root-tcpservser.py-[line:181]-DEBUG-[日志信息]: 客户端可写。
+Thu, 28 Jul 2022 17:19:16-root-tcpservser.py-[line:157]-DEBUG-[日志信息]: 客户端连接。
+Thu, 28 Jul 2022 17:19:16-urllib3.connectionpool-connectionpool.py-[line:228]-DEBUG-[日志信息]: Starting new HTTP connection (1): 127.0.0.1:5000
+Thu, 28 Jul 2022 17:19:16-urllib3.connectionpool-connectionpool.py-[line:456]-DEBUG-[日志信息]: http://127.0.0.1:5000 "POST /api/login HTTP/1.1" 200 336
+Thu, 28 Jul 2022 17:19:16-root-tcpservser.py-[line:128]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?\xdc\x00\x00\x00'
+Thu, 28 Jul 2022 17:19:16-root-tcpservser.py-[line:133]-DEBUG-[日志信息]: 收到包体:b'{"method": "4001", "body": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDQ3NTYuNzAwNDQyLCJ1c2VyaWQiOiJmNjkyYjUxMy04ZTFjLTQxMGEtOTI3Yi01ODY4N2I4NWRjYzgifQ.QAcX729YG58QMg_g1xBfQgB7nMhBaFbiTpClhJpY7Bs"}}'
+Thu, 28 Jul 2022 17:19:16-root-tcpservser.py-[line:77]-INFO-[日志信息]: 解析头耗时：0.0009980201721191406
+Thu, 28 Jul 2022 17:19:16-root-tcpservser.py-[line:165]-INFO-[日志信息]: 耗时：0.002316713333129883
+Thu, 28 Jul 2022 17:19:16-root-tcpservser.py-[line:181]-DEBUG-[日志信息]: 客户端可写。
+Thu, 28 Jul 2022 17:19:21-root-tcpservser.py-[line:157]-DEBUG-[日志信息]: 客户端连接。
+Thu, 28 Jul 2022 17:19:21-urllib3.connectionpool-connectionpool.py-[line:228]-DEBUG-[日志信息]: Starting new HTTP connection (1): 127.0.0.1:5000
+Thu, 28 Jul 2022 17:19:21-urllib3.connectionpool-connectionpool.py-[line:456]-DEBUG-[日志信息]: http://127.0.0.1:5000 "POST /api/login HTTP/1.1" 200 339
+Thu, 28 Jul 2022 17:19:21-root-tcpservser.py-[line:128]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?\xdd\x00\x00\x00'
+Thu, 28 Jul 2022 17:19:21-root-tcpservser.py-[line:133]-DEBUG-[日志信息]: 收到包体:b'{"method": "4001", "body": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDQ3NjEuNDAyNzEzOCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.cAa-UDoBVrtxVKvvcS8fWOBRCER4ktyfDgLtCq5Ag-4"}}'
+Thu, 28 Jul 2022 17:19:21-root-tcpservser.py-[line:77]-INFO-[日志信息]: 解析头耗时：0.0
+Thu, 28 Jul 2022 17:19:21-root-tcpservser.py-[line:165]-INFO-[日志信息]: 耗时：0.000997304916381836
+Thu, 28 Jul 2022 17:19:21-root-tcpservser.py-[line:181]-DEBUG-[日志信息]: 客户端可写。
+Thu, 28 Jul 2022 17:19:43-root-DBHelper.py-[line:33]-INFO-[日志信息]: mongodb://127.0.0.1:27017
+Thu, 28 Jul 2022 17:19:58-root-tcpservser.py-[line:157]-DEBUG-[日志信息]: 客户端连接。
+Thu, 28 Jul 2022 17:19:58-urllib3.connectionpool-connectionpool.py-[line:228]-DEBUG-[日志信息]: Starting new HTTP connection (1): 127.0.0.1:5000
+Thu, 28 Jul 2022 17:19:58-urllib3.connectionpool-connectionpool.py-[line:456]-DEBUG-[日志信息]: http://127.0.0.1:5000 "POST /api/login HTTP/1.1" 200 337
+Thu, 28 Jul 2022 17:19:58-root-tcpservser.py-[line:128]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?\xdd\x00\x00\x00'
+Thu, 28 Jul 2022 17:19:58-root-tcpservser.py-[line:133]-DEBUG-[日志信息]: 收到包体:b'{"method": "4001", "body": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDQ3OTguMzg3MzgyNSwidXNlcmlkIjoiZjY5MmI1MTMtOGUxYy00MTBhLTkyN2ItNTg2ODdiODVkY2M4In0.BlRMG5Ctr1lkAm2Y4_50L1dirh6kfAInYrDvr8NIiNY"}}'
+Thu, 28 Jul 2022 17:19:58-root-tcpservser.py-[line:77]-INFO-[日志信息]: 解析头耗时：0.001995086669921875
+Thu, 28 Jul 2022 17:19:58-root-tcpservser.py-[line:165]-INFO-[日志信息]: 耗时：0.004114389419555664
+Thu, 28 Jul 2022 17:19:58-root-tcpservser.py-[line:181]-DEBUG-[日志信息]: 客户端可写。
+Thu, 28 Jul 2022 17:20:00-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:20:01-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:20:02-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:20:02-root-tcpservser.py-[line:157]-DEBUG-[日志信息]: 客户端连接。
+Thu, 28 Jul 2022 17:20:02-urllib3.connectionpool-connectionpool.py-[line:228]-DEBUG-[日志信息]: Starting new HTTP connection (1): 127.0.0.1:5000
+Thu, 28 Jul 2022 17:20:02-urllib3.connectionpool-connectionpool.py-[line:456]-DEBUG-[日志信息]: http://127.0.0.1:5000 "POST /api/login HTTP/1.1" 200 339
+Thu, 28 Jul 2022 17:20:02-root-tcpservser.py-[line:128]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?\xdd\x00\x00\x00'
+Thu, 28 Jul 2022 17:20:02-root-tcpservser.py-[line:133]-DEBUG-[日志信息]: 收到包体:b'{"method": "4001", "body": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDQ4MDIuNjA4NjQwNCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.ovQbKEPG0jpKUndsmWVpZL70AfvH7USRIrKheAuahDQ"}}'
+Thu, 28 Jul 2022 17:20:02-root-tcpservser.py-[line:77]-INFO-[日志信息]: 解析头耗时：0.0019958019256591797
+Thu, 28 Jul 2022 17:20:02-root-tcpservser.py-[line:165]-INFO-[日志信息]: 耗时：0.0029458999633789062
+Thu, 28 Jul 2022 17:20:02-root-tcpservser.py-[line:181]-DEBUG-[日志信息]: 客户端可写。
+Thu, 28 Jul 2022 17:20:03-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:20:04-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:20:04-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:20:05-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:20:05-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:20:06-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:20:06-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:20:07-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:20:07-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:20:08-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:20:08-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:20:09-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:20:09-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:20:10-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:20:10-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:20:11-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:20:11-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:20:12-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:20:12-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:20:13-root-tcpservser.py-[line:128]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?(\x01\x00\x00'
+Thu, 28 Jul 2022 17:20:13-root-tcpservser.py-[line:133]-DEBUG-[日志信息]: 收到包体:b'{"method": "4003", "body": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDQ4MDIuNjA4NjQwNCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.ovQbKEPG0jpKUndsmWVpZL70AfvH7USRIrKheAuahDQ", "msg": "\\u4f60\\u597d\\u554a", "to": "f692b513-8e1c-410a-927b-58687b85dcc8"}}'
+Thu, 28 Jul 2022 17:20:13-root-tcpservser.py-[line:88]-INFO-[日志信息]: 解析包体耗时：0.0019228458404541016
+Thu, 28 Jul 2022 17:20:13-root-tcpservser.py-[line:165]-INFO-[日志信息]: 耗时：0.003365755081176758
+Thu, 28 Jul 2022 17:20:13-root-tcpservser.py-[line:181]-DEBUG-[日志信息]: 客户端可写。
+Thu, 28 Jul 2022 17:20:13-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:20:21-root-tcpservser.py-[line:128]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?R\x01\x00\x00'
+Thu, 28 Jul 2022 17:20:21-root-tcpservser.py-[line:133]-DEBUG-[日志信息]: 收到包体:b'{"method": "4003", "body": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDQ3OTguMzg3MzgyNSwidXNlcmlkIjoiZjY5MmI1MTMtOGUxYy00MTBhLTkyN2ItNTg2ODdiODVkY2M4In0.BlRMG5Ctr1lkAm2Y4_50L1dirh6kfAInYrDvr8NIiNY", "msg": "\\u5f88\\u597d\\u7684\\u989d\\uff0c\\u4f60\\u600e\\u4e48\\u6837\\u554a", "to": "ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc"}}'
+Thu, 28 Jul 2022 17:20:21-root-tcpservser.py-[line:88]-INFO-[日志信息]: 解析包体耗时：0.001485586166381836
+Thu, 28 Jul 2022 17:20:21-root-tcpservser.py-[line:165]-INFO-[日志信息]: 耗时：0.003192901611328125
+Thu, 28 Jul 2022 17:20:21-root-tcpservser.py-[line:181]-DEBUG-[日志信息]: 客户端可写。
+Thu, 28 Jul 2022 17:20:28-root-tcpservser.py-[line:128]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?4\x01\x00\x00'
+Thu, 28 Jul 2022 17:20:28-root-tcpservser.py-[line:133]-DEBUG-[日志信息]: 收到包体:b'{"method": "4003", "body": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDQ4MDIuNjA4NjQwNCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.ovQbKEPG0jpKUndsmWVpZL70AfvH7USRIrKheAuahDQ", "msg": "\\u6211\\u4e5f\\u4e0d\\u9519\\u554a", "to": "f692b513-8e1c-410a-927b-58687b85dcc8"}}'
+Thu, 28 Jul 2022 17:20:28-root-tcpservser.py-[line:88]-INFO-[日志信息]: 解析包体耗时：0.0023889541625976562
+Thu, 28 Jul 2022 17:20:28-root-tcpservser.py-[line:165]-INFO-[日志信息]: 耗时：0.0033943653106689453
+Thu, 28 Jul 2022 17:20:28-root-tcpservser.py-[line:181]-DEBUG-[日志信息]: 客户端可写。
+Thu, 28 Jul 2022 17:20:33-root-tcpservser.py-[line:128]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?:\x01\x00\x00'
+Thu, 28 Jul 2022 17:20:33-root-tcpservser.py-[line:133]-DEBUG-[日志信息]: 收到包体:b'{"method": "4003", "body": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDQ4MDIuNjA4NjQwNCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.ovQbKEPG0jpKUndsmWVpZL70AfvH7USRIrKheAuahDQ", "msg": "\\u6709\\u65f6\\u95f4\\u805a\\u805a\\u554a", "to": "f692b513-8e1c-410a-927b-58687b85dcc8"}}'
+Thu, 28 Jul 2022 17:20:33-root-tcpservser.py-[line:88]-INFO-[日志信息]: 解析包体耗时：0.0018167495727539062
+Thu, 28 Jul 2022 17:20:33-root-tcpservser.py-[line:165]-INFO-[日志信息]: 耗时：0.003858327865600586
+Thu, 28 Jul 2022 17:20:33-root-tcpservser.py-[line:181]-DEBUG-[日志信息]: 客户端可写。
+Thu, 28 Jul 2022 17:20:39-root-tcpservser.py-[line:128]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?4\x01\x00\x00'
+Thu, 28 Jul 2022 17:20:39-root-tcpservser.py-[line:133]-DEBUG-[日志信息]: 收到包体:b'{"method": "4003", "body": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDQ3OTguMzg3MzgyNSwidXNlcmlkIjoiZjY5MmI1MTMtOGUxYy00MTBhLTkyN2ItNTg2ODdiODVkY2M4In0.BlRMG5Ctr1lkAm2Y4_50L1dirh6kfAInYrDvr8NIiNY", "msg": "\\u6ca1\\u95ee\\u9898\\u554a\\uff0c", "to": "ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc"}}'
+Thu, 28 Jul 2022 17:20:39-root-tcpservser.py-[line:88]-INFO-[日志信息]: 解析包体耗时：0.0019960403442382812
+Thu, 28 Jul 2022 17:20:39-root-tcpservser.py-[line:165]-INFO-[日志信息]: 耗时：0.003281831741333008
+Thu, 28 Jul 2022 17:20:39-root-tcpservser.py-[line:181]-DEBUG-[日志信息]: 客户端可写。
+Thu, 28 Jul 2022 17:23:51-root-DBHelper.py-[line:33]-INFO-[日志信息]: mongodb://127.0.0.1:27017
+Thu, 28 Jul 2022 17:23:55-root-tcpservser.py-[line:157]-DEBUG-[日志信息]: 客户端连接。
+Thu, 28 Jul 2022 17:23:55-urllib3.connectionpool-connectionpool.py-[line:228]-DEBUG-[日志信息]: Starting new HTTP connection (1): 127.0.0.1:5000
+Thu, 28 Jul 2022 17:23:55-urllib3.connectionpool-connectionpool.py-[line:456]-DEBUG-[日志信息]: http://127.0.0.1:5000 "POST /api/login HTTP/1.1" 200 337
+Thu, 28 Jul 2022 17:23:55-root-tcpservser.py-[line:128]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?\xdd\x00\x00\x00'
+Thu, 28 Jul 2022 17:23:55-root-tcpservser.py-[line:133]-DEBUG-[日志信息]: 收到包体:b'{"method": "4001", "body": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDUwMzUuNzkyMjk3MSwidXNlcmlkIjoiZjY5MmI1MTMtOGUxYy00MTBhLTkyN2ItNTg2ODdiODVkY2M4In0.F26DqUcM4DWP7JTbtRBblMTn14IjnpWyIWUmnrK2yy8"}}'
+Thu, 28 Jul 2022 17:23:55-root-tcpservser.py-[line:77]-INFO-[日志信息]: 解析头耗时：0.0019757747650146484
+Thu, 28 Jul 2022 17:23:55-root-tcpservser.py-[line:165]-INFO-[日志信息]: 耗时：0.004159212112426758
+Thu, 28 Jul 2022 17:23:55-root-tcpservser.py-[line:181]-DEBUG-[日志信息]: 客户端可写。
+Thu, 28 Jul 2022 17:23:57-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:23:58-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:23:59-root-tcpservser.py-[line:157]-DEBUG-[日志信息]: 客户端连接。
+Thu, 28 Jul 2022 17:23:59-urllib3.connectionpool-connectionpool.py-[line:228]-DEBUG-[日志信息]: Starting new HTTP connection (1): 127.0.0.1:5000
+Thu, 28 Jul 2022 17:23:59-urllib3.connectionpool-connectionpool.py-[line:456]-DEBUG-[日志信息]: http://127.0.0.1:5000 "POST /api/login HTTP/1.1" 200 339
+Thu, 28 Jul 2022 17:23:59-root-tcpservser.py-[line:128]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?\xdd\x00\x00\x00'
+Thu, 28 Jul 2022 17:23:59-root-tcpservser.py-[line:133]-DEBUG-[日志信息]: 收到包体:b'{"method": "4001", "body": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDUwMzkuMjU0MzEzMiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.lB3YMvd509VT-0KJGLLYcXwM-mzmavspj1Zdgcd9BEQ"}}'
+Thu, 28 Jul 2022 17:23:59-root-tcpservser.py-[line:77]-INFO-[日志信息]: 解析头耗时：0.0010144710540771484
+Thu, 28 Jul 2022 17:23:59-root-tcpservser.py-[line:165]-INFO-[日志信息]: 耗时：0.002012491226196289
+Thu, 28 Jul 2022 17:23:59-root-tcpservser.py-[line:181]-DEBUG-[日志信息]: 客户端可写。
+Thu, 28 Jul 2022 17:23:59-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:24:00-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:24:00-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:24:01-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:24:01-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:24:02-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:24:02-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:24:03-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:24:03-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:24:04-root-tcpservser.py-[line:128]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?"\x01\x00\x00'
+Thu, 28 Jul 2022 17:24:04-root-tcpservser.py-[line:133]-DEBUG-[日志信息]: 收到包体:b'{"method": "4003", "body": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDUwMzkuMjU0MzEzMiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.lB3YMvd509VT-0KJGLLYcXwM-mzmavspj1Zdgcd9BEQ", "msg": "\\u4f60\\u597d", "to": "f692b513-8e1c-410a-927b-58687b85dcc8"}}'
+Thu, 28 Jul 2022 17:24:04-root-tcpservser.py-[line:88]-INFO-[日志信息]: 解析包体耗时：0.0009999275207519531
+Thu, 28 Jul 2022 17:24:04-root-tcpservser.py-[line:165]-INFO-[日志信息]: 耗时：0.0035276412963867188
+Thu, 28 Jul 2022 17:24:04-root-tcpservser.py-[line:181]-DEBUG-[日志信息]: 客户端可写。
+Thu, 28 Jul 2022 17:24:04-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:24:13-root-tcpservser.py-[line:128]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?.\x01\x00\x00'
+Thu, 28 Jul 2022 17:24:13-root-tcpservser.py-[line:133]-DEBUG-[日志信息]: 收到包体:b'{"method": "4003", "body": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDUwMzUuNzkyMjk3MSwidXNlcmlkIjoiZjY5MmI1MTMtOGUxYy00MTBhLTkyN2ItNTg2ODdiODVkY2M4In0.F26DqUcM4DWP7JTbtRBblMTn14IjnpWyIWUmnrK2yy8", "msg": "\\u6211\\u5f88\\u597d\\u554a", "to": "ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc"}}'
+Thu, 28 Jul 2022 17:24:13-root-tcpservser.py-[line:88]-INFO-[日志信息]: 解析包体耗时：0.0009968280792236328
+Thu, 28 Jul 2022 17:24:13-root-tcpservser.py-[line:165]-INFO-[日志信息]: 耗时：0.00404667854309082
+Thu, 28 Jul 2022 17:24:13-root-tcpservser.py-[line:181]-DEBUG-[日志信息]: 客户端可写。
+Thu, 28 Jul 2022 17:26:30-root-DBHelper.py-[line:33]-INFO-[日志信息]: mongodb://127.0.0.1:27017
+Thu, 28 Jul 2022 17:26:30-root-DBHelper.py-[line:36]-INFO-[日志信息]: im_database
+Thu, 28 Jul 2022 17:26:51-root-tcpservser.py-[line:157]-DEBUG-[日志信息]: 客户端连接。
+Thu, 28 Jul 2022 17:26:51-urllib3.connectionpool-connectionpool.py-[line:228]-DEBUG-[日志信息]: Starting new HTTP connection (1): 127.0.0.1:5000
+Thu, 28 Jul 2022 17:26:51-urllib3.connectionpool-connectionpool.py-[line:456]-DEBUG-[日志信息]: http://127.0.0.1:5000 "POST /api/login HTTP/1.1" 200 337
+Thu, 28 Jul 2022 17:26:51-root-tcpservser.py-[line:128]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?\xdd\x00\x00\x00'
+Thu, 28 Jul 2022 17:26:51-root-tcpservser.py-[line:133]-DEBUG-[日志信息]: 收到包体:b'{"method": "4001", "body": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDUyMTEuNTYyNDQxNiwidXNlcmlkIjoiZjY5MmI1MTMtOGUxYy00MTBhLTkyN2ItNTg2ODdiODVkY2M4In0.qgMp22goVIVSaLvlQO9Rx9BZCL2L0r829FHdxu4XesM"}}'
+Thu, 28 Jul 2022 17:26:51-root-tcpservser.py-[line:77]-INFO-[日志信息]: 解析头耗时：0.002094268798828125
+Thu, 28 Jul 2022 17:26:51-root-tcpservser.py-[line:165]-INFO-[日志信息]: 耗时：0.0030906200408935547
+Thu, 28 Jul 2022 17:26:51-root-tcpservser.py-[line:181]-DEBUG-[日志信息]: 客户端可写。
+Thu, 28 Jul 2022 17:26:53-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:26:54-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:26:55-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:26:56-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:26:57-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:26:58-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:26:58-root-tcpservser.py-[line:128]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80? \x01\x00\x00'
+Thu, 28 Jul 2022 17:26:58-root-tcpservser.py-[line:133]-DEBUG-[日志信息]: 收到包体:b'{"method": "4003", "body": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDUyMTEuNTYyNDQxNiwidXNlcmlkIjoiZjY5MmI1MTMtOGUxYy00MTBhLTkyN2ItNTg2ODdiODVkY2M4In0.qgMp22goVIVSaLvlQO9Rx9BZCL2L0r829FHdxu4XesM", "msg": "djflasjfds", "to": "ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc"}}'
+Thu, 28 Jul 2022 17:26:58-root-tcpservser.py-[line:88]-INFO-[日志信息]: 解析包体耗时：0.001994609832763672
+Thu, 28 Jul 2022 17:26:58-root-tcpservser.py-[line:165]-INFO-[日志信息]: 耗时：0.0028498172760009766
+Thu, 28 Jul 2022 17:26:58-root-tcpservser.py-[line:181]-DEBUG-[日志信息]: 客户端可写。
+Thu, 28 Jul 2022 17:27:38-root-tcpservser.py-[line:128]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?\x1c\x01\x00\x00'
+Thu, 28 Jul 2022 17:27:38-root-tcpservser.py-[line:133]-DEBUG-[日志信息]: 收到包体:b'{"method": "4003", "body": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDUyMTEuNTYyNDQxNiwidXNlcmlkIjoiZjY5MmI1MTMtOGUxYy00MTBhLTkyN2ItNTg2ODdiODVkY2M4In0.qgMp22goVIVSaLvlQO9Rx9BZCL2L0r829FHdxu4XesM", "msg": "dsfsdf", "to": "ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc"}}'
+Thu, 28 Jul 2022 17:27:38-root-tcpservser.py-[line:88]-INFO-[日志信息]: 解析包体耗时：0.0019965171813964844
+Thu, 28 Jul 2022 17:27:38-root-tcpservser.py-[line:165]-INFO-[日志信息]: 耗时：0.004987239837646484
+Thu, 28 Jul 2022 17:27:38-root-tcpservser.py-[line:181]-DEBUG-[日志信息]: 客户端可写。
+Thu, 28 Jul 2022 17:27:55-root-DBHelper.py-[line:33]-INFO-[日志信息]: mongodb://127.0.0.1:27017
+Thu, 28 Jul 2022 17:27:55-root-DBHelper.py-[line:36]-INFO-[日志信息]: im_database
+Thu, 28 Jul 2022 17:27:59-root-tcpservser.py-[line:157]-DEBUG-[日志信息]: 客户端连接。
+Thu, 28 Jul 2022 17:27:59-urllib3.connectionpool-connectionpool.py-[line:228]-DEBUG-[日志信息]: Starting new HTTP connection (1): 127.0.0.1:5000
+Thu, 28 Jul 2022 17:27:59-urllib3.connectionpool-connectionpool.py-[line:456]-DEBUG-[日志信息]: http://127.0.0.1:5000 "POST /api/login HTTP/1.1" 200 336
+Thu, 28 Jul 2022 17:27:59-root-tcpservser.py-[line:128]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?\xdc\x00\x00\x00'
+Thu, 28 Jul 2022 17:27:59-root-tcpservser.py-[line:133]-DEBUG-[日志信息]: 收到包体:b'{"method": "4001", "body": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDUyNzkuNjA2OTk2LCJ1c2VyaWQiOiJmNjkyYjUxMy04ZTFjLTQxMGEtOTI3Yi01ODY4N2I4NWRjYzgifQ.jlMb9LpvHLkbio-uYd4S475c-MDFosV4LmwN5BIyLPw"}}'
+Thu, 28 Jul 2022 17:27:59-root-tcpservser.py-[line:77]-INFO-[日志信息]: 解析头耗时：0.002881765365600586
+Thu, 28 Jul 2022 17:27:59-root-tcpservser.py-[line:165]-INFO-[日志信息]: 耗时：0.004953622817993164
+Thu, 28 Jul 2022 17:27:59-root-tcpservser.py-[line:181]-DEBUG-[日志信息]: 客户端可写。
+Thu, 28 Jul 2022 17:28:01-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:28:02-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:28:03-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:28:03-root-tcpservser.py-[line:157]-DEBUG-[日志信息]: 客户端连接。
+Thu, 28 Jul 2022 17:28:03-urllib3.connectionpool-connectionpool.py-[line:228]-DEBUG-[日志信息]: Starting new HTTP connection (1): 127.0.0.1:5000
+Thu, 28 Jul 2022 17:28:03-urllib3.connectionpool-connectionpool.py-[line:456]-DEBUG-[日志信息]: http://127.0.0.1:5000 "POST /api/login HTTP/1.1" 200 339
+Thu, 28 Jul 2022 17:28:03-root-tcpservser.py-[line:128]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?\xdd\x00\x00\x00'
+Thu, 28 Jul 2022 17:28:03-root-tcpservser.py-[line:133]-DEBUG-[日志信息]: 收到包体:b'{"method": "4001", "body": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDUyODMuOTYyMzcxNiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.H4j4hN3A2iU0sjulZeiDsBMQFOheTRAuj5dcOor4khg"}}'
+Thu, 28 Jul 2022 17:28:03-root-tcpservser.py-[line:77]-INFO-[日志信息]: 解析头耗时：0.002554655075073242
+Thu, 28 Jul 2022 17:28:03-root-tcpservser.py-[line:165]-INFO-[日志信息]: 耗时：0.00519251823425293
+Thu, 28 Jul 2022 17:28:03-root-tcpservser.py-[line:181]-DEBUG-[日志信息]: 客户端可写。
+Thu, 28 Jul 2022 17:28:04-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:28:05-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:28:05-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:28:06-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:28:06-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:28:06-root-tcpservser.py-[line:128]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?\x1d\x01\x00\x00'
+Thu, 28 Jul 2022 17:28:06-root-tcpservser.py-[line:133]-DEBUG-[日志信息]: 收到包体:b'{"method": "4003", "body": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDUyODMuOTYyMzcxNiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.H4j4hN3A2iU0sjulZeiDsBMQFOheTRAuj5dcOor4khg", "msg": "sdfsfds", "to": "f692b513-8e1c-410a-927b-58687b85dcc8"}}'
+Thu, 28 Jul 2022 17:28:06-root-tcpservser.py-[line:88]-INFO-[日志信息]: 解析包体耗时：0.001995086669921875
+Thu, 28 Jul 2022 17:28:06-root-tcpservser.py-[line:165]-INFO-[日志信息]: 耗时：0.004987239837646484
+Thu, 28 Jul 2022 17:28:06-root-tcpservser.py-[line:181]-DEBUG-[日志信息]: 客户端可写。
+Thu, 28 Jul 2022 17:28:07-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:29:37-root-DBHelper.py-[line:33]-INFO-[日志信息]: mongodb://127.0.0.1:27017
+Thu, 28 Jul 2022 17:29:37-root-DBHelper.py-[line:36]-INFO-[日志信息]: im_database
+Thu, 28 Jul 2022 17:29:40-root-tcpservser.py-[line:157]-DEBUG-[日志信息]: 客户端连接。
+Thu, 28 Jul 2022 17:29:40-urllib3.connectionpool-connectionpool.py-[line:228]-DEBUG-[日志信息]: Starting new HTTP connection (1): 127.0.0.1:5000
+Thu, 28 Jul 2022 17:29:41-urllib3.connectionpool-connectionpool.py-[line:456]-DEBUG-[日志信息]: http://127.0.0.1:5000 "POST /api/login HTTP/1.1" 200 337
+Thu, 28 Jul 2022 17:29:41-root-tcpservser.py-[line:128]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?\xdd\x00\x00\x00'
+Thu, 28 Jul 2022 17:29:41-root-tcpservser.py-[line:133]-DEBUG-[日志信息]: 收到包体:b'{"method": "4001", "body": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDUzODEuMTQxMzM2MiwidXNlcmlkIjoiZjY5MmI1MTMtOGUxYy00MTBhLTkyN2ItNTg2ODdiODVkY2M4In0.DQ9Ll3qma8UZ1VwX8RdwiPCZ47AbAlLxy2sTwVhbjP8"}}'
+Thu, 28 Jul 2022 17:29:41-root-tcpservser.py-[line:77]-INFO-[日志信息]: 解析头耗时：0.0019943714141845703
+Thu, 28 Jul 2022 17:29:41-root-tcpservser.py-[line:165]-INFO-[日志信息]: 耗时：0.003225564956665039
+Thu, 28 Jul 2022 17:29:41-root-tcpservser.py-[line:181]-DEBUG-[日志信息]: 客户端可写。
+Thu, 28 Jul 2022 17:29:42-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:29:44-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:29:44-root-tcpservser.py-[line:157]-DEBUG-[日志信息]: 客户端连接。
+Thu, 28 Jul 2022 17:29:45-urllib3.connectionpool-connectionpool.py-[line:228]-DEBUG-[日志信息]: Starting new HTTP connection (1): 127.0.0.1:5000
+Thu, 28 Jul 2022 17:29:45-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:29:45-urllib3.connectionpool-connectionpool.py-[line:456]-DEBUG-[日志信息]: http://127.0.0.1:5000 "POST /api/login HTTP/1.1" 200 339
+Thu, 28 Jul 2022 17:29:45-root-tcpservser.py-[line:128]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?\xdd\x00\x00\x00'
+Thu, 28 Jul 2022 17:29:45-root-tcpservser.py-[line:133]-DEBUG-[日志信息]: 收到包体:b'{"method": "4001", "body": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDUzODUuMTgwNjU4MywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.htxPFwtRcVegXMD-XV693vDRmM9R52-qEAHEeIel8mk"}}'
+Thu, 28 Jul 2022 17:29:45-root-tcpservser.py-[line:77]-INFO-[日志信息]: 解析头耗时：0.0006954669952392578
+Thu, 28 Jul 2022 17:29:45-root-tcpservser.py-[line:165]-INFO-[日志信息]: 耗时：0.003989458084106445
+Thu, 28 Jul 2022 17:29:45-root-tcpservser.py-[line:181]-DEBUG-[日志信息]: 客户端可写。
+Thu, 28 Jul 2022 17:29:46-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:29:47-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:29:47-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:29:48-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:29:48-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:29:48-root-tcpservser.py-[line:128]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?\x1d\x01\x00\x00'
+Thu, 28 Jul 2022 17:29:48-root-tcpservser.py-[line:133]-DEBUG-[日志信息]: 收到包体:b'{"method": "4003", "body": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDUzODUuMTgwNjU4MywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.htxPFwtRcVegXMD-XV693vDRmM9R52-qEAHEeIel8mk", "msg": "sdfsdfs", "to": "f692b513-8e1c-410a-927b-58687b85dcc8"}}'
+Thu, 28 Jul 2022 17:29:48-root-tcpservser.py-[line:88]-INFO-[日志信息]: 解析包体耗时：0.001062154769897461
+Thu, 28 Jul 2022 17:29:48-root-tcpservser.py-[line:165]-INFO-[日志信息]: 耗时：0.003989458084106445
+Thu, 28 Jul 2022 17:29:48-root-tcpservser.py-[line:181]-DEBUG-[日志信息]: 客户端可写。
+Thu, 28 Jul 2022 17:29:49-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:31:35-root-DBHelper.py-[line:33]-INFO-[日志信息]: mongodb://127.0.0.1:27017
+Thu, 28 Jul 2022 17:31:35-root-DBHelper.py-[line:36]-INFO-[日志信息]: im_database
+Thu, 28 Jul 2022 17:31:38-root-tcpservser.py-[line:157]-DEBUG-[日志信息]: 客户端连接。
+Thu, 28 Jul 2022 17:31:38-urllib3.connectionpool-connectionpool.py-[line:228]-DEBUG-[日志信息]: Starting new HTTP connection (1): 127.0.0.1:5000
+Thu, 28 Jul 2022 17:31:39-urllib3.connectionpool-connectionpool.py-[line:456]-DEBUG-[日志信息]: http://127.0.0.1:5000 "POST /api/login HTTP/1.1" 200 337
+Thu, 28 Jul 2022 17:31:39-root-tcpservser.py-[line:128]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?\xdd\x00\x00\x00'
+Thu, 28 Jul 2022 17:31:39-root-tcpservser.py-[line:133]-DEBUG-[日志信息]: 收到包体:b'{"method": "4001", "body": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDU0OTkuMTUwMDUzMywidXNlcmlkIjoiZjY5MmI1MTMtOGUxYy00MTBhLTkyN2ItNTg2ODdiODVkY2M4In0.rS11IbpHthBZlnZN0g7lzlgH6KLlnyjiYiiAEsMJnuE"}}'
+Thu, 28 Jul 2022 17:31:39-root-tcpservser.py-[line:77]-INFO-[日志信息]: 解析头耗时：0.0016281604766845703
+Thu, 28 Jul 2022 17:31:39-root-tcpservser.py-[line:165]-INFO-[日志信息]: 耗时：0.0031325817108154297
+Thu, 28 Jul 2022 17:31:39-root-tcpservser.py-[line:181]-DEBUG-[日志信息]: 客户端可写。
+Thu, 28 Jul 2022 17:31:40-root-tcpservser.py-[line:157]-DEBUG-[日志信息]: 客户端连接。
+Thu, 28 Jul 2022 17:31:40-urllib3.connectionpool-connectionpool.py-[line:228]-DEBUG-[日志信息]: Starting new HTTP connection (1): 127.0.0.1:5000
+Thu, 28 Jul 2022 17:31:40-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:31:40-urllib3.connectionpool-connectionpool.py-[line:456]-DEBUG-[日志信息]: http://127.0.0.1:5000 "POST /api/login HTTP/1.1" 200 339
+Thu, 28 Jul 2022 17:31:40-root-tcpservser.py-[line:128]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?\xdd\x00\x00\x00'
+Thu, 28 Jul 2022 17:31:40-root-tcpservser.py-[line:133]-DEBUG-[日志信息]: 收到包体:b'{"method": "4001", "body": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDU1MDAuNzcxOTU0OCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.418UOGQqgfkoCrmEjyhVItWdq0KV6pbfWYPRJQeCtzM"}}'
+Thu, 28 Jul 2022 17:31:40-root-tcpservser.py-[line:77]-INFO-[日志信息]: 解析头耗时：0.001003265380859375
+Thu, 28 Jul 2022 17:31:40-root-tcpservser.py-[line:165]-INFO-[日志信息]: 耗时：0.002001523971557617
+Thu, 28 Jul 2022 17:31:40-root-tcpservser.py-[line:181]-DEBUG-[日志信息]: 客户端可写。
+Thu, 28 Jul 2022 17:31:41-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:31:42-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:31:42-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:31:43-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:31:43-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:31:44-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:31:44-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:31:45-root-tcpservser.py-[line:128]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?\x1f\x01\x00\x00'
+Thu, 28 Jul 2022 17:31:45-root-tcpservser.py-[line:133]-DEBUG-[日志信息]: 收到包体:b'{"method": "4003", "body": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDU0OTkuMTUwMDUzMywidXNlcmlkIjoiZjY5MmI1MTMtOGUxYy00MTBhLTkyN2ItNTg2ODdiODVkY2M4In0.rS11IbpHthBZlnZN0g7lzlgH6KLlnyjiYiiAEsMJnuE", "msg": "dfsdfasdf", "to": "ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc"}}'
+Thu, 28 Jul 2022 17:31:45-root-tcpservser.py-[line:88]-INFO-[日志信息]: 解析包体耗时：0.0009961128234863281
+Thu, 28 Jul 2022 17:31:45-root-tcpservser.py-[line:165]-INFO-[日志信息]: 耗时：0.0029914379119873047
+Thu, 28 Jul 2022 17:31:45-root-tcpservser.py-[line:181]-DEBUG-[日志信息]: 客户端可写。
+Thu, 28 Jul 2022 17:32:02-root-DBHelper.py-[line:33]-INFO-[日志信息]: mongodb://127.0.0.1:27017
+Thu, 28 Jul 2022 17:32:02-root-DBHelper.py-[line:36]-INFO-[日志信息]: im_database
+Thu, 28 Jul 2022 17:32:04-root-tcpservser.py-[line:157]-DEBUG-[日志信息]: 客户端连接。
+Thu, 28 Jul 2022 17:32:04-urllib3.connectionpool-connectionpool.py-[line:228]-DEBUG-[日志信息]: Starting new HTTP connection (1): 127.0.0.1:5000
+Thu, 28 Jul 2022 17:32:04-urllib3.connectionpool-connectionpool.py-[line:456]-DEBUG-[日志信息]: http://127.0.0.1:5000 "POST /api/login HTTP/1.1" 200 337
+Thu, 28 Jul 2022 17:32:04-root-tcpservser.py-[line:128]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?\xdd\x00\x00\x00'
+Thu, 28 Jul 2022 17:32:04-root-tcpservser.py-[line:133]-DEBUG-[日志信息]: 收到包体:b'{"method": "4001", "body": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDU1MjQuNzk2NzEwNSwidXNlcmlkIjoiZjY5MmI1MTMtOGUxYy00MTBhLTkyN2ItNTg2ODdiODVkY2M4In0.wclUnmMJcd7RHwVC8SvRWqXW122C2DQpUjWZZoKl2O4"}}'
+Thu, 28 Jul 2022 17:32:04-root-tcpservser.py-[line:77]-INFO-[日志信息]: 解析头耗时：0.002222299575805664
+Thu, 28 Jul 2022 17:32:04-root-tcpservser.py-[line:165]-INFO-[日志信息]: 耗时：0.0023674964904785156
+Thu, 28 Jul 2022 17:32:04-root-tcpservser.py-[line:181]-DEBUG-[日志信息]: 客户端可写。
+Thu, 28 Jul 2022 17:32:06-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:06-root-tcpservser.py-[line:157]-DEBUG-[日志信息]: 客户端连接。
+Thu, 28 Jul 2022 17:32:06-urllib3.connectionpool-connectionpool.py-[line:228]-DEBUG-[日志信息]: Starting new HTTP connection (1): 127.0.0.1:5000
+Thu, 28 Jul 2022 17:32:06-urllib3.connectionpool-connectionpool.py-[line:456]-DEBUG-[日志信息]: http://127.0.0.1:5000 "POST /api/login HTTP/1.1" 200 338
+Thu, 28 Jul 2022 17:32:06-root-tcpservser.py-[line:128]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?\xdc\x00\x00\x00'
+Thu, 28 Jul 2022 17:32:06-root-tcpservser.py-[line:133]-DEBUG-[日志信息]: 收到包体:b'{"method": "4001", "body": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDU1MjYuNjA0NDc4LCJ1c2VyaWQiOiJiYTBiN2RmMC1hN2NhLTRhMzEtOTNkNi1lMGJjZWZjNDFkZGMifQ.5Awx3iq9Q3MhfEvESVjsteWSZ8iC2OdnmBnzr9bSacQ"}}'
+Thu, 28 Jul 2022 17:32:06-root-tcpservser.py-[line:77]-INFO-[日志信息]: 解析头耗时：0.000995635986328125
+Thu, 28 Jul 2022 17:32:06-root-tcpservser.py-[line:165]-INFO-[日志信息]: 耗时：0.0027604103088378906
+Thu, 28 Jul 2022 17:32:06-root-tcpservser.py-[line:181]-DEBUG-[日志信息]: 客户端可写。
+Thu, 28 Jul 2022 17:32:07-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:08-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:08-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:09-root-tcpservser.py-[line:128]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?\x1e\x01\x00\x00'
+Thu, 28 Jul 2022 17:32:09-root-tcpservser.py-[line:133]-DEBUG-[日志信息]: 收到包体:b'{"method": "4003", "body": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDU1MjYuNjA0NDc4LCJ1c2VyaWQiOiJiYTBiN2RmMC1hN2NhLTRhMzEtOTNkNi1lMGJjZWZjNDFkZGMifQ.5Awx3iq9Q3MhfEvESVjsteWSZ8iC2OdnmBnzr9bSacQ", "msg": "dsfsdfsdf", "to": "f692b513-8e1c-410a-927b-58687b85dcc8"}}'
+Thu, 28 Jul 2022 17:32:09-root-tcpservser.py-[line:88]-INFO-[日志信息]: 解析包体耗时：0.0009958744049072266
+Thu, 28 Jul 2022 17:32:09-root-tcpservser.py-[line:165]-INFO-[日志信息]: 耗时：0.0030252933502197266
+Thu, 28 Jul 2022 17:32:09-root-tcpservser.py-[line:181]-DEBUG-[日志信息]: 客户端可写。
+Thu, 28 Jul 2022 17:32:09-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:09-root-tcpservser.py-[line:243]-INFO-[日志信息]: [ObjectId('62e257997d46a21a7c6f8972')]
+Thu, 28 Jul 2022 17:32:09-root-DBHelper.py-[line:271]-INFO-[日志信息]: insert into message(id,user_id,content,from_u,groupid,is_send,create_at)values("4728a019-0827-4714-8528-b5a99132494c","f692b513-8e1c-410a-927b-58687b85dcc8","dsfsdfsdf","ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc"," ",1,now())
+Thu, 28 Jul 2022 17:32:10-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:10-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:11-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:11-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:12-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:12-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:13-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:13-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:14-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:14-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:15-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:15-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:16-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:16-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:17-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:17-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:18-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:18-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:19-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:19-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:20-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:20-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:21-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:21-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:22-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:22-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:23-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:23-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:24-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:24-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:25-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:25-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:26-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:26-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:27-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:27-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:28-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:28-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:29-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:29-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:30-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:30-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:31-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:31-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:32-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:32-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:33-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:33-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:34-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:34-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:35-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:35-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:36-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:36-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:37-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:37-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:38-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:38-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:39-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:39-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:40-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:40-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:41-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:41-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:42-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:42-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:43-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:43-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:44-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:44-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:45-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:45-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:46-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:46-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:47-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:47-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:48-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:48-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:49-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:49-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:50-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:50-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:51-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:51-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:52-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:52-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:53-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:53-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:54-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:54-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:55-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:55-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:56-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:56-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:57-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:57-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:58-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:58-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:59-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:32:59-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:00-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:00-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:01-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:01-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:02-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:02-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:03-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:03-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:04-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:04-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:05-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:05-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:06-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:06-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:07-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:07-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:08-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:08-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:09-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:09-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:10-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:10-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:11-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:11-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:12-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:12-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:13-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:13-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:14-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:14-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:15-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:15-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:16-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:16-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:17-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:17-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:18-root-DBHelper.py-[line:33]-INFO-[日志信息]: mongodb://127.0.0.1:27017
+Thu, 28 Jul 2022 17:33:18-root-DBHelper.py-[line:36]-INFO-[日志信息]: im_database
+Thu, 28 Jul 2022 17:33:18-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:18-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:19-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:19-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:20-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:20-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:21-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:21-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:23-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:23-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:23-root-DBHelper.py-[line:33]-INFO-[日志信息]: mongodb://127.0.0.1:27017
+Thu, 28 Jul 2022 17:33:23-root-DBHelper.py-[line:36]-INFO-[日志信息]: im_database
+Thu, 28 Jul 2022 17:33:24-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:24-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:25-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:25-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:26-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:26-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:27-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:27-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:28-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:28-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:29-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:29-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:30-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:30-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:31-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:31-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:32-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:32-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:33-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:33-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:33-root-DBHelper.py-[line:33]-INFO-[日志信息]: mongodb://127.0.0.1:27017
+Thu, 28 Jul 2022 17:33:33-root-DBHelper.py-[line:36]-INFO-[日志信息]: im_database
+Thu, 28 Jul 2022 17:33:34-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:34-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:35-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:35-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:36-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:36-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:37-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:37-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:38-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:38-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:39-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:39-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:40-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:40-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:41-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:41-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:42-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:42-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:43-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:43-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:44-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:44-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:45-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:45-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:46-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:46-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:47-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:47-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:48-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:48-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:49-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:49-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:50-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:50-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:51-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:51-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:52-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:52-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:53-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:53-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:54-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:54-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:55-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:55-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:56-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:56-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:57-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:57-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:58-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:58-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:59-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:33:59-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:34:00-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:34:00-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:34:01-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:34:01-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:34:02-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:34:02-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:34:03-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:34:03-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.
+Thu, 28 Jul 2022 17:34:04-root-MessageQueue.py-[line:60]-DEBUG-[日志信息]: there are no request data, queue is empty.

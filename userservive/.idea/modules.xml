@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../Group_servive/.idea/groupservive.iml" filepath="$PROJECT_DIR$/../Group_servive/.idea/groupservive.iml" />
       <module fileurl="file://$PROJECT_DIR$/../msg_push_servive/.idea/msg_push_service.iml" filepath="$PROJECT_DIR$/../msg_push_servive/.idea/msg_push_service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/userservive.iml" filepath="$PROJECT_DIR$/.idea/userservive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/msgservive.iml" filepath="$PROJECT_DIR$/.idea/msgservive.iml" />
     </modules>
   </component>
 </project>

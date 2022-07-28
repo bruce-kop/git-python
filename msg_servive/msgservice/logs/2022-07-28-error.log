@@ -1,0 +1,101 @@
+Thu, 28 Jul 2022 16:38:09-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 21, in find
+    msgs = msg.QuerySet.get
+AttributeError: 'Message' object has no attribute 'QuerySet'
+Thu, 28 Jul 2022 16:45:05-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 20, in find
+    msgs = Message.Objects.all()
+AttributeError: type object 'Message' has no attribute 'Objects'
+Thu, 28 Jul 2022 16:48:08-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 20, in find
+    msgs = Message.Objects.all()
+AttributeError: type object 'Message' has no attribute 'Objects'
+Thu, 28 Jul 2022 16:49:28-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1520, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1539, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1695, in make_response
+    raise TypeError(
+TypeError: The view function for 'message_svr.find' did not return a valid response. The function either returned None or ended without a return statement.
+Thu, 28 Jul 2022 16:50:41-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1520, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1539, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1695, in make_response
+    raise TypeError(
+TypeError: The view function for 'message_svr.find' did not return a valid response. The function either returned None or ended without a return statement.
+Thu, 28 Jul 2022 17:06:58-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 20, in find
+    msgs = Message.objects.get_or_404()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_mongoengine\__init__.py", line 157, in get_or_404
+    return self.get(*args, **kwargs)
+  File "D:\Programs\Python\Python310\lib\site-packages\mongoengine\queryset\base.py", line 269, in get
+    result = next(queryset)
+  File "D:\Programs\Python\Python310\lib\site-packages\mongoengine\queryset\base.py", line 1599, in __next__
+    doc = self._document._from_son(
+  File "D:\Programs\Python\Python310\lib\site-packages\mongoengine\base\document.py", line 836, in _from_son
+    obj = cls(__auto_convert=False, _created=created, **data)
+  File "D:\Programs\Python\Python310\lib\site-packages\mongoengine\base\document.py", line 99, in __init__
+    raise FieldDoesNotExist(msg)
+mongoengine.errors.FieldDoesNotExist: The fields "{'centent', 'create_data'}" do not exist on the document "Message"
+Thu, 28 Jul 2022 17:08:12-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 20, in find
+    msgs = Message.objects.get_or_404()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_mongoengine\__init__.py", line 157, in get_or_404
+    return self.get(*args, **kwargs)
+  File "D:\Programs\Python\Python310\lib\site-packages\mongoengine\queryset\base.py", line 281, in get
+    raise queryset._document.MultipleObjectsReturned(
+msgservice.models.database.MultipleObjectsReturned: 2 or more items returned, instead of 1

@@ -27,12 +27,13 @@ class MongoDBHelper(DBHelper):
 
     def __init__(self, host = '127.0.0.1', port = 27017, user = None, pwd = None,database = 'test'):
         if user is None:
-            db_addr = "mongodb://{}:{}".format( host, port)
+            db_addr = "mongodb://{}:{}".format(host, port)
         else:
             db_addr = "mongodb://{}:{}@{}:{}/{}".format(user, pwd, host, port, database)
         logger.info(db_addr)
         self.__client = MongoClient(db_addr)
         self.__db = self.__client[database]
+        logger.info(database)
 
     def execute(self, sql):
         pass

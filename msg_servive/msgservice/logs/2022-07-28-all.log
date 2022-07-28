@@ -1,0 +1,198 @@
+Thu, 28 Jul 2022 16:02:57-root-app.py-[line:20]-INFO-[日志信息]: None
+Thu, 28 Jul 2022 16:03:21-root-app.py-[line:20]-INFO-[日志信息]: {'SQLALCHEMY_TRACK_MODIFICATIONS': True, 'SQLALCHEMY_DATABASE_URI': 'mysql+pymysql://root:zkp198624@127.0.0.1:3306/im_database'}
+Thu, 28 Jul 2022 16:04:11-root-app.py-[line:20]-INFO-[日志信息]: {'URL': 'mongodb://localhost:/27017/im_database'}
+Thu, 28 Jul 2022 16:04:27-root-app.py-[line:20]-INFO-[日志信息]: mongodb://localhost:/27017/im_database
+Thu, 28 Jul 2022 16:05:01-root-app.py-[line:20]-INFO-[日志信息]: mongodb://localhost:27017/im_database
+Thu, 28 Jul 2022 16:05:46-root-app.py-[line:20]-INFO-[日志信息]: mongodb://localhost:27017/im_database
+Thu, 28 Jul 2022 16:36:49-root-app.py-[line:45]-INFO-[日志信息]: /api/message/find
+Thu, 28 Jul 2022 16:36:49-root-app.py-[line:50]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDIyMDkuMzAxMDM4LCJ1c2VyaWQiOiJiYTBiN2RmMC1hN2NhLTRhMzEtOTNkNi1lMGJjZWZjNDFkZGMifQ.3nkAlbpHGUhY9qsj1vg0uFfnfkN67z_w92wmZWLFN5Y
+Thu, 28 Jul 2022 16:36:49-root-app.py-[line:57]-INFO-[日志信息]: {'exp': 1659602209.301038, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 16:37:41-root-app.py-[line:30]-INFO-[日志信息]: <Blueprint 'message_svr'>
+Thu, 28 Jul 2022 16:37:43-root-app.py-[line:30]-INFO-[日志信息]: <Blueprint 'message_svr'>
+Thu, 28 Jul 2022 16:38:09-root-app.py-[line:46]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 16:38:09-root-app.py-[line:51]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDIyODkuNjU3NDMxOCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.ncV5HZm1Dwt0yVgw26Ie1_lCWWelusbxOkEedNud2Vc
+Thu, 28 Jul 2022 16:38:09-root-app.py-[line:58]-INFO-[日志信息]: {'exp': 1659602289.6574318, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 16:38:09-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 21, in find
+    msgs = msg.QuerySet.get
+AttributeError: 'Message' object has no attribute 'QuerySet'
+Thu, 28 Jul 2022 16:45:00-root-app.py-[line:30]-INFO-[日志信息]: <Blueprint 'message_svr'>
+Thu, 28 Jul 2022 16:45:05-root-app.py-[line:46]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 16:45:05-root-app.py-[line:51]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDI3MDUuMjM4MTg1NCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.D7eUwdn2qsDrL3wBm6uFNl_5QltW3kd5pF_Z8Ck3tVo
+Thu, 28 Jul 2022 16:45:05-root-app.py-[line:58]-INFO-[日志信息]: {'exp': 1659602705.2381854, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 16:45:05-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 20, in find
+    msgs = Message.Objects.all()
+AttributeError: type object 'Message' has no attribute 'Objects'
+Thu, 28 Jul 2022 16:48:06-root-app.py-[line:30]-INFO-[日志信息]: <Blueprint 'message_svr'>
+Thu, 28 Jul 2022 16:48:08-root-app.py-[line:46]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 16:48:08-root-app.py-[line:51]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDI4ODguNjU3MDk1LCJ1c2VyaWQiOiJiYTBiN2RmMC1hN2NhLTRhMzEtOTNkNi1lMGJjZWZjNDFkZGMifQ.tjqLf_xDKUqJ1PzCQsL_LFu3K-MSHadg-f3w0B2hss8
+Thu, 28 Jul 2022 16:48:08-root-app.py-[line:58]-INFO-[日志信息]: {'exp': 1659602888.657095, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 16:48:08-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 20, in find
+    msgs = Message.Objects.all()
+AttributeError: type object 'Message' has no attribute 'Objects'
+Thu, 28 Jul 2022 16:49:26-root-app.py-[line:30]-INFO-[日志信息]: <Blueprint 'message_svr'>
+Thu, 28 Jul 2022 16:49:28-root-app.py-[line:46]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 16:49:28-root-app.py-[line:51]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDI5NjguNDMxMjkwOSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.SnXpY8YSvCJIxrGlHEQEwUMl5Uj7JqokOVtRjPlg4PQ
+Thu, 28 Jul 2022 16:49:28-root-app.py-[line:58]-INFO-[日志信息]: {'exp': 1659602968.4312909, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 16:49:28-root-message.py-[line:21]-INFO-[日志信息]: []
+Thu, 28 Jul 2022 16:49:28-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1520, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1539, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1695, in make_response
+    raise TypeError(
+TypeError: The view function for 'message_svr.find' did not return a valid response. The function either returned None or ended without a return statement.
+Thu, 28 Jul 2022 16:50:39-root-app.py-[line:30]-INFO-[日志信息]: <Blueprint 'message_svr'>
+Thu, 28 Jul 2022 16:50:41-root-app.py-[line:46]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 16:50:41-root-app.py-[line:51]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDMwNDEuODAwMjU5OCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.LYv6EWtCTKLtFd4ee_10pB41ncM8TMLlgMNcKyMutXE
+Thu, 28 Jul 2022 16:50:41-root-app.py-[line:58]-INFO-[日志信息]: {'exp': 1659603041.8002598, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 16:50:41-root-message.py-[line:21]-INFO-[日志信息]: []
+Thu, 28 Jul 2022 16:50:41-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1520, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1539, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1695, in make_response
+    raise TypeError(
+TypeError: The view function for 'message_svr.find' did not return a valid response. The function either returned None or ended without a return statement.
+Thu, 28 Jul 2022 16:51:23-root-app.py-[line:30]-INFO-[日志信息]: <Blueprint 'message_svr'>
+Thu, 28 Jul 2022 16:51:26-root-app.py-[line:46]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 16:51:26-root-app.py-[line:51]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDMwODYuNDQ4NjU4NywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.uwoPpVrn944uLlXyJR2yi9d-lP_hw5OjcLV_kezNjfY
+Thu, 28 Jul 2022 16:51:26-root-app.py-[line:58]-INFO-[日志信息]: {'exp': 1659603086.4486587, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 16:51:26-root-message.py-[line:21]-INFO-[日志信息]: []
+Thu, 28 Jul 2022 16:53:23-root-app.py-[line:30]-INFO-[日志信息]: <Blueprint 'message_svr'>
+Thu, 28 Jul 2022 16:53:25-root-app.py-[line:46]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 16:53:25-root-app.py-[line:51]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDMyMDUuNzA0NTAzNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.tTpLntniGhihFlGMaPjzjBE51T8qOT2HA3qhgiqllVI
+Thu, 28 Jul 2022 16:53:25-root-app.py-[line:58]-INFO-[日志信息]: {'exp': 1659603205.7045035, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 16:53:25-root-message.py-[line:21]-INFO-[日志信息]: []
+Thu, 28 Jul 2022 16:56:09-root-app.py-[line:30]-INFO-[日志信息]: <Blueprint 'message_svr'>
+Thu, 28 Jul 2022 16:56:13-root-app.py-[line:46]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 16:56:13-root-app.py-[line:51]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDMzNzMuMDE1OTQ2OSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.xfXGVP5pOQpUcMoHLMyLBHHzWL5engHjYpde4Ledusk
+Thu, 28 Jul 2022 16:56:13-root-app.py-[line:58]-INFO-[日志信息]: {'exp': 1659603373.0159469, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 16:56:13-root-message.py-[line:21]-INFO-[日志信息]: []
+Thu, 28 Jul 2022 16:56:24-root-app.py-[line:30]-INFO-[日志信息]: <Blueprint 'message_svr'>
+Thu, 28 Jul 2022 16:56:27-root-app.py-[line:46]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 16:56:27-root-app.py-[line:51]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDMzODcuMzMyODM3OCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.p9PTNyajquQwjvWJQoqW32sVdYjNRX7PRQ6G2xfOaOw
+Thu, 28 Jul 2022 16:56:27-root-app.py-[line:58]-INFO-[日志信息]: {'exp': 1659603387.3328378, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 16:56:27-root-message.py-[line:21]-INFO-[日志信息]: []
+Thu, 28 Jul 2022 16:56:37-root-app.py-[line:30]-INFO-[日志信息]: <Blueprint 'message_svr'>
+Thu, 28 Jul 2022 16:56:40-root-app.py-[line:46]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 16:56:40-root-app.py-[line:51]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDM0MDAuODExNDQ1NSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.710r4ApT-0GexU_0jhFwvheAOJO4L8FLmohLmr-9iLg
+Thu, 28 Jul 2022 16:56:40-root-app.py-[line:58]-INFO-[日志信息]: {'exp': 1659603400.8114455, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 16:56:40-root-message.py-[line:21]-INFO-[日志信息]: []
+Thu, 28 Jul 2022 16:56:53-root-app.py-[line:30]-INFO-[日志信息]: <Blueprint 'message_svr'>
+Thu, 28 Jul 2022 16:56:58-root-app.py-[line:46]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 16:56:58-root-app.py-[line:51]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDM0MTguMjUzNzU2OCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.juh5fwHtxJ7-lpz92cgty_n8FcmfXu1RzCQMFEivQK8
+Thu, 28 Jul 2022 16:56:58-root-app.py-[line:58]-INFO-[日志信息]: {'exp': 1659603418.2537568, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 16:56:58-root-message.py-[line:21]-INFO-[日志信息]: []
+Thu, 28 Jul 2022 17:00:50-root-app.py-[line:28]-INFO-[日志信息]: <Blueprint 'message_svr'>
+Thu, 28 Jul 2022 17:00:53-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 17:00:53-root-app.py-[line:49]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDM2NTMuNTAxOTYxMiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.cw_-saJplodu1RfZMrhJ1YkOcJE7V7IBTTOI41T73tg
+Thu, 28 Jul 2022 17:00:53-root-app.py-[line:56]-INFO-[日志信息]: {'exp': 1659603653.5019612, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 17:02:34-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 17:02:34-root-app.py-[line:49]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDM3NTQuMTczMDg4NiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.8YwRGHs5KMEUO1ll7uOfes1GJqb_KyEjL_Nl2HT8a6Y
+Thu, 28 Jul 2022 17:02:34-root-app.py-[line:56]-INFO-[日志信息]: {'exp': 1659603754.1730886, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 17:02:40-root-app.py-[line:28]-INFO-[日志信息]: <Blueprint 'message_svr'>
+Thu, 28 Jul 2022 17:02:43-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 17:02:43-root-app.py-[line:49]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDM3NjMuMzU2NjY3MywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.qnZVdGSX3HFLyjk8uqfxoosXwZf_9CpS0H_Wgt_U5XQ
+Thu, 28 Jul 2022 17:02:43-root-app.py-[line:56]-INFO-[日志信息]: {'exp': 1659603763.3566673, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 17:03:31-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 17:03:31-root-app.py-[line:49]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDM4MTEuOTc3NjQyNSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.2yyJ-yePNH9OriNIJYYu1WJmYdampPJGp9QuaJa0Bk8
+Thu, 28 Jul 2022 17:03:31-root-app.py-[line:56]-INFO-[日志信息]: {'exp': 1659603811.9776425, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 17:03:38-root-app.py-[line:28]-INFO-[日志信息]: <Blueprint 'message_svr'>
+Thu, 28 Jul 2022 17:03:41-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 17:03:41-root-app.py-[line:49]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDM4MjEuNjA5NDM5MSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.0KYH3dQP7JatdHoFDUovmVB3Myhniu8ERl4rwqVz_eU
+Thu, 28 Jul 2022 17:03:41-root-app.py-[line:56]-INFO-[日志信息]: {'exp': 1659603821.6094391, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 17:04:22-root-app.py-[line:28]-INFO-[日志信息]: <Blueprint 'message_svr'>
+Thu, 28 Jul 2022 17:04:25-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 17:04:25-root-app.py-[line:49]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDM4NjUuMTU3MDE0OCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.zkqzke2gdBIMn6EJ_wui6U1EjHagqZsFJc4saCM0zjc
+Thu, 28 Jul 2022 17:04:25-root-app.py-[line:56]-INFO-[日志信息]: {'exp': 1659603865.1570148, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 17:05:48-root-app.py-[line:29]-INFO-[日志信息]: <Blueprint 'message_svr'>
+Thu, 28 Jul 2022 17:05:51-root-app.py-[line:45]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 17:05:51-root-app.py-[line:50]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDM5NTEuMDk4OTI5LCJ1c2VyaWQiOiJiYTBiN2RmMC1hN2NhLTRhMzEtOTNkNi1lMGJjZWZjNDFkZGMifQ.cnFfb9Mbiy70T5ps5sfrtaYnzUeKqJT32HZpvBDtLHc
+Thu, 28 Jul 2022 17:05:51-root-app.py-[line:57]-INFO-[日志信息]: {'exp': 1659603951.098929, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 17:06:55-root-app.py-[line:29]-INFO-[日志信息]: <Blueprint 'message_svr'>
+Thu, 28 Jul 2022 17:06:58-root-app.py-[line:45]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 17:06:58-root-app.py-[line:50]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDQwMTguNzEwMjMwOCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.anRONHv0M40tDFXVjmMBVEwejVkI63KptPx_tHgrvEQ
+Thu, 28 Jul 2022 17:06:58-root-app.py-[line:57]-INFO-[日志信息]: {'exp': 1659604018.7102308, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 17:06:58-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 20, in find
+    msgs = Message.objects.get_or_404()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_mongoengine\__init__.py", line 157, in get_or_404
+    return self.get(*args, **kwargs)
+  File "D:\Programs\Python\Python310\lib\site-packages\mongoengine\queryset\base.py", line 269, in get
+    result = next(queryset)
+  File "D:\Programs\Python\Python310\lib\site-packages\mongoengine\queryset\base.py", line 1599, in __next__
+    doc = self._document._from_son(
+  File "D:\Programs\Python\Python310\lib\site-packages\mongoengine\base\document.py", line 836, in _from_son
+    obj = cls(__auto_convert=False, _created=created, **data)
+  File "D:\Programs\Python\Python310\lib\site-packages\mongoengine\base\document.py", line 99, in __init__
+    raise FieldDoesNotExist(msg)
+mongoengine.errors.FieldDoesNotExist: The fields "{'centent', 'create_data'}" do not exist on the document "Message"
+Thu, 28 Jul 2022 17:08:10-root-app.py-[line:29]-INFO-[日志信息]: <Blueprint 'message_svr'>
+Thu, 28 Jul 2022 17:08:12-root-app.py-[line:45]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 17:08:12-root-app.py-[line:50]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDQwOTIuNDYzMzc3NywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.B2RP4at6tr3SUVKhcpXOcYi3O8I9gICBQw3dJdCXRPM
+Thu, 28 Jul 2022 17:08:12-root-app.py-[line:57]-INFO-[日志信息]: {'exp': 1659604092.4633777, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 17:08:12-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 20, in find
+    msgs = Message.objects.get_or_404()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_mongoengine\__init__.py", line 157, in get_or_404
+    return self.get(*args, **kwargs)
+  File "D:\Programs\Python\Python310\lib\site-packages\mongoengine\queryset\base.py", line 281, in get
+    raise queryset._document.MultipleObjectsReturned(
+msgservice.models.database.MultipleObjectsReturned: 2 or more items returned, instead of 1
+Thu, 28 Jul 2022 17:14:36-root-app.py-[line:29]-INFO-[日志信息]: <Blueprint 'message_svr'>

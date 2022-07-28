@@ -1,9 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a10a2427-da0b-494a-a0d4-12c8fc0c8841" name="Default" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
+    <list default="true" id="a10a2427-da0b-494a-a0d4-12c8fc0c8841" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msgservice/views/message.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msg_push_servive/msg_push_service/server/tcpservser.py" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_push_servive/msg_push_service/server/tcpservser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msg_push_servive/msg_push_service/utils/DBHelper.py" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_push_servive/msg_push_service/utils/DBHelper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/userservive.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/msgservive.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/Analysis-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/EXE-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/PKG-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/PYZ-00.pyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/PYZ-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/Tree-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/Tree-01.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/Tree-02.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/app.exe.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/app.pkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/base_library.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/warn-app.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/xref-app.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Docs/config" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/Docs/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Docs/message.sql" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/Docs/message.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Docs/protocol" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/Docs/protocol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Docs/redis" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/Docs/redis" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Docs/redisData" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/Docs/redisData" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Docs/settings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/Docs/settings.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Docs/sql/create_database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/Docs/sql/create_database.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Docs/sql/friend_addr_book.sql" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/Docs/sql/friend_addr_book.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Docs/sql/group.sql" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/Docs/sql/group.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Docs/sql/group_addr_book.sql" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/Docs/sql/group_addr_book.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Docs/sql/group_role_au.sql" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/Docs/sql/group_role_au.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Docs/sql/group_user.sql" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/Docs/sql/group_user.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Docs/sql/group_user_role.sql" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/Docs/sql/group_user_role.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Docs/sql/groupau.sql" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/Docs/sql/groupau.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Docs/sql/grouprole.sql" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/Docs/sql/grouprole.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Docs/sql/message.sql" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/Docs/sql/message.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Docs/sql/oauths.sql" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/Docs/sql/oauths.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Docs/sql/user.sql" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/Docs/sql/user.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Docs/sql/user_extends.sql" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/Docs/sql/user_extends.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Docs/user_msg.sql" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/Docs/user_msg.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/app.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/app.spec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/Docs/config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/Docs/message.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/Docs/protocol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/Docs/redis" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/Docs/redisData" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/Docs/settings.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/Docs/sql/create_database.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/Docs/sql/friend_addr_book.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/Docs/sql/group.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/Docs/sql/group_addr_book.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/Docs/sql/group_role_au.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/Docs/sql/group_user.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/Docs/sql/group_user_role.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/Docs/sql/groupau.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/Docs/sql/grouprole.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/Docs/sql/message.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/Docs/sql/oauths.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/Docs/sql/user.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/Docs/sql/user_extends.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/Docs/user_msg.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/auth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/logs/2022-07-24-all.log" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/logs/2022-07-24-all.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/logs/2022-07-24-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/logs/2022-07-24-error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/logs/2022-07-25-all.log" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/logs/2022-07-25-all.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/logs/2022-07-25-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/logs/2022-07-25-error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/models/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/models/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/test/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/test/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/test/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/test/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/test/test_database.py" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/test/test_database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/test/test_responseBuild.py" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/test/test_responseBuild.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/test/test_verify_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/test/test_verify_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/utils/ImageConvert.py" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/utils/ImageConvert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/utils/Logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/utils/Logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/utils/RedisOperator.py" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/utils/RedisOperator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/utils/Singleton.py" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/utils/Singleton.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/utils/VerifyCodeProduce.py" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/utils/VerifyCodeProduce.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/utils/global_enum.py" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/utils/global_enum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/utils/parseConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/utils/parseConfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/utils/requestParse.py" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/utils/requestParse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/utils/res_msg_enum.py" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/utils/res_msg_enum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/utils/responseBuild.py" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/utils/responseBuild.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/utils/tokenProc.py" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/utils/tokenProc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/utils/verify_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/utils/verify_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/views/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/msgservice/views/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/views/auth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/views/logout.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/views/users.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/views/verifycode.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userservive/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../userservive/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userservive/.idea/userservive.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../userservive/.idea/msgservive.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userservive/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../userservive/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userservive/userservice/logs/2022-07-28-all.log" beforeDir="false" afterPath="$PROJECT_DIR$/../userservive/userservice/logs/2022-07-28-all.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,119 +122,21 @@
     <SUITE FILE_PATH="coverage/userservive$Unittests_in_test_database_py.coverage" NAME="Unittests in test_database.py Coverage Results" MODIFIED="1658728766957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/userservice/test" />
     <SUITE FILE_PATH="coverage/userservive$app.coverage" NAME="app Coverage Results" MODIFIED="1658738427602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/userservice" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="tokenProc.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userservice/utils/tokenProc.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="76" column="31" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
-              <folding>
-                <element signature="e#92#105#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="verifycode.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userservice/views/verifycode.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
-              <folding>
-                <element signature="e#0#45#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Logger.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userservice/utils/Logger.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="54" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="54" />
-              <folding>
-                <element signature="e#28#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="users.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userservice/views/users.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1482">
-              <caret line="78" column="91" selection-start-line="78" selection-start-column="66" selection-end-line="78" selection-end-column="91" />
-              <folding>
-                <element signature="e#0#46#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userservice/app.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="31" selection-start-line="31" selection-end-line="32" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="parseConfig.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userservice/utils/parseConfig.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="64" column="51" selection-start-line="64" selection-start-column="51" selection-end-line="64" selection-end-column="51" />
-              <folding>
-                <element signature="e#207#216#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.rst" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VerifyCodeProduce.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userservice/utils/VerifyCodeProduce.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-740" />
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Python Unit Test" />
+        <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="D:/Download/monolith-master/monolith/database.py" />
+        <option value="$PROJECT_DIR$/../../Download/monolith-master/monolith/database.py" />
         <option value="$PROJECT_DIR$/userservice/utils/phone_verify.py" />
         <option value="$PROJECT_DIR$/userservice/utils/verify_util.py" />
         <option value="$PROJECT_DIR$/test/test_verify_util.py" />
@@ -175,11 +176,18 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-83" />
     <option name="y" value="331" />
     <option name="width" value="1845" />
     <option name="height" value="1290" />
+  </component>
+  <component name="ProjectId" id="2CYugBR6LJe5dZb8aJOMizXRfhE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -235,144 +243,220 @@
       </pane>
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/Download/monolith-master/monolith" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/git-python/msg_push_servive"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\git-python\userservive\userservice" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.client">
-    <configuration name="auth" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="userservive" />
+  <component name="RunManager" selected="Python.app (1)">
+    <configuration name="app (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="msg_push_service" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/userservice/views" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="D:\Programs\Python\Python310\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../msg_push_servive/msg_push_service" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/userservice/views/auth.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../msg_push_servive/msg_push_service/app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="userservive" />
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="msgservive" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/userservice/test" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="D:\Programs\Python\Python310\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/msgservice" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/userservice/test/client.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/msgservice/app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration name="logout" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="userservive" />
+    <configuration name="client (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="msgservive" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/userservice/views" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="D:\Programs\Python\Python310\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/msgservice/test" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/userservice/views/logout.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/msgservice/test/client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration name="users" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="userservive" />
+    <configuration name="client (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="msg_push_service" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/userservice/views" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="D:\Programs\Python\Python310\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../msg_push_servive/msg_push_service/test" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/userservice/views/users.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../msg_push_servive/msg_push_service/test/client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration name="verifycode" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="userservive" />
+    <configuration name="user_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="msg_push_service" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/userservice/views" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="D:\Programs\Python\Python310\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../msg_push_servive/msg_push_service/test" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/userservice/views/verifycode.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../msg_push_servive/msg_push_service/test/user_client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="msgservive" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <module name="msgservive" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <module name="msgservive" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="msgservive" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="msgservive" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.client" />
-      <item itemvalue="Python.users" />
-      <item itemvalue="Python.auth" />
-      <item itemvalue="Python.logout" />
-      <item itemvalue="Python.verifycode" />
+      <item itemvalue="Python.app" />
+      <item itemvalue="Python.app (1)" />
+      <item itemvalue="Python.client (1)" />
+      <item itemvalue="Python.client (2)" />
+      <item itemvalue="Python.user_client" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.client" />
-        <item itemvalue="Python.verifycode" />
-        <item itemvalue="Python.users" />
-        <item itemvalue="Python.logout" />
-        <item itemvalue="Python.auth" />
+        <item itemvalue="Python.app (1)" />
+        <item itemvalue="Python.user_client" />
+        <item itemvalue="Python.client (2)" />
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.client (1)" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -448,6 +532,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -455,10 +550,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://D:/Download/monolith-master/monolith/forms.py</url>
+          <url>file://$PROJECT_DIR$/../../Download/monolith-master/monolith/forms.py</url>
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -469,28 +563,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Download/monolith-master/monolith/database.py">
+    <entry file="file://$PROJECT_DIR$/../../Download/monolith-master/monolith/database.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="32" column="50" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Programs/Python/Python310/Lib/site-packages/sqlalchemy/dialects/mysql/mysqldb.py">
+    <entry file="file://$PROJECT_DIR$/../../Programs/Python/Python310/Lib/site-packages/sqlalchemy/dialects/mysql/mysqldb.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-950">
           <caret line="162" selection-start-line="162" selection-end-line="162" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Programs/Python/Python310/Lib/site-packages/gevent/server.py">
+    <entry file="file://$PROJECT_DIR$/../../Programs/Python/Python310/Lib/site-packages/gevent/server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
           <caret line="287" selection-start-line="287" selection-end-line="287" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Download/monolith-master/monolith/app.py">
+    <entry file="file://$PROJECT_DIR$/../../Download/monolith-master/monolith/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="28" />
@@ -506,7 +600,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Programs/Python/Python310/Lib/site-packages/wtforms/fields/form.py">
+    <entry file="file://$PROJECT_DIR$/../../Programs/Python/Python310/Lib/site-packages/wtforms/fields/form.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1596">
           <caret line="84" column="20" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="20" />
@@ -516,7 +610,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Download/monolith-master/monolith/forms.py">
+    <entry file="file://$PROJECT_DIR$/../../Download/monolith-master/monolith/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -525,7 +619,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Download/monolith-master/monolith/views/users.py">
+    <entry file="file://$PROJECT_DIR$/../../Download/monolith-master/monolith/views/users.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
@@ -535,28 +629,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Programs/Python/Python310/Lib/site-packages/wtforms/form.py">
+    <entry file="file://$PROJECT_DIR$/../../Programs/Python/Python310/Lib/site-packages/wtforms/form.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="404">
           <caret line="81" column="23" lean-forward="true" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Programs/Python/Python310/Lib/site-packages/wtforms/fields/core.py">
+    <entry file="file://$PROJECT_DIR$/../../Programs/Python/Python310/Lib/site-packages/wtforms/fields/core.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="366">
           <caret line="367" column="12" selection-start-line="367" selection-start-column="8" selection-end-line="367" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Download/monolith-master/monolith/views/auth.py">
+    <entry file="file://$PROJECT_DIR$/../../Download/monolith-master/monolith/views/auth.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="22" column="25" selection-start-line="32" selection-start-column="8" selection-end-line="36" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Programs/Python/Python310/Lib/json/encoder.py">
+    <entry file="file://$PROJECT_DIR$/../../Programs/Python/Python310/Lib/json/encoder.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
           <caret line="178" selection-start-line="178" selection-end-line="178" />
@@ -616,7 +710,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Programs/Python/Python310/Lib/site-packages/flask_cache/__init__.py">
+    <entry file="file://$PROJECT_DIR$/../../Programs/Python/Python310/Lib/site-packages/flask_cache/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
