@@ -173,3 +173,75 @@ Fri, 29 Jul 2022 22:12:44-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/fi
 Fri, 29 Jul 2022 22:12:44-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_date
 Fri, 29 Jul 2022 22:13:10-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_date
 Fri, 29 Jul 2022 22:13:10-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_date
+Fri, 29 Jul 2022 22:27:15-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 22:27:15-root-message.py-[line:117]-DEBUG-[日志信息]: unknown top level operator: $match. If you have a field name that starts with a '$' symbol, consider using $getField or $setField., full error: {'ok': 0.0, 'errmsg': "unknown top level operator: $match. If you have a field name that starts with a '$' symbol, consider using $getField or $setField.", 'code': 2, 'codeName': 'BadValue'}
+Fri, 29 Jul 2022 22:29:30-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 22:29:30-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 22:29:30-root-message.py-[line:117]-DEBUG-[日志信息]: name 'msg_type' is not defined
+Fri, 29 Jul 2022 22:30:07-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 22:30:07-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 22:30:07-root-message.py-[line:117]-DEBUG-[日志信息]: name 'msg_type' is not defined
+Fri, 29 Jul 2022 22:30:29-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 22:30:29-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 22:37:59-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 22:37:59-root-message.py-[line:117]-DEBUG-[日志信息]: unknown top level operator: $match. If you have a field name that starts with a '$' symbol, consider using $getField or $setField., full error: {'ok': 0.0, 'errmsg': "unknown top level operator: $match. If you have a field name that starts with a '$' symbol, consider using $getField or $setField.", 'code': 2, 'codeName': 'BadValue'}
+Fri, 29 Jul 2022 22:40:26-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 22:40:26-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 22:41:02-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 22:41:02-root-message.py-[line:111]-INFO-[日志信息]: 你好
+Fri, 29 Jul 2022 22:41:02-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 22:41:02-root-message.py-[line:111]-INFO-[日志信息]: visit
+Fri, 29 Jul 2022 22:41:35-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 22:41:35-root-message.py-[line:111]-INFO-[日志信息]: 你好
+Fri, 29 Jul 2022 22:41:35-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 22:41:35-root-message.py-[line:111]-INFO-[日志信息]: visit
+Fri, 29 Jul 2022 22:42:07-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 22:42:07-root-message.py-[line:111]-INFO-[日志信息]: 你好
+Fri, 29 Jul 2022 22:42:07-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 22:42:07-root-message.py-[line:111]-INFO-[日志信息]: visit
+Fri, 29 Jul 2022 22:51:27-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 22:51:27-root-message.py-[line:111]-INFO-[日志信息]: 你好
+Fri, 29 Jul 2022 22:51:27-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 22:51:27-root-message.py-[line:111]-INFO-[日志信息]: visit
+Fri, 29 Jul 2022 22:51:36-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 22:51:36-root-message.py-[line:111]-INFO-[日志信息]: 你好
+Fri, 29 Jul 2022 22:51:36-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 22:51:36-root-message.py-[line:111]-INFO-[日志信息]: visit
+Fri, 29 Jul 2022 22:53:03-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 22:53:03-root-message.py-[line:111]-INFO-[日志信息]: 你好
+Fri, 29 Jul 2022 22:53:03-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 22:53:03-root-message.py-[line:111]-INFO-[日志信息]: visit
+Fri, 29 Jul 2022 22:56:41-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 22:56:41-root-message.py-[line:119]-DEBUG-[日志信息]: name 'Q' is not defined
+Fri, 29 Jul 2022 22:58:38-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 22:58:38-root-message.py-[line:119]-DEBUG-[日志信息]: name 'Q' is not defined
+Fri, 29 Jul 2022 22:59:09-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 22:59:09-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 23:07:29-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 23:07:29-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 23:07:41-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 23:07:41-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 23:07:50-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 23:07:50-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 23:07:58-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 23:07:58-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 23:08:10-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 23:08:10-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 23:10:47-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 23:10:47-root-message.py-[line:119]-DEBUG-[日志信息]: name 're' is not defined
+Fri, 29 Jul 2022 23:11:11-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 23:11:11-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 23:12:09-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 23:12:09-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 23:12:36-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 23:12:37-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 23:13:08-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 23:13:08-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 23:14:42-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 23:14:42-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 23:14:50-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 23:14:50-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 23:15:24-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 23:15:24-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 23:15:34-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 23:15:34-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw

@@ -5,11 +5,12 @@ from msgservice.utils.responseBuild import responseBuilder
 from msgservice.utils.Logger import logger
 from sqlalchemy import and_, or_
 from msgservice.utils.res_msg_enum import ResMSG, ResCode
-import uuid
+import uuid,re
 from msgservice.models.database import db,Message
 import datetime
 from sqlalchemy.orm import relationship
 from msgservice.utils.data_conversion import query_res_to_dict_list, query_res_to_dict
+from flask_mongoengine import MongoEngine
 
 
 message_svr = Blueprint('message_svr', __name__)
@@ -71,6 +72,48 @@ def find_by():
         try:
             filter = {"$and":[{"group_id": msg_from},{"msg_type":msg_type}]} if type == 'group' else {"$or": [{"$and": [{"user_id": g.userid}, {"from_u": msg_from},{"msg_type": msg_type}]},
                      {"$and": [{"user_id": msg_from}, {"from_u": g.userid},{"msg_type": msg_type}]}]}
+
+            msgs = Message.objects(__raw__=filter).order_by('created_at').paginate(page=pageIndex, per_page=pageSize)
+            msg_list = [m for m in msgs.items]
+        except Exception as e:
+            logger.debug(e)
+            return jsonify(responseBuilder.build_response(ResCode.INNER_ERR.value, ResMSG.INNER_ERR.value))
+
+        totalCount = msgs.total
+        totalpage = msgs.pages
+        pageIndex = msgs.page
+        pageSize = pageSize
+
+        return jsonify(responseBuilder.build_response(ResCode.MESSAGE_FIND_SUCCESS.value,
+                                                      ResMSG.MESSAGE_FIND_SUCCESS.value, messages=msg_list,
+                                                      totalCount=totalCount, totalpage=totalpage,
+                                                      pageIndex=pageIndex, pageSize=pageSize))
+
+    return jsonify(responseBuilder.build_response(ResCode.PARAMS_IS_EMPTY.value,
+                                                      ResMSG.PARAMS_IS_EMPTY.value))
+
+@message_svr.route('/api/msg/find_by_kw', methods=['POST'])
+def find_by_kw():
+    if request.data:
+        data = parser.parse_to_dict(request.data)
+        pageSize = data.get("pageSize")
+        pageIndex = data.get("pageIndex")
+        key_word = data.get("key_word")
+        char_session = data.get('char_session')
+        if not pageIndex or not pageSize or not char_session or not key_word:
+            return jsonify(responseBuilder.build_response(ResCode.MESSAGE_FIND_PARAM_INVALID.value,
+                                                          ResMSG.MESSAGE_FIND_PARAM_INVALID.value))
+        type = char_session.get('type')
+        msg_from = char_session.get('msg_from')
+        if not type or not msg_from:
+            return jsonify(responseBuilder.build_response(ResCode.MESSAGE_FIND_PARAM_INVALID.value,
+                                                          ResMSG.MESSAGE_FIND_PARAM_INVALID.value))
+        try:
+            filter = {"$and":[{"group_id": msg_from},{"content":{"$regex":key_word}}]} if type == 'group' else {"$or": [{"$and": [{"user_id": g.userid}, {"from_u": msg_from},{"content":{"$regex":key_word}}]},
+                     {"$and": [{"user_id": msg_from}, {"from_u": g.userid},{"content":{"$regex":key_word}}]}]}
+
+            filter = {"content":{"$in":[re.compile(key_word)]}}
+            #filter = {"content":{"$regex":key_word}}
 
             msgs = Message.objects(__raw__=filter).order_by('created_at').paginate(page=pageIndex, per_page=pageSize)
             msg_list = [m for m in msgs.items]
