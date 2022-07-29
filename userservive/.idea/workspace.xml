@@ -4,6 +4,7 @@
     <list default="true" id="a10a2427-da0b-494a-a0d4-12c8fc0c8841" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../msg_push_servive/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_push_servive/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../msg_servive/msgservice/logs/2022-07-29-all.log" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_servive/msgservice/logs/2022-07-29-all.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msg_servive/msgservice/logs/2022-07-29-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_servive/msgservice/logs/2022-07-29-error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../msg_servive/msgservice/test/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_servive/msgservice/test/client.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../msg_servive/msgservice/views/message.py" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_servive/msgservice/views/message.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />

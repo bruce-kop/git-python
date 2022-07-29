@@ -24,3 +24,29 @@ Traceback (most recent call last):
   File "D:\git-python\msg_servive\msgservice\views\message.py", line 105, in find_by_data
     if not pageIndex or not pageSize or not end_date or msg_type or not char_session:
 NameError: name 'msg_type' is not defined
+Fri, 29 Jul 2022 23:51:04-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find_chats [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 246, in find_chats
+    totalCount = msgs.total
+NameError: name 'msgs' is not defined
+Fri, 29 Jul 2022 23:55:02-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find_chats [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 248, in find_chats
+    totalCount = chats.total
+AttributeError: 'BaseQuerySet' object has no attribute 'total'

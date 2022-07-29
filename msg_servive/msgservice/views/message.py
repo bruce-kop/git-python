@@ -214,3 +214,45 @@ def find_by_member():
 
     return jsonify(responseBuilder.build_response(ResCode.PARAMS_IS_EMPTY.value,
                                                   ResMSG.PARAMS_IS_EMPTY.value))
+
+@message_svr.route('/api/msg/del', methods=['POST'])
+def message_del():
+    if request.data:
+        data = parser.parse_to_dict(request.data)
+        char_session = data.get('char_session')
+        pass
+    return
+
+
+@message_svr.route('/api/msg/find_chats', methods=['POST'])
+def find_chats():
+    if request.data:
+        data = parser.parse_to_dict(request.data)
+
+        pageSize = data.get("pageSize")
+        pageIndex = data.get("pageIndex")
+
+        if not pageIndex or not pageSize:
+            return jsonify(responseBuilder.build_response(ResCode.MESSAGE_FIND_PARAM_INVALID.value,
+                                                          ResMSG.MESSAGE_FIND_PARAM_INVALID.value))
+        try:
+
+            #chats = Message.objects().only('from_u', "user_id")
+            pipeline = [{'$group' : {'_id' : "$from_u", 'groupid':{'$last' : '$group_id'},'created_at':{'$last' : "$created_at"} ,'last_msg' : {'$last' : "$content"}}}]
+            chats = Message.objects().aggregate(pipeline)
+            chat_list = [c for c in chats]
+
+        except Exception as e:
+            logger.debug(e)
+            return jsonify(responseBuilder.build_response(ResCode.INNER_ERR.value, ResMSG.INNER_ERR.value))
+
+        return jsonify(responseBuilder.build_response(ResCode.MESSAGE_FIND_SUCCESS.value,
+                                                      ResMSG.MESSAGE_FIND_SUCCESS.value, chat_session=chat_list))
+
+    return jsonify(responseBuilder.build_response(ResCode.PARAMS_IS_EMPTY.value,
+                                                  ResMSG.PARAMS_IS_EMPTY.value))
+
+
+@message_svr.route('/api/msg/read', methods=['POST'])
+def message_read():
+    pass

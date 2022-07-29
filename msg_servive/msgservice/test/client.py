@@ -421,6 +421,16 @@ def find_by_date(token,type = "group",msg_from = None , start_date = None, end_d
 
     print(response)
 
+def find_chats(token):
+    hd = get_base_head()
+    p = {'token': token, "pageIndex": 1, "pageSize": 5}
+    p = json.dumps(p)
+    url = 'http://127.0.0.1:5003/api/msg/find_chats'
+    res = requests.post(url, headers=hd, json=p)
+    response = json.loads(res.text)
+
+    print(response)
+
 import datetime
 from datetime import time
 
@@ -453,6 +463,7 @@ if __name__ == '__main__':
     #find_by_date(token, type="group", msg_from="42177ae4-81bf-4bc8-8fc5-74a025cd154f", start_date= s,end_date= e)
     #find_by_date(token, type="user", msg_from="f692b513-8e1c-410a-927b-58687b85dcc8", start_date= s,end_date= e)
     #find_message_by_member(token, "42177ae4-81bf-4bc8-8fc5-74a025cd154f", "ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc")
-    find_message_by_kw(token, type="group",msg_from="42177ae4-81bf-4bc8-8fc5-74a025cd154f", kw="你好")
-    find_message_by_kw(token, type="user", msg_from="f692b513-8e1c-410a-927b-58687b85dcc8", kw = "visit")
+    #find_message_by_kw(token, type="group",msg_from="42177ae4-81bf-4bc8-8fc5-74a025cd154f", kw="你好")
+    #find_message_by_kw(token, type="user", msg_from="f692b513-8e1c-410a-927b-58687b85dcc8", kw = "visit")
+    find_chats(token)
 

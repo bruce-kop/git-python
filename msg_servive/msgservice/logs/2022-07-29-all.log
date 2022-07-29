@@ -245,3 +245,56 @@ Fri, 29 Jul 2022 23:15:24-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/fi
 Fri, 29 Jul 2022 23:15:24-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
 Fri, 29 Jul 2022 23:15:34-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
 Fri, 29 Jul 2022 23:15:34-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_kw
+Fri, 29 Jul 2022 23:50:16-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_chats
+Fri, 29 Jul 2022 23:50:16-root-message.py-[line:246]-DEBUG-[日志信息]: local variable 'e' referenced before assignment
+Fri, 29 Jul 2022 23:51:04-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_chats
+Fri, 29 Jul 2022 23:51:04-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find_chats [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 246, in find_chats
+    totalCount = msgs.total
+NameError: name 'msgs' is not defined
+Fri, 29 Jul 2022 23:51:37-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_chats
+Fri, 29 Jul 2022 23:52:33-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_chats
+Fri, 29 Jul 2022 23:52:33-root-message.py-[line:239]-INFO-[日志信息]: {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk3MTQ3NTMuMDY4MDk3OCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.8gTs-9Q9GZkPKrl2yhLWGXZnCGAtSAY1JdCspMFUXJA', 'pageIndex': 1, 'pageSize': 5}
+Fri, 29 Jul 2022 23:53:24-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_chats
+Fri, 29 Jul 2022 23:53:24-root-message.py-[line:241]-INFO-[日志信息]: <class 'flask_mongoengine.pagination.Pagination'>
+Fri, 29 Jul 2022 23:53:45-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_chats
+Fri, 29 Jul 2022 23:53:45-root-message.py-[line:241]-INFO-[日志信息]: <class 'list'>
+Fri, 29 Jul 2022 23:54:16-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_chats
+Fri, 29 Jul 2022 23:54:16-root-message.py-[line:243]-INFO-[日志信息]: [<Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>]
+Fri, 29 Jul 2022 23:54:49-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_chats
+Fri, 29 Jul 2022 23:54:49-root-message.py-[line:245]-DEBUG-[日志信息]: 'BaseQuerySet' object has no attribute 'items'
+Fri, 29 Jul 2022 23:55:02-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_chats
+Fri, 29 Jul 2022 23:55:02-root-message.py-[line:243]-INFO-[日志信息]: [<Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>]
+Fri, 29 Jul 2022 23:55:02-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find_chats [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 248, in find_chats
+    totalCount = chats.total
+AttributeError: 'BaseQuerySet' object has no attribute 'total'
+Fri, 29 Jul 2022 23:55:45-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_chats
+Fri, 29 Jul 2022 23:55:45-root-message.py-[line:243]-INFO-[日志信息]: [<Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>]
+Fri, 29 Jul 2022 23:57:01-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_chats
+Fri, 29 Jul 2022 23:57:01-root-message.py-[line:245]-DEBUG-[日志信息]: 'Message' object has no attribute 'userid'
+Fri, 29 Jul 2022 23:57:24-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_chats
+Fri, 29 Jul 2022 23:57:25-root-message.py-[line:243]-INFO-[日志信息]: None
+Fri, 29 Jul 2022 23:57:40-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_chats
+Fri, 29 Jul 2022 23:57:40-root-message.py-[line:243]-INFO-[日志信息]: ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc
+Fri, 29 Jul 2022 23:58:03-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_chats
+Fri, 29 Jul 2022 23:58:03-root-message.py-[line:243]-INFO-[日志信息]: ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc
+Fri, 29 Jul 2022 23:58:03-root-message.py-[line:244]-INFO-[日志信息]: f692b513-8e1c-410a-927b-58687b85dcc8
