@@ -91,6 +91,9 @@ class ResCode(Enum):
     GROUP_MEMBER_LIST_SUCCESS = 2900
     GROUP_MEMBER_LIST_PARAM_INVALID = 2901
 
+    MESSAGE_FIND_SUCCESS = 3000
+    MESSAGE_FIND_PARAM_INVALID = 3001
+
 @unique
 class ResMSG(Enum):
     COMMON_SUCCESS = 'request success.'
@@ -174,4 +177,5 @@ class ResMSG(Enum):
 
     GROUP_MEMBER_INFO_SUCCESS = "get members info from group success."
     GROUP_MEMBER_INFO_PARAM_INVALID = "get members info param is invalid."
-
+    MESSAGE_FIND_SUCCESS = "message find success."
+    MESSAGE_FIND_PARAM_INVALID = "message find param invalid."

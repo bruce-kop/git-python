@@ -26,7 +26,6 @@ def create_app():
     for bp in blueprints:
         app.register_blueprint(bp)
         bp.app = app
-        logger.info(bp)
 
     db.init_app(app)
     #login_manager.init_app(app)
@@ -47,17 +46,13 @@ def authenticate():
             data = parser.parse_to_dict(request.data)
             token = data.get('token')
             g.token = token
-            logger.debug(token)
 
             res = Jwt.decode(token.encode(), TOKEN_PRODUCE_KEY)
             if float(res['exp']) < datetime.datetime.now().timestamp():
-                logger.info(datetime.datetime.now().timestamp())
                 g.userid = None
             else:
-                logger.info(res)
                 g.userid = res['userid']
         else:
-            logger.info("reuquest api:{}".format(api))
             g.userid = None
     else:
         g.userid = None

@@ -140,9 +140,9 @@ def recvdata():
         d = rdata.get('data')
         if d:
             from_u = d.get('from_u')
-            msg = d.get('msg')
+            msg = d.get('content')
 
-            print("from:{},mas:{}".format(from_u, msg))
+            print("from:{}{}  {}".format(from_u,'\n', msg))
     except TimeoutError as e:
         pass
 
@@ -153,11 +153,12 @@ def recvdata_fe(dg):
             recv_data = s.recv(1024)
             rdata = recv_data.decode(encoding='utf-8')
             d =rdata.get('data')
+
             if d:
                 from_u = d.get('from_u')
-                msg = d.get('msg')
+                msg = d.get('content')
 
-            print("from:{},mas:{}".format(from_u,msg))
+            print("from:{} /n     mas:{}".format(from_u,msg))
         except TimeoutError:
             pass
         time.sleep(1)
@@ -198,7 +199,7 @@ if __name__ == '__main__':
     token = login()
     if token:
         print('login success.')
-    dg = {"method": "4001", "body": {"token": token}}
+    dg = {"method": "4001", "message": {"token": token}}
     sendmsg(s, dg)
 
     recvdata()
@@ -209,8 +210,7 @@ if __name__ == '__main__':
     print("开始发送：")
 
     while True:
-        print("我：")
-        msg = input()
-        dg = {"method": "4003", "body": {"token": token, "msg": msg, "to": 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}}
+        msg = input("我:")
+        dg = {"method": "4003", "message": {"token": token, "content": msg, "to": 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc', "g_o_u":0, "msg_type":"pic"}}
         sendmsg(s, dg)
 

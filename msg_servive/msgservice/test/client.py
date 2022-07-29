@@ -3,7 +3,6 @@ import requests
 import re
 import json
 import base64, io
-import time
 import pytesseract
 from PIL import Image
 
@@ -357,19 +356,87 @@ def group_list_in_addr(token):
 
     print(res.text)
 
-def find_message(token,groupid):
+def find(token,type= "group", msg_from =None):
     hd = get_base_head()
-    p = {'token': token, 'groupid':groupid,"pageIndex":1, "pageSize":20}
+    p = {'token': token, 'char_session':{'type':type, 'msg_from': msg_from}, "pageIndex": 1, "pageSize": 5}
     p = json.dumps(p)
     url = 'http://127.0.0.1:5003/api/msg/find'
+    res = requests.post(url, headers=hd, json=p)
+    response = json.loads(res.text)
+    datas = response.get('data').get('messages')
+    for d in datas:
+        print(d.get('created_at'))
+
+    print(response)
+
+def find_message_by(token,type = "group",msg_from = None, msg_type = "text" ):
+    hd = get_base_head()
+    p = {'token': token, 'char_session':{'type':type, 'msg_from': msg_from}, "msg_type":msg_type,"pageIndex": 1, "pageSize": 5}
+    p = json.dumps(p)
+    url = 'http://127.0.0.1:5003/api/msg/find_by'
     print(p)
     res = requests.post(url, headers=hd, json=p)
+    response = json.loads(res.text)
+    datas = response.get('data').get('messages')
+    for d in datas:
+        print(d.get('created_at'))
 
-    print(res.text)
+    print(response)
+
+def find_message_by_member(token,groupid, memberid):
+    hd = get_base_head()
+    p = {'token': token, 'groupid': groupid, "memberid": memberid,"pageIndex": 1, "pageSize": 5}
+    p = json.dumps(p)
+    url = 'http://127.0.0.1:5003/api/msg/find_by_member'
+
+    res = requests.post(url, headers=hd, json=p)
+    response = json.loads(res.text)
+
+    print(response)
+
+def find_by_date(token,type = "group",msg_from = None , start_date = None, end_date = None):
+    hd = get_base_head()
+    p = {'token': token, 'char_session':{'type':type, 'msg_from': msg_from}, "start_date":start_date, "end_date":end_date, "pageIndex": 1, "pageSize": 5}
+    p = json.dumps(p)
+    url = 'http://127.0.0.1:5003/api/msg/find_by_date'
+    res = requests.post(url, headers=hd, json=p)
+    response = json.loads(res.text)
+    datas = response.get('data').get('messages')
+    for d in datas:
+        print(d.get('created_at'))
+
+    print(response)
+
+import datetime
+from datetime import time
 
 if __name__ == '__main__':
 
     #register_users()
-    token = login(phone='15382359899',pwd='Hik123456')
-    find_message(token, "42177ae4-81bf-4bc8-8fc5-74a025cd154f")
+    token = login(phone='15382359899', pwd='Hik123456')
+    #find(token, type= "user", msg_from = "f692b513-8e1c-410a-927b-58687b85dcc8")
+    #find(token, type= "group", msg_from ="42177ae4-81bf-4bc8-8fc5-74a025cd154f")
+
+    #find_message_by(token, type= "user", msg_from = "f692b513-8e1c-410a-927b-58687b85dcc8", msg_type="text")
+    #find_message_by(token, type="group", msg_from="42177ae4-81bf-4bc8-8fc5-74a025cd154f", msg_type="text")
+    #find_message_by(token, type="user", msg_from="f692b513-8e1c-410a-927b-58687b85dcc8",msg_type="file")
+    #find_message_by(token, type="group", msg_from="42177ae4-81bf-4bc8-8fc5-74a025cd154f",msg_type="file")
+    #find_message_by(token, type="user", msg_from="f692b513-8e1c-410a-927b-58687b85dcc8",msg_type="link")
+    #find_message_by(token, type="group", msg_from="42177ae4-81bf-4bc8-8fc5-74a025cd154f",msg_type="link")
+
+    #find_message_by(token, type="user", msg_from="f692b513-8e1c-410a-927b-58687b85dcc8",msg_type="pic")
+    #find_message_by(token, type="group", msg_from="42177ae4-81bf-4bc8-8fc5-74a025cd154f",msg_type="pic")
+
+    #find_message_by(token, type="user", msg_from="f692b513-8e1c-410a-927b-58687b85dcc8",msg_type="video")
+    #find_message_by(token, type="group", msg_from="42177ae4-81bf-4bc8-8fc5-74a025cd154f", msg_type="video")
+
+    start_date = datetime.datetime.combine(datetime.date(2022,7,29), time(17,8,00))
+    end_date = datetime.datetime.combine(datetime.date(2022,7,29), time(17,20,0))
+    d = datetime.date(2022, 7, 29)
+    t = time(17, 20, 0)
+    s = start_date.strftime("%Y-%m-%d %H:%M:%S")
+    e = end_date.strftime("%Y-%m-%d %H:%M:%S")
+    find_by_date(token, type="group", msg_from="42177ae4-81bf-4bc8-8fc5-74a025cd154f", start_date= s,end_date= e)
+    find_by_date(token, type="user", msg_from="f692b513-8e1c-410a-927b-58687b85dcc8", start_date= s,end_date= e)
+    #find_message_by_member(token, "42177ae4-81bf-4bc8-8fc5-74a025cd154f", "ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc")
 

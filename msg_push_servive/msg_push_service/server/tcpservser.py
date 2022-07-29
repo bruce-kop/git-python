@@ -62,7 +62,7 @@ class tcpserver:
 
         data = json.loads(data)
         if int(data["method"]) == ReqMethod.LOGINMSG.value:
-            token = data["body"]['token']
+            token = data["message"]['token']
             start = time.time()
             userid = token_verify(token)
             if not userid:
@@ -77,7 +77,7 @@ class tcpserver:
             logger.info("解析头耗时：{}".format(end - start))
 
         elif int(data["method"]) in ReqMethod._value2member_map_:
-            token = data["body"]['token']
+            token = data["message"]['token']
             start = time.time()
             userid = token_verify(token)
             if not userid:
@@ -219,33 +219,50 @@ class DataProcThread(threading.Thread):
                 respose = json.dumps(res_msg)
                 res = s.send(respose.encode(encoding='utf-8'))
                 userid = self.socket_d.get(s)
-
-                to = jdata["body"].get('to')
+                group_id = ''
+                to = jdata["message"].get('to')
                 if to:
                     is_send = 0
-                    msg = jdata["body"].get('msg')
-                    res_m = {'code':200, "msg":'request success','data':{'from_u':userid,'msg':msg}}
-                    respose = json.dumps(res_m)
-                    if get_dict_key(self.socket_d, to):
-                        to_socket = get_dict_key(self.socket_d, to)  # 如果对方在线，向其转发消息。
-                        to_socket.send(respose.encode(encoding='utf-8'))
-                        is_send = 1
+                    content = jdata["message"].get('content')
+                    g_o_u = jdata["message"].get('g_o_u')
+                    msg_type = jdata["message"].get('msg_type')
+
+                    invalid_msg = False
+                    if not content or not msg_type or (g_o_u==None):
+                        res_m = {'code':401, "msg":'invalid msg param.','data':{}}
+                        invalid_msg = True
+
                     else:
-                        #save to reis
-                        pass
-                    created_at = datetime.datetime.now()
-                    group_id = ''
-                    msg_id = str(uuid.uuid4())
-                    data_list = [
-                        {"msg_id": msg_id, "user_id": to, "content": msg, "from_u": userid, "group_id": group_id, "is_send": is_send, "created_at": created_at}
-                    ]
-                    res = mongodb.insert(table='message', data_list=data_list)
-                    if not res:
-                        logger.error("insert message to mongdb failed.")
-                    id = uuid.uuid4()
-                    res = mysql.insert(table = 'message', id = "\"{}\"".format(id), user_id = "\"{}\"".format(to), content="\"{}\"".format(msg),
-                                         from_u ="\"{}\"".format(userid), groupid = "\" \"", is_send = is_send, create_at = 'now()')
-                    if res is None:
-                        logger.error("insert message to mysql failed.")
+                        res_m = {'code':200, "msg":'request success','data':{'from_u':userid,'content':content,"g_o_u":g_o_u, "msg_type":msg_type}}
+                    if g_o_u == 0:
+                        #好友点对点发送消息时直接发送
+                        # 重要未实现：发送时应该要校验发送对象是不是好友。
+                        response = json.dumps(res_m)
+                        if get_dict_key(self.socket_d, to):
+                            to_socket = get_dict_key(self.socket_d, to)  # 如果对方在线，向其转发消息。
+                            to_socket.send(response.encode(encoding='utf-8'))
+                            is_send = 1
+                        else:
+                            #save to reis
+                            pass
+                    else:
+                        #如果是向群组发送消息，那么从群组找到到所有的在线成员，将消息投递到消息队列，向所有成员发送。
+                        #重要未实现：应该要校验，该群组是不是发送方所在群
+                        group_id = to
+
+                    if not invalid_msg:
+                        created_at = datetime.datetime.now()
+                        msg_id = str(uuid.uuid4())
+                        data_list = [
+                            {"msg_id": msg_id, "user_id": to, "content": content, "from_u": userid, "group_id": group_id,"msg_type":msg_type, "is_send": is_send, "created_at": created_at}
+                        ]
+                        res = mongodb.insert(table='message', data_list=data_list)
+                        if not res:
+                            logger.error("insert message to mongdb failed.")
+                        id = uuid.uuid4()
+                        res = mysql.insert(table = 'message', id="\"{}\"".format(id), user_id="\"{}\"".format(to), content="\"{}\"".format(content),
+                                             from_u ="\"{}\"".format(userid), groupid="\"{}\"".format(group_id), is_send = is_send, create_at = 'now()')
+                        if res is None:
+                            logger.error("insert message to mysql failed.")
             time.sleep(1)
         logger.info('ExitThread %s \n' % self.name)

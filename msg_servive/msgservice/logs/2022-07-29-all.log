@@ -1,0 +1,175 @@
+Fri, 29 Jul 2022 17:28:28-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 29 Jul 2022 17:28:28-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 17:30:19-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 29 Jul 2022 17:30:19-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 17:30:27-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 29 Jul 2022 17:30:27-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 17:31:17-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 29 Jul 2022 17:31:17-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 17:31:17-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 17:31:17-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 17:31:17-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 17:31:17-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 19:23:00-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_date
+Fri, 29 Jul 2022 19:23:14-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_date
+Fri, 29 Jul 2022 19:24:42-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_date
+Fri, 29 Jul 2022 19:25:54-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_date
+Fri, 29 Jul 2022 19:26:45-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_date
+Fri, 29 Jul 2022 19:26:45-root-message.py-[line:87]-INFO-[日志信息]: 2022-07-29 17:08:00
+Fri, 29 Jul 2022 19:26:45-root-message.py-[line:88]-INFO-[日志信息]: 2022-07-29 17:20:00
+Fri, 29 Jul 2022 19:28:31-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_date
+Fri, 29 Jul 2022 19:29:13-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_date
+Fri, 29 Jul 2022 19:29:22-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_date
+Fri, 29 Jul 2022 19:42:00-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_member
+Fri, 29 Jul 2022 19:43:17-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_member
+Fri, 29 Jul 2022 19:44:51-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_member
+Fri, 29 Jul 2022 19:44:51-root-message.py-[line:124]-INFO-[日志信息]: ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc
+Fri, 29 Jul 2022 19:44:51-root-message.py-[line:134]-DEBUG-[日志信息]: memberid
+Fri, 29 Jul 2022 19:46:06-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_member
+Fri, 29 Jul 2022 19:46:06-root-message.py-[line:124]-INFO-[日志信息]: ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc
+Fri, 29 Jul 2022 19:46:06-root-message.py-[line:134]-DEBUG-[日志信息]: memberid
+Fri, 29 Jul 2022 19:47:52-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_member
+Fri, 29 Jul 2022 19:47:52-root-message.py-[line:124]-INFO-[日志信息]: {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk3MDAwNzIuNzMzMjc5MiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0._u3sFuwDP5naSGVTvGJnnsf95llJMHCtc4y35wse0jM', 'groupid': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'memberid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc', 'pageIndex': 1, 'pageSize': 5}
+Fri, 29 Jul 2022 19:47:52-root-message.py-[line:134]-DEBUG-[日志信息]: memberid
+Fri, 29 Jul 2022 19:49:17-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_member
+Fri, 29 Jul 2022 19:49:17-root-message.py-[line:124]-INFO-[日志信息]: {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk3MDAxNTcuNTIzNzEyMiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.gioq1rCk3cd1oNKk_JyWWm2CL_nqkELlSVni-Vn1atY', 'groupid': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'memberid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc', 'pageIndex': 1, 'pageSize': 5}
+Fri, 29 Jul 2022 20:08:57-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_member
+Fri, 29 Jul 2022 20:08:57-root-message.py-[line:124]-INFO-[日志信息]: {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk3MDEzMzcuNTYyOTgxMSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.fYxwxqjDs8VX5TnrGHJjsfQ-K9ZPIVbpcceO520HMZI', 'groupid': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'memberid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc', 'pageIndex': 1, 'pageSize': 5}
+Fri, 29 Jul 2022 20:10:07-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_member
+Fri, 29 Jul 2022 20:10:07-root-message.py-[line:124]-INFO-[日志信息]: {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk3MDE0MDcuMjk4ODE2NCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.uFpezmXnD6pzR-qDt7tNN0wytd9_5G3cRL48Y7gMcXM', 'groupid': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'memberid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc', 'pageIndex': 1, 'pageSize': 5}
+Fri, 29 Jul 2022 20:54:32-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 29 Jul 2022 20:54:57-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/in_p2p/find
+Fri, 29 Jul 2022 20:54:57-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 29 Jul 2022 20:57:47-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/in_group/find
+Fri, 29 Jul 2022 20:58:04-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/in_p2p/find
+Fri, 29 Jul 2022 21:14:41-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 29 Jul 2022 21:16:50-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 29 Jul 2022 21:16:50-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 29, in find
+    if not type or not from_:
+NameError: name 'from_' is not defined
+Fri, 29 Jul 2022 21:17:26-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 29 Jul 2022 21:18:53-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 29 Jul 2022 21:18:58-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 29 Jul 2022 21:18:58-root-message.py-[line:36]-INFO-[日志信息]: {'$or': [{'$and': [{'user_id': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}, {'from_u': 'f692b513-8e1c-410a-927b-58687b85dcc8'}]}, {'$and': [{'user_id': 'f692b513-8e1c-410a-927b-58687b85dcc8'}, {'from_u': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}]}]}
+Fri, 29 Jul 2022 21:19:42-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 29 Jul 2022 21:21:30-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 29 Jul 2022 21:21:31-root-message.py-[line:40]-INFO-[日志信息]: Message object
+Fri, 29 Jul 2022 21:23:27-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 29 Jul 2022 21:23:27-root-message.py-[line:40]-INFO-[日志信息]: Message object
+Fri, 29 Jul 2022 21:23:27-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 29 Jul 2022 21:23:27-root-message.py-[line:40]-INFO-[日志信息]: Message object
+Fri, 29 Jul 2022 21:34:16-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 29 Jul 2022 21:34:16-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 29 Jul 2022 21:35:10-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 29 Jul 2022 21:35:10-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 29 Jul 2022 21:35:10-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 21:37:52-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 29 Jul 2022 21:37:52-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 29 Jul 2022 21:37:52-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 21:37:52-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 21:37:52-root-message.py-[line:80]-DEBUG-[日志信息]: cannot encode object: {'text', 'msg_type'}, of type: <class 'set'>
+Fri, 29 Jul 2022 21:39:45-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 29 Jul 2022 21:39:45-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 29 Jul 2022 21:39:45-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 21:39:45-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 21:39:45-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 21:39:45-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 21:39:45-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 21:40:10-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 29 Jul 2022 21:40:10-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 29 Jul 2022 21:40:10-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 21:40:10-root-message.py-[line:80]-DEBUG-[日志信息]: cannot encode object: {'text', 'msg_type'}, of type: <class 'set'>
+Fri, 29 Jul 2022 21:42:18-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 29 Jul 2022 21:42:18-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 29 Jul 2022 21:42:18-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 21:42:18-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 21:42:18-root-message.py-[line:80]-DEBUG-[日志信息]: cannot encode object: {'text', 'msg_type'}, of type: <class 'set'>
+Fri, 29 Jul 2022 21:43:09-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 29 Jul 2022 21:43:09-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 29 Jul 2022 21:43:09-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 21:43:09-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 21:43:09-root-message.py-[line:80]-DEBUG-[日志信息]: cannot encode object: {'text', 'msg_type'}, of type: <class 'set'>
+Fri, 29 Jul 2022 21:43:23-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 29 Jul 2022 21:43:23-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 29 Jul 2022 21:43:23-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 21:43:23-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 21:43:45-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 29 Jul 2022 21:43:45-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 29 Jul 2022 21:43:45-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 21:43:45-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 21:43:45-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 21:43:45-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 21:44:08-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 29 Jul 2022 21:44:08-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 29 Jul 2022 21:44:08-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 21:44:08-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 21:44:08-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 21:44:08-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 21:44:08-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 21:45:19-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 29 Jul 2022 21:45:19-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 29 Jul 2022 21:45:19-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 21:45:19-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 21:45:19-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 21:45:19-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 21:45:19-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 21:45:38-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 29 Jul 2022 21:45:38-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 29 Jul 2022 21:45:38-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 21:45:38-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 21:45:38-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 21:45:38-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 21:45:38-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 21:45:58-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 21:45:58-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 21:45:58-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 21:45:58-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 21:45:58-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 29 Jul 2022 21:58:28-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_date
+Fri, 29 Jul 2022 21:59:48-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_date
+Fri, 29 Jul 2022 22:00:06-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_date
+Fri, 29 Jul 2022 22:01:16-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_date
+Fri, 29 Jul 2022 22:03:18-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_date
+Fri, 29 Jul 2022 22:04:03-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_date
+Fri, 29 Jul 2022 22:04:49-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_date
+Fri, 29 Jul 2022 22:05:03-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_date
+Fri, 29 Jul 2022 22:06:51-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_date
+Fri, 29 Jul 2022 22:06:51-root-message.py-[line:98]-INFO-[日志信息]: {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk3MDg0MTEuMzY5ODQ4MywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.3lS1-u4OMAk24RHuchosOxPNHlWZOd_fRN3ShvU8sAI', 'char_session': {'type': 'group', 'msg_from': '42177ae4-81bf-4bc8-8fc5-74a025cd154f'}, 'start_date': '2022-07-29 17:08:00', 'end_date': '2022-07-29 17:20:00', 'pageIndex': 1, 'pageSize': 5}
+Fri, 29 Jul 2022 22:07:45-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_date
+Fri, 29 Jul 2022 22:07:45-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find_by_date [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 105, in find_by_data
+    if not pageIndex or not pageSize or not end_date or msg_type or not char_session:
+NameError: name 'msg_type' is not defined
+Fri, 29 Jul 2022 22:08:44-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_date
+Fri, 29 Jul 2022 22:08:44-root-message.py-[line:126]-DEBUG-[日志信息]: list index out of range
+Fri, 29 Jul 2022 22:09:27-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_date
+Fri, 29 Jul 2022 22:09:27-root-message.py-[line:127]-DEBUG-[日志信息]: list index out of range
+Fri, 29 Jul 2022 22:10:20-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_date
+Fri, 29 Jul 2022 22:10:20-root-message.py-[line:124]-INFO-[日志信息]: []
+Fri, 29 Jul 2022 22:10:20-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_date
+Fri, 29 Jul 2022 22:11:24-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_date
+Fri, 29 Jul 2022 22:11:24-root-message.py-[line:124]-INFO-[日志信息]: []
+Fri, 29 Jul 2022 22:11:24-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_date
+Fri, 29 Jul 2022 22:12:44-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_date
+Fri, 29 Jul 2022 22:12:44-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_date
+Fri, 29 Jul 2022 22:13:10-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_date
+Fri, 29 Jul 2022 22:13:10-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by_date

@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a10a2427-da0b-494a-a0d4-12c8fc0c8841" name="Default" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
+    <list default="true" id="a10a2427-da0b-494a-a0d4-12c8fc0c8841" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/msg_push_service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/msg_push_service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msg_push_service/logs/2022-07-28-all.log" beforeDir="false" afterPath="$PROJECT_DIR$/msg_push_service/logs/2022-07-28-all.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msg_push_service/server/tcpservser.py" beforeDir="false" afterPath="$PROJECT_DIR$/msg_push_service/server/tcpservser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msg_push_service/test/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/msg_push_service/test/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msg_push_service/test/user_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/msg_push_service/test/user_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msg_servive/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_servive/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msg_servive/msgservice/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_servive/msgservice/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msg_servive/msgservice/logs/2022-07-28-all.log" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_servive/msgservice/logs/2022-07-28-all.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msg_servive/msgservice/logs/2022-07-28-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_servive/msgservice/logs/2022-07-28-error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msg_servive/msgservice/models/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_servive/msgservice/models/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msg_servive/msgservice/test/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_servive/msgservice/test/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msg_servive/msgservice/utils/res_msg_enum.py" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_servive/msgservice/utils/res_msg_enum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msg_servive/msgservice/views/message.py" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_servive/msgservice/views/message.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userservive/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../userservive/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userservive/userservice/logs/2022-07-28-all.log" beforeDir="false" afterPath="$PROJECT_DIR$/../userservive/userservice/logs/2022-07-28-all.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,46 +77,6 @@
     <expand />
     <select />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="client.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/msg_push_service/test/client.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2489">
-              <caret line="137" column="33" selection-start-line="137" selection-start-column="33" selection-end-line="137" selection-end-column="33" />
-              <folding>
-                <element signature="e#17#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_client.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/msg_push_service/test/user_client.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2717">
-              <caret line="150" column="26" selection-start-line="150" selection-start-column="26" selection-end-line="150" selection-end-column="26" />
-              <folding>
-                <element signature="e#17#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tcpservser.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/msg_push_service/server/tcpservser.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-              <folding>
-                <element signature="e#24#44#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -112,6 +90,9 @@
       <find>unpack requires a buffer of 8 bytes</find>
       <find>333</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -176,12 +157,17 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="432" />
     <option name="y" value="6" />
     <option name="width" value="1845" />
     <option name="height" value="1290" />
   </component>
+  <component name="ProjectId" id="2CZEzX9gikjH6htyEXxIBVyW9ds" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -212,33 +198,44 @@
       </pane>
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../userservive" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/git-python/msg_push_servive"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\git-python\msg_push_servive\msg_push_service\service_" />
       <recent name="D:\git-python\userservive\userservice" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_DBHelper.py">
+  <component name="RunManager" selected="Python.client (1)">
+    <configuration name="app (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="msgservive" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Programs\Python\Python310\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../msg_servive/msgservice" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../msg_servive/msgservice/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="msg_push_service" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -246,9 +243,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="D:\Programs\Python\Python310\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/msg_push_service" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -257,90 +254,91 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="client (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="msgservive" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Programs\Python\Python310\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../msg_servive/msgservice/test" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../msg_servive/msgservice/test/client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="msg_push_service" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="D:\Programs\Python\Python310\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/msg_push_service/test" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/msg_push_service/test/client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration name="user_client" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="user_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="msg_push_service" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="D:\Programs\Python\Python310\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/msg_push_service/test" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/msg_push_service/test/user_client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="Unittests in test_DBHelper.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="msg_push_service" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/msg_push_service/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/msg_push_service/test/test_DBHelper.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
-    <configuration name="Unittests in test_mongdbHelper.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="msg_push_service" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/msg_push_service/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/msg_push_service/test/test_mongdbHelper.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests in test_mongdbHelper.py" />
-      <item itemvalue="Python.app" />
       <item itemvalue="Python.client" />
+      <item itemvalue="Python.app (1)" />
+      <item itemvalue="Python.client (1)" />
+      <item itemvalue="Python.app" />
       <item itemvalue="Python.user_client" />
-      <item itemvalue="Python tests.Unittests in test_DBHelper.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.client" />
-        <item itemvalue="Python.user_client" />
+        <item itemvalue="Python.client (1)" />
+        <item itemvalue="Python.app (1)" />
         <item itemvalue="Python.app" />
-        <item itemvalue="Python tests.Unittests in test_DBHelper.py" />
-        <item itemvalue="Python tests.Unittests in test_mongdbHelper.py" />
+        <item itemvalue="Python.user_client" />
+        <item itemvalue="Python.client" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -440,14 +438,22 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://D:/Download/monolith-master/monolith/forms.py</url>
+          <url>file://$PROJECT_DIR$/../../Download/monolith-master/monolith/forms.py</url>
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/msg_push_service/test/client.py</url>
@@ -455,7 +461,6 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -543,7 +548,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/pythonprogram/first_package/test_thread.py">
+    <entry file="file://$PROJECT_DIR$/../../pythonprogram/first_package/test_thread.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-286">
           <caret line="7" selection-start-line="7" selection-end-line="16" selection-end-column="45" />
@@ -557,7 +562,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Programs/Python/Python310/Lib/concurrent/futures/__init__.py">
+    <entry file="file://$PROJECT_DIR$/../../Programs/Python/Python310/Lib/concurrent/futures/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-171" />
       </provider>

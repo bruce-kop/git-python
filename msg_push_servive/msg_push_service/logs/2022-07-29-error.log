@@ -1,0 +1,4 @@
+Fri, 29 Jul 2022 20:00:06-root-DBHelper.py-[line:278]-ERROR-[日志信息]: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`im_database`.`message`, CONSTRAINT `FK_ID_USER` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+Fri, 29 Jul 2022 20:00:06-root-tcpservser.py-[line:265]-ERROR-[日志信息]: insert message to mysql failed.
+Fri, 29 Jul 2022 20:01:54-root-DBHelper.py-[line:278]-ERROR-[日志信息]: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`im_database`.`message`, CONSTRAINT `FK_ID_USER` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+Fri, 29 Jul 2022 20:01:54-root-tcpservser.py-[line:264]-ERROR-[日志信息]: insert message to mysql failed.

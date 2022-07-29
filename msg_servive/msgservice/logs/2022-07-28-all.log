@@ -196,3 +196,818 @@ Traceback (most recent call last):
     raise queryset._document.MultipleObjectsReturned(
 msgservice.models.database.MultipleObjectsReturned: 2 or more items returned, instead of 1
 Thu, 28 Jul 2022 17:14:36-root-app.py-[line:29]-INFO-[日志信息]: <Blueprint 'message_svr'>
+Thu, 28 Jul 2022 17:58:12-root-app.py-[line:29]-INFO-[日志信息]: <Blueprint 'message_svr'>
+Thu, 28 Jul 2022 17:58:28-root-app.py-[line:45]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 17:58:28-root-app.py-[line:50]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDcxMDguMjIyMzQyNywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.kNQlCP4EPG1gYjeQ62FIYl5tAjxGpBJg31pIfLhrVIc
+Thu, 28 Jul 2022 17:58:28-root-app.py-[line:57]-INFO-[日志信息]: {'exp': 1659607108.2223427, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 17:58:28-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 20, in find
+    msgs = Message.objects.get_or_404()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_mongoengine\__init__.py", line 157, in get_or_404
+    return self.get(*args, **kwargs)
+  File "D:\Programs\Python\Python310\lib\site-packages\mongoengine\queryset\base.py", line 269, in get
+    result = next(queryset)
+  File "D:\Programs\Python\Python310\lib\site-packages\mongoengine\queryset\base.py", line 1599, in __next__
+    doc = self._document._from_son(
+  File "D:\Programs\Python\Python310\lib\site-packages\mongoengine\base\document.py", line 836, in _from_son
+    obj = cls(__auto_convert=False, _created=created, **data)
+  File "D:\Programs\Python\Python310\lib\site-packages\mongoengine\base\document.py", line 99, in __init__
+    raise FieldDoesNotExist(msg)
+mongoengine.errors.FieldDoesNotExist: The fields "{'created_at', 'msg_id', 'content'}" do not exist on the document "Message"
+Thu, 28 Jul 2022 17:59:13-root-app.py-[line:29]-INFO-[日志信息]: <Blueprint 'message_svr'>
+Thu, 28 Jul 2022 17:59:17-root-app.py-[line:45]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 17:59:17-root-app.py-[line:50]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDcxNTcuMDY2Njg1NCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.7lgH8KlG5j07cHZaToOWkhppgZnAbpFv2YBueAXms0E
+Thu, 28 Jul 2022 17:59:17-root-app.py-[line:57]-INFO-[日志信息]: {'exp': 1659607157.0666854, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 17:59:17-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 20, in find
+    msgs = Message.objects.paginate(page=1, per_page=5)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_mongoengine\__init__.py", line 172, in paginate
+    return Pagination(self, page, per_page)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_mongoengine\pagination.py", line 29, in __init__
+    self.items = self.items.select_related()
+  File "D:\Programs\Python\Python310\lib\site-packages\mongoengine\queryset\base.py", line 844, in select_related
+    return queryset._dereference(queryset, max_depth=max_depth)
+  File "D:\Programs\Python\Python310\lib\site-packages\mongoengine\dereference.py", line 42, in __call__
+    items = [i for i in items]
+  File "D:\Programs\Python\Python310\lib\site-packages\mongoengine\dereference.py", line 42, in <listcomp>
+    items = [i for i in items]
+  File "D:\Programs\Python\Python310\lib\site-packages\mongoengine\queryset\queryset.py", line 110, in _iter_results
+    self._populate_cache()
+  File "D:\Programs\Python\Python310\lib\site-packages\mongoengine\queryset\queryset.py", line 129, in _populate_cache
+    self._result_cache.append(next(self))
+  File "D:\Programs\Python\Python310\lib\site-packages\mongoengine\queryset\base.py", line 1599, in __next__
+    doc = self._document._from_son(
+  File "D:\Programs\Python\Python310\lib\site-packages\mongoengine\base\document.py", line 836, in _from_son
+    obj = cls(__auto_convert=False, _created=created, **data)
+  File "D:\Programs\Python\Python310\lib\site-packages\mongoengine\base\document.py", line 99, in __init__
+    raise FieldDoesNotExist(msg)
+mongoengine.errors.FieldDoesNotExist: The fields "{'msg_id', 'created_at', 'content'}" do not exist on the document "Message"
+Thu, 28 Jul 2022 17:59:41-root-app.py-[line:29]-INFO-[日志信息]: <Blueprint 'message_svr'>
+Thu, 28 Jul 2022 17:59:44-root-app.py-[line:45]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 17:59:44-root-app.py-[line:50]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDcxODQuNjIzNDk3MiwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.LJvfBlSNEl_pzM1JcuUMPTJX1b3hCFyGkxjsByVBk7o
+Thu, 28 Jul 2022 17:59:44-root-app.py-[line:57]-INFO-[日志信息]: {'exp': 1659607184.6234972, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 17:59:44-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 20, in find
+    msgs = Message.objects.paginate(page=1, per_page=5)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_mongoengine\__init__.py", line 172, in paginate
+    return Pagination(self, page, per_page)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_mongoengine\pagination.py", line 29, in __init__
+    self.items = self.items.select_related()
+  File "D:\Programs\Python\Python310\lib\site-packages\mongoengine\queryset\base.py", line 844, in select_related
+    return queryset._dereference(queryset, max_depth=max_depth)
+  File "D:\Programs\Python\Python310\lib\site-packages\mongoengine\dereference.py", line 42, in __call__
+    items = [i for i in items]
+  File "D:\Programs\Python\Python310\lib\site-packages\mongoengine\dereference.py", line 42, in <listcomp>
+    items = [i for i in items]
+  File "D:\Programs\Python\Python310\lib\site-packages\mongoengine\queryset\queryset.py", line 110, in _iter_results
+    self._populate_cache()
+  File "D:\Programs\Python\Python310\lib\site-packages\mongoengine\queryset\queryset.py", line 129, in _populate_cache
+    self._result_cache.append(next(self))
+  File "D:\Programs\Python\Python310\lib\site-packages\mongoengine\queryset\base.py", line 1599, in __next__
+    doc = self._document._from_son(
+  File "D:\Programs\Python\Python310\lib\site-packages\mongoengine\base\document.py", line 836, in _from_son
+    obj = cls(__auto_convert=False, _created=created, **data)
+  File "D:\Programs\Python\Python310\lib\site-packages\mongoengine\base\document.py", line 99, in __init__
+    raise FieldDoesNotExist(msg)
+mongoengine.errors.FieldDoesNotExist: The fields "{'msg_id'}" do not exist on the document "Message"
+Thu, 28 Jul 2022 18:00:36-root-app.py-[line:29]-INFO-[日志信息]: <Blueprint 'message_svr'>
+Thu, 28 Jul 2022 18:00:39-root-app.py-[line:45]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 18:00:39-root-app.py-[line:50]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDcyMzkuNDQyMTUxOCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.VikRqn7vkr9hPOOYnyzH3w0EU94HcFyVjZ_29J8qcys
+Thu, 28 Jul 2022 18:00:39-root-app.py-[line:57]-INFO-[日志信息]: {'exp': 1659607239.4421518, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 18:00:39-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1520, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1539, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1714, in make_response
+    rv = jsonify(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 302, in jsonify
+    f"{dumps(data, indent=indent, separators=separators)}\n",
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 132, in dumps
+    return _json.dumps(obj, **kwargs)
+  File "D:\Programs\Python\Python310\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_mongoengine\json.py", line 19, in default
+    return superclass.default(self, obj)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 51, in default
+    return super().default(o)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Pagination is not JSON serializable
+Thu, 28 Jul 2022 18:01:21-root-app.py-[line:29]-INFO-[日志信息]: <Blueprint 'message_svr'>
+Thu, 28 Jul 2022 18:01:25-root-app.py-[line:45]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 18:01:25-root-app.py-[line:50]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDcyODUuNjA3MjM0NywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.E8w29oohGjJqj9QqnHCkngu6jIFqHwc415Q82TZ9TMQ
+Thu, 28 Jul 2022 18:01:25-root-app.py-[line:57]-INFO-[日志信息]: {'exp': 1659607285.6072347, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 18:01:25-root-message.py-[line:21]-INFO-[日志信息]: <class 'flask_mongoengine.pagination.Pagination'>
+Thu, 28 Jul 2022 18:01:25-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1520, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1539, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1714, in make_response
+    rv = jsonify(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 302, in jsonify
+    f"{dumps(data, indent=indent, separators=separators)}\n",
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 132, in dumps
+    return _json.dumps(obj, **kwargs)
+  File "D:\Programs\Python\Python310\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_mongoengine\json.py", line 19, in default
+    return superclass.default(self, obj)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 51, in default
+    return super().default(o)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Pagination is not JSON serializable
+Thu, 28 Jul 2022 18:02:37-root-app.py-[line:29]-INFO-[日志信息]: <Blueprint 'message_svr'>
+Thu, 28 Jul 2022 18:02:41-root-app.py-[line:45]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 18:02:41-root-app.py-[line:50]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDczNjEuNTY3ODU2OCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.MHk2VLjwc2FrLKAXL3tFLNLH1SasONHRosvNmm1LQKo
+Thu, 28 Jul 2022 18:02:41-root-app.py-[line:57]-INFO-[日志信息]: {'exp': 1659607361.5678568, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 18:02:41-root-message.py-[line:21]-INFO-[日志信息]: [<Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>, <Message: Message object>]
+Thu, 28 Jul 2022 18:02:41-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1520, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1539, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1714, in make_response
+    rv = jsonify(rv)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 302, in jsonify
+    f"{dumps(data, indent=indent, separators=separators)}\n",
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 132, in dumps
+    return _json.dumps(obj, **kwargs)
+  File "D:\Programs\Python\Python310\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_mongoengine\json.py", line 19, in default
+    return superclass.default(self, obj)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 51, in default
+    return super().default(o)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Pagination is not JSON serializable
+Thu, 28 Jul 2022 18:07:08-root-app.py-[line:29]-INFO-[日志信息]: <Blueprint 'message_svr'>
+Thu, 28 Jul 2022 18:07:23-root-app.py-[line:29]-INFO-[日志信息]: <Blueprint 'message_svr'>
+Thu, 28 Jul 2022 18:07:56-root-app.py-[line:29]-INFO-[日志信息]: <Blueprint 'message_svr'>
+Thu, 28 Jul 2022 18:08:05-root-app.py-[line:45]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 18:08:05-root-app.py-[line:50]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDc2ODUuMjUwOTc0NywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.nmmBeTilXm4bbhuF4I2sEvTvNbhTrCfS1OycpLwngkg
+Thu, 28 Jul 2022 18:08:05-root-app.py-[line:57]-INFO-[日志信息]: {'exp': 1659607685.2509747, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 18:08:05-root-message.py-[line:23]-INFO-[日志信息]: Message object
+Thu, 28 Jul 2022 18:08:05-root-message.py-[line:23]-INFO-[日志信息]: Message object
+Thu, 28 Jul 2022 18:08:05-root-message.py-[line:23]-INFO-[日志信息]: Message object
+Thu, 28 Jul 2022 18:08:05-root-message.py-[line:23]-INFO-[日志信息]: Message object
+Thu, 28 Jul 2022 18:08:05-root-message.py-[line:23]-INFO-[日志信息]: Message object
+Thu, 28 Jul 2022 18:09:25-root-app.py-[line:29]-INFO-[日志信息]: <Blueprint 'message_svr'>
+Thu, 28 Jul 2022 18:09:28-root-app.py-[line:45]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 18:09:28-root-app.py-[line:50]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MDc3NjguOTEwOTU5LCJ1c2VyaWQiOiJiYTBiN2RmMC1hN2NhLTRhMzEtOTNkNi1lMGJjZWZjNDFkZGMifQ.XYGDLg4fJfuq-KWZojT1xOr5Ir2Vk2-CBrqdHNHVR54
+Thu, 28 Jul 2022 18:09:28-root-app.py-[line:57]-INFO-[日志信息]: {'exp': 1659607768.910959, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 22:03:17-root-app.py-[line:29]-INFO-[日志信息]: <Blueprint 'message_svr'>
+Thu, 28 Jul 2022 22:03:51-root-app.py-[line:45]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 22:03:51-root-app.py-[line:50]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MjE4MzEuNDM1OTk1OCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.WhnFLfBo1daHh3Ls5J2ynV0f084qBVKTup1MVOGwfk0
+Thu, 28 Jul 2022 22:03:51-root-app.py-[line:57]-INFO-[日志信息]: {'exp': 1659621831.4359958, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 22:03:51-root-message.py-[line:24]-DEBUG-[日志信息]: name 'data' is not defined
+Thu, 28 Jul 2022 22:03:51-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 21, in find
+    pageSise = data.get("pageSise")
+NameError: name 'data' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 25, in find
+    return jsonify(responseBuilder.build_response(ResCode.MESSAGE_FIND_PARAM_INVALID,
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 302, in jsonify
+    f"{dumps(data, indent=indent, separators=separators)}\n",
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 132, in dumps
+    return _json.dumps(obj, **kwargs)
+  File "D:\Programs\Python\Python310\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_mongoengine\json.py", line 19, in default
+    return superclass.default(self, obj)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 51, in default
+    return super().default(o)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ResCode is not JSON serializable
+Thu, 28 Jul 2022 22:05:22-root-app.py-[line:29]-INFO-[日志信息]: <Blueprint 'message_svr'>
+Thu, 28 Jul 2022 22:05:26-root-app.py-[line:45]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 22:05:26-root-app.py-[line:50]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MjE5MjYuMDA2NjI5NywidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.Lo2x0FsUovHZiTcFzYMIhYyeqbmP_lsyODl5CXlndRY
+Thu, 28 Jul 2022 22:05:26-root-app.py-[line:57]-INFO-[日志信息]: {'exp': 1659621926.0066297, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 22:05:26-root-message.py-[line:32]-DEBUG-[日志信息]: The field 'background' is not valid for an _id index specification. Specification: { background: false, unique: true, sparse: false, name: "_id_1", key: { _id: 1 }, v: 2 }, full error: {'ok': 0.0, 'errmsg': 'The field \'background\' is not valid for an _id index specification. Specification: { background: false, unique: true, sparse: false, name: "_id_1", key: { _id: 1 }, v: 2 }', 'code': 197, 'codeName': 'InvalidIndexSpecificationOption'}
+Thu, 28 Jul 2022 22:05:26-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 29, in find
+    msgs = Message.objects.paginate(page=pageSise, per_page=pageIndex)
+  File "D:\Programs\Python\Python310\lib\site-packages\mongoengine\queryset\manager.py", line 38, in __get__
+    queryset = queryset_class(owner, owner._get_collection())
+  File "D:\Programs\Python\Python310\lib\site-packages\mongoengine\document.py", line 233, in _get_collection
+    cls.ensure_indexes()
+  File "D:\Programs\Python\Python310\lib\site-packages\mongoengine\document.py", line 913, in ensure_indexes
+    collection.create_index(fields, background=background, **opts)
+  File "D:\Programs\Python\Python310\lib\site-packages\pymongo\collection.py", line 2023, in create_index
+    return self.__create_indexes([index], session, **cmd_options)[0]
+  File "D:\Programs\Python\Python310\lib\site-packages\pymongo\collection.py", line 1900, in __create_indexes
+    self._command(
+  File "D:\Programs\Python\Python310\lib\site-packages\pymongo\collection.py", line 272, in _command
+    return sock_info.command(
+  File "D:\Programs\Python\Python310\lib\site-packages\pymongo\pool.py", line 743, in command
+    return command(
+  File "D:\Programs\Python\Python310\lib\site-packages\pymongo\network.py", line 160, in command
+    helpers._check_command_response(
+  File "D:\Programs\Python\Python310\lib\site-packages\pymongo\helpers.py", line 180, in _check_command_response
+    raise OperationFailure(errmsg, code, response, max_wire_version)
+pymongo.errors.OperationFailure: The field 'background' is not valid for an _id index specification. Specification: { background: false, unique: true, sparse: false, name: "_id_1", key: { _id: 1 }, v: 2 }, full error: {'ok': 0.0, 'errmsg': 'The field \'background\' is not valid for an _id index specification. Specification: { background: false, unique: true, sparse: false, name: "_id_1", key: { _id: 1 }, v: 2 }', 'code': 197, 'codeName': 'InvalidIndexSpecificationOption'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 33, in find
+    return jsonify(responseBuilder.build_response(ResCode.INNER_ERR, ResMSG.INNER_ERR))
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 302, in jsonify
+    f"{dumps(data, indent=indent, separators=separators)}\n",
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 132, in dumps
+    return _json.dumps(obj, **kwargs)
+  File "D:\Programs\Python\Python310\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_mongoengine\json.py", line 19, in default
+    return superclass.default(self, obj)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 51, in default
+    return super().default(o)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ResCode is not JSON serializable
+Thu, 28 Jul 2022 22:07:36-root-app.py-[line:29]-INFO-[日志信息]: <Blueprint 'message_svr'>
+Thu, 28 Jul 2022 22:07:37-root-app.py-[line:45]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 22:07:37-root-app.py-[line:50]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MjIwNTcuNzkyOTU5LCJ1c2VyaWQiOiJiYTBiN2RmMC1hN2NhLTRhMzEtOTNkNi1lMGJjZWZjNDFkZGMifQ.dcsXbXoNet5xZRuiJJIZPYPGq66LKObRMi7USuy82rU
+Thu, 28 Jul 2022 22:07:37-root-app.py-[line:57]-INFO-[日志信息]: {'exp': 1659622057.792959, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 22:07:37-root-message.py-[line:32]-DEBUG-[日志信息]: '<' not supported between instances of 'NoneType' and 'int'
+Thu, 28 Jul 2022 22:07:37-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 29, in find
+    msgs = Message.objects.paginate(page=pageSise, per_page=pageIndex)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_mongoengine\__init__.py", line 172, in paginate
+    return Pagination(self, page, per_page)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_mongoengine\pagination.py", line 12, in __init__
+    if page < 1:
+TypeError: '<' not supported between instances of 'NoneType' and 'int'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 33, in find
+    return jsonify(responseBuilder.build_response(ResCode.INNER_ERR, ResMSG.INNER_ERR))
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 302, in jsonify
+    f"{dumps(data, indent=indent, separators=separators)}\n",
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 132, in dumps
+    return _json.dumps(obj, **kwargs)
+  File "D:\Programs\Python\Python310\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_mongoengine\json.py", line 19, in default
+    return superclass.default(self, obj)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 51, in default
+    return super().default(o)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ResCode is not JSON serializable
+Thu, 28 Jul 2022 22:10:01-root-app.py-[line:29]-INFO-[日志信息]: <Blueprint 'message_svr'>
+Thu, 28 Jul 2022 22:10:05-root-app.py-[line:45]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 22:10:05-root-app.py-[line:50]-DEBUG-[日志信息]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MjIyMDUuMzA2MzUyOSwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.AFwzAJw8r6PgF9U0id5qmzaN_yjmLSVHUVD5R3rcFq0
+Thu, 28 Jul 2022 22:10:05-root-app.py-[line:57]-INFO-[日志信息]: {'exp': 1659622205.3063529, 'userid': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc'}
+Thu, 28 Jul 2022 22:10:05-root-message.py-[line:33]-DEBUG-[日志信息]: '<' not supported between instances of 'NoneType' and 'int'
+Thu, 28 Jul 2022 22:10:05-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 30, in find
+    msgs = Message.objects.paginate(page=pageSise, per_page=pageIndex)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_mongoengine\__init__.py", line 172, in paginate
+    return Pagination(self, page, per_page)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_mongoengine\pagination.py", line 12, in __init__
+    if page < 1:
+TypeError: '<' not supported between instances of 'NoneType' and 'int'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 34, in find
+    return jsonify(responseBuilder.build_response(ResCode.INNER_ERR, ResMSG.INNER_ERR))
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 302, in jsonify
+    f"{dumps(data, indent=indent, separators=separators)}\n",
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 132, in dumps
+    return _json.dumps(obj, **kwargs)
+  File "D:\Programs\Python\Python310\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_mongoengine\json.py", line 19, in default
+    return superclass.default(self, obj)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 51, in default
+    return super().default(o)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ResCode is not JSON serializable
+Thu, 28 Jul 2022 22:11:40-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 22:11:40-root-message.py-[line:33]-DEBUG-[日志信息]: '<' not supported between instances of 'NoneType' and 'int'
+Thu, 28 Jul 2022 22:11:40-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 30, in find
+    msgs = Message.objects.paginate(page=pageSise, per_page=pageIndex)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_mongoengine\__init__.py", line 172, in paginate
+    return Pagination(self, page, per_page)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_mongoengine\pagination.py", line 12, in __init__
+    if page < 1:
+TypeError: '<' not supported between instances of 'NoneType' and 'int'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 34, in find
+    return jsonify(responseBuilder.build_response(ResCode.INNER_ERR, ResMSG.INNER_ERR))
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 302, in jsonify
+    f"{dumps(data, indent=indent, separators=separators)}\n",
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 132, in dumps
+    return _json.dumps(obj, **kwargs)
+  File "D:\Programs\Python\Python310\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_mongoengine\json.py", line 19, in default
+    return superclass.default(self, obj)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 51, in default
+    return super().default(o)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ResCode is not JSON serializable
+Thu, 28 Jul 2022 22:12:12-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 22:12:12-root-message.py-[line:24]-INFO-[日志信息]: None
+Thu, 28 Jul 2022 22:12:12-root-message.py-[line:25]-INFO-[日志信息]: 1
+Thu, 28 Jul 2022 22:12:12-root-message.py-[line:34]-DEBUG-[日志信息]: '<' not supported between instances of 'NoneType' and 'int'
+Thu, 28 Jul 2022 22:12:12-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 31, in find
+    msgs = Message.objects.paginate(page=pageSise, per_page=pageIndex)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_mongoengine\__init__.py", line 172, in paginate
+    return Pagination(self, page, per_page)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_mongoengine\pagination.py", line 12, in __init__
+    if page < 1:
+TypeError: '<' not supported between instances of 'NoneType' and 'int'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 35, in find
+    return jsonify(responseBuilder.build_response(ResCode.INNER_ERR, ResMSG.INNER_ERR))
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 302, in jsonify
+    f"{dumps(data, indent=indent, separators=separators)}\n",
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 132, in dumps
+    return _json.dumps(obj, **kwargs)
+  File "D:\Programs\Python\Python310\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_mongoengine\json.py", line 19, in default
+    return superclass.default(self, obj)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 51, in default
+    return super().default(o)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ResCode is not JSON serializable
+Thu, 28 Jul 2022 22:13:25-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 22:13:25-root-message.py-[line:21]-INFO-[日志信息]: {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MjI0MDUuMjkwMzA0NCwidXNlcmlkIjoiYmEwYjdkZjAtYTdjYS00YTMxLTkzZDYtZTBiY2VmYzQxZGRjIn0.31yioKu4mTk-btFU9RHJOkozOQTo-sAmc5OKEH4hCkQ', 'groupid': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'pageIndex': 1, 'pageSize': 10}
+Thu, 28 Jul 2022 22:13:25-root-message.py-[line:25]-INFO-[日志信息]: None
+Thu, 28 Jul 2022 22:13:25-root-message.py-[line:26]-INFO-[日志信息]: 1
+Thu, 28 Jul 2022 22:13:25-root-message.py-[line:35]-DEBUG-[日志信息]: '<' not supported between instances of 'NoneType' and 'int'
+Thu, 28 Jul 2022 22:13:25-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 32, in find
+    msgs = Message.objects.paginate(page=pageSise, per_page=pageIndex)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_mongoengine\__init__.py", line 172, in paginate
+    return Pagination(self, page, per_page)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_mongoengine\pagination.py", line 12, in __init__
+    if page < 1:
+TypeError: '<' not supported between instances of 'NoneType' and 'int'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 36, in find
+    return jsonify(responseBuilder.build_response(ResCode.INNER_ERR, ResMSG.INNER_ERR))
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 302, in jsonify
+    f"{dumps(data, indent=indent, separators=separators)}\n",
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 132, in dumps
+    return _json.dumps(obj, **kwargs)
+  File "D:\Programs\Python\Python310\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_mongoengine\json.py", line 19, in default
+    return superclass.default(self, obj)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 51, in default
+    return super().default(o)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ResCode is not JSON serializable
+Thu, 28 Jul 2022 22:14:45-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 22:14:45-root-message.py-[line:21]-INFO-[日志信息]: {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk2MjI0ODUuNzM4MDQyLCJ1c2VyaWQiOiJiYTBiN2RmMC1hN2NhLTRhMzEtOTNkNi1lMGJjZWZjNDFkZGMifQ.RBT7FZHVGVwZZcKZO8qnkjGGKPCiGFYaNNtTlJ8IQ5g', 'groupid': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'pageIndex': 1, 'pageSize': 10}
+Thu, 28 Jul 2022 22:14:45-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 38, in find
+    pageSize = pageSise
+NameError: name 'pageSise' is not defined
+Thu, 28 Jul 2022 22:15:14-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 22:15:14-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 39, in find
+    return jsonify(responseBuilder.build_response(ResCode.MESSAGE_FIND_PARAM_INVALID,
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 302, in jsonify
+    f"{dumps(data, indent=indent, separators=separators)}\n",
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 132, in dumps
+    return _json.dumps(obj, **kwargs)
+  File "D:\Programs\Python\Python310\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_mongoengine\json.py", line 19, in default
+    return superclass.default(self, obj)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 51, in default
+    return super().default(o)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ResCode is not JSON serializable
+Thu, 28 Jul 2022 22:16:17-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 22:16:17-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 39, in find
+    return jsonify(responseBuilder.build_response(ResCode.MESSAGE_FIND_SUCCESS,
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 302, in jsonify
+    f"{dumps(data, indent=indent, separators=separators)}\n",
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 132, in dumps
+    return _json.dumps(obj, **kwargs)
+  File "D:\Programs\Python\Python310\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_mongoengine\json.py", line 19, in default
+    return superclass.default(self, obj)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 51, in default
+    return super().default(o)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ResCode is not JSON serializable
+Thu, 28 Jul 2022 22:17:27-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 22:17:27-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 39, in find
+    return jsonify(responseBuilder.build_response(ResCode.MESSAGE_FIND_SUCCESS.value,
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 302, in jsonify
+    f"{dumps(data, indent=indent, separators=separators)}\n",
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 132, in dumps
+    return _json.dumps(obj, **kwargs)
+  File "D:\Programs\Python\Python310\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_mongoengine\json.py", line 19, in default
+    return superclass.default(self, obj)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 51, in default
+    return super().default(o)
+  File "D:\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Pagination is not JSON serializable
+Thu, 28 Jul 2022 22:20:06-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 22:23:57-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 22:25:23-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 22:26:43-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 22:27:07-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 22:27:13-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 22:28:36-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 22:29:28-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 22:29:38-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 22:29:49-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 22:33:39-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 22:33:39-root-message.py-[line:27]-INFO-[日志信息]: 1,10
+Thu, 28 Jul 2022 22:33:39-root-message.py-[line:30]-INFO-[日志信息]: 1
+Thu, 28 Jul 2022 22:36:17-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 22:36:17-root-message.py-[line:27]-INFO-[日志信息]: 1,10
+Thu, 28 Jul 2022 22:36:17-root-message.py-[line:32]-DEBUG-[日志信息]: object of type 'Pagination' has no len()
+Thu, 28 Jul 2022 22:36:39-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 22:36:39-root-message.py-[line:27]-INFO-[日志信息]: 1,10
+Thu, 28 Jul 2022 22:38:50-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 22:38:50-root-message.py-[line:27]-INFO-[日志信息]: 1,5
+Thu, 28 Jul 2022 22:49:38-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 22:49:38-root-message.py-[line:27]-INFO-[日志信息]: 1,5
+Thu, 28 Jul 2022 22:49:49-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 22:49:49-root-message.py-[line:27]-INFO-[日志信息]: 1,5
+Thu, 28 Jul 2022 22:49:49-root-message.py-[line:31]-INFO-[日志信息]: <class 'msgservice.models.database.Message'>
+Thu, 28 Jul 2022 22:51:16-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 22:51:16-root-message.py-[line:27]-INFO-[日志信息]: 1,5
+Thu, 28 Jul 2022 22:51:16-root-message.py-[line:31]-INFO-[日志信息]: <class 'msgservice.models.database.Message'>
+Thu, 28 Jul 2022 23:00:19-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 23:00:19-root-message.py-[line:27]-INFO-[日志信息]: 1,5
+Thu, 28 Jul 2022 23:00:19-root-message.py-[line:34]-DEBUG-[日志信息]: name 'user_id' is not defined
+Thu, 28 Jul 2022 23:00:49-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 23:00:49-root-message.py-[line:27]-INFO-[日志信息]: 1,5
+Thu, 28 Jul 2022 23:00:49-root-message.py-[line:34]-DEBUG-[日志信息]: 'BaseQuerySet' object has no attribute 'items'
+Thu, 28 Jul 2022 23:01:23-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 23:01:23-root-message.py-[line:27]-INFO-[日志信息]: 1,5
+Thu, 28 Jul 2022 23:01:23-root-message.py-[line:34]-DEBUG-[日志信息]: 'BaseQuerySet' object has no attribute 'items'
+Thu, 28 Jul 2022 23:01:43-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 23:01:43-root-message.py-[line:27]-INFO-[日志信息]: 1,5
+Thu, 28 Jul 2022 23:01:43-root-message.py-[line:30]-INFO-[日志信息]: .. queryset mid-iteration ..
+Thu, 28 Jul 2022 23:01:43-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 36, in find
+    totalCount = msgs.total
+AttributeError: 'BaseQuerySet' object has no attribute 'total'
+Thu, 28 Jul 2022 23:02:16-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 23:02:16-root-message.py-[line:27]-INFO-[日志信息]: 1,5
+Thu, 28 Jul 2022 23:02:16-root-message.py-[line:30]-INFO-[日志信息]: .. queryset mid-iteration ..
+Thu, 28 Jul 2022 23:02:16-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 43, in find
+    totalCount=totalCount, totalpage=totalpage,
+NameError: name 'totalCount' is not defined
+Thu, 28 Jul 2022 23:02:42-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 23:02:42-root-message.py-[line:27]-INFO-[日志信息]: 1,5
+Thu, 28 Jul 2022 23:02:42-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 44, in find
+    totalCount=totalCount, totalpage=totalpage,
+NameError: name 'totalCount' is not defined
+Thu, 28 Jul 2022 23:04:25-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 23:04:25-root-message.py-[line:30]-INFO-[日志信息]: Message object
+Thu, 28 Jul 2022 23:04:25-root-message.py-[line:30]-INFO-[日志信息]: Message object
+Thu, 28 Jul 2022 23:04:25-root-message.py-[line:30]-INFO-[日志信息]: Message object
+Thu, 28 Jul 2022 23:04:25-root-message.py-[line:30]-INFO-[日志信息]: Message object
+Thu, 28 Jul 2022 23:04:25-root-message.py-[line:30]-INFO-[日志信息]: Message object
+Thu, 28 Jul 2022 23:04:25-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 43, in find
+    totalCount=totalCount, totalpage=totalpage,
+NameError: name 'totalCount' is not defined
+Thu, 28 Jul 2022 23:07:04-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 23:07:04-root-message.py-[line:30]-INFO-[日志信息]: Message object
+Thu, 28 Jul 2022 23:07:04-root-message.py-[line:30]-INFO-[日志信息]: Message object
+Thu, 28 Jul 2022 23:07:04-root-message.py-[line:30]-INFO-[日志信息]: Message object
+Thu, 28 Jul 2022 23:07:04-root-message.py-[line:30]-INFO-[日志信息]: Message object
+Thu, 28 Jul 2022 23:07:04-root-message.py-[line:30]-INFO-[日志信息]: Message object
+Thu, 28 Jul 2022 23:07:04-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 43, in find
+    totalCount=totalCount, totalpage=totalpage,
+NameError: name 'totalCount' is not defined
+Thu, 28 Jul 2022 23:07:52-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 23:07:52-root-message.py-[line:30]-INFO-[日志信息]: Message object
+Thu, 28 Jul 2022 23:07:52-root-message.py-[line:30]-INFO-[日志信息]: Message object
+Thu, 28 Jul 2022 23:07:52-root-message.py-[line:30]-INFO-[日志信息]: Message object
+Thu, 28 Jul 2022 23:07:52-root-message.py-[line:30]-INFO-[日志信息]: Message object
+Thu, 28 Jul 2022 23:07:52-root-message.py-[line:30]-INFO-[日志信息]: Message object
+Thu, 28 Jul 2022 23:09:04-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 23:09:04-root-message.py-[line:30]-INFO-[日志信息]: Message object
+Thu, 28 Jul 2022 23:09:04-root-message.py-[line:30]-INFO-[日志信息]: Message object
+Thu, 28 Jul 2022 23:09:04-root-message.py-[line:30]-INFO-[日志信息]: Message object
+Thu, 28 Jul 2022 23:09:04-root-message.py-[line:30]-INFO-[日志信息]: Message object
+Thu, 28 Jul 2022 23:09:04-root-message.py-[line:30]-INFO-[日志信息]: Message object
+Thu, 28 Jul 2022 23:11:40-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 23:11:40-root-message.py-[line:30]-INFO-[日志信息]: Message object
+Thu, 28 Jul 2022 23:11:40-root-message.py-[line:30]-INFO-[日志信息]: Message object
+Thu, 28 Jul 2022 23:11:40-root-message.py-[line:30]-INFO-[日志信息]: Message object
+Thu, 28 Jul 2022 23:11:40-root-message.py-[line:30]-INFO-[日志信息]: Message object
+Thu, 28 Jul 2022 23:11:40-root-message.py-[line:30]-INFO-[日志信息]: Message object
+Thu, 28 Jul 2022 23:11:48-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 23:11:48-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 35, in find
+    totalpage = int(totalpage/pageSize) + ( 0 if totalpage%pageSize == 0 else 1)
+UnboundLocalError: local variable 'totalpage' referenced before assignment
+Thu, 28 Jul 2022 23:12:12-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 23:16:38-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 23:16:46-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 23:17:48-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 23:19:36-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 23:19:40-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 23:23:26-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 23:23:33-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 23:23:33-root-message.py-[line:30]-DEBUG-[日志信息]: name 'or_' is not defined
+Thu, 28 Jul 2022 23:24:04-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 23:24:04-root-message.py-[line:30]-DEBUG-[日志信息]: or_() got an unexpected keyword argument 'user_id'
+Thu, 28 Jul 2022 23:35:02-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 23:35:02-root-message.py-[line:31]-DEBUG-[日志信息]: 'BaseQuerySet' object has no attribute 'to_mongo'
+Thu, 28 Jul 2022 23:38:48-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 23:41:32-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 23:41:39-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 23:43:05-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 23:43:13-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 23:43:13-root-message.py-[line:30]-DEBUG-[日志信息]: 'Pagination' object is not iterable
+Thu, 28 Jul 2022 23:43:33-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 23:45:48-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 23:45:54-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 23:50:04-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Thu, 28 Jul 2022 23:50:11-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find

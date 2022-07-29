@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/msg_push_service.iml" filepath="$PROJECT_DIR$/.idea/msg_push_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../msg_servive/.idea/msgservive.iml" filepath="$PROJECT_DIR$/../msg_servive/.idea/msgservive.iml" />
     </modules>
   </component>
 </project>
