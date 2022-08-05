@@ -1,0 +1,394 @@
+Wed, 03 Aug 2022 16:45:38-grpc._server-_server.py-[line:453]-ERROR-[日志信息]: Exception calling application: name 'groupservice_pb2' is not defined
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\grpc\_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "D:\git-python\Group_servive\groupservice\views\groups_svr.py", line 8, in GetMembers
+    return groupservice_pb2.membersReply(message='Hello, %s!' % request.group_id)
+NameError: name 'groupservice_pb2' is not defined
+Wed, 03 Aug 2022 17:02:16-grpc._server-_server.py-[line:453]-ERROR-[日志信息]: Exception calling application: name 'logger' is not defined
+Traceback (most recent call last):
+  File "D:\git-python\Group_servive\groupservice\views\groups_svr.py", line 11, in GetMembers
+    q = db.session.query(GroupUser.user_id).filter(GroupUser.group_id == request.group_id)
+NameError: name 'db' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\grpc\_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "D:\git-python\Group_servive\groupservice\views\groups_svr.py", line 14, in GetMembers
+    logger.error(e)
+NameError: name 'logger' is not defined
+Wed, 03 Aug 2022 17:03:13-root-groups_svr.py-[line:16]-ERROR-[日志信息]: name 'db' is not defined
+Wed, 03 Aug 2022 17:03:13-grpc._server-_server.py-[line:453]-ERROR-[日志信息]: Exception calling application: local variable 'q' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\grpc\_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "D:\git-python\Group_servive\groupservice\views\groups_svr.py", line 18, in GetMembers
+    print(q)
+UnboundLocalError: local variable 'q' referenced before assignment
+Wed, 03 Aug 2022 17:03:39-root-groups_svr.py-[line:16]-ERROR-[日志信息]: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+Wed, 03 Aug 2022 17:03:39-grpc._server-_server.py-[line:453]-ERROR-[日志信息]: Exception calling application: local variable 'q' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\grpc\_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "D:\git-python\Group_servive\groupservice\views\groups_svr.py", line 18, in GetMembers
+    print(q)
+UnboundLocalError: local variable 'q' referenced before assignment
+Wed, 03 Aug 2022 17:04:25-grpc._server-_server.py-[line:453]-ERROR-[日志信息]: Exception calling application: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1008, in __call__
+    return self.registry[key]
+KeyError: <greenlet.greenlet object at 0x00000253521CEF00 (otid=0x00000253521DA580) current active started main>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\grpc\_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "D:\git-python\Group_servive\groupservice\views\groups_svr.py", line 11, in GetMembers
+    q = db.session.query(GroupUser.user_id).filter(GroupUser.group_id == request.group_id)
+  File "<string>", line 2, in query
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\scoping.py", line 24, in _proxied
+    return self.registry()
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1010, in __call__
+    return self.registry.setdefault(key, self.createfunc())
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py", line 4225, in __call__
+    return self.class_(**local_kw)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_sqlalchemy\__init__.py", line 174, in __init__
+    self.app = app = db.get_app()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_sqlalchemy\__init__.py", line 1042, in get_app
+    raise RuntimeError(
+RuntimeError: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+Wed, 03 Aug 2022 17:06:46-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 03 Aug 2022 17:06:52-grpc._server-_server.py-[line:453]-ERROR-[日志信息]: Exception calling application: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1008, in __call__
+    return self.registry[key]
+KeyError: <greenlet.greenlet object at 0x00000253521CEF00 (otid=0x00000253521DA580) current active started main>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\grpc\_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "D:\git-python\Group_servive\groupservice\views\groups_svr.py", line 11, in GetMembers
+    q = db.session.query(GroupUser.user_id).filter(GroupUser.group_id == request.group_id)
+  File "<string>", line 2, in query
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\scoping.py", line 24, in _proxied
+    return self.registry()
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1010, in __call__
+    return self.registry.setdefault(key, self.createfunc())
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py", line 4225, in __call__
+    return self.class_(**local_kw)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_sqlalchemy\__init__.py", line 174, in __init__
+    self.app = app = db.get_app()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_sqlalchemy\__init__.py", line 1042, in get_app
+    raise RuntimeError(
+RuntimeError: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+Wed, 03 Aug 2022 17:07:07-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 03 Aug 2022 17:07:28-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 03 Aug 2022 17:07:31-grpc._server-_server.py-[line:453]-ERROR-[日志信息]: Exception calling application: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1008, in __call__
+    return self.registry[key]
+KeyError: <greenlet.greenlet object at 0x00000234CB5A12D0 (otid=0x00000234CB5A4D40) current active started main>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\grpc\_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "D:\git-python\Group_servive\groupservice\views\groups_svr.py", line 11, in GetMembers
+    q = db.session.query(GroupUser.user_id).filter(GroupUser.group_id == request.group_id)
+  File "<string>", line 2, in query
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\scoping.py", line 24, in _proxied
+    return self.registry()
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1010, in __call__
+    return self.registry.setdefault(key, self.createfunc())
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py", line 4225, in __call__
+    return self.class_(**local_kw)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_sqlalchemy\__init__.py", line 174, in __init__
+    self.app = app = db.get_app()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_sqlalchemy\__init__.py", line 1042, in get_app
+    raise RuntimeError(
+RuntimeError: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+Wed, 03 Aug 2022 17:15:24-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 03 Aug 2022 17:15:31-grpc._server-_server.py-[line:453]-ERROR-[日志信息]: Exception calling application: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1008, in __call__
+    return self.registry[key]
+KeyError: <greenlet.greenlet object at 0x00000203BA2596F0 (otid=0x00000203BA261580) current active started main>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\grpc\_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "D:\git-python\Group_servive\groupservice\views\groups_svr.py", line 11, in GetMembers
+    q = db2.session.query(GroupUser.user_id).filter(GroupUser.group_id == request.group_id)
+  File "<string>", line 2, in query
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\scoping.py", line 24, in _proxied
+    return self.registry()
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1010, in __call__
+    return self.registry.setdefault(key, self.createfunc())
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py", line 4225, in __call__
+    return self.class_(**local_kw)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_sqlalchemy\__init__.py", line 174, in __init__
+    self.app = app = db.get_app()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_sqlalchemy\__init__.py", line 1042, in get_app
+    raise RuntimeError(
+RuntimeError: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+Wed, 03 Aug 2022 17:16:52-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 03 Aug 2022 17:20:27-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 03 Aug 2022 17:20:51-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 03 Aug 2022 17:21:30-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 03 Aug 2022 17:21:33-grpc._server-_server.py-[line:453]-ERROR-[日志信息]: Exception calling application: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1008, in __call__
+    return self.registry[key]
+KeyError: <greenlet.greenlet object at 0x00000231FDAC80F0 (otid=0x00000231FDAC3180) current active started main>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\grpc\_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "D:\git-python\Group_servive\groupservice\views\groups_svr.py", line 12, in GetMembers
+    q = db.session.query(GroupUser.user_id).filter(GroupUser.group_id == request.group_id)
+  File "<string>", line 2, in query
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\scoping.py", line 24, in _proxied
+    return self.registry()
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1010, in __call__
+    return self.registry.setdefault(key, self.createfunc())
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py", line 4225, in __call__
+    return self.class_(**local_kw)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_sqlalchemy\__init__.py", line 174, in __init__
+    self.app = app = db.get_app()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_sqlalchemy\__init__.py", line 1042, in get_app
+    raise RuntimeError(
+RuntimeError: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+Wed, 03 Aug 2022 17:21:52-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 03 Aug 2022 17:22:07-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 03 Aug 2022 17:22:11-grpc._server-_server.py-[line:453]-ERROR-[日志信息]: Exception calling application: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1008, in __call__
+    return self.registry[key]
+KeyError: <greenlet.greenlet object at 0x000001B9E7637CC0 (otid=0x000001B9E7398A00) current active started main>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\grpc\_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "D:\git-python\Group_servive\groupservice\views\groups_svr.py", line 12, in GetMembers
+    q = db.session.query(GroupUser.user_id).filter(GroupUser.group_id == request.group_id)
+  File "<string>", line 2, in query
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\scoping.py", line 24, in _proxied
+    return self.registry()
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1010, in __call__
+    return self.registry.setdefault(key, self.createfunc())
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py", line 4225, in __call__
+    return self.class_(**local_kw)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_sqlalchemy\__init__.py", line 174, in __init__
+    self.app = app = db.get_app()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_sqlalchemy\__init__.py", line 1042, in get_app
+    raise RuntimeError(
+RuntimeError: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+Wed, 03 Aug 2022 17:22:42-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 03 Aug 2022 17:22:45-grpc._server-_server.py-[line:453]-ERROR-[日志信息]: Exception calling application: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1008, in __call__
+    return self.registry[key]
+KeyError: <greenlet.greenlet object at 0x0000021168608460 (otid=0x00000211685DF640) current active started main>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\grpc\_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "D:\git-python\Group_servive\groupservice\views\groups_svr.py", line 12, in GetMembers
+    q = db2.session.query(GroupUser.user_id).filter(GroupUser.group_id == request.group_id)
+  File "<string>", line 2, in query
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\scoping.py", line 24, in _proxied
+    return self.registry()
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1010, in __call__
+    return self.registry.setdefault(key, self.createfunc())
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py", line 4225, in __call__
+    return self.class_(**local_kw)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_sqlalchemy\__init__.py", line 174, in __init__
+    self.app = app = db.get_app()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_sqlalchemy\__init__.py", line 1042, in get_app
+    raise RuntimeError(
+RuntimeError: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+Wed, 03 Aug 2022 17:26:53-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 03 Aug 2022 17:26:53-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr2'>
+Wed, 03 Aug 2022 17:26:59-grpc._server-_server.py-[line:453]-ERROR-[日志信息]: Exception calling application: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1008, in __call__
+    return self.registry[key]
+KeyError: <greenlet.greenlet object at 0x00000228464256F0 (otid=0x000002284643B280) current active started main>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\grpc\_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "D:\git-python\Group_servive\groupservice\views\groups_svr.py", line 16, in GetMembers
+    q = db2.session.query(GroupUser.user_id).filter(GroupUser.group_id == request.group_id)
+  File "<string>", line 2, in query
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\scoping.py", line 24, in _proxied
+    return self.registry()
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1010, in __call__
+    return self.registry.setdefault(key, self.createfunc())
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py", line 4225, in __call__
+    return self.class_(**local_kw)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_sqlalchemy\__init__.py", line 174, in __init__
+    self.app = app = db.get_app()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_sqlalchemy\__init__.py", line 1042, in get_app
+    raise RuntimeError(
+RuntimeError: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+Wed, 03 Aug 2022 17:30:41-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 03 Aug 2022 17:30:44-grpc._server-_server.py-[line:453]-ERROR-[日志信息]: Exception calling application: name 'group_id' is not defined
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\grpc\_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "D:\git-python\Group_servive\groupservice\views\groups_svr.py", line 14, in GetMembers
+    r = GetMembers(group_id)
+NameError: name 'group_id' is not defined
+Wed, 03 Aug 2022 17:31:05-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 03 Aug 2022 17:31:08-grpc._server-_server.py-[line:453]-ERROR-[日志信息]: Exception calling application: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1008, in __call__
+    return self.registry[key]
+KeyError: <greenlet.greenlet object at 0x000002326B164880 (otid=0x000002326B153B80) current active started main>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\grpc\_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "D:\git-python\Group_servive\groupservice\views\groups_svr.py", line 14, in GetMembers
+    r = GetMembers(request.group_id)
+  File "D:\git-python\Group_servive\groupservice\views\groups.py", line 396, in GetMembers
+    q = db.session.query(GroupUser.user_id).filter(GroupUser.group_id == request.group_id)
+  File "<string>", line 2, in query
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\scoping.py", line 24, in _proxied
+    return self.registry()
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1010, in __call__
+    return self.registry.setdefault(key, self.createfunc())
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py", line 4225, in __call__
+    return self.class_(**local_kw)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_sqlalchemy\__init__.py", line 174, in __init__
+    self.app = app = db.get_app()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_sqlalchemy\__init__.py", line 1042, in get_app
+    raise RuntimeError(
+RuntimeError: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+Wed, 03 Aug 2022 17:37:25-root-parseConfig.py-[line:58]-DEBUG-[日志信息]: 'XMLParser' object has no attribute 'find'
+Wed, 03 Aug 2022 17:37:25-root-DBHelper.py-[line:33]-INFO-[日志信息]: mongodb://None:None
+Wed, 03 Aug 2022 17:38:07-root-parseConfig.py-[line:58]-DEBUG-[日志信息]: 'XMLParser' object has no attribute 'find'
+Wed, 03 Aug 2022 17:38:07-root-DBHelper.py-[line:33]-INFO-[日志信息]: mongodb://None:None
+Wed, 03 Aug 2022 17:38:55-root-parseConfig.py-[line:58]-DEBUG-[日志信息]: 'XMLParser' object has no attribute 'find'
+Wed, 03 Aug 2022 17:38:55-root-DBHelper.py-[line:33]-INFO-[日志信息]: mongodb://None:None
+Wed, 03 Aug 2022 17:39:46-root-parseConfig.py-[line:58]-DEBUG-[日志信息]: 'XMLParser' object has no attribute 'find'
+Wed, 03 Aug 2022 17:40:55-root-parseConfig.py-[line:58]-DEBUG-[日志信息]: 'XMLParser' object has no attribute 'find'
+Wed, 03 Aug 2022 17:40:55-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 03 Aug 2022 17:41:43-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 03 Aug 2022 17:41:47-grpc._server-_server.py-[line:453]-ERROR-[日志信息]: Exception calling application: can only concatenate str (not "builtin_function_or_method") to str
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\grpc\_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "D:\git-python\Group_servive\groupservice\views\groups_svr.py", line 15, in GetMembers
+    q = mysql.select_all(table='group_user', where= "group_id = {}".format)
+  File "D:\git-python\Group_servive\groupservice\utils\DBHelper.py", line 325, in select_all
+    where = 'where' in kwargs and 'where ' + kwargs['where'] or ''
+TypeError: can only concatenate str (not "builtin_function_or_method") to str
+Wed, 03 Aug 2022 17:43:05-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 03 Aug 2022 17:43:07-root-DBHelper.py-[line:328]-INFO-[日志信息]: select * from group_user where group_id = "jljfljl" 
+Wed, 03 Aug 2022 17:43:07-root-DBHelper.py-[line:332]-DEBUG-[日志信息]: []
+Wed, 03 Aug 2022 17:43:52-root-DBHelper.py-[line:328]-INFO-[日志信息]: select * from group_user where group_id = "42177ae4-81bf-4bc8-8fc5-74a025cd154f" 
+Wed, 03 Aug 2022 17:43:52-root-DBHelper.py-[line:332]-DEBUG-[日志信息]: [('86f941b4-9bca-4653-9077-bfa887de4c8a', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '005ebcc8-8105-4f33-abe9-ffb5a938229b', 1, None, None), ('242c8f9e-375f-43f1-af2c-f864ad88de51', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '00a94fd7-550e-478f-b5b5-dc6801537ab3', 1, None, None), ('62096ff2-4bfb-4e93-924c-6fb00677b0b9', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '00b4cd05-8774-4512-b643-eddd519cac43', 3, None, None), ('3a1d4aad-b57f-4b57-96e8-1e28fa028dc5', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '00c211fa-f43f-401b-848e-db03c9af2485', 3, None, None), ('14640bbf-82ea-4d03-961a-eb4eb6f90c50', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '00ffc2db-7c77-49e2-a71d-155362fd2db5', 3, None, None), ('b47b0514-1dc9-46b8-9e4f-559657c298b8', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '0142ecea-222e-4116-bce9-893fe09e83a8', 3, None, None), ('43309e0e-e2ad-49cc-87c4-b10518c6969b', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '017ff76b-15ee-4dcf-9b1b-1a2124e25f8f', 3, None, None), ('029098bd-b257-46b3-b693-fe377c953de9', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '01869816-82f2-4df3-b2e4-2426860d08d0', 3, None, None), ('8321105d-3686-47cf-8e79-1c31e1289891', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '01a56fb0-f093-445e-98ec-59c301d9d0f1', 3, None, None), ('8b1648d3-68e0-44ee-a17d-c3cd566dbf18', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '01b3067d-9ea9-4d01-9d92-250ce9f33caa', 3, None, None), ('5981e8bd-a34d-493b-a0b4-72350eb9d6b2', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '02118e43-147e-4158-b692-7554a1a8a2a0', 3, None, None), ('e5613bb8-8925-4ce5-9e72-90c95dd57023', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '021e6417-4a51-4a5a-b7ce-04219936f0f4', 3, None, None), ('5dd480a6-ba07-4998-8a54-966c633451ee', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '02cd0847-47e6-46c2-a7b8-5c5af5a1941d', 3, None, None), ('ee18a1d1-6cc6-472e-8e52-7899ee3ac548', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '035584d4-64a7-445a-a1d3-c7bb26b2506f', 3, None, None), ('3de1c122-f4c9-4095-b33c-be7423824818', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '0357dcf9-f642-4422-a7b2-4d5565a6a5e8', 3, None, None), ('783dd86c-5e57-42ef-90b0-336bdd12d799', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '03e41e13-9184-4f15-a7ce-480e74d16cb5', 3, None, None), ('268db845-a844-4169-b47c-3c7fabbad1e2', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '040b2fed-b4c7-453f-aedd-5cc1658330ba', 3, None, None), ('166f3952-f23a-4f79-96a5-42727135fb86', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '041d167e-0088-4026-9b03-582bf1097af0', 3, None, None), ('040295c5-e53d-4bb7-828c-ae46bd450d01', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '0456c5ca-62de-4f39-84fb-6e9d8026a0d8', 3, None, None), ('0f2202f2-0e13-4e78-8003-89014437597c', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '047f891d-0d88-4124-9c7c-222de32f458a', 3, None, None), ('908c1905-427c-41e1-9408-a8c778921c29', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '048d8972-7517-448a-a845-fb583d366edf', 3, None, None), ('071d7541-9c71-4c41-a85c-df4a1404e4f2', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '04be3b4d-9546-4310-9026-86ba5df434ac', 3, None, None), ('0278e3f1-b5ff-4a1d-8b74-a750d997e71c', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '05b9114b-c236-4167-ac08-5af1229db098', 3, None, None), ('16dd727d-176c-475c-9a79-8bdc99d5cadd', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '05c491a3-d656-4178-b500-c2b0080f51eb', 3, None, None), ('12cde717-5d47-4c5b-ab48-bc63cb7225e0', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '05fece2e-acf7-4fb5-9312-9d507a92b40a', 3, None, None), ('9525901c-95eb-499b-aa1a-abd5e434ce29', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '06ac290f-84b0-405c-b1f0-90490c49809f', 3, None, None), ('54cbfcc3-815f-48b4-8c21-c90ded4c4443', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '06f280c6-8d0d-492d-bc9a-a06beaccc92f', 3, None, None), ('31d16580-b3ad-4f32-a504-98667e7fb1fb', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '07bab11c-304e-48f5-a7a7-99f29ee87d87', 3, None, None), ('06c458d5-c773-4a12-ab22-efd1e02019dc', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '08661ecb-0f07-401c-8d78-663aeae69690', 3, None, None), ('6bb2a2aa-97e2-4fbe-a51c-fad9d03f8285', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '0876cac1-613e-452c-89ad-622662cf0ddf', 3, None, None), ('d6908040-031f-43bc-805a-4948f0c56e20', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '087ffcb9-2517-40bb-b769-ff2225237615', 3, None, None), ('df53e811-d86a-42a0-a40f-b59d5a9534e6', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '08939951-92cc-4559-9737-e2cbea45f56f', 3, None, None), ('3f9a1681-64ab-4251-93bf-ce733e67d6e3', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '08f5f307-992f-4343-8461-577a526decaa', 3, None, None), ('ef5e7a8f-f423-4437-8204-8e73f65e3cf9', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '09069936-5978-4c7c-b902-2bb2f9985c1c', 3, None, None), ('0d3a6c39-4538-4d96-b57e-7e602e8a6fb4', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '09151569-0cbe-4b53-a5b8-f2abd99af054', 3, None, None), ('9d0bd0f4-71fe-4c8f-a3d2-aceb8320ca14', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '093c6fa8-06ec-4a9b-a29f-f0e2882f75f2', 3, None, None), ('17bb46a5-52bc-4e0b-ac69-a35b126801e2', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '09409169-9107-43d7-a44a-2d1e5728e882', 3, None, None), ('e7423d8b-a917-4246-a55b-d04a02da920c', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '098ec607-bd34-4d5f-9ecc-f35ee78560a7', 3, None, None), ('d086c971-91f0-45af-960e-7f4ac726510e', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '09d0b3b7-813a-4bd4-a1a8-756a25116053', 3, None, None), ('1fbed1a3-8c03-4ce0-b1e4-ac2069dc7700', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '09d78293-fcf5-4994-ba26-3b13dfbe59e3', 3, None, None), ('7badc857-5372-44c6-b2be-8ff623083129', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '0a4e8265-65da-409b-b72d-ab77d4ae9d07', 3, None, None), ('40876acb-0f66-44cd-a1d6-6b8d22e478f2', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '0a7117a1-7705-4208-8095-88b1bea03b00', 3, None, None), ('56a0d4e5-6285-4d03-b217-5bc0c80e1863', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '0a988867-c718-4ca7-a73a-7726991d20b2', 3, None, None), ('aba87f70-eb28-4583-9195-d42b0012bc9c', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '0b04767e-b496-4c23-8723-25fa641cd9b0', 3, None, None), ('2f850208-22ff-4513-9cbc-61d6f2d591f0', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '0b255109-8cc1-4cf5-bec9-49b40b003307', 3, None, None), ('e75164c2-a029-4dc1-9187-9d644f4e9e84', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '0b714bf1-d6af-4a8e-9c29-130db382b26c', 3, None, None), ('465d5e58-16e8-4f28-a4ee-976c39de626f', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '0b881f7a-76f3-4dcf-8f4b-923eaadc03d9', 3, None, None), ('07be19cb-ab1b-452f-97ea-a704db88428e', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '0c3c979a-91f9-472e-b447-e410e40830a6', 3, None, None), ('9ae52ba4-5641-4818-af80-d3f39572dd9f', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '0cb4c34b-a2dd-4a6c-abe3-9eba4669b1a7', 3, None, None), ('1fcd12c7-16f5-4940-9209-552c7909eadf', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '0d1ed5ea-6f91-4d8e-9caa-03abd9f4b8f4', 3, None, None), ('3ede74a5-e10d-4500-9abc-51b237e56153', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '0dec320b-e7eb-4518-821a-8d112e54d536', 3, None, None), ('5d108de9-03ae-4eb4-a99a-8bf34b668428', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '0dff8ffb-6665-43ba-bd52-a7b47310753f', 3, None, None), ('ed01aaf5-24a6-486e-97b0-774d597ea687', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '0e05eaab-d613-44a2-9097-cd146769a8bc', 3, None, None), ('90be79b1-e571-4263-b057-8e2448a0c3ba', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '0e492703-d3bc-4504-ac79-edeb51a1b1fd', 3, None, None), ('e56451ff-8974-413e-aa58-227000740eca', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '0f043b70-d454-4fe7-aec0-f2714f4a11e8', 3, None, None), ('873b610e-574d-4ff8-967d-c05200e8c388', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '0f82dc53-eefd-4a28-bbc7-6d1aa75ab7be', 3, None, None), ('fcdd60e2-ae84-4325-a725-7d277803832f', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '1043df0a-0788-41b8-888b-9f7e9a7b09b5', 3, None, None), ('ec99ef44-d7cb-4bda-9336-d94909c0c34e', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '10c6e0d7-6542-4c24-bd9b-c74a3749a345', 3, None, None), ('bdda41c3-ab9e-414a-bec5-993480d1adf8', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '10e90f85-a7cf-448b-b7cb-5470c2031b3c', 3, None, None), ('43a2755d-2568-4859-b66f-c80d34c938f0', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '10f1cead-5a5c-4b29-98e8-e81048c195ed', 3, None, None), ('c259a039-30f6-49d6-abf4-8c6105f69cdb', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '1186768c-5ea9-4130-8071-eb5cef4d243c', 3, None, None), ('6dd1530f-5f3e-42bb-8b39-766b00dd5936', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '11ad0d13-1188-46b0-84df-ee43edc219ae', 3, None, None), ('05e0d726-7995-4095-81f3-c36a8c4cd434', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '11f14f65-4f71-4765-bbd7-e097d119d053', 3, None, None), ('f6693dad-e7bc-4ff4-a8e8-869343fafbc6', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '12019b8a-4748-4064-8499-4881bd124b3e', 3, None, None), ('f75d57d9-d32d-41fd-a7cd-f53a4eac4e10', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '12850ad9-7959-4501-a62b-9ee3debac58f', 3, None, None), ('edd91ca9-aaeb-481c-a734-964690a53785', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '12d0789c-a932-494c-8fbf-bb2d700f3b8c', 3, None, None), ('75ce48bb-1f28-4f29-9f87-5f84c63e09d5', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '1327a87b-3929-4cca-9dff-a2b2d2d045b3', 3, None, None), ('01c9ab61-3f66-4d3d-a976-3dd7b3772564', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '1354bad9-cf2b-43da-a8e2-2623500e9a32', 3, None, None), ('27e79bf0-fd10-43ba-9999-f51ede534f97', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '13ded83a-f2be-4def-9ad9-f8669c79ca1f', 3, None, None), ('71ff99ec-bce1-410d-8fa7-2b261dd5508e', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', '143024ee-6310-4edd-b341-cfe5378ea841', 3, None, None), ('378a796e-0a5b-4c9b-bbd2-2c8dbca28826', '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc', 1, None, None)]
+Wed, 03 Aug 2022 17:46:30-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 03 Aug 2022 17:46:34-root-DBHelper.py-[line:328]-INFO-[日志信息]: select "userid" from group_user where group_id = "42177ae4-81bf-4bc8-8fc5-74a025cd154f" 
+Wed, 03 Aug 2022 17:46:34-root-DBHelper.py-[line:332]-DEBUG-[日志信息]: [('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',), ('userid',)]
+Wed, 03 Aug 2022 17:47:30-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 03 Aug 2022 17:47:32-root-DBHelper.py-[line:328]-INFO-[日志信息]: select "user_id" from group_user where group_id = "42177ae4-81bf-4bc8-8fc5-74a025cd154f" 
+Wed, 03 Aug 2022 17:47:32-root-DBHelper.py-[line:332]-DEBUG-[日志信息]: [('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',), ('user_id',)]
+Wed, 03 Aug 2022 17:47:51-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 03 Aug 2022 17:47:54-root-DBHelper.py-[line:328]-INFO-[日志信息]: select user_id from group_user where group_id = "42177ae4-81bf-4bc8-8fc5-74a025cd154f" 
+Wed, 03 Aug 2022 17:47:54-root-DBHelper.py-[line:332]-DEBUG-[日志信息]: [('005ebcc8-8105-4f33-abe9-ffb5a938229b',), ('00a94fd7-550e-478f-b5b5-dc6801537ab3',), ('00b4cd05-8774-4512-b643-eddd519cac43',), ('00c211fa-f43f-401b-848e-db03c9af2485',), ('00ffc2db-7c77-49e2-a71d-155362fd2db5',), ('0142ecea-222e-4116-bce9-893fe09e83a8',), ('017ff76b-15ee-4dcf-9b1b-1a2124e25f8f',), ('01869816-82f2-4df3-b2e4-2426860d08d0',), ('01a56fb0-f093-445e-98ec-59c301d9d0f1',), ('01b3067d-9ea9-4d01-9d92-250ce9f33caa',), ('02118e43-147e-4158-b692-7554a1a8a2a0',), ('021e6417-4a51-4a5a-b7ce-04219936f0f4',), ('02cd0847-47e6-46c2-a7b8-5c5af5a1941d',), ('035584d4-64a7-445a-a1d3-c7bb26b2506f',), ('0357dcf9-f642-4422-a7b2-4d5565a6a5e8',), ('03e41e13-9184-4f15-a7ce-480e74d16cb5',), ('040b2fed-b4c7-453f-aedd-5cc1658330ba',), ('041d167e-0088-4026-9b03-582bf1097af0',), ('0456c5ca-62de-4f39-84fb-6e9d8026a0d8',), ('047f891d-0d88-4124-9c7c-222de32f458a',), ('048d8972-7517-448a-a845-fb583d366edf',), ('04be3b4d-9546-4310-9026-86ba5df434ac',), ('05b9114b-c236-4167-ac08-5af1229db098',), ('05c491a3-d656-4178-b500-c2b0080f51eb',), ('05fece2e-acf7-4fb5-9312-9d507a92b40a',), ('06ac290f-84b0-405c-b1f0-90490c49809f',), ('06f280c6-8d0d-492d-bc9a-a06beaccc92f',), ('07bab11c-304e-48f5-a7a7-99f29ee87d87',), ('08661ecb-0f07-401c-8d78-663aeae69690',), ('0876cac1-613e-452c-89ad-622662cf0ddf',), ('087ffcb9-2517-40bb-b769-ff2225237615',), ('08939951-92cc-4559-9737-e2cbea45f56f',), ('08f5f307-992f-4343-8461-577a526decaa',), ('09069936-5978-4c7c-b902-2bb2f9985c1c',), ('09151569-0cbe-4b53-a5b8-f2abd99af054',), ('093c6fa8-06ec-4a9b-a29f-f0e2882f75f2',), ('09409169-9107-43d7-a44a-2d1e5728e882',), ('098ec607-bd34-4d5f-9ecc-f35ee78560a7',), ('09d0b3b7-813a-4bd4-a1a8-756a25116053',), ('09d78293-fcf5-4994-ba26-3b13dfbe59e3',), ('0a4e8265-65da-409b-b72d-ab77d4ae9d07',), ('0a7117a1-7705-4208-8095-88b1bea03b00',), ('0a988867-c718-4ca7-a73a-7726991d20b2',), ('0b04767e-b496-4c23-8723-25fa641cd9b0',), ('0b255109-8cc1-4cf5-bec9-49b40b003307',), ('0b714bf1-d6af-4a8e-9c29-130db382b26c',), ('0b881f7a-76f3-4dcf-8f4b-923eaadc03d9',), ('0c3c979a-91f9-472e-b447-e410e40830a6',), ('0cb4c34b-a2dd-4a6c-abe3-9eba4669b1a7',), ('0d1ed5ea-6f91-4d8e-9caa-03abd9f4b8f4',), ('0dec320b-e7eb-4518-821a-8d112e54d536',), ('0dff8ffb-6665-43ba-bd52-a7b47310753f',), ('0e05eaab-d613-44a2-9097-cd146769a8bc',), ('0e492703-d3bc-4504-ac79-edeb51a1b1fd',), ('0f043b70-d454-4fe7-aec0-f2714f4a11e8',), ('0f82dc53-eefd-4a28-bbc7-6d1aa75ab7be',), ('1043df0a-0788-41b8-888b-9f7e9a7b09b5',), ('10c6e0d7-6542-4c24-bd9b-c74a3749a345',), ('10e90f85-a7cf-448b-b7cb-5470c2031b3c',), ('10f1cead-5a5c-4b29-98e8-e81048c195ed',), ('1186768c-5ea9-4130-8071-eb5cef4d243c',), ('11ad0d13-1188-46b0-84df-ee43edc219ae',), ('11f14f65-4f71-4765-bbd7-e097d119d053',), ('12019b8a-4748-4064-8499-4881bd124b3e',), ('12850ad9-7959-4501-a62b-9ee3debac58f',), ('12d0789c-a932-494c-8fbf-bb2d700f3b8c',), ('1327a87b-3929-4cca-9dff-a2b2d2d045b3',), ('1354bad9-cf2b-43da-a8e2-2623500e9a32',), ('13ded83a-f2be-4def-9ad9-f8669c79ca1f',), ('143024ee-6310-4edd-b341-cfe5378ea841',), ('ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc',)]
+Wed, 03 Aug 2022 17:51:07-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 03 Aug 2022 17:51:10-root-DBHelper.py-[line:328]-INFO-[日志信息]: select user_id from group_user where group_id = "42177ae4-81bf-4bc8-8fc5-74a025cd154f" 
+Wed, 03 Aug 2022 17:51:10-grpc._server-_server.py-[line:453]-ERROR-[日志信息]: Exception calling application: name 'json' is not defined
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\grpc\_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "D:\git-python\Group_servive\groupservice\views\groups_svr.py", line 18, in GetMembers
+    members = json.dumps(members)
+NameError: name 'json' is not defined
+Wed, 03 Aug 2022 17:51:26-root-app.py-[line:23]-INFO-[日志信息]: <Blueprint 'group_svr'>
+Wed, 03 Aug 2022 17:51:30-root-DBHelper.py-[line:328]-INFO-[日志信息]: select user_id from group_user where group_id = "42177ae4-81bf-4bc8-8fc5-74a025cd154f" 
+Wed, 03 Aug 2022 18:11:31-root-DBHelper.py-[line:328]-INFO-[日志信息]: select user_id from group_user where group_id = "42177ae4-81bf-4bc8-8fc5-74a025cd154f" 
+Wed, 03 Aug 2022 18:16:44-root-DBHelper.py-[line:328]-INFO-[日志信息]: select user_id from group_user where group_id = "42177ae4-81bf-4bc8-8fc5-74a025cd154f" 
+Wed, 03 Aug 2022 18:18:08-root-DBHelper.py-[line:328]-INFO-[日志信息]: select user_id from group_user where group_id = "42177ae4-81bf-4bc8-8fc5-74a025cd154f" 
+Wed, 03 Aug 2022 18:21:46-root-DBHelper.py-[line:328]-INFO-[日志信息]: select user_id from group_user where group_id = "42177ae4-81bf-4bc8-8fc5-74a025cd154f" 
+Wed, 03 Aug 2022 18:23:02-root-DBHelper.py-[line:328]-INFO-[日志信息]: select user_id from group_user where group_id = "42177ae4-81bf-4bc8-8fc5-74a025cd154f" 
+Wed, 03 Aug 2022 18:24:08-root-DBHelper.py-[line:328]-INFO-[日志信息]: select user_id from group_user where group_id = "42177ae4-81bf-4bc8-8fc5-74a025cd154f" 
+Wed, 03 Aug 2022 18:24:41-root-DBHelper.py-[line:328]-INFO-[日志信息]: select user_id from group_user where group_id = "42177ae4-81bf-4bc8-8fc5-74a025cd154f" 
+Wed, 03 Aug 2022 18:25:20-root-DBHelper.py-[line:328]-INFO-[日志信息]: select user_id from group_user where group_id = "42177ae4-81bf-4bc8-8fc5-74a025cd154f" 
+Wed, 03 Aug 2022 18:26:34-root-DBHelper.py-[line:328]-INFO-[日志信息]: select user_id from group_user where group_id = "42177ae4-81bf-4bc8-8fc5-74a025cd154f" 
+Wed, 03 Aug 2022 18:27:34-root-DBHelper.py-[line:328]-INFO-[日志信息]: select user_id from group_user where group_id = "42177ae4-81bf-4bc8-8fc5-74a025cd154f" 
+Wed, 03 Aug 2022 18:29:02-root-DBHelper.py-[line:328]-INFO-[日志信息]: select user_id from group_user where group_id = "42177ae4-81bf-4bc8-8fc5-74a025cd154f" 
+Wed, 03 Aug 2022 18:29:42-root-DBHelper.py-[line:328]-INFO-[日志信息]: select user_id from group_user where group_id = "42177ae4-81bf-4bc8-8fc5-74a025cd154f" 
+Wed, 03 Aug 2022 18:32:34-root-DBHelper.py-[line:328]-INFO-[日志信息]: select user_id from group_user where group_id = "42177ae4-81bf-4bc8-8fc5-74a025cd154f" 
+Wed, 03 Aug 2022 18:36:47-root-DBHelper.py-[line:328]-INFO-[日志信息]: select user_id from group_user where group_id = "42177ae4-81bf-4bc8-8fc5-74a025cd154f" 
+Wed, 03 Aug 2022 18:38:56-root-DBHelper.py-[line:328]-INFO-[日志信息]: select user_id from group_user where group_id = "42177ae4-81bf-4bc8-8fc5-74a025cd154f" 
+Wed, 03 Aug 2022 18:39:58-root-DBHelper.py-[line:328]-INFO-[日志信息]: select user_id from group_user where group_id = "42177ae4-81bf-4bc8-8fc5-74a025cd154f" 
+Wed, 03 Aug 2022 18:40:39-root-DBHelper.py-[line:328]-INFO-[日志信息]: select user_id from group_user where group_id = "42177ae4-81bf-4bc8-8fc5-74a025cd154f" 
+Wed, 03 Aug 2022 18:43:34-root-DBHelper.py-[line:328]-INFO-[日志信息]: select user_id from group_user where group_id = "42177ae4-81bf-4bc8-8fc5-74a025cd154f" 
+Wed, 03 Aug 2022 18:46:20-root-DBHelper.py-[line:328]-INFO-[日志信息]: select user_id from group_user where group_id = "42177ae4-81bf-4bc8-8fc5-74a025cd154f" 
+Wed, 03 Aug 2022 18:48:57-root-DBHelper.py-[line:328]-INFO-[日志信息]: select user_id from group_user where group_id = "42177ae4-81bf-4bc8-8fc5-74a025cd154f" 
+Wed, 03 Aug 2022 18:51:29-root-DBHelper.py-[line:328]-INFO-[日志信息]: select user_id from group_user where group_id = "42177ae4-81bf-4bc8-8fc5-74a025cd154f" 
+Wed, 03 Aug 2022 18:54:57-root-DBHelper.py-[line:328]-INFO-[日志信息]: select user_id from group_user where group_id = "42177ae4-81bf-4bc8-8fc5-74a025cd154f" 
+Wed, 03 Aug 2022 18:57:44-root-DBHelper.py-[line:328]-INFO-[日志信息]: select user_id from group_user where group_id = "42177ae4-81bf-4bc8-8fc5-74a025cd154f" 
+Wed, 03 Aug 2022 19:03:51-root-DBHelper.py-[line:328]-INFO-[日志信息]: select user_id from group_user where group_id = "42177ae4-81bf-4bc8-8fc5-74a025cd154f" 
+Wed, 03 Aug 2022 19:06:31-root-DBHelper.py-[line:328]-INFO-[日志信息]: select user_id from group_user where group_id = "42177ae4-81bf-4bc8-8fc5-74a025cd154f" 
+Wed, 03 Aug 2022 19:07:59-root-DBHelper.py-[line:328]-INFO-[日志信息]: select user_id from group_user where group_id = "42177ae4-81bf-4bc8-8fc5-74a025cd154f" 
+Wed, 03 Aug 2022 19:08:37-root-DBHelper.py-[line:328]-INFO-[日志信息]: select user_id from group_user where group_id = "42177ae4-81bf-4bc8-8fc5-74a025cd154f" 
+Wed, 03 Aug 2022 19:09:21-root-DBHelper.py-[line:328]-INFO-[日志信息]: select user_id from group_user where group_id = "42177ae4-81bf-4bc8-8fc5-74a025cd154f" 
+Wed, 03 Aug 2022 19:10:13-root-DBHelper.py-[line:328]-INFO-[日志信息]: select user_id from group_user where group_id = "42177ae4-81bf-4bc8-8fc5-74a025cd154f" 
+Wed, 03 Aug 2022 20:32:41-root-DBHelper.py-[line:328]-INFO-[日志信息]: select user_id from group_user where group_id = "42177ae4-81bf-4bc8-8fc5-74a025cd154f" 
+Wed, 03 Aug 2022 20:37:13-root-DBHelper.py-[line:328]-INFO-[日志信息]: select user_id from group_user where group_id = "42177ae4-81bf-4bc8-8fc5-74a025cd154f" 
+Wed, 03 Aug 2022 20:42:43-root-DBHelper.py-[line:328]-INFO-[日志信息]: select user_id from group_user where group_id = "42177ae4-81bf-4bc8-8fc5-74a025cd154f" 
+Wed, 03 Aug 2022 21:18:18-root-DBHelper.py-[line:328]-INFO-[日志信息]: select user_id from group_user where group_id = "42177ae4-81bf-4bc8-8fc5-74a025cd154f" 
+Thu, 04 Aug 2022 19:21:20-root-DBHelper.py-[line:328]-INFO-[日志信息]: select user_id from group_user where group_id = "42177ae4-81bf-4bc8-8fc5-74a025cd154f" 
+Thu, 04 Aug 2022 19:21:20-root-DBHelper.py-[line:333]-DEBUG-[日志信息]: 2013 (HY000): Lost connection to MySQL server during query
+Thu, 04 Aug 2022 19:21:20-grpc._server-_server.py-[line:453]-ERROR-[日志信息]: Exception calling application: Lost connection to MySQL server during query
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\mysql\connector\connection_cext.py", line 535, in cmd_query
+    self._cmysql.query(query,
+_mysql_connector.MySQLInterfaceError: Lost connection to MySQL server during query
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\git-python\Group_servive\groupservice\utils\DBHelper.py", line 330, in select_all
+    self.__cursor.execute(sql)
+  File "D:\Programs\Python\Python310\lib\site-packages\mysql\connector\cursor_cext.py", line 269, in execute
+    result = self._cnx.cmd_query(stmt, raw=self._raw,
+  File "D:\Programs\Python\Python310\lib\site-packages\mysql\connector\connection_cext.py", line 540, in cmd_query
+    raise errors.get_mysql_exception(exc.errno, msg=exc.msg,
+mysql.connector.errors.OperationalError: 2013 (HY000): Lost connection to MySQL server during query
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\grpc\_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "D:\git-python\Group_servive\groupservice\views\groups_svr.py", line 17, in GetMembers
+    q = mysql.select_all(table='group_user',field=field, where= where)
+  File "D:\git-python\Group_servive\groupservice\utils\DBHelper.py", line 334, in select_all
+    self.__client.rollback()
+  File "D:\Programs\Python\Python310\lib\site-packages\mysql\connector\connection_cext.py", line 431, in rollback
+    self._cmysql.rollback()
+_mysql_connector.MySQLInterfaceError: Lost connection to MySQL server during query

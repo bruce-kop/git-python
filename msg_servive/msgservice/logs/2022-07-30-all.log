@@ -134,3 +134,4 @@ Traceback (most recent call last):
   File "D:\git-python\msg_servive\msgservice\views\message.py", line 252, in find_chats
     totalCount=totalCount, totalpage=totalpage,
 NameError: name 'totalCount' is not defined
+Sat, 30 Jul 2022 00:40:18-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_chats

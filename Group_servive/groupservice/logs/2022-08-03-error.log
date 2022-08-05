@@ -1,0 +1,316 @@
+Wed, 03 Aug 2022 16:45:38-grpc._server-_server.py-[line:453]-ERROR-[日志信息]: Exception calling application: name 'groupservice_pb2' is not defined
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\grpc\_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "D:\git-python\Group_servive\groupservice\views\groups_svr.py", line 8, in GetMembers
+    return groupservice_pb2.membersReply(message='Hello, %s!' % request.group_id)
+NameError: name 'groupservice_pb2' is not defined
+Wed, 03 Aug 2022 17:02:16-grpc._server-_server.py-[line:453]-ERROR-[日志信息]: Exception calling application: name 'logger' is not defined
+Traceback (most recent call last):
+  File "D:\git-python\Group_servive\groupservice\views\groups_svr.py", line 11, in GetMembers
+    q = db.session.query(GroupUser.user_id).filter(GroupUser.group_id == request.group_id)
+NameError: name 'db' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\grpc\_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "D:\git-python\Group_servive\groupservice\views\groups_svr.py", line 14, in GetMembers
+    logger.error(e)
+NameError: name 'logger' is not defined
+Wed, 03 Aug 2022 17:03:13-root-groups_svr.py-[line:16]-ERROR-[日志信息]: name 'db' is not defined
+Wed, 03 Aug 2022 17:03:13-grpc._server-_server.py-[line:453]-ERROR-[日志信息]: Exception calling application: local variable 'q' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\grpc\_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "D:\git-python\Group_servive\groupservice\views\groups_svr.py", line 18, in GetMembers
+    print(q)
+UnboundLocalError: local variable 'q' referenced before assignment
+Wed, 03 Aug 2022 17:03:39-root-groups_svr.py-[line:16]-ERROR-[日志信息]: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+Wed, 03 Aug 2022 17:03:39-grpc._server-_server.py-[line:453]-ERROR-[日志信息]: Exception calling application: local variable 'q' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\grpc\_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "D:\git-python\Group_servive\groupservice\views\groups_svr.py", line 18, in GetMembers
+    print(q)
+UnboundLocalError: local variable 'q' referenced before assignment
+Wed, 03 Aug 2022 17:04:25-grpc._server-_server.py-[line:453]-ERROR-[日志信息]: Exception calling application: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1008, in __call__
+    return self.registry[key]
+KeyError: <greenlet.greenlet object at 0x00000253521CEF00 (otid=0x00000253521DA580) current active started main>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\grpc\_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "D:\git-python\Group_servive\groupservice\views\groups_svr.py", line 11, in GetMembers
+    q = db.session.query(GroupUser.user_id).filter(GroupUser.group_id == request.group_id)
+  File "<string>", line 2, in query
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\scoping.py", line 24, in _proxied
+    return self.registry()
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1010, in __call__
+    return self.registry.setdefault(key, self.createfunc())
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py", line 4225, in __call__
+    return self.class_(**local_kw)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_sqlalchemy\__init__.py", line 174, in __init__
+    self.app = app = db.get_app()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_sqlalchemy\__init__.py", line 1042, in get_app
+    raise RuntimeError(
+RuntimeError: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+Wed, 03 Aug 2022 17:06:52-grpc._server-_server.py-[line:453]-ERROR-[日志信息]: Exception calling application: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1008, in __call__
+    return self.registry[key]
+KeyError: <greenlet.greenlet object at 0x00000253521CEF00 (otid=0x00000253521DA580) current active started main>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\grpc\_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "D:\git-python\Group_servive\groupservice\views\groups_svr.py", line 11, in GetMembers
+    q = db.session.query(GroupUser.user_id).filter(GroupUser.group_id == request.group_id)
+  File "<string>", line 2, in query
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\scoping.py", line 24, in _proxied
+    return self.registry()
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1010, in __call__
+    return self.registry.setdefault(key, self.createfunc())
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py", line 4225, in __call__
+    return self.class_(**local_kw)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_sqlalchemy\__init__.py", line 174, in __init__
+    self.app = app = db.get_app()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_sqlalchemy\__init__.py", line 1042, in get_app
+    raise RuntimeError(
+RuntimeError: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+Wed, 03 Aug 2022 17:07:31-grpc._server-_server.py-[line:453]-ERROR-[日志信息]: Exception calling application: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1008, in __call__
+    return self.registry[key]
+KeyError: <greenlet.greenlet object at 0x00000234CB5A12D0 (otid=0x00000234CB5A4D40) current active started main>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\grpc\_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "D:\git-python\Group_servive\groupservice\views\groups_svr.py", line 11, in GetMembers
+    q = db.session.query(GroupUser.user_id).filter(GroupUser.group_id == request.group_id)
+  File "<string>", line 2, in query
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\scoping.py", line 24, in _proxied
+    return self.registry()
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1010, in __call__
+    return self.registry.setdefault(key, self.createfunc())
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py", line 4225, in __call__
+    return self.class_(**local_kw)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_sqlalchemy\__init__.py", line 174, in __init__
+    self.app = app = db.get_app()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_sqlalchemy\__init__.py", line 1042, in get_app
+    raise RuntimeError(
+RuntimeError: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+Wed, 03 Aug 2022 17:15:31-grpc._server-_server.py-[line:453]-ERROR-[日志信息]: Exception calling application: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1008, in __call__
+    return self.registry[key]
+KeyError: <greenlet.greenlet object at 0x00000203BA2596F0 (otid=0x00000203BA261580) current active started main>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\grpc\_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "D:\git-python\Group_servive\groupservice\views\groups_svr.py", line 11, in GetMembers
+    q = db2.session.query(GroupUser.user_id).filter(GroupUser.group_id == request.group_id)
+  File "<string>", line 2, in query
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\scoping.py", line 24, in _proxied
+    return self.registry()
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1010, in __call__
+    return self.registry.setdefault(key, self.createfunc())
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py", line 4225, in __call__
+    return self.class_(**local_kw)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_sqlalchemy\__init__.py", line 174, in __init__
+    self.app = app = db.get_app()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_sqlalchemy\__init__.py", line 1042, in get_app
+    raise RuntimeError(
+RuntimeError: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+Wed, 03 Aug 2022 17:21:33-grpc._server-_server.py-[line:453]-ERROR-[日志信息]: Exception calling application: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1008, in __call__
+    return self.registry[key]
+KeyError: <greenlet.greenlet object at 0x00000231FDAC80F0 (otid=0x00000231FDAC3180) current active started main>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\grpc\_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "D:\git-python\Group_servive\groupservice\views\groups_svr.py", line 12, in GetMembers
+    q = db.session.query(GroupUser.user_id).filter(GroupUser.group_id == request.group_id)
+  File "<string>", line 2, in query
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\scoping.py", line 24, in _proxied
+    return self.registry()
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1010, in __call__
+    return self.registry.setdefault(key, self.createfunc())
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py", line 4225, in __call__
+    return self.class_(**local_kw)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_sqlalchemy\__init__.py", line 174, in __init__
+    self.app = app = db.get_app()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_sqlalchemy\__init__.py", line 1042, in get_app
+    raise RuntimeError(
+RuntimeError: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+Wed, 03 Aug 2022 17:22:11-grpc._server-_server.py-[line:453]-ERROR-[日志信息]: Exception calling application: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1008, in __call__
+    return self.registry[key]
+KeyError: <greenlet.greenlet object at 0x000001B9E7637CC0 (otid=0x000001B9E7398A00) current active started main>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\grpc\_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "D:\git-python\Group_servive\groupservice\views\groups_svr.py", line 12, in GetMembers
+    q = db.session.query(GroupUser.user_id).filter(GroupUser.group_id == request.group_id)
+  File "<string>", line 2, in query
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\scoping.py", line 24, in _proxied
+    return self.registry()
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1010, in __call__
+    return self.registry.setdefault(key, self.createfunc())
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py", line 4225, in __call__
+    return self.class_(**local_kw)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_sqlalchemy\__init__.py", line 174, in __init__
+    self.app = app = db.get_app()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_sqlalchemy\__init__.py", line 1042, in get_app
+    raise RuntimeError(
+RuntimeError: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+Wed, 03 Aug 2022 17:22:45-grpc._server-_server.py-[line:453]-ERROR-[日志信息]: Exception calling application: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1008, in __call__
+    return self.registry[key]
+KeyError: <greenlet.greenlet object at 0x0000021168608460 (otid=0x00000211685DF640) current active started main>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\grpc\_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "D:\git-python\Group_servive\groupservice\views\groups_svr.py", line 12, in GetMembers
+    q = db2.session.query(GroupUser.user_id).filter(GroupUser.group_id == request.group_id)
+  File "<string>", line 2, in query
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\scoping.py", line 24, in _proxied
+    return self.registry()
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1010, in __call__
+    return self.registry.setdefault(key, self.createfunc())
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py", line 4225, in __call__
+    return self.class_(**local_kw)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_sqlalchemy\__init__.py", line 174, in __init__
+    self.app = app = db.get_app()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_sqlalchemy\__init__.py", line 1042, in get_app
+    raise RuntimeError(
+RuntimeError: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+Wed, 03 Aug 2022 17:26:59-grpc._server-_server.py-[line:453]-ERROR-[日志信息]: Exception calling application: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1008, in __call__
+    return self.registry[key]
+KeyError: <greenlet.greenlet object at 0x00000228464256F0 (otid=0x000002284643B280) current active started main>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\grpc\_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "D:\git-python\Group_servive\groupservice\views\groups_svr.py", line 16, in GetMembers
+    q = db2.session.query(GroupUser.user_id).filter(GroupUser.group_id == request.group_id)
+  File "<string>", line 2, in query
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\scoping.py", line 24, in _proxied
+    return self.registry()
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1010, in __call__
+    return self.registry.setdefault(key, self.createfunc())
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py", line 4225, in __call__
+    return self.class_(**local_kw)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_sqlalchemy\__init__.py", line 174, in __init__
+    self.app = app = db.get_app()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_sqlalchemy\__init__.py", line 1042, in get_app
+    raise RuntimeError(
+RuntimeError: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+Wed, 03 Aug 2022 17:30:44-grpc._server-_server.py-[line:453]-ERROR-[日志信息]: Exception calling application: name 'group_id' is not defined
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\grpc\_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "D:\git-python\Group_servive\groupservice\views\groups_svr.py", line 14, in GetMembers
+    r = GetMembers(group_id)
+NameError: name 'group_id' is not defined
+Wed, 03 Aug 2022 17:31:08-grpc._server-_server.py-[line:453]-ERROR-[日志信息]: Exception calling application: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1008, in __call__
+    return self.registry[key]
+KeyError: <greenlet.greenlet object at 0x000002326B164880 (otid=0x000002326B153B80) current active started main>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\grpc\_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "D:\git-python\Group_servive\groupservice\views\groups_svr.py", line 14, in GetMembers
+    r = GetMembers(request.group_id)
+  File "D:\git-python\Group_servive\groupservice\views\groups.py", line 396, in GetMembers
+    q = db.session.query(GroupUser.user_id).filter(GroupUser.group_id == request.group_id)
+  File "<string>", line 2, in query
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\scoping.py", line 24, in _proxied
+    return self.registry()
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1010, in __call__
+    return self.registry.setdefault(key, self.createfunc())
+  File "D:\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py", line 4225, in __call__
+    return self.class_(**local_kw)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_sqlalchemy\__init__.py", line 174, in __init__
+    self.app = app = db.get_app()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask_sqlalchemy\__init__.py", line 1042, in get_app
+    raise RuntimeError(
+RuntimeError: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+Wed, 03 Aug 2022 17:41:47-grpc._server-_server.py-[line:453]-ERROR-[日志信息]: Exception calling application: can only concatenate str (not "builtin_function_or_method") to str
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\grpc\_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "D:\git-python\Group_servive\groupservice\views\groups_svr.py", line 15, in GetMembers
+    q = mysql.select_all(table='group_user', where= "group_id = {}".format)
+  File "D:\git-python\Group_servive\groupservice\utils\DBHelper.py", line 325, in select_all
+    where = 'where' in kwargs and 'where ' + kwargs['where'] or ''
+TypeError: can only concatenate str (not "builtin_function_or_method") to str
+Wed, 03 Aug 2022 17:51:10-grpc._server-_server.py-[line:453]-ERROR-[日志信息]: Exception calling application: name 'json' is not defined
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\grpc\_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "D:\git-python\Group_servive\groupservice\views\groups_svr.py", line 18, in GetMembers
+    members = json.dumps(members)
+NameError: name 'json' is not defined
+Thu, 04 Aug 2022 19:21:20-grpc._server-_server.py-[line:453]-ERROR-[日志信息]: Exception calling application: Lost connection to MySQL server during query
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\mysql\connector\connection_cext.py", line 535, in cmd_query
+    self._cmysql.query(query,
+_mysql_connector.MySQLInterfaceError: Lost connection to MySQL server during query
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\git-python\Group_servive\groupservice\utils\DBHelper.py", line 330, in select_all
+    self.__cursor.execute(sql)
+  File "D:\Programs\Python\Python310\lib\site-packages\mysql\connector\cursor_cext.py", line 269, in execute
+    result = self._cnx.cmd_query(stmt, raw=self._raw,
+  File "D:\Programs\Python\Python310\lib\site-packages\mysql\connector\connection_cext.py", line 540, in cmd_query
+    raise errors.get_mysql_exception(exc.errno, msg=exc.msg,
+mysql.connector.errors.OperationalError: 2013 (HY000): Lost connection to MySQL server during query
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\grpc\_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "D:\git-python\Group_servive\groupservice\views\groups_svr.py", line 17, in GetMembers
+    q = mysql.select_all(table='group_user',field=field, where= where)
+  File "D:\git-python\Group_servive\groupservice\utils\DBHelper.py", line 334, in select_all
+    self.__client.rollback()
+  File "D:\Programs\Python\Python310\lib\site-packages\mysql\connector\connection_cext.py", line 431, in rollback
+    self._cmysql.rollback()
+_mysql_connector.MySQLInterfaceError: Lost connection to MySQL server during query

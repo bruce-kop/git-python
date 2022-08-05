@@ -389,3 +389,4 @@ def groups_in_addr_book():
                                                       ResMSG.GROUP_LIST_IN_ADDR_BOOK_SUCCESS.value, count=count, groups=groups))
     return jsonify(responseBuilder.build_response(ResCode.PARAMS_IS_EMPTY.value,
                                                   ResMSG.PARAMS_IS_EMPTY.value))
+

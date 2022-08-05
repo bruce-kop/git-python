@@ -5,8 +5,7 @@ from sqlalchemy.orm import relationship
 from sqlalchemy import ForeignKey
 
 db = SQLAlchemy()
-
-
+db2 = SQLAlchemy()
 class Group(db.Model):
     __tablename__ = 'group'
     id = db.Column(db.Unicode(128), primary_key=True, nullable=False)

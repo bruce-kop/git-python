@@ -1,0 +1,468 @@
+Thu, 04 Aug 2022 17:50:33-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 74, in find
+    totalCount = msgs.total
+AttributeError: 'CommandCursor' object has no attribute 'total'
+Thu, 04 Aug 2022 17:52:24-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 74, in find
+    totalCount = msgs.total
+AttributeError: 'CommandCursor' object has no attribute 'total'
+Thu, 04 Aug 2022 17:53:42-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 74, in find
+    totalCount = msgs.total
+AttributeError: 'CommandCursor' object has no attribute 'total'
+Thu, 04 Aug 2022 17:54:27-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 73, in find
+    totalCount = msgs.total
+AttributeError: 'CommandCursor' object has no attribute 'total'
+Thu, 04 Aug 2022 17:56:13-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 73, in find
+    totalCount = msgs.total
+AttributeError: 'CommandCursor' object has no attribute 'total'
+Thu, 04 Aug 2022 17:57:45-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 70, in find
+    totalCount = msgs.total
+AttributeError: 'CommandCursor' object has no attribute 'total'
+Thu, 04 Aug 2022 18:00:21-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 71, in find
+    totalCount = msgs.total
+AttributeError: 'CommandCursor' object has no attribute 'total'
+Thu, 04 Aug 2022 18:03:02-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 70, in find
+    totalCount = msgs.total
+AttributeError: 'CommandCursor' object has no attribute 'total'
+Thu, 04 Aug 2022 18:05:17-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 70, in find
+    totalCount = msgs.total
+AttributeError: 'CommandCursor' object has no attribute 'total'
+Thu, 04 Aug 2022 18:05:55-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 70, in find
+    totalCount = msgs.total
+AttributeError: 'CommandCursor' object has no attribute 'total'
+Thu, 04 Aug 2022 18:17:50-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 70, in find
+    totalCount = msgs.total
+AttributeError: 'CommandCursor' object has no attribute 'total'
+Thu, 04 Aug 2022 18:18:16-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 70, in find
+    totalCount = msgs.total
+AttributeError: 'CommandCursor' object has no attribute 'total'
+Thu, 04 Aug 2022 18:19:11-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 64, in find
+    totalCount = msgs.total
+AttributeError: 'CommandCursor' object has no attribute 'total'
+Thu, 04 Aug 2022 18:20:26-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 64, in find
+    totalCount = msgs.total
+AttributeError: 'CommandCursor' object has no attribute 'total'
+Thu, 04 Aug 2022 18:23:25-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 57, in find
+    totalCount = msgs.total
+AttributeError: 'CommandCursor' object has no attribute 'total'
+Thu, 04 Aug 2022 18:43:56-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 64, in find
+    totalCount = msgs.total
+AttributeError: 'CommandCursor' object has no attribute 'total'
+Thu, 04 Aug 2022 18:46:42-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 68, in find
+    totalCount = msgs.total
+AttributeError: 'CommandCursor' object has no attribute 'total'
+Thu, 04 Aug 2022 18:48:38-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 73, in find
+    totalCount = msgs.total
+AttributeError: 'CommandCursor' object has no attribute 'total'
+Thu, 04 Aug 2022 18:55:28-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 79, in find
+    totalCount = msgs.total
+AttributeError: 'CommandCursor' object has no attribute 'total'
+Thu, 04 Aug 2022 19:05:34-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 76, in find
+    totalCount = msgs.total
+AttributeError: 'CommandCursor' object has no attribute 'total'
+Thu, 04 Aug 2022 19:06:09-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 71, in find
+    totalCount = msgs.total
+AttributeError: 'CommandCursor' object has no attribute 'total'
+Thu, 04 Aug 2022 19:07:22-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 76, in find
+    totalCount = msgs.total
+AttributeError: 'CommandCursor' object has no attribute 'total'
+Thu, 04 Aug 2022 21:11:50-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 79, in find
+    totalCount = msgs.total
+AttributeError: 'CommandCursor' object has no attribute 'total'
+Thu, 04 Aug 2022 21:16:07-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 82, in find
+    totalCount = msgs.total
+AttributeError: 'CommandCursor' object has no attribute 'total'
+Thu, 04 Aug 2022 21:18:26-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 84, in find
+    totalCount = msgs.total
+AttributeError: 'CommandCursor' object has no attribute 'total'
+Thu, 04 Aug 2022 21:24:04-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 88, in find
+    totalCount = msgs.total
+AttributeError: 'CommandCursor' object has no attribute 'total'
+Thu, 04 Aug 2022 21:33:23-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 95, in find
+    totalCount = msgs.total
+AttributeError: 'CommandCursor' object has no attribute 'total'
+Thu, 04 Aug 2022 21:36:21-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 96, in find
+    totalCount = msgs.total
+AttributeError: 'CommandCursor' object has no attribute 'total'
+Thu, 04 Aug 2022 21:41:10-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 87, in find
+    totalCount = msgs.total
+AttributeError: 'CommandCursor' object has no attribute 'total'
+Thu, 04 Aug 2022 21:44:26-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 96, in find
+    totalCount = msgs.total
+AttributeError: 'CommandCursor' object has no attribute 'total'
+Thu, 04 Aug 2022 21:46:57-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 96, in find
+    totalCount = msgs.total
+AttributeError: 'CommandCursor' object has no attribute 'total'
+Thu, 04 Aug 2022 21:48:45-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 96, in find
+    totalCount = msgs.total
+AttributeError: 'CommandCursor' object has no attribute 'total'
+Thu, 04 Aug 2022 21:50:20-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 96, in find
+    totalCount = msgs.total
+AttributeError: 'CommandCursor' object has no attribute 'total'
+Thu, 04 Aug 2022 21:50:43-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 96, in find
+    totalCount = msgs.total
+AttributeError: 'CommandCursor' object has no attribute 'total'
+Thu, 04 Aug 2022 21:54:24-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 95, in find
+    totalCount = msgs.total
+AttributeError: 'CommandCursor' object has no attribute 'total'
+Thu, 04 Aug 2022 22:17:18-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/find [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 106, in find
+    totalpage = int(totalCount/pageSize) + (0 if totalCount%pageSize == 0 else 1)
+TypeError: unsupported operand type(s) for /: 'list' and 'int'

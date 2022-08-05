@@ -10,7 +10,7 @@ from groupservice.utils.tokenProc import Jwt,TOKEN_PRODUCE_KEY
 import datetime
 from konfig import Config
 from groupservice.utils.RedisOperator import redis
-
+from groupservice.views.groups_svr import RpcServerThread
 #from flask_cache import Cache
 
 def create_app():
@@ -70,5 +70,11 @@ def authenticate():
 if __name__ == '__main__':
 
     server = pywsgi.WSGIServer(('127.0.0.1', 5002), app)
+
+    t_handle = RpcServerThread(1, "RpcSvr")
+    t_handle.start()
+
     server.serve_forever()
+
+    print("main end.")
     #app.run()#开发环境运行

@@ -1,0 +1,147 @@
+Fri, 05 Aug 2022 14:36:54-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/unreaders [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 318, in message_unreads
+    for m in msg_ids:
+TypeError: 'NoneType' object is not iterable
+Fri, 05 Aug 2022 14:37:41-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/unreaders [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 318, in message_unreads
+    for m in msg_ids:
+TypeError: 'NoneType' object is not iterable
+Fri, 05 Aug 2022 14:38:18-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/unreaders [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 319, in message_unreads
+    for m in msg_ids:
+TypeError: 'NoneType' object is not iterable
+Fri, 05 Aug 2022 14:39:00-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/unreaders [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 320, in message_unreads
+    m_l = redis.get(m+'-u')
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\commands\core.py", line 1705, in get
+    return self.execute_command("GET", name)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\client.py", line 1238, in execute_command
+    return conn.retry.call_with_retry(
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\client.py", line 1239, in <lambda>
+    lambda: self._send_command_parse_response(
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\client.py", line 1215, in _send_command_parse_response
+    return self.parse_response(conn, command_name, **options)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\client.py", line 1254, in parse_response
+    response = connection.read_response()
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 839, in read_response
+    raise response
+redis.exceptions.ResponseError: WRONGTYPE Operation against a key holding the wrong kind of value
+Fri, 05 Aug 2022 14:40:20-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/unreaders [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 319, in message_unreads
+    m_l = redis.get(m+'-u')
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\commands\core.py", line 1705, in get
+    return self.execute_command("GET", name)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\client.py", line 1238, in execute_command
+    return conn.retry.call_with_retry(
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\client.py", line 1239, in <lambda>
+    lambda: self._send_command_parse_response(
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\client.py", line 1215, in _send_command_parse_response
+    return self.parse_response(conn, command_name, **options)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\client.py", line 1254, in parse_response
+    response = connection.read_response()
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 839, in read_response
+    raise response
+redis.exceptions.ResponseError: WRONGTYPE Operation against a key holding the wrong kind of value
+Fri, 05 Aug 2022 14:43:10-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/unreaders [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 319, in message_unreads
+    m_l = redis.get(m+'-u')
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\commands\core.py", line 1705, in get
+    return self.execute_command("GET", name)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\client.py", line 1238, in execute_command
+    return conn.retry.call_with_retry(
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\client.py", line 1239, in <lambda>
+    lambda: self._send_command_parse_response(
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\client.py", line 1215, in _send_command_parse_response
+    return self.parse_response(conn, command_name, **options)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\client.py", line 1254, in parse_response
+    response = connection.read_response()
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 839, in read_response
+    raise response
+redis.exceptions.ResponseError: WRONGTYPE Operation against a key holding the wrong kind of value
+Fri, 05 Aug 2022 15:06:15-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/unreaders [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 319, in message_unreads
+    try:
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\commands\core.py", line 1705, in get
+    return self.execute_command("GET", name)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\client.py", line 1238, in execute_command
+    return conn.retry.call_with_retry(
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\client.py", line 1239, in <lambda>
+    lambda: self._send_command_parse_response(
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\client.py", line 1215, in _send_command_parse_response
+    return self.parse_response(conn, command_name, **options)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\client.py", line 1254, in parse_response
+    response = connection.read_response()
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 839, in read_response
+    raise response
+redis.exceptions.ResponseError: WRONGTYPE Operation against a key holding the wrong kind of value

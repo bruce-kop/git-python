@@ -57,7 +57,6 @@ class MQLocal(MessageQueueBase):
         try:
             return self.msg_queue.get( block=False)
         except Exception as err:
-            logger.debug("there are no request data, queue is empty.{}".format(err))
             return None
 
 class MQRemote():

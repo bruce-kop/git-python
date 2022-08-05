@@ -1,0 +1,12 @@
+syntax="proto3";
+service GroupService {
+  rpc GetMembers (membersRequest) returns (membersReply) {}
+}
+
+message membersRequest {
+  string group_id = 1;
+}
+
+message membersReply {
+  string message = 1;
+}

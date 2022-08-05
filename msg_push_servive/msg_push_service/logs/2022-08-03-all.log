@@ -1,0 +1,482 @@
+Wed, 03 Aug 2022 19:03:48-urllib3.connectionpool-connectionpool.py-[line:228]-DEBUG-[日志信息]: Starting new HTTP connection (1): 127.0.0.1:5000
+Wed, 03 Aug 2022 19:03:48-root-tcpservser.py-[line:81]-DEBUG-[日志信息]: 客户端连接。
+Wed, 03 Aug 2022 19:03:48-urllib3.connectionpool-connectionpool.py-[line:456]-DEBUG-[日志信息]: http://127.0.0.1:5000 "POST /api/login HTTP/1.1" 200 336
+Wed, 03 Aug 2022 19:03:48-root-tcpservser.py-[line:47]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?\xdf\x00\x00\x00'
+Wed, 03 Aug 2022 19:03:51-root-tcpservser.py-[line:47]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?w\x01\x00\x00'
+Wed, 03 Aug 2022 19:06:26-urllib3.connectionpool-connectionpool.py-[line:228]-DEBUG-[日志信息]: Starting new HTTP connection (1): 127.0.0.1:5000
+Wed, 03 Aug 2022 19:06:26-root-tcpservser.py-[line:81]-DEBUG-[日志信息]: 客户端连接。
+Wed, 03 Aug 2022 19:06:26-urllib3.connectionpool-connectionpool.py-[line:456]-DEBUG-[日志信息]: http://127.0.0.1:5000 "POST /api/login HTTP/1.1" 200 336
+Wed, 03 Aug 2022 19:06:26-root-tcpservser.py-[line:47]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?\xdf\x00\x00\x00'
+Wed, 03 Aug 2022 19:06:30-root-tcpservser.py-[line:47]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?v\x01\x00\x00'
+Wed, 03 Aug 2022 19:07:56-urllib3.connectionpool-connectionpool.py-[line:228]-DEBUG-[日志信息]: Starting new HTTP connection (1): 127.0.0.1:5000
+Wed, 03 Aug 2022 19:07:56-root-tcpservser.py-[line:81]-DEBUG-[日志信息]: 客户端连接。
+Wed, 03 Aug 2022 19:07:57-urllib3.connectionpool-connectionpool.py-[line:456]-DEBUG-[日志信息]: http://127.0.0.1:5000 "POST /api/login HTTP/1.1" 200 336
+Wed, 03 Aug 2022 19:07:57-root-tcpservser.py-[line:47]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?\xdf\x00\x00\x00'
+Wed, 03 Aug 2022 19:07:59-root-tcpservser.py-[line:47]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?v\x01\x00\x00'
+Wed, 03 Aug 2022 19:08:33-urllib3.connectionpool-connectionpool.py-[line:228]-DEBUG-[日志信息]: Starting new HTTP connection (1): 127.0.0.1:5000
+Wed, 03 Aug 2022 19:08:33-root-tcpservser.py-[line:81]-DEBUG-[日志信息]: 客户端连接。
+Wed, 03 Aug 2022 19:08:34-urllib3.connectionpool-connectionpool.py-[line:456]-DEBUG-[日志信息]: http://127.0.0.1:5000 "POST /api/login HTTP/1.1" 200 337
+Wed, 03 Aug 2022 19:08:34-root-tcpservser.py-[line:47]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?\xe0\x00\x00\x00'
+Wed, 03 Aug 2022 19:08:36-root-tcpservser.py-[line:47]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?w\x01\x00\x00'
+Wed, 03 Aug 2022 19:09:17-urllib3.connectionpool-connectionpool.py-[line:228]-DEBUG-[日志信息]: Starting new HTTP connection (1): 127.0.0.1:5000
+Wed, 03 Aug 2022 19:09:17-root-tcpservser.py-[line:81]-DEBUG-[日志信息]: 客户端连接。
+Wed, 03 Aug 2022 19:09:18-urllib3.connectionpool-connectionpool.py-[line:456]-DEBUG-[日志信息]: http://127.0.0.1:5000 "POST /api/login HTTP/1.1" 200 336
+Wed, 03 Aug 2022 19:09:18-root-tcpservser.py-[line:47]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?\xdf\x00\x00\x00'
+Wed, 03 Aug 2022 19:09:20-root-tcpservser.py-[line:47]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?v\x01\x00\x00'
+Wed, 03 Aug 2022 19:10:10-urllib3.connectionpool-connectionpool.py-[line:228]-DEBUG-[日志信息]: Starting new HTTP connection (1): 127.0.0.1:5000
+Wed, 03 Aug 2022 19:10:10-root-tcpservser.py-[line:81]-DEBUG-[日志信息]: 客户端连接。
+Wed, 03 Aug 2022 19:10:10-urllib3.connectionpool-connectionpool.py-[line:456]-DEBUG-[日志信息]: http://127.0.0.1:5000 "POST /api/login HTTP/1.1" 200 337
+Wed, 03 Aug 2022 19:10:10-root-tcpservser.py-[line:47]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?\xe0\x00\x00\x00'
+Wed, 03 Aug 2022 19:10:12-root-tcpservser.py-[line:47]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?w\x01\x00\x00'
+Wed, 03 Aug 2022 20:32:38-urllib3.connectionpool-connectionpool.py-[line:228]-DEBUG-[日志信息]: Starting new HTTP connection (1): 127.0.0.1:5000
+Wed, 03 Aug 2022 20:32:38-root-tcpservser.py-[line:81]-DEBUG-[日志信息]: 客户端连接。
+Wed, 03 Aug 2022 20:32:38-urllib3.connectionpool-connectionpool.py-[line:456]-DEBUG-[日志信息]: http://127.0.0.1:5000 "POST /api/login HTTP/1.1" 200 337
+Wed, 03 Aug 2022 20:32:38-root-tcpservser.py-[line:47]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?\xe0\x00\x00\x00'
+Wed, 03 Aug 2022 20:32:40-root-tcpservser.py-[line:47]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?x\x01\x00\x00'
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '3925ce98-f2db-4286-99fd-d38fea3c8baa', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '005ebcc8-8105-4f33-abe9-ffb5a938229b', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.005ebcc8-8105-4f33-abe9-ffb5a938229b
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '0d5bc175-00d9-46fb-8b9c-5857e69e9daa', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '00a94fd7-550e-478f-b5b5-dc6801537ab3', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.00a94fd7-550e-478f-b5b5-dc6801537ab3
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '0103e53a-7ef0-4f30-8739-be7c98847ea7', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '00b4cd05-8774-4512-b643-eddd519cac43', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.00b4cd05-8774-4512-b643-eddd519cac43
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '0aa6026c-4cb0-46a6-86e3-ed66db9614d5', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '00c211fa-f43f-401b-848e-db03c9af2485', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.00c211fa-f43f-401b-848e-db03c9af2485
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '3da2b4c5-0fff-4f3f-864e-82c420ef59a0', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '00ffc2db-7c77-49e2-a71d-155362fd2db5', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.00ffc2db-7c77-49e2-a71d-155362fd2db5
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '8fb855ca-fb14-4e4a-83c1-eaf30abe7d6c', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '0142ecea-222e-4116-bce9-893fe09e83a8', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.0142ecea-222e-4116-bce9-893fe09e83a8
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '01540f95-459e-42d0-b475-ab57d8557322', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '017ff76b-15ee-4dcf-9b1b-1a2124e25f8f', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.017ff76b-15ee-4dcf-9b1b-1a2124e25f8f
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '7c0ee5d8-12b9-4de9-8444-1e6448c442e1', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '01869816-82f2-4df3-b2e4-2426860d08d0', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.01869816-82f2-4df3-b2e4-2426860d08d0
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '00ddff1d-21a9-45b8-a3f7-0d168b8c6546', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '01a56fb0-f093-445e-98ec-59c301d9d0f1', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.01a56fb0-f093-445e-98ec-59c301d9d0f1
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '9ff1fdc0-d49d-4c17-9b7c-bbc6dce85ac9', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '01b3067d-9ea9-4d01-9d92-250ce9f33caa', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.01b3067d-9ea9-4d01-9d92-250ce9f33caa
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '0df7fc16-e1c8-48f2-9aad-3cb70be5fe4e', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '02118e43-147e-4158-b692-7554a1a8a2a0', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.02118e43-147e-4158-b692-7554a1a8a2a0
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '51829fb3-aba7-42c1-a847-36774e37f9c8', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '021e6417-4a51-4a5a-b7ce-04219936f0f4', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.021e6417-4a51-4a5a-b7ce-04219936f0f4
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '79871675-ea3c-42f6-ae63-70ed9f026e65', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '02cd0847-47e6-46c2-a7b8-5c5af5a1941d', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.02cd0847-47e6-46c2-a7b8-5c5af5a1941d
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '3aa6f8a9-f688-4369-a978-7ca365d3a896', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '035584d4-64a7-445a-a1d3-c7bb26b2506f', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.035584d4-64a7-445a-a1d3-c7bb26b2506f
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '0480f829-e1db-4432-a5c9-447832902b03', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '0357dcf9-f642-4422-a7b2-4d5565a6a5e8', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.0357dcf9-f642-4422-a7b2-4d5565a6a5e8
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '32633f84-ad81-42c2-bc33-96a9570107c6', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '03e41e13-9184-4f15-a7ce-480e74d16cb5', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.03e41e13-9184-4f15-a7ce-480e74d16cb5
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '706a125d-e94a-47dd-95b8-4f48e60d99a4', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '040b2fed-b4c7-453f-aedd-5cc1658330ba', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.040b2fed-b4c7-453f-aedd-5cc1658330ba
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '85263e6d-08f6-4c32-92bd-b76804bd7606', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '041d167e-0088-4026-9b03-582bf1097af0', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.041d167e-0088-4026-9b03-582bf1097af0
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '3234570a-a76b-4ebe-a688-89b93d587648', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '0456c5ca-62de-4f39-84fb-6e9d8026a0d8', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.0456c5ca-62de-4f39-84fb-6e9d8026a0d8
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '5b01ced7-ecf1-486a-824f-9fd28318a433', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '047f891d-0d88-4124-9c7c-222de32f458a', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.047f891d-0d88-4124-9c7c-222de32f458a
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': 'a83e09ec-8834-43ed-98e8-86c3fd57bf14', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '048d8972-7517-448a-a845-fb583d366edf', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.048d8972-7517-448a-a845-fb583d366edf
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '7ed826d8-bdd2-4b36-85a8-44653eb83f11', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '04be3b4d-9546-4310-9026-86ba5df434ac', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.04be3b4d-9546-4310-9026-86ba5df434ac
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '589443ac-d288-473f-b95f-d06eb80339f6', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '05b9114b-c236-4167-ac08-5af1229db098', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.05b9114b-c236-4167-ac08-5af1229db098
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '16202d01-d4dc-4148-80d0-853f2497af89', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '05c491a3-d656-4178-b500-c2b0080f51eb', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.05c491a3-d656-4178-b500-c2b0080f51eb
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '1ac20de0-bf89-4311-b24a-605ed3fb8029', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '05fece2e-acf7-4fb5-9312-9d507a92b40a', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.05fece2e-acf7-4fb5-9312-9d507a92b40a
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': 'a65ef1fe-59c4-43fa-96e3-c6fe7bc4dda5', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '06ac290f-84b0-405c-b1f0-90490c49809f', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.06ac290f-84b0-405c-b1f0-90490c49809f
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '40649e24-752e-438e-9b7a-145e5d428bc4', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '06f280c6-8d0d-492d-bc9a-a06beaccc92f', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.06f280c6-8d0d-492d-bc9a-a06beaccc92f
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': 'a03a7a10-496c-4351-8ec3-3bbc865124b1', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '07bab11c-304e-48f5-a7a7-99f29ee87d87', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.07bab11c-304e-48f5-a7a7-99f29ee87d87
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '1f6553bd-566c-4f48-90b4-0de7b7d06d7d', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '08661ecb-0f07-401c-8d78-663aeae69690', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.08661ecb-0f07-401c-8d78-663aeae69690
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '9c2f33b0-7c5f-4242-992c-85749f215756', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '0876cac1-613e-452c-89ad-622662cf0ddf', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.0876cac1-613e-452c-89ad-622662cf0ddf
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '31c7645c-ab5f-4620-9678-a65fcf6b6d47', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '087ffcb9-2517-40bb-b769-ff2225237615', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.087ffcb9-2517-40bb-b769-ff2225237615
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '99485ccc-1cc0-4e36-81ff-7c0344e76174', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '08939951-92cc-4559-9737-e2cbea45f56f', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.08939951-92cc-4559-9737-e2cbea45f56f
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '9b3da2c2-c3ca-4d26-841c-aef3f4649f20', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '08f5f307-992f-4343-8461-577a526decaa', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.08f5f307-992f-4343-8461-577a526decaa
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': 'dd3b654a-33ff-47d0-94de-782f1ae696da', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '09069936-5978-4c7c-b902-2bb2f9985c1c', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.09069936-5978-4c7c-b902-2bb2f9985c1c
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '0b7146a4-efdd-4ad8-97e2-ea08d3a1cd82', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '09151569-0cbe-4b53-a5b8-f2abd99af054', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.09151569-0cbe-4b53-a5b8-f2abd99af054
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '25d211e8-283c-42d3-a9fa-4377619b7473', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '093c6fa8-06ec-4a9b-a29f-f0e2882f75f2', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.093c6fa8-06ec-4a9b-a29f-f0e2882f75f2
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '2c88f0d7-c96d-450b-91eb-8d39f72bba20', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '09409169-9107-43d7-a44a-2d1e5728e882', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.09409169-9107-43d7-a44a-2d1e5728e882
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': 'ac2fa91b-204b-46d8-b6a5-b1f3cd310216', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '098ec607-bd34-4d5f-9ecc-f35ee78560a7', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.098ec607-bd34-4d5f-9ecc-f35ee78560a7
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '5eccb7e7-a750-483c-bb9a-faebd81b6a5f', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '09d0b3b7-813a-4bd4-a1a8-756a25116053', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.09d0b3b7-813a-4bd4-a1a8-756a25116053
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '3a725f15-325d-45fc-9d01-e4f38c9baefe', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '09d78293-fcf5-4994-ba26-3b13dfbe59e3', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.09d78293-fcf5-4994-ba26-3b13dfbe59e3
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '412d113c-d6bf-4926-8127-7f4c5ff35946', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '0a4e8265-65da-409b-b72d-ab77d4ae9d07', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.0a4e8265-65da-409b-b72d-ab77d4ae9d07
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '84c092f5-b459-4878-91c0-3767160e7b46', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '0a7117a1-7705-4208-8095-88b1bea03b00', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.0a7117a1-7705-4208-8095-88b1bea03b00
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '8c25daac-8d4a-4dbb-a98e-ac356888a763', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '0a988867-c718-4ca7-a73a-7726991d20b2', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.0a988867-c718-4ca7-a73a-7726991d20b2
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': 'bcf7e6e8-34ba-4ce6-b03d-54b4c72bd737', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '0b04767e-b496-4c23-8723-25fa641cd9b0', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.0b04767e-b496-4c23-8723-25fa641cd9b0
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': 'ac0d56f3-9868-43c9-b4d7-c7ef7f166b1e', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '0b255109-8cc1-4cf5-bec9-49b40b003307', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.0b255109-8cc1-4cf5-bec9-49b40b003307
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': 'a87bc328-5d48-4b23-b721-95a4826d91de', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '0b714bf1-d6af-4a8e-9c29-130db382b26c', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.0b714bf1-d6af-4a8e-9c29-130db382b26c
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '455f23f5-e55c-414c-a4d4-530ccde0a551', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '0b881f7a-76f3-4dcf-8f4b-923eaadc03d9', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.0b881f7a-76f3-4dcf-8f4b-923eaadc03d9
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '2673a249-1bfa-41f3-93d6-a50d5775fb4f', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '0c3c979a-91f9-472e-b447-e410e40830a6', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.0c3c979a-91f9-472e-b447-e410e40830a6
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '9927626a-ffab-428e-b535-bdad214af239', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '0cb4c34b-a2dd-4a6c-abe3-9eba4669b1a7', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.0cb4c34b-a2dd-4a6c-abe3-9eba4669b1a7
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '1fe7b5c5-e234-45fa-91b4-170a1b3aab3f', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '0d1ed5ea-6f91-4d8e-9caa-03abd9f4b8f4', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.0d1ed5ea-6f91-4d8e-9caa-03abd9f4b8f4
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '395725a1-cec4-479e-b26e-923579d5b824', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '0dec320b-e7eb-4518-821a-8d112e54d536', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.0dec320b-e7eb-4518-821a-8d112e54d536
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '6d898061-d7b0-4d26-a8ef-767ea88ed419', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '0dff8ffb-6665-43ba-bd52-a7b47310753f', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.0dff8ffb-6665-43ba-bd52-a7b47310753f
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '912afbcb-937f-4755-a5b5-383ee8cd1e4e', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '0e05eaab-d613-44a2-9097-cd146769a8bc', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.0e05eaab-d613-44a2-9097-cd146769a8bc
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': 'eb271df3-6f33-484d-9b54-938402dcf1e7', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '0e492703-d3bc-4504-ac79-edeb51a1b1fd', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.0e492703-d3bc-4504-ac79-edeb51a1b1fd
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '977afb90-542e-43ba-a0ad-80d56455024f', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '0f043b70-d454-4fe7-aec0-f2714f4a11e8', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.0f043b70-d454-4fe7-aec0-f2714f4a11e8
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '38b35e71-1660-4992-9ef2-4f90df508fae', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '0f82dc53-eefd-4a28-bbc7-6d1aa75ab7be', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.0f82dc53-eefd-4a28-bbc7-6d1aa75ab7be
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': 'e72ef147-3ec0-4a33-8a8c-3c8395616617', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '1043df0a-0788-41b8-888b-9f7e9a7b09b5', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.1043df0a-0788-41b8-888b-9f7e9a7b09b5
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '30c23772-d074-4682-812d-b03fe6b83237', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '10c6e0d7-6542-4c24-bd9b-c74a3749a345', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.10c6e0d7-6542-4c24-bd9b-c74a3749a345
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '831cfb9a-dadc-41f1-aa16-7c253fa97c3e', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '10e90f85-a7cf-448b-b7cb-5470c2031b3c', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.10e90f85-a7cf-448b-b7cb-5470c2031b3c
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': 'ae17d946-7b62-46ee-a50a-5b8c7c6f1383', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '10f1cead-5a5c-4b29-98e8-e81048c195ed', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.10f1cead-5a5c-4b29-98e8-e81048c195ed
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': 'e312806b-2582-4722-9218-03d09e805f21', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '1186768c-5ea9-4130-8071-eb5cef4d243c', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.1186768c-5ea9-4130-8071-eb5cef4d243c
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': 'ade3f93a-7e3a-4d2c-b8eb-70ff3896c646', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '11ad0d13-1188-46b0-84df-ee43edc219ae', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.11ad0d13-1188-46b0-84df-ee43edc219ae
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': 'a6807576-dc77-4c24-9294-11405f32d39e', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '11f14f65-4f71-4765-bbd7-e097d119d053', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.11f14f65-4f71-4765-bbd7-e097d119d053
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': 'dd6b458b-3ba7-4bc4-9d90-29f04fc99677', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '12019b8a-4748-4064-8499-4881bd124b3e', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.12019b8a-4748-4064-8499-4881bd124b3e
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '9bc28a02-906b-413f-b699-97ed5f5a5819', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '12850ad9-7959-4501-a62b-9ee3debac58f', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.12850ad9-7959-4501-a62b-9ee3debac58f
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '65f0ec25-d1aa-4290-97c6-37df1edd4c24', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '12d0789c-a932-494c-8fbf-bb2d700f3b8c', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.12d0789c-a932-494c-8fbf-bb2d700f3b8c
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '11660cb0-932b-4b19-bffb-32cd0118c206', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '1327a87b-3929-4cca-9dff-a2b2d2d045b3', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.1327a87b-3929-4cca-9dff-a2b2d2d045b3
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '5dd978b2-03ca-4abf-8156-ec25cbcc94d4', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '1354bad9-cf2b-43da-a8e2-2623500e9a32', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.1354bad9-cf2b-43da-a8e2-2623500e9a32
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '7eef4fbb-7239-48f3-bd5a-3f9dd619ea41', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '13ded83a-f2be-4def-9ad9-f8669c79ca1f', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.13ded83a-f2be-4def-9ad9-f8669c79ca1f
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': 'd39cb253-6bd4-46cb-89fc-8fd1837b4444', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '143024ee-6310-4edd-b341-cfe5378ea841', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.143024ee-6310-4edd-b341-cfe5378ea841
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:44]-INFO-[日志信息]: {'message': {'msg_id': '9ce34a9d-99e1-4110-9cfc-44e05f76520c', 'content': '66', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:58]-INFO-[日志信息]: save unread to redis.ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc
+Wed, 03 Aug 2022 20:32:41-root-DataProcThread.py-[line:78]-ERROR-[日志信息]: name 'created_at' is not defined
+Wed, 03 Aug 2022 20:37:08-root-DBHelper.py-[line:33]-INFO-[日志信息]: mongodb://127.0.0.1:27017
+Wed, 03 Aug 2022 20:37:08-root-DBHelper.py-[line:36]-INFO-[日志信息]: im_database
+Wed, 03 Aug 2022 20:37:11-urllib3.connectionpool-connectionpool.py-[line:228]-DEBUG-[日志信息]: Starting new HTTP connection (1): 127.0.0.1:5000
+Wed, 03 Aug 2022 20:37:11-root-tcpservser.py-[line:81]-DEBUG-[日志信息]: 客户端连接。
+Wed, 03 Aug 2022 20:37:11-urllib3.connectionpool-connectionpool.py-[line:456]-DEBUG-[日志信息]: http://127.0.0.1:5000 "POST /api/login HTTP/1.1" 200 337
+Wed, 03 Aug 2022 20:37:11-root-tcpservser.py-[line:47]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?\xe0\x00\x00\x00'
+Wed, 03 Aug 2022 20:37:13-root-tcpservser.py-[line:47]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?w\x01\x00\x00'
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': 'e94cc1c8-0873-480c-a32d-53bcd9bfd71c', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '005ebcc8-8105-4f33-abe9-ffb5a938229b', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.005ebcc8-8105-4f33-abe9-ffb5a938229b
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': 'c092fe23-03fd-49e7-9434-f45cb3231f58', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '00a94fd7-550e-478f-b5b5-dc6801537ab3', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.00a94fd7-550e-478f-b5b5-dc6801537ab3
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': 'aa2f1040-f787-4e7e-9a84-5601a0b079d7', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '00b4cd05-8774-4512-b643-eddd519cac43', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.00b4cd05-8774-4512-b643-eddd519cac43
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '7cfcebe7-e37b-45a9-ae60-7b9d83ea7ed0', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '00c211fa-f43f-401b-848e-db03c9af2485', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.00c211fa-f43f-401b-848e-db03c9af2485
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '164ab54e-4276-4611-8a43-066fb48cadc5', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '00ffc2db-7c77-49e2-a71d-155362fd2db5', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.00ffc2db-7c77-49e2-a71d-155362fd2db5
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '39f0ec44-deab-4331-a540-4f660cdca4cf', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '0142ecea-222e-4116-bce9-893fe09e83a8', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.0142ecea-222e-4116-bce9-893fe09e83a8
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '345c7661-d912-4f9e-8fbc-f6c36e38d626', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '017ff76b-15ee-4dcf-9b1b-1a2124e25f8f', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.017ff76b-15ee-4dcf-9b1b-1a2124e25f8f
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '6f0ddf67-fb6e-4cc2-9ac0-bad462277285', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '01869816-82f2-4df3-b2e4-2426860d08d0', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.01869816-82f2-4df3-b2e4-2426860d08d0
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '3a3b9687-bdce-45a1-bce9-ece9991a96fd', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '01a56fb0-f093-445e-98ec-59c301d9d0f1', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.01a56fb0-f093-445e-98ec-59c301d9d0f1
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '90009b60-411b-401f-8f85-2692f85d8ff1', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '01b3067d-9ea9-4d01-9d92-250ce9f33caa', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.01b3067d-9ea9-4d01-9d92-250ce9f33caa
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '670dfad8-dd56-416c-bdde-65659f6dd662', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '02118e43-147e-4158-b692-7554a1a8a2a0', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.02118e43-147e-4158-b692-7554a1a8a2a0
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '3c0613e1-be50-44d2-9261-84a2224d5f8f', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '021e6417-4a51-4a5a-b7ce-04219936f0f4', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.021e6417-4a51-4a5a-b7ce-04219936f0f4
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': 'c009abee-be9b-4166-80b0-2d6eaa6d3be9', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '02cd0847-47e6-46c2-a7b8-5c5af5a1941d', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.02cd0847-47e6-46c2-a7b8-5c5af5a1941d
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '852acb9e-b692-476e-8aab-24ea7922a736', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '035584d4-64a7-445a-a1d3-c7bb26b2506f', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.035584d4-64a7-445a-a1d3-c7bb26b2506f
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '5da47386-05f2-4aaf-8e5f-9220685cf13d', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '0357dcf9-f642-4422-a7b2-4d5565a6a5e8', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.0357dcf9-f642-4422-a7b2-4d5565a6a5e8
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '931d5f39-a7a9-44d5-93fa-702d148e1a31', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '03e41e13-9184-4f15-a7ce-480e74d16cb5', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.03e41e13-9184-4f15-a7ce-480e74d16cb5
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '3bbf30a2-2b2f-4521-a816-b1bbb7d7705e', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '040b2fed-b4c7-453f-aedd-5cc1658330ba', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.040b2fed-b4c7-453f-aedd-5cc1658330ba
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '1c7ad6ba-6209-4dda-aa54-1439cdd3dce3', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '041d167e-0088-4026-9b03-582bf1097af0', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.041d167e-0088-4026-9b03-582bf1097af0
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '0a5589f8-1d51-40fc-9e9b-8616e3f13147', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '0456c5ca-62de-4f39-84fb-6e9d8026a0d8', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.0456c5ca-62de-4f39-84fb-6e9d8026a0d8
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '4efa451a-0342-4d3f-9bbf-a900ce4e50a8', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '047f891d-0d88-4124-9c7c-222de32f458a', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.047f891d-0d88-4124-9c7c-222de32f458a
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '64c54514-3144-49ca-9fa8-7f9759463200', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '048d8972-7517-448a-a845-fb583d366edf', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.048d8972-7517-448a-a845-fb583d366edf
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': 'dbdf6a9b-d9be-425e-8c82-b7350f7bca18', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '04be3b4d-9546-4310-9026-86ba5df434ac', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.04be3b4d-9546-4310-9026-86ba5df434ac
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '84d2f4b6-b636-4dd6-b9fa-8ac131596526', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '05b9114b-c236-4167-ac08-5af1229db098', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.05b9114b-c236-4167-ac08-5af1229db098
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': 'bc8e163a-f464-45fb-8521-eeaf3c6ea1d9', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '05c491a3-d656-4178-b500-c2b0080f51eb', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.05c491a3-d656-4178-b500-c2b0080f51eb
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': 'e85e2c07-4ea3-4c4f-b27c-f02e3c8160ba', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '05fece2e-acf7-4fb5-9312-9d507a92b40a', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.05fece2e-acf7-4fb5-9312-9d507a92b40a
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': 'caf73023-f1b0-452a-91d8-2dce31979838', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '06ac290f-84b0-405c-b1f0-90490c49809f', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.06ac290f-84b0-405c-b1f0-90490c49809f
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': 'd4c90d2f-f67e-4be4-93b4-b58b7b763518', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '06f280c6-8d0d-492d-bc9a-a06beaccc92f', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.06f280c6-8d0d-492d-bc9a-a06beaccc92f
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': 'caa1194d-be1d-492a-9688-775088abc344', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '07bab11c-304e-48f5-a7a7-99f29ee87d87', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.07bab11c-304e-48f5-a7a7-99f29ee87d87
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': 'af616aff-8151-459f-a3fa-aa1de767f668', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '08661ecb-0f07-401c-8d78-663aeae69690', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.08661ecb-0f07-401c-8d78-663aeae69690
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '64260e10-575e-49f9-8ec1-c0b8c211d0df', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '0876cac1-613e-452c-89ad-622662cf0ddf', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.0876cac1-613e-452c-89ad-622662cf0ddf
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '721acf5e-a768-4ddf-b767-4c57cfee4583', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '087ffcb9-2517-40bb-b769-ff2225237615', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.087ffcb9-2517-40bb-b769-ff2225237615
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': 'd36b4833-c486-4fde-8181-6f7e4b5d276a', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '08939951-92cc-4559-9737-e2cbea45f56f', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.08939951-92cc-4559-9737-e2cbea45f56f
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '3e814794-07c3-4551-ab03-ee38f322053a', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '08f5f307-992f-4343-8461-577a526decaa', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.08f5f307-992f-4343-8461-577a526decaa
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '68135ff3-99ed-497a-9666-b246971015cc', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '09069936-5978-4c7c-b902-2bb2f9985c1c', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.09069936-5978-4c7c-b902-2bb2f9985c1c
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': 'ed5f90d0-ac55-497c-bc77-a92699d434e0', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '09151569-0cbe-4b53-a5b8-f2abd99af054', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.09151569-0cbe-4b53-a5b8-f2abd99af054
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': 'dc24caba-7a44-40a6-aaac-f080001dd8d8', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '093c6fa8-06ec-4a9b-a29f-f0e2882f75f2', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.093c6fa8-06ec-4a9b-a29f-f0e2882f75f2
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '338d770c-63df-467f-852c-6188a2ff84b2', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '09409169-9107-43d7-a44a-2d1e5728e882', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.09409169-9107-43d7-a44a-2d1e5728e882
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '98174c6f-7792-484a-a14e-a62197d5451f', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '098ec607-bd34-4d5f-9ecc-f35ee78560a7', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.098ec607-bd34-4d5f-9ecc-f35ee78560a7
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '53530c91-adf0-428d-836f-3eee42c4b084', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '09d0b3b7-813a-4bd4-a1a8-756a25116053', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.09d0b3b7-813a-4bd4-a1a8-756a25116053
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '6ee6edde-8e67-4ae5-9581-0463b70c0f69', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '09d78293-fcf5-4994-ba26-3b13dfbe59e3', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.09d78293-fcf5-4994-ba26-3b13dfbe59e3
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '426d59ac-91a0-48db-b30c-0e7cd7d4ac93', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '0a4e8265-65da-409b-b72d-ab77d4ae9d07', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.0a4e8265-65da-409b-b72d-ab77d4ae9d07
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '51137d57-fbd3-4e19-9777-248fac15126f', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '0a7117a1-7705-4208-8095-88b1bea03b00', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.0a7117a1-7705-4208-8095-88b1bea03b00
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '5457974b-5340-42e0-b563-97e869aeb47a', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '0a988867-c718-4ca7-a73a-7726991d20b2', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.0a988867-c718-4ca7-a73a-7726991d20b2
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '068566b4-5983-4e3c-a460-356cdc3943ae', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '0b04767e-b496-4c23-8723-25fa641cd9b0', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.0b04767e-b496-4c23-8723-25fa641cd9b0
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': 'ff2a3325-6019-478e-8a8b-8ad82027b37d', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '0b255109-8cc1-4cf5-bec9-49b40b003307', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.0b255109-8cc1-4cf5-bec9-49b40b003307
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '2cab83cf-e974-4bb2-bb95-fc9e79bd2c61', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '0b714bf1-d6af-4a8e-9c29-130db382b26c', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.0b714bf1-d6af-4a8e-9c29-130db382b26c
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '2e2fb3ed-40bb-4b06-b452-87a35a941776', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '0b881f7a-76f3-4dcf-8f4b-923eaadc03d9', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.0b881f7a-76f3-4dcf-8f4b-923eaadc03d9
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': 'fb4464e8-a7ae-489e-95bf-e3539473796f', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '0c3c979a-91f9-472e-b447-e410e40830a6', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.0c3c979a-91f9-472e-b447-e410e40830a6
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '3c23faba-49de-43e2-ab21-3f39ec84fc55', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '0cb4c34b-a2dd-4a6c-abe3-9eba4669b1a7', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.0cb4c34b-a2dd-4a6c-abe3-9eba4669b1a7
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '516871fe-8968-461a-b4a5-12f982853193', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '0d1ed5ea-6f91-4d8e-9caa-03abd9f4b8f4', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.0d1ed5ea-6f91-4d8e-9caa-03abd9f4b8f4
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': 'f6ec740d-e629-4308-97b3-6b38581d89e3', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '0dec320b-e7eb-4518-821a-8d112e54d536', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.0dec320b-e7eb-4518-821a-8d112e54d536
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '071af9f5-b706-493e-8268-a2ce52fe6784', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '0dff8ffb-6665-43ba-bd52-a7b47310753f', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.0dff8ffb-6665-43ba-bd52-a7b47310753f
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': 'e717db69-129b-40cc-a275-4325e8d67e3e', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '0e05eaab-d613-44a2-9097-cd146769a8bc', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.0e05eaab-d613-44a2-9097-cd146769a8bc
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': 'be7a2798-201b-4477-a429-f2dfb0c0c54f', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '0e492703-d3bc-4504-ac79-edeb51a1b1fd', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.0e492703-d3bc-4504-ac79-edeb51a1b1fd
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': 'bf4955e1-2922-4663-9c1c-e88d35cfba0c', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '0f043b70-d454-4fe7-aec0-f2714f4a11e8', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.0f043b70-d454-4fe7-aec0-f2714f4a11e8
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': 'ec672cc4-f375-4b07-bbe8-be3873153a12', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '0f82dc53-eefd-4a28-bbc7-6d1aa75ab7be', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.0f82dc53-eefd-4a28-bbc7-6d1aa75ab7be
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '53bb3c9a-96d6-4107-9a1c-603cdfb6747f', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '1043df0a-0788-41b8-888b-9f7e9a7b09b5', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.1043df0a-0788-41b8-888b-9f7e9a7b09b5
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '7f5c1026-ba03-4e0f-9ef0-aa072ddbdfa6', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '10c6e0d7-6542-4c24-bd9b-c74a3749a345', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.10c6e0d7-6542-4c24-bd9b-c74a3749a345
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': 'e1273d5c-1d8b-496c-ba9f-38153884924f', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '10e90f85-a7cf-448b-b7cb-5470c2031b3c', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.10e90f85-a7cf-448b-b7cb-5470c2031b3c
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': 'a74e755f-5c26-4503-8559-0b60b396ae5d', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '10f1cead-5a5c-4b29-98e8-e81048c195ed', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.10f1cead-5a5c-4b29-98e8-e81048c195ed
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '4c0de009-cc76-4c70-a8c5-297540d154ff', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '1186768c-5ea9-4130-8071-eb5cef4d243c', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.1186768c-5ea9-4130-8071-eb5cef4d243c
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': 'd636043b-6db7-473b-9741-98367ccd7342', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '11ad0d13-1188-46b0-84df-ee43edc219ae', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.11ad0d13-1188-46b0-84df-ee43edc219ae
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '43984017-e0df-471b-b446-45a1032fe893', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '11f14f65-4f71-4765-bbd7-e097d119d053', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.11f14f65-4f71-4765-bbd7-e097d119d053
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '263983fa-5a11-45ee-91e9-826d95155d3d', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '12019b8a-4748-4064-8499-4881bd124b3e', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.12019b8a-4748-4064-8499-4881bd124b3e
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': 'fc06c95e-00eb-46db-869e-f416a265fcd6', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '12850ad9-7959-4501-a62b-9ee3debac58f', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.12850ad9-7959-4501-a62b-9ee3debac58f
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '24e47111-9122-46d2-a852-0c13aed20c01', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '12d0789c-a932-494c-8fbf-bb2d700f3b8c', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.12d0789c-a932-494c-8fbf-bb2d700f3b8c
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '448faba6-b400-4e7d-b6f6-d74ec208013e', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '1327a87b-3929-4cca-9dff-a2b2d2d045b3', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.1327a87b-3929-4cca-9dff-a2b2d2d045b3
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '9a515380-11d7-4acb-9643-5ac9f705f526', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '1354bad9-cf2b-43da-a8e2-2623500e9a32', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.1354bad9-cf2b-43da-a8e2-2623500e9a32
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '53d704eb-8795-4d9d-8895-92c1b8ec5f3f', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '13ded83a-f2be-4def-9ad9-f8669c79ca1f', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.13ded83a-f2be-4def-9ad9-f8669c79ca1f
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '95e17ebf-675c-4eb2-879d-7bc075cfcbfa', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': '143024ee-6310-4edd-b341-cfe5378ea841', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.143024ee-6310-4edd-b341-cfe5378ea841
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:45]-INFO-[日志信息]: {'message': {'msg_id': '206c13d4-c82f-482a-9dae-c056b77f4d81', 'content': '7', 'sender': 'f692b513-8e1c-410a-927b-58687b85dcc8', 'reciever': 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc', 'group_id': '42177ae4-81bf-4bc8-8fc5-74a025cd154f', 'msg_type': 'pic'}}
+Wed, 03 Aug 2022 20:37:14-root-DataProcThread.py-[line:59]-INFO-[日志信息]: save unread to redis.ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc
+Wed, 03 Aug 2022 20:42:37-root-DBHelper.py-[line:33]-INFO-[日志信息]: mongodb://127.0.0.1:27017
+Wed, 03 Aug 2022 20:42:37-root-DBHelper.py-[line:36]-INFO-[日志信息]: im_database
+Wed, 03 Aug 2022 20:42:39-urllib3.connectionpool-connectionpool.py-[line:228]-DEBUG-[日志信息]: Starting new HTTP connection (1): 127.0.0.1:5000
+Wed, 03 Aug 2022 20:42:39-root-tcpservser.py-[line:81]-DEBUG-[日志信息]: 客户端连接。
+Wed, 03 Aug 2022 20:42:39-urllib3.connectionpool-connectionpool.py-[line:456]-DEBUG-[日志信息]: http://127.0.0.1:5000 "POST /api/login HTTP/1.1" 200 337
+Wed, 03 Aug 2022 20:42:39-root-tcpservser.py-[line:47]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?\xe0\x00\x00\x00'
+Wed, 03 Aug 2022 20:42:42-root-tcpservser.py-[line:47]-DEBUG-[日志信息]: 收到包头:b'\x00\x00\x80?w\x01\x00\x00'
+Wed, 03 Aug 2022 20:42:43-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.005ebcc8-8105-4f33-abe9-ffb5a938229b
+Wed, 03 Aug 2022 20:42:43-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.00a94fd7-550e-478f-b5b5-dc6801537ab3
+Wed, 03 Aug 2022 20:42:43-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.00b4cd05-8774-4512-b643-eddd519cac43
+Wed, 03 Aug 2022 20:42:43-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.00c211fa-f43f-401b-848e-db03c9af2485
+Wed, 03 Aug 2022 20:42:43-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.00ffc2db-7c77-49e2-a71d-155362fd2db5
+Wed, 03 Aug 2022 20:42:43-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.0142ecea-222e-4116-bce9-893fe09e83a8
+Wed, 03 Aug 2022 20:42:43-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.017ff76b-15ee-4dcf-9b1b-1a2124e25f8f
+Wed, 03 Aug 2022 20:42:43-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.01869816-82f2-4df3-b2e4-2426860d08d0
+Wed, 03 Aug 2022 20:42:43-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.01a56fb0-f093-445e-98ec-59c301d9d0f1
+Wed, 03 Aug 2022 20:42:43-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.01b3067d-9ea9-4d01-9d92-250ce9f33caa
+Wed, 03 Aug 2022 20:42:43-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.02118e43-147e-4158-b692-7554a1a8a2a0
+Wed, 03 Aug 2022 20:42:43-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.021e6417-4a51-4a5a-b7ce-04219936f0f4
+Wed, 03 Aug 2022 20:42:43-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.02cd0847-47e6-46c2-a7b8-5c5af5a1941d
+Wed, 03 Aug 2022 20:42:43-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.035584d4-64a7-445a-a1d3-c7bb26b2506f
+Wed, 03 Aug 2022 20:42:43-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.0357dcf9-f642-4422-a7b2-4d5565a6a5e8
+Wed, 03 Aug 2022 20:42:43-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.03e41e13-9184-4f15-a7ce-480e74d16cb5
+Wed, 03 Aug 2022 20:42:43-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.040b2fed-b4c7-453f-aedd-5cc1658330ba
+Wed, 03 Aug 2022 20:42:43-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.041d167e-0088-4026-9b03-582bf1097af0
+Wed, 03 Aug 2022 20:42:43-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.0456c5ca-62de-4f39-84fb-6e9d8026a0d8
+Wed, 03 Aug 2022 20:42:43-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.047f891d-0d88-4124-9c7c-222de32f458a
+Wed, 03 Aug 2022 20:42:43-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.048d8972-7517-448a-a845-fb583d366edf
+Wed, 03 Aug 2022 20:42:43-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.04be3b4d-9546-4310-9026-86ba5df434ac
+Wed, 03 Aug 2022 20:42:43-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.05b9114b-c236-4167-ac08-5af1229db098
+Wed, 03 Aug 2022 20:42:43-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.05c491a3-d656-4178-b500-c2b0080f51eb
+Wed, 03 Aug 2022 20:42:43-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.05fece2e-acf7-4fb5-9312-9d507a92b40a
+Wed, 03 Aug 2022 20:42:43-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.06ac290f-84b0-405c-b1f0-90490c49809f
+Wed, 03 Aug 2022 20:42:43-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.06f280c6-8d0d-492d-bc9a-a06beaccc92f
+Wed, 03 Aug 2022 20:42:43-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.07bab11c-304e-48f5-a7a7-99f29ee87d87
+Wed, 03 Aug 2022 20:42:43-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.08661ecb-0f07-401c-8d78-663aeae69690
+Wed, 03 Aug 2022 20:42:43-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.0876cac1-613e-452c-89ad-622662cf0ddf
+Wed, 03 Aug 2022 20:42:43-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.087ffcb9-2517-40bb-b769-ff2225237615
+Wed, 03 Aug 2022 20:42:43-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.08939951-92cc-4559-9737-e2cbea45f56f
+Wed, 03 Aug 2022 20:42:43-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.08f5f307-992f-4343-8461-577a526decaa
+Wed, 03 Aug 2022 20:42:43-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.09069936-5978-4c7c-b902-2bb2f9985c1c
+Wed, 03 Aug 2022 20:42:43-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.09151569-0cbe-4b53-a5b8-f2abd99af054
+Wed, 03 Aug 2022 20:42:43-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.093c6fa8-06ec-4a9b-a29f-f0e2882f75f2
+Wed, 03 Aug 2022 20:42:43-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.09409169-9107-43d7-a44a-2d1e5728e882
+Wed, 03 Aug 2022 20:42:43-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.098ec607-bd34-4d5f-9ecc-f35ee78560a7
+Wed, 03 Aug 2022 20:42:43-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.09d0b3b7-813a-4bd4-a1a8-756a25116053
+Wed, 03 Aug 2022 20:42:44-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.09d78293-fcf5-4994-ba26-3b13dfbe59e3
+Wed, 03 Aug 2022 20:42:44-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.0a4e8265-65da-409b-b72d-ab77d4ae9d07
+Wed, 03 Aug 2022 20:42:44-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.0a7117a1-7705-4208-8095-88b1bea03b00
+Wed, 03 Aug 2022 20:42:44-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.0a988867-c718-4ca7-a73a-7726991d20b2
+Wed, 03 Aug 2022 20:42:44-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.0b04767e-b496-4c23-8723-25fa641cd9b0
+Wed, 03 Aug 2022 20:42:44-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.0b255109-8cc1-4cf5-bec9-49b40b003307
+Wed, 03 Aug 2022 20:42:44-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.0b714bf1-d6af-4a8e-9c29-130db382b26c
+Wed, 03 Aug 2022 20:42:44-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.0b881f7a-76f3-4dcf-8f4b-923eaadc03d9
+Wed, 03 Aug 2022 20:42:44-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.0c3c979a-91f9-472e-b447-e410e40830a6
+Wed, 03 Aug 2022 20:42:44-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.0cb4c34b-a2dd-4a6c-abe3-9eba4669b1a7
+Wed, 03 Aug 2022 20:42:44-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.0d1ed5ea-6f91-4d8e-9caa-03abd9f4b8f4
+Wed, 03 Aug 2022 20:42:44-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.0dec320b-e7eb-4518-821a-8d112e54d536
+Wed, 03 Aug 2022 20:42:44-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.0dff8ffb-6665-43ba-bd52-a7b47310753f
+Wed, 03 Aug 2022 20:42:44-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.0e05eaab-d613-44a2-9097-cd146769a8bc
+Wed, 03 Aug 2022 20:42:44-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.0e492703-d3bc-4504-ac79-edeb51a1b1fd
+Wed, 03 Aug 2022 20:42:44-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.0f043b70-d454-4fe7-aec0-f2714f4a11e8
+Wed, 03 Aug 2022 20:42:44-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.0f82dc53-eefd-4a28-bbc7-6d1aa75ab7be
+Wed, 03 Aug 2022 20:42:44-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.1043df0a-0788-41b8-888b-9f7e9a7b09b5
+Wed, 03 Aug 2022 20:42:44-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.10c6e0d7-6542-4c24-bd9b-c74a3749a345
+Wed, 03 Aug 2022 20:42:44-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.10e90f85-a7cf-448b-b7cb-5470c2031b3c
+Wed, 03 Aug 2022 20:42:44-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.10f1cead-5a5c-4b29-98e8-e81048c195ed
+Wed, 03 Aug 2022 20:42:44-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.1186768c-5ea9-4130-8071-eb5cef4d243c
+Wed, 03 Aug 2022 20:42:44-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.11ad0d13-1188-46b0-84df-ee43edc219ae
+Wed, 03 Aug 2022 20:42:44-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.11f14f65-4f71-4765-bbd7-e097d119d053
+Wed, 03 Aug 2022 20:42:44-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.12019b8a-4748-4064-8499-4881bd124b3e
+Wed, 03 Aug 2022 20:42:44-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.12850ad9-7959-4501-a62b-9ee3debac58f
+Wed, 03 Aug 2022 20:42:44-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.12d0789c-a932-494c-8fbf-bb2d700f3b8c
+Wed, 03 Aug 2022 20:42:44-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.1327a87b-3929-4cca-9dff-a2b2d2d045b3
+Wed, 03 Aug 2022 20:42:44-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.1354bad9-cf2b-43da-a8e2-2623500e9a32
+Wed, 03 Aug 2022 20:42:44-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.13ded83a-f2be-4def-9ad9-f8669c79ca1f
+Wed, 03 Aug 2022 20:42:44-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.143024ee-6310-4edd-b341-cfe5378ea841
+Wed, 03 Aug 2022 20:42:44-root-DataProcThread.py-[line:56]-INFO-[日志信息]: save unread to redis.ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc
+Wed, 03 Aug 2022 20:44:14-root-DBHelper.py-[line:33]-INFO-[日志信息]: mongodb://127.0.0.1:27017
+Wed, 03 Aug 2022 20:44:14-root-DBHelper.py-[line:36]-INFO-[日志信息]: im_database
+Wed, 03 Aug 2022 21:14:06-root-DBHelper.py-[line:33]-INFO-[日志信息]: mongodb://127.0.0.1:27017
+Wed, 03 Aug 2022 21:14:06-root-DBHelper.py-[line:36]-INFO-[日志信息]: im_database
+Wed, 03 Aug 2022 21:18:15-urllib3.connectionpool-connectionpool.py-[line:228]-DEBUG-[日志信息]: Starting new HTTP connection (1): 127.0.0.1:5000
+Wed, 03 Aug 2022 21:18:15-root-tcpservser.py-[line:78]-DEBUG-[日志信息]: 客户端连接。
+Wed, 03 Aug 2022 21:18:16-urllib3.connectionpool-connectionpool.py-[line:456]-DEBUG-[日志信息]: http://127.0.0.1:5000 "POST /api/login HTTP/1.1" 200 336

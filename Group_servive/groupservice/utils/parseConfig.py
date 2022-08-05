@@ -49,11 +49,11 @@ class XMLParser():
     def parse_mongodb_info(self):
         '''parse mongodb info, if something goes to wrong, return None '''
         try:
-            db_ip = self.find('mongoDB/host').text
-            db_port = self.find('mongoDB/port').text
-            db_user = self.find('mongoDB/username').text
-            db_pwd = self.find('mongoDB/password').text
-            db_database= self.find('mongoDB/database').text
+            db_ip = self.root.find('mongoDB/host').text
+            db_port = self.root.find('mongoDB/port').text
+            db_user = self.root.find('mongoDB/username').text
+            db_pwd = self.root.find('mongoDB/password').text
+            db_database= self.root.find('mongoDB/database').text
         except Exception as e:
             logger.debug(e)
             return None,None,None,None,None  #unpaking returns

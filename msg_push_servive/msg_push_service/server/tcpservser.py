@@ -2,115 +2,33 @@
 #encoding=utf8
 
 from socket import *
-import json
+import json, os
 import select
+import time
+import threading
 from msg_push_service.utils.MessageQueue import MQLocal
 from msg_push_service.utils.Logger import logger
-import struct
-import threading
-from msg_push_service.server.req_method import ReqMethod,ReqMethodStr
-from msg_push_service.utils.tokenProc import Jwt,TOKEN_PRODUCE_KEY
-import datetime
+from msg_push_service.server.req_method import ReqMethod
+from msg_push_service.utils.token_verify import token_verify
 from msg_push_service.utils.RedisOperator import redis
-from msg_push_service.utils.DBHelper import MongoDBHelper,MysqlDBHelper
-import uuid
-threadLock = threading.Lock()
-
-#通过value获取字典中的key
-def get_dict_key(dic, value):
-    key = None
-    try:
-        key = list(dic.keys())[list(dic.values()).index(value)]
-    except Exception as e:
-        return key
-    finally:
-        return key
-def token_verify(token):
-    try:
-        userid = None
-        payload = Jwt.decode(token.encode(), TOKEN_PRODUCE_KEY)
-        if payload:
-            if float(payload['exp']) < datetime.datetime.now().timestamp():
-                logger.info('token is disabled.')
-            userid = payload['userid']
-            token_in_cache = redis.get(userid)
-            if token_in_cache != token:
-                logger.info('token is disabled.')
-
-    except Exception:
-        logger.info('token is disabled.')
-    return userid
+from msg_push_service.utils.common import *
+from msg_push_service.server.send_thread import *
+from msg_push_service.server.DataProcThread import *
+import pickle
 
 class tcpserver:
     '''处理消息客户端消息转发的服务类'''
-    def __init__(self,host = '127.0.0.1', port = 5000):
+    def __init__(self, host='127.0.0.1', port=5000, msg_q=None):
         self.server = socket(AF_INET, SOCK_STREAM)
-        self.server.bind((host, port))
+        self.srv_addr = (host, port)
+        self.server.bind(self.srv_addr)
         self.server.listen(5)
         self.server.settimeout(50)#设置超时时间
-        self.socket_dict = {}
-        self.session_dict = {}
 
-    def __put_to_queue(self,data,s):
-        '''dec:处理接收到的数据，解析包，如果是包头，初始化队列，并且将包头数据加入队列，
-                如果是包体，并且是定义的方法类型，那么将数据放入队列
-            :param
-                data：收到的数据，字典类型。
-                s：客户端连接的socket'''
-        if not data:
-            return False
-
-        data = json.loads(data)
-        if int(data["method"]) == ReqMethod.LOGINMSG.value:
-            token = data["message"]['token']
-            start = time.time()
-            userid = token_verify(token)
-            if not userid:
-                logger.debug('token is invalid, send to client')
-                return False
-
-            if userid:
-                self.socket_dict[s] = userid
-            self.session_dict[s] = MQLocal(10000)
-            self.session_dict[s].put(data)
-            end = time.time()
-            logger.info("解析头耗时：{}".format(end - start))
-
-        elif int(data["method"]) in ReqMethod._value2member_map_:
-            token = data["message"]['token']
-            start = time.time()
-            userid = token_verify(token)
-            if not userid:
-                logger.debug('token is invalid, send to client')
-                return False
-            self.session_dict[s].put(data)
-            end = time.time()
-            logger.info("解析包体耗时：{}".format(end - start))
-        else:
-            logger.debug(data["method"],":the methon is not defined")
-            return False
-        return True
-
-    def __parse_head(self, data):
-        '''dec:data format:
-            {
-            "v": 1.0,
-            "l": 0
-            }
-            len is 8
-        '''
-        v = 0.0
-        l = 0
-        if data:
-            try:
-                v, l = struct.unpack('fi', data)
-            except Exception as e:
-                logger.debug(e)
-                return v, l
-            finally:
-                return v, l
-        else:
-            return v,l
+        self.pool = None
+        self.msg_q = msg_q
+        self.user_dict = dict() #存储每一个注册到此服务器的用户的socket
+        self.hostname = os.environ.get("COMPUTERNAME")
 
     def __recv_whole_packet(self, socket):
         '''dec:接收包头和包体
@@ -124,27 +42,29 @@ class tcpserver:
             logger.debug(e)
             return False
         # 客户端断开连接也会有读事件发生，这是读取的数据是空的
-        v, l = self.__parse_head(data)
-        logger.debug("收到包头:{}".format(data))
+        v, l = parse_head(data)
         if v != 1.0:
             return False
 
         data = socket.recv(l)
-        logger.debug("收到包体:{}".format(data))
-        return self.__put_to_queue(data,socket)
+        return data
 
-    def __destroy(self,s):
+    def __destroy(self, socket):
         '''dec:如果客户端断开连接，那么删除维护的客户端连接socket，销毁对应的消息队列，然后关闭socket'''
-        if self.session_dict.get(s):
-            del self.session_dict[s]
-        if self.socket_dict.get(s):
-            self.socket_dict.pop(s)
-        s.close()
+        #客户端断开连接，清楚缓存
+        #if self.user_dict.get(s):
+           #del self.session_dict[s]
+        userid = get_dict_key(self.user_dict, socket)
+        del self.user_dict[userid]
+        redis.lrem(userid+'-g',1, self.hostname)
 
-    def start_server(self):
+        socket.close()
+
+    def start_server(self, pool):
         inputs = [self.server]  # 存放需要被检测可读的socket
         outputs = []  # 存放需要被检测可写的socket
         timeout = 5
+        self.pool = pool
 
         while inputs:
             readable, writable, exceptional = select.select(inputs, outputs, inputs,timeout)
@@ -155,15 +75,42 @@ class tcpserver:
                     connection, client_address = s.accept()
                     inputs.append(connection)
                     logger.debug("客户端连接。")
-                    self.socket_dict[connection] = ''
 
                 else:
                     #有客户端发送数据，将接收缓冲区中有数据可读
-                    start= time.time()
-                    ret = self.__recv_whole_packet(s)
-                    end = time.time()
-                    logger.info("耗时：{}".format(end-start))
-                    if ret == True:
+
+                    data = self.__recv_whole_packet(s)
+                    if data:
+                        userid = token_verify(data.decode())
+                        if not userid:
+                            #token 不合法断开连接
+                            #self.__destroy(s)
+                            msg = dg = {'code': 201, 'msg': 'token is invalid.', 'data': ""}
+                            respose = json.dumps(msg)
+                            res = s.send(respose.encode(encoding='utf-8'))
+                            continue
+                        data = json.loads(data.decode())
+                        if is_methed(data,ReqMethod.LOGINMSG):
+                            #如果是注册消息，缓存用户在线状态
+                            value = s
+                            self.user_dict[userid] = s
+                            redis.lpush(userid+'-g', self.hostname)#全局缓存，维护系统所有用户以及其注册到哪台服务器中
+                        elif is_methed(data, ReqMethod.SENDMSG):
+                            msg_id = str(uuid.uuid4())
+                            data['message']['msg_id'] = msg_id
+                            if data['message'].get('g_o_u') == 0:
+                                # 提交数据处理任务到线程池，存储数据,缓存unread_list和read_list
+                                f = self.pool.submit(single_chat_msg_proc, data, userid, self.msg_q)
+                            else:
+                                #提交数据处理任务到线程池，获取所有成员，投递到消息发送队列，然后存储消息（离线的还要存储到缓存）,缓存unread_list和read_list
+                                future2 = self.pool.submit(group_chat_msg_proc, data, userid, self.msg_q)
+                        elif is_methed(data, ReqMethod.MSG_REVD):
+                            # 提交数据处理任务到线程池,存储数据，
+                            f = self.pool.submit(recvd_msg_proc, data, userid)
+                        elif is_methed(data, ReqMethod.MSGREAD):
+                            # 提交数据处理任务到线程池,根据消息ID找到所有消息的发送方，然后投递到消息队列中
+                            f = self.pool.submit(read_msg_proc, data, userid, self.msg_q)
+
                         if s not in outputs:
                             outputs.append(s)
                     else:
@@ -175,10 +122,9 @@ class tcpserver:
                         self.__destroy(s)
             # 可写
             for w in writable:
-                #msg = dg = {'code': 200, 'msg': 'msg success.', 'data': ""}
-                #respose = json.dumps(msg)
-                #res = w.send(respose.encode(encoding='utf-8'))
-                logger.debug("客户端可写。")
+                msg = dg = {'code': 200, 'msg': 'request success.', 'data': ""}
+                respose = json.dumps(msg)
+                res = w.send(respose.encode(encoding='utf-8'))
                 outputs.remove(w)
             # 异常
             for s in exceptional:
@@ -187,82 +133,3 @@ class tcpserver:
                     outputs.remove(s)
                 self.__destroy(s)
 
-from msg_push_service.utils.parseConfig import xml_parse
-import time
-mongo_ip, mongo_port, mongo_user, mongopwd, mongo_database = xml_parse.parse_mongodb_info()
-mysql_ip, mysql_port, mysql_user, mysql_pwd, mysql_database = xml_parse.parse_mysql_info()
-mysql = MysqlDBHelper(host=mysql_ip, port=int(mysql_port), user=mysql_user, pwd=mysql_pwd, database=mysql_database)
-mongodb = MongoDBHelper(host=mongo_ip, port=mongo_port, database=mongo_database)
-
-
-class DataProcThread(threading.Thread):
-    ''''自定义数据处理线程类'''
-    def __init__(self, ThreadID, name, *args):
-        threading.Thread.__init__(self)
-        self.ThreadID = ThreadID
-        self.name = name
-        self.session_d = args[0].session_dict
-        self.socket_d = args[0].socket_dict
-
-    def run(self):
-        while True:
-            # 对所有在线客户端发送的消息进行响应
-            for s in self.socket_d:
-                jdata = None
-                q = self.session_d.get(s)
-                if q:
-                    jdata = q.get()
-
-                if not jdata:
-                    continue
-                res_msg = {'code':200, "msg":'request success','data':""}
-                respose = json.dumps(res_msg)
-                res = s.send(respose.encode(encoding='utf-8'))
-                userid = self.socket_d.get(s)
-                group_id = ''
-                to = jdata["message"].get('to')
-                if to:
-                    is_send = 0
-                    content = jdata["message"].get('content')
-                    g_o_u = jdata["message"].get('g_o_u')
-                    msg_type = jdata["message"].get('msg_type')
-
-                    invalid_msg = False
-                    if not content or not msg_type or (g_o_u==None):
-                        res_m = {'code':401, "msg":'invalid msg param.','data':{}}
-                        invalid_msg = True
-
-                    else:
-                        res_m = {'code':200, "msg":'request success','data':{'from_u':userid,'content':content,"g_o_u":g_o_u, "msg_type":msg_type}}
-                    if g_o_u == 0:
-                        #好友点对点发送消息时直接发送
-                        # 重要未实现：发送时应该要校验发送对象是不是好友。
-                        response = json.dumps(res_m)
-                        if get_dict_key(self.socket_d, to):
-                            to_socket = get_dict_key(self.socket_d, to)  # 如果对方在线，向其转发消息。
-                            to_socket.send(response.encode(encoding='utf-8'))
-                            is_send = 1
-                        else:
-                            #save to reis
-                            pass
-                    else:
-                        #如果是向群组发送消息，那么从群组找到到所有的在线成员，将消息投递到消息队列，向所有成员发送。
-                        #重要未实现：应该要校验，该群组是不是发送方所在群
-                        group_id = to
-
-                    if not invalid_msg:
-                        created_at = datetime.datetime.now()
-                        msg_id = str(uuid.uuid4())
-                        data_list = [
-                            {"msg_id": msg_id, "user_id": to, "content": content, "from_u": userid, "group_id": group_id,"msg_type":msg_type, "is_send": is_send, "created_at": created_at}
-                        ]
-                        res = mongodb.insert(table='message', data_list=data_list)
-                        if not res:
-                            logger.error("insert message to mongdb failed.")
-                        id = uuid.uuid4()
-                        res = mysql.insert(table = 'message', id="\"{}\"".format(id), user_id="\"{}\"".format(to), content="\"{}\"".format(content),
-                                             from_u ="\"{}\"".format(userid), groupid="\"{}\"".format(group_id), is_send = is_send, create_at = 'now()')
-                        if res is None:
-                            logger.error("insert message to mysql failed.")
-            time.sleep(1)
-        logger.info('ExitThread %s \n' % self.name)

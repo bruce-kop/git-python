@@ -1,0 +1,230 @@
+Fri, 05 Aug 2022 09:51:00-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 05 Aug 2022 09:51:00-root-message.py-[line:54]-DEBUG-[日志信息]: A pipeline stage specification object must contain exactly one field., full error: {'ok': 0.0, 'errmsg': 'A pipeline stage specification object must contain exactly one field.', 'code': 40323, 'codeName': 'Location40323'}
+Fri, 05 Aug 2022 09:53:01-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 05 Aug 2022 09:53:01-root-message.py-[line:53]-DEBUG-[日志信息]: Unrecognized pipeline stage name: 'total', full error: {'ok': 0.0, 'errmsg': "Unrecognized pipeline stage name: 'total'", 'code': 40324, 'codeName': 'Location40324'}
+Fri, 05 Aug 2022 09:53:29-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 05 Aug 2022 09:53:29-root-message.py-[line:53]-DEBUG-[日志信息]: 'results'
+Fri, 05 Aug 2022 10:03:10-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 05 Aug 2022 10:03:10-root-message.py-[line:53]-DEBUG-[日志信息]: Unrecognized pipeline stage name: '$total', full error: {'ok': 0.0, 'errmsg': "Unrecognized pipeline stage name: '$total'", 'code': 40324, 'codeName': 'Location40324'}
+Fri, 05 Aug 2022 10:07:48-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 05 Aug 2022 10:07:48-root-message.py-[line:53]-DEBUG-[日志信息]: 'results'
+Fri, 05 Aug 2022 10:10:09-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 05 Aug 2022 10:10:09-root-message.py-[line:57]-DEBUG-[日志信息]: list index out of range
+Fri, 05 Aug 2022 10:11:29-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 05 Aug 2022 10:11:29-root-message.py-[line:57]-DEBUG-[日志信息]: Unrecognized pipeline stage name: 'total', full error: {'ok': 0.0, 'errmsg': "Unrecognized pipeline stage name: 'total'", 'code': 40324, 'codeName': 'Location40324'}
+Fri, 05 Aug 2022 10:36:30-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 05 Aug 2022 10:36:30-root-message.py-[line:57]-DEBUG-[日志信息]: The field '$count' must be an accumulator object, full error: {'ok': 0.0, 'errmsg': "The field '$count' must be an accumulator object", 'code': 40234, 'codeName': 'Location40234'}
+Fri, 05 Aug 2022 10:37:14-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 05 Aug 2022 10:37:14-root-message.py-[line:57]-DEBUG-[日志信息]: The field name '$count' cannot be an operator name, full error: {'ok': 0.0, 'errmsg': "The field name '$count' cannot be an operator name", 'code': 40236, 'codeName': 'Location40236'}
+Fri, 05 Aug 2022 10:38:30-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 05 Aug 2022 10:38:30-root-message.py-[line:57]-DEBUG-[日志信息]: list index out of range
+Fri, 05 Aug 2022 10:39:05-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 05 Aug 2022 10:39:05-root-message.py-[line:57]-DEBUG-[日志信息]: list index out of range
+Fri, 05 Aug 2022 10:39:34-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 05 Aug 2022 10:39:34-root-message.py-[line:57]-DEBUG-[日志信息]: list index out of range
+Fri, 05 Aug 2022 10:43:28-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 05 Aug 2022 10:43:28-root-message.py-[line:57]-DEBUG-[日志信息]: unhashable type: 'dict'
+Fri, 05 Aug 2022 10:46:41-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 05 Aug 2022 10:46:41-root-message.py-[line:57]-DEBUG-[日志信息]: unhashable type: 'dict'
+Fri, 05 Aug 2022 10:47:39-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 05 Aug 2022 10:47:39-root-message.py-[line:57]-DEBUG-[日志信息]: Unrecognized pipeline stage name: '$total', full error: {'ok': 0.0, 'errmsg': "Unrecognized pipeline stage name: '$total'", 'code': 40324, 'codeName': 'Location40324'}
+Fri, 05 Aug 2022 10:48:09-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 05 Aug 2022 10:48:09-root-message.py-[line:57]-DEBUG-[日志信息]: list index out of range
+Fri, 05 Aug 2022 10:49:37-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 05 Aug 2022 10:49:37-root-message.py-[line:57]-DEBUG-[日志信息]: Unrecognized pipeline stage name: '$total', full error: {'ok': 0.0, 'errmsg': "Unrecognized pipeline stage name: '$total'", 'code': 40324, 'codeName': 'Location40324'}
+Fri, 05 Aug 2022 11:18:29-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 05 Aug 2022 11:18:30-root-message.py-[line:57]-DEBUG-[日志信息]: list index out of range
+Fri, 05 Aug 2022 11:18:59-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 05 Aug 2022 11:18:59-root-message.py-[line:57]-DEBUG-[日志信息]: list index out of range
+Fri, 05 Aug 2022 11:22:16-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 05 Aug 2022 11:22:16-root-message.py-[line:57]-DEBUG-[日志信息]: list index out of range
+Fri, 05 Aug 2022 12:19:02-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 05 Aug 2022 12:19:02-root-message.py-[line:53]-DEBUG-[日志信息]: unsupported operand type(s) for +: 'NoneType' and 'NoneType'
+Fri, 05 Aug 2022 12:21:45-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 05 Aug 2022 12:22:41-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 05 Aug 2022 12:23:27-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 05 Aug 2022 12:24:52-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 05 Aug 2022 12:27:11-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 05 Aug 2022 12:29:12-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 05 Aug 2022 12:29:19-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find
+Fri, 05 Aug 2022 13:24:11-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 05 Aug 2022 13:24:11-root-message.py-[line:132]-DEBUG-[日志信息]: list index out of range
+Fri, 05 Aug 2022 13:25:49-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 05 Aug 2022 13:25:49-root-message.py-[line:132]-DEBUG-[日志信息]: local variable 'totalCount' referenced before assignment
+Fri, 05 Aug 2022 13:26:26-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 05 Aug 2022 13:26:26-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 05 Aug 2022 13:26:56-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 05 Aug 2022 13:27:20-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 05 Aug 2022 13:27:30-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 05 Aug 2022 13:29:51-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 05 Aug 2022 13:30:09-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 05 Aug 2022 13:31:39-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 05 Aug 2022 13:31:51-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 05 Aug 2022 14:03:57-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 05 Aug 2022 14:03:57-root-message.py-[line:134]-DEBUG-[日志信息]: 'CommandCursor' object has no attribute 'aggregate'
+Fri, 05 Aug 2022 14:30:16-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 05 Aug 2022 14:30:16-root-message.py-[line:134]-DEBUG-[日志信息]: 'CommandCursor' object has no attribute 'aggregate'
+Fri, 05 Aug 2022 14:32:21-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/find_by
+Fri, 05 Aug 2022 14:32:21-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/unreaders
+Fri, 05 Aug 2022 14:32:57-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/unreaders
+Fri, 05 Aug 2022 14:33:26-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/unreaders
+Fri, 05 Aug 2022 14:33:55-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/unreaders
+Fri, 05 Aug 2022 14:36:54-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/unreaders
+Fri, 05 Aug 2022 14:36:54-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/unreaders [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 318, in message_unreads
+    for m in msg_ids:
+TypeError: 'NoneType' object is not iterable
+Fri, 05 Aug 2022 14:37:41-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/unreaders
+Fri, 05 Aug 2022 14:37:41-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/unreaders [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 318, in message_unreads
+    for m in msg_ids:
+TypeError: 'NoneType' object is not iterable
+Fri, 05 Aug 2022 14:38:18-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/unreaders
+Fri, 05 Aug 2022 14:38:18-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/unreaders [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 319, in message_unreads
+    for m in msg_ids:
+TypeError: 'NoneType' object is not iterable
+Fri, 05 Aug 2022 14:39:00-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/unreaders
+Fri, 05 Aug 2022 14:39:00-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/unreaders [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 320, in message_unreads
+    m_l = redis.get(m+'-u')
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\commands\core.py", line 1705, in get
+    return self.execute_command("GET", name)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\client.py", line 1238, in execute_command
+    return conn.retry.call_with_retry(
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\client.py", line 1239, in <lambda>
+    lambda: self._send_command_parse_response(
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\client.py", line 1215, in _send_command_parse_response
+    return self.parse_response(conn, command_name, **options)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\client.py", line 1254, in parse_response
+    response = connection.read_response()
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 839, in read_response
+    raise response
+redis.exceptions.ResponseError: WRONGTYPE Operation against a key holding the wrong kind of value
+Fri, 05 Aug 2022 14:40:20-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/unreaders
+Fri, 05 Aug 2022 14:40:20-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/unreaders [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 319, in message_unreads
+    m_l = redis.get(m+'-u')
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\commands\core.py", line 1705, in get
+    return self.execute_command("GET", name)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\client.py", line 1238, in execute_command
+    return conn.retry.call_with_retry(
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\client.py", line 1239, in <lambda>
+    lambda: self._send_command_parse_response(
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\client.py", line 1215, in _send_command_parse_response
+    return self.parse_response(conn, command_name, **options)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\client.py", line 1254, in parse_response
+    response = connection.read_response()
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 839, in read_response
+    raise response
+redis.exceptions.ResponseError: WRONGTYPE Operation against a key holding the wrong kind of value
+Fri, 05 Aug 2022 14:42:24-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/unreaders
+Fri, 05 Aug 2022 14:43:10-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/unreaders
+Fri, 05 Aug 2022 14:43:10-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/unreaders [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 319, in message_unreads
+    m_l = redis.get(m+'-u')
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\commands\core.py", line 1705, in get
+    return self.execute_command("GET", name)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\client.py", line 1238, in execute_command
+    return conn.retry.call_with_retry(
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\client.py", line 1239, in <lambda>
+    lambda: self._send_command_parse_response(
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\client.py", line 1215, in _send_command_parse_response
+    return self.parse_response(conn, command_name, **options)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\client.py", line 1254, in parse_response
+    response = connection.read_response()
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 839, in read_response
+    raise response
+redis.exceptions.ResponseError: WRONGTYPE Operation against a key holding the wrong kind of value
+Fri, 05 Aug 2022 15:06:15-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/unreaders
+Fri, 05 Aug 2022 15:06:15-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/msg/unreaders [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\msg_servive\msgservice\views\message.py", line 319, in message_unreads
+    try:
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\commands\core.py", line 1705, in get
+    return self.execute_command("GET", name)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\client.py", line 1238, in execute_command
+    return conn.retry.call_with_retry(
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\client.py", line 1239, in <lambda>
+    lambda: self._send_command_parse_response(
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\client.py", line 1215, in _send_command_parse_response
+    return self.parse_response(conn, command_name, **options)
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\client.py", line 1254, in parse_response
+    response = connection.read_response()
+  File "D:\Programs\Python\Python310\lib\site-packages\redis\connection.py", line 839, in read_response
+    raise response
+redis.exceptions.ResponseError: WRONGTYPE Operation against a key holding the wrong kind of value
+Fri, 05 Aug 2022 15:06:27-root-app.py-[line:44]-INFO-[日志信息]: /api/msg/unreaders
+Fri, 05 Aug 2022 15:06:27-root-message.py-[line:323]-DEBUG-[日志信息]: WRONGTYPE Operation against a key holding the wrong kind of value
+Fri, 05 Aug 2022 15:06:27-root-message.py-[line:323]-DEBUG-[日志信息]: WRONGTYPE Operation against a key holding the wrong kind of value
+Fri, 05 Aug 2022 15:06:27-root-message.py-[line:323]-DEBUG-[日志信息]: WRONGTYPE Operation against a key holding the wrong kind of value

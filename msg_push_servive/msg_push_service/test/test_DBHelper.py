@@ -59,5 +59,8 @@ class MysqlDBHelperTestCase(unittest.TestCase):
         print(res)
         self.assertIsNotNone(res)
 
+
+
+
 if __name__ == '__main__':
     unittest.main()

@@ -11,9 +11,9 @@ core:
 '''
 
 from pymongo import MongoClient
-from abc import ABC, abstractmethod
+from abc import ABC
 from msg_push_service.utils.Logger import logger
-from msg_push_service.utils.Singleton import Singleton
+from msg_push_service.utils.parseConfig import xml_parse
 import pymongo
 import traceback
 
@@ -30,10 +30,8 @@ class MongoDBHelper(DBHelper):
             db_addr = "mongodb://{}:{}".format(host, port)
         else:
             db_addr = "mongodb://{}:{}@{}:{}/{}".format(user, pwd, host, port, database)
-        logger.info(db_addr)
         self.__client = MongoClient(db_addr)
         self.__db = self.__client[database]
-        logger.info(database)
 
     def execute(self, sql):
         pass
@@ -347,3 +345,10 @@ class MysqlDBHelper(DBHelper):
         if self.__client is not None:
             self.__client.close()
         return
+
+
+mongo_ip, mongo_port, mongo_user, mongopwd, mongo_database = xml_parse.parse_mongodb_info()
+mysql_ip, mysql_port, mysql_user, mysql_pwd, mysql_database = xml_parse.parse_mysql_info()
+
+mysql = MysqlDBHelper(host=mysql_ip, port=int(mysql_port), user=mysql_user, pwd=mysql_pwd, database=mysql_database)
+mongodb = MongoDBHelper(host=mongo_ip, port=int(mongo_port), database=mongo_database)

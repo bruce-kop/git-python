@@ -2,9 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a10a2427-da0b-494a-a0d4-12c8fc0c8841" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../Group_servive/groupservice/Docs/groupservice.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Group_servive/groupservice/test/rpc_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Group_servive/groupservice/views/groups_svr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg_push_service/server/DataProcThread.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg_push_service/server/send_thread.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg_push_service/test/redis_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg_push_service/test/test_common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg_push_service/test/test_tcpserver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg_push_service/utils/common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg_push_service/utils/token_verify.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../msg_servive/msgservice/views/pipeline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Group_servive/groupservice/Docs/config" beforeDir="false" afterPath="$PROJECT_DIR$/../Group_servive/groupservice/Docs/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Group_servive/groupservice/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Group_servive/groupservice/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Group_servive/groupservice/models/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Group_servive/groupservice/models/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Group_servive/groupservice/utils/parseConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Group_servive/groupservice/utils/parseConfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Group_servive/groupservice/views/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Group_servive/groupservice/views/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Group_servive/groupservice/views/groups.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Group_servive/groupservice/views/groups.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/msg_push_service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/msg_push_service.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msg_servive/msgservice/logs/2022-07-29-all.log" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_servive/msgservice/logs/2022-07-29-all.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msg_servive/msgservice/logs/2022-07-29-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_servive/msgservice/logs/2022-07-29-error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msg_push_service/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/msg_push_service/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msg_push_service/server/MSGService.py" beforeDir="false" afterPath="$PROJECT_DIR$/msg_push_service/server/MSGService.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msg_push_service/server/req_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/msg_push_service/server/req_method.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msg_push_service/server/tcpservser.py" beforeDir="false" afterPath="$PROJECT_DIR$/msg_push_service/server/tcpservser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msg_push_service/test/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/msg_push_service/test/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msg_push_service/test/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/msg_push_service/test/test1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msg_push_service/test/test_DBHelper.py" beforeDir="false" afterPath="$PROJECT_DIR$/msg_push_service/test/test_DBHelper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msg_push_service/test/user_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/msg_push_service/test/user_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msg_push_service/utils/DBHelper.py" beforeDir="false" afterPath="$PROJECT_DIR$/msg_push_service/utils/DBHelper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msg_push_service/utils/MessageQueue.py" beforeDir="false" afterPath="$PROJECT_DIR$/msg_push_service/utils/MessageQueue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msg_servive/.idea/msgservive.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_servive/.idea/msgservive.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msg_servive/msgservice/logs/2022-07-30-all.log" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_servive/msgservice/logs/2022-07-30-all.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msg_servive/msgservice/models/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_servive/msgservice/models/database.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../msg_servive/msgservice/test/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_servive/msgservice/test/client.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../msg_servive/msgservice/views/message.py" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_servive/msgservice/views/message.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../userservive/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../userservive/.idea/workspace.xml" afterDir="false" />
@@ -190,12 +220,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/git-python/msg_push_servive"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/git-python/msg_push_servive&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\git-python\msg_push_servive\msg_push_service\service_" />
@@ -224,19 +254,18 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="msg_push_service" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="D:\Programs\Python\Python310\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/msg_push_service" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/msg_push_service/app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -274,9 +303,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="D:\Programs\Python\Python310\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/msg_push_service/test" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/msg_push_service/test/client.py" />
@@ -295,9 +324,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="D:\Programs\Python\Python310\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/msg_push_service/test" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/msg_push_service/test/user_client.py" />
@@ -310,9 +339,9 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.client" />
       <item itemvalue="Python.app (1)" />
       <item itemvalue="Python.client (1)" />
+      <item itemvalue="Python.client" />
       <item itemvalue="Python.app" />
       <item itemvalue="Python.user_client" />
     </list>
@@ -320,9 +349,9 @@
       <list>
         <item itemvalue="Python.client (1)" />
         <item itemvalue="Python.app (1)" />
-        <item itemvalue="Python.app" />
         <item itemvalue="Python.user_client" />
         <item itemvalue="Python.client" />
+        <item itemvalue="Python.app" />
       </list>
     </recent_temporary>
   </component>
@@ -447,6 +476,11 @@
           <url>file://$PROJECT_DIR$/msg_push_service/test/client.py</url>
           <line>7</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/msg_push_service/server/tcpservser.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

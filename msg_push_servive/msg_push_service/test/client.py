@@ -55,7 +55,6 @@ def login():
     p={'phone':'18969196681','pwd':'Hik123456'}
     p = json.dumps(p)
     url = 'http://127.0.0.1:5000/api/login'
-    print(p)
     res = requests.post(url, headers=hd, json=p)
     json_data = json.loads(res.text)
     return json_data['data']['token']
@@ -116,7 +115,7 @@ def start_client(addr, port):
     s = socket.socket()
     s.settimeout(30)
     s.connect((PLC_ADDR, PLC_PORT))
-    return  s
+    return s
 
 
 def sendmsg(s,dg):
@@ -132,19 +131,24 @@ def sendmsg(s,dg):
     s.send(req)
 
 
-def recvdata():
+def recvdata(s):
+    msg = None
     try:
         recv_data = s.recv(1024)
         rdata = recv_data.decode(encoding='utf-8')
         rdata = json.loads(rdata)
-        d = rdata.get('data')
+        d = rdata.get('message')
+        print(rdata)
         if d:
-            from_u = d.get('from_u')
+            sender = d.get('sender')
             msg = d.get('content')
 
-            print("from:{}{}  {}".format(from_u,'\n', msg))
-    except TimeoutError as e:
-        pass
+            print("sender:{}{}   msg:{}".format(sender, '\n', msg))
+        else:
+            print(rdata)
+    except TimeoutError:
+        msg = None
+    return msg
 
 def recvdata_fe(dg):
     while True:
@@ -176,22 +180,23 @@ def pro_data_callback(future):
     '''
     pass
 
-def recv_():
+def recv_(s):
     print('start recv.')
     while True:
-        recvdata()
+        recvdata(s)
         time.sleep(1)
 def dataproc():
     while True:
         time.sleep(1)
 
 class myThread(threading.Thread): #集成父类threading.Thread
-    def __init__(self,threadID, name):
+    def __init__(self,threadID, name,s):
         threading.Thread.__init__(self)
         self.threadID = threadID
         self.name = name
+        self.s= s
     def run(self): #把要执行代码写到run函数里面，线程在创建后会直接运行run函数
-       recv_()
+       recv_(self.s)
 
 if __name__ == '__main__':
     #18969196681  f692b513-8e1c-410a-927b-58687b85dcc8
@@ -202,15 +207,15 @@ if __name__ == '__main__':
     dg = {"method": "4001", "message": {"token": token}}
     sendmsg(s, dg)
 
-    recvdata()
+    recvdata(s)
 
-    t_handle = myThread(1, "DP")
+    t_handle = myThread(1, "DP", s)
     t_handle.start()
 
     print("开始发送：")
 
     while True:
         msg = input("我:")
-        dg = {"method": "4003", "message": {"token": token, "content": msg, "to": 'ba0b7df0-a7ca-4a31-93d6-e0bcefc41ddc', "g_o_u":0, "msg_type":"pic"}}
+        dg = {"method": "4002", "message": {"token": token, "content": msg, "receiver": '42177ae4-81bf-4bc8-8fc5-74a025cd154f', "group_id": '42177ae4-81bf-4bc8-8fc5-74a025cd154f',"g_o_u":1, "msg_type":"pic"}}
         sendmsg(s, dg)
 
