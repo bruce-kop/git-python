@@ -49,19 +49,29 @@ class XMLParser():
     def parse_mongodb_info(self):
         '''parse mongodb info, if something goes to wrong, return None '''
         try:
-            db_ip = self.find('mongoDB/host').text
-            db_port = self.find('mongoDB/port').text
-            db_user = self.find('mongoDB/username').text
-            db_pwd = self.find('mongoDB/password').text
-            db_database= self.find('mongoDB/database').text
+            db_ip = self.root.find('mongoDB/host').text
+            db_port = self.root.find('mongoDB/port').text
+            db_user = self.root.find('mongoDB/username').text
+            db_pwd = self.root.find('mongoDB/password').text
+            db_database= self.root.find('mongoDB/database').text
         except Exception as e:
             logger.debug(e)
             return None,None,None,None,None  #unpaking returns
         return db_ip,db_port,db_user,db_pwd,db_database  #unpaking returns
 
+    def parse_service_info(self):
+        '''parse mongodb info, if something goes to wrong, return None '''
+        try:
+            ip = self.root.find('service/host').text
+            port = self.root.find('service/port').text
+        except Exception as e:
+            logger.debug(e)
+            return None,0  #unpaking returns
+        return ip, int(port)  #unpaking returns
+
 
 #Declare global variables
 current_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 #file = os.path.join(current_path, '.\Docs\config')
-file = '.\Docs\config'
+file = './Docs/config'
 xml_parse = XMLParser(file)

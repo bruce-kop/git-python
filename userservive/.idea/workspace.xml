@@ -2,43 +2,77 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a10a2427-da0b-494a-a0d4-12c8fc0c8841" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../Group_servive/groupservice/Docs/groupservice.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Group_servive/groupservice/test/rpc_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Group_servive/groupservice/views/groups_svr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../msg_push_servive/msg_push_service/server/DataProcThread.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../msg_push_servive/msg_push_service/server/send_thread.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../msg_push_servive/msg_push_service/test/redis_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../msg_push_servive/msg_push_service/test/test_common.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../msg_push_servive/msg_push_service/test/test_tcpserver.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../msg_push_servive/msg_push_service/utils/common.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../msg_push_servive/msg_push_service/utils/token_verify.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../msg_servive/msgservice/views/pipeline.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Group_servive/groupservice/Docs/config" beforeDir="false" afterPath="$PROJECT_DIR$/../Group_servive/groupservice/Docs/config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Group_servive/groupservice/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Group_servive/groupservice/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Group_servive/groupservice/models/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Group_servive/groupservice/models/database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Group_servive/groupservice/utils/parseConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Group_servive/groupservice/utils/parseConfig.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Group_servive/groupservice/views/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Group_servive/groupservice/views/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Group_servive/groupservice/views/groups.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Group_servive/groupservice/views/groups.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msg_push_servive/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_push_servive/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msg_push_servive/.idea/msg_push_service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_push_servive/.idea/msg_push_service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userservice/test/test_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userservice/test/test_register.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userservice/test/test_requestparse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userservice/test/test_token_produce.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userservice/test/test_unsubscribe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userservice/test/test_user_modify.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userservice/test/test_user_query.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userservice/test/test_verifycode.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../msg_push_servive/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_push_servive/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msg_push_servive/msg_push_service/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_push_servive/msg_push_service/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msg_push_servive/msg_push_service/server/MSGService.py" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_push_servive/msg_push_service/server/MSGService.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msg_push_servive/msg_push_service/server/req_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_push_servive/msg_push_service/server/req_method.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msg_push_servive/msg_push_service/server/tcpservser.py" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_push_servive/msg_push_service/server/tcpservser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msg_push_servive/msg_push_service/test/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_push_servive/msg_push_service/test/client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msg_push_servive/msg_push_service/test/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_push_servive/msg_push_service/test/test1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msg_push_servive/msg_push_service/test/test_DBHelper.py" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_push_servive/msg_push_service/test/test_DBHelper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msg_push_servive/msg_push_service/test/user_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_push_servive/msg_push_service/test/user_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msg_push_servive/msg_push_service/utils/DBHelper.py" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_push_servive/msg_push_service/utils/DBHelper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msg_push_servive/msg_push_service/utils/MessageQueue.py" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_push_servive/msg_push_service/utils/MessageQueue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msg_servive/.idea/msgservive.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_servive/.idea/msgservive.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msg_servive/msgservice/logs/2022-07-30-all.log" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_servive/msgservice/logs/2022-07-30-all.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msg_servive/msgservice/models/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_servive/msgservice/models/database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msg_servive/msgservice/test/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_servive/msgservice/test/client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msg_servive/msgservice/views/message.py" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_servive/msgservice/views/message.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msg_push_servive/msg_push_service/logs/2022-08-04-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_push_servive/msg_push_service/logs/2022-08-04-error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/msgservive.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/msgservive.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/logs/2022-07-28-all.log" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/logs/2022-07-28-all.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/Analysis-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/EXE-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/PKG-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/PYZ-00.pyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/PYZ-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/Tree-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/Tree-01.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/Tree-02.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/app.exe.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/app.pkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/base_library.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/warn-app.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/xref-app.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Docs/config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Docs/message.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Docs/protocol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Docs/redis" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Docs/redisData" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Docs/settings.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Docs/sql/create_database.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Docs/sql/friend_addr_book.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Docs/sql/group.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Docs/sql/group_addr_book.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Docs/sql/group_role_au.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Docs/sql/group_user.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Docs/sql/group_user_role.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Docs/sql/groupau.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Docs/sql/grouprole.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Docs/sql/message.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Docs/sql/oauths.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Docs/sql/user.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Docs/sql/user_extends.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Docs/user_msg.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/app.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/app.spec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/Docs/config" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/Docs/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/Docs/message.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/Docs/protocol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/Docs/redis" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/Docs/redisData" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/Docs/user_msg.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/auth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/models/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/models/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/test/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/test/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/test/test_database.py" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/test/test_database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/test/test_verify_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/test/test_verify_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/utils/Logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/utils/Logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/utils/parseConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/utils/parseConfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/utils/requestParse.py" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/utils/requestParse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/utils/res_msg_enum.py" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/utils/res_msg_enum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/utils/responseBuild.py" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/utils/responseBuild.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/utils/tokenProc.py" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/utils/tokenProducer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/views/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/views/auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/views/logout.py" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/views/logout.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/views/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/views/users.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,8 +97,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Unit Test" />
         <option value="Python Script" />
+        <option value="Python Unit Test" />
       </list>
     </option>
   </component>
@@ -188,6 +222,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "D:/git-python/msg_push_servive"
   }
 }]]></component>
@@ -196,7 +231,7 @@
       <recent name="D:\git-python\userservive\userservice" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.app (2)">
+  <component name="RunManager" selected="Python tests.Twisted Trial in test_user_query.py">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="msgservive" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -210,111 +245,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="app (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="groupservive" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="D:\Programs\Python\Python310\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Group_servive/groupservice" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Group_servive/groupservice/app.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="groupservive" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="D:\Programs\Python\Python310\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Group_servive/groupservice/test" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Group_servive/groupservice/test/client.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="groups_svr (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="groupservive" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="D:\Programs\Python\Python310\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Group_servive/groupservice/views" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Group_servive/groupservice/views/groups_svr.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="groups_svr" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="groupservive" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="D:\Programs\Python\Python310\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Group_servive/groupservice/views" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\git-python\Group_servive\groupservice\views\groups_svr.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="rpc_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="groupservive" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="D:\Programs\Python\Python310\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Group_servive/groupservice/test" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Group_servive/groupservice/test/rpc_client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -366,6 +296,76 @@
       <option name="docutils_open_in_browser" value="false" />
       <method v="2" />
     </configuration>
+    <configuration name="Twisted Trial in test_login.py" type="tests" factoryName="Twisted Trial" temporary="true" nameIsGenerated="true">
+      <module name="msgservive" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/userservice/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/userservice/test/test_login.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Twisted Trial in test_register.py" type="tests" factoryName="Twisted Trial" temporary="true" nameIsGenerated="true">
+      <module name="msgservive" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/userservice/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/userservice/test/test_register.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Twisted Trial in test_unsubscribe.py" type="tests" factoryName="Twisted Trial" temporary="true" nameIsGenerated="true">
+      <module name="msgservive" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/userservice/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/userservice/test/test_unsubscribe.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Twisted Trial in test_user_modify.py" type="tests" factoryName="Twisted Trial" temporary="true" nameIsGenerated="true">
+      <module name="msgservive" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/userservice/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/userservice/test/test_user_modify.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Twisted Trial in test_user_query.py" type="tests" factoryName="Twisted Trial" temporary="true" nameIsGenerated="true">
+      <module name="msgservive" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/userservice/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/userservice/test/test_user_query.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
       <module name="msgservive" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -413,19 +413,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.app (2)" />
-      <item itemvalue="Python.client" />
-      <item itemvalue="Python.groups_svr" />
-      <item itemvalue="Python.groups_svr (1)" />
-      <item itemvalue="Python.rpc_client" />
+      <item itemvalue="Python tests.Twisted Trial in test_login.py" />
+      <item itemvalue="Python tests.Twisted Trial in test_register.py" />
+      <item itemvalue="Python tests.Twisted Trial in test_unsubscribe.py" />
+      <item itemvalue="Python tests.Twisted Trial in test_user_modify.py" />
+      <item itemvalue="Python tests.Twisted Trial in test_user_query.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.app (2)" />
-        <item itemvalue="Python.rpc_client" />
-        <item itemvalue="Python.groups_svr (1)" />
-        <item itemvalue="Python.groups_svr" />
-        <item itemvalue="Python.client" />
+        <item itemvalue="Python tests.Twisted Trial in test_user_query.py" />
+        <item itemvalue="Python tests.Twisted Trial in test_login.py" />
+        <item itemvalue="Python tests.Twisted Trial in test_user_modify.py" />
+        <item itemvalue="Python tests.Twisted Trial in test_register.py" />
+        <item itemvalue="Python tests.Twisted Trial in test_unsubscribe.py" />
       </list>
     </recent_temporary>
   </component>

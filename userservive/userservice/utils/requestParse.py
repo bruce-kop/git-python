@@ -10,29 +10,16 @@
 import json
 from json.decoder import JSONDecodeError
 from userservice.utils.Logger import logger
-from functools import wraps
-from flask import jsonify
 
-def dg_common_check(func):
-    """decorater：the common check fun of request data."""
-    @wraps(func)
-    def wrapper(*arg, **kwargs):
-        try:
-            data = json.loads(arg[0])
-        except JSONDecodeError:
-            logger.debug("json data decode error.")
-            return None
-        ret = func(*arg, **kwargs)
-        return ret
-    return wrapper
 
 class parser:
     '''parse the Im protocol'''
-    def __init__(self):
-        pass
 
-    @dg_common_check
     @staticmethod
     def parse_to_dict(jdata):
-        data = json.loads(eval(jdata.decode()))
+        try:
+            data = json.loads(eval(jdata.decode()))
+        except JSONDecodeError:
+            logger.debug("json data decode error.")
+            return None
         return data

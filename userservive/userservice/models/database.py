@@ -4,7 +4,7 @@ from sqlalchemy.orm import relationship
 from flask_sqlalchemy import SQLAlchemy
 
 
-db = SQLAlchemy()
+db = SQLAlchemy(engine_options={'pool_recycle': 3600, 'pool_size': 20})
 
 
 class User(db.Model):

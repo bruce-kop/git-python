@@ -2,43 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a10a2427-da0b-494a-a0d4-12c8fc0c8841" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../Group_servive/groupservice/Docs/groupservice.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Group_servive/groupservice/test/rpc_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Group_servive/groupservice/views/groups_svr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msg_push_service/server/DataProcThread.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msg_push_service/server/send_thread.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msg_push_service/test/redis_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msg_push_service/test/test_common.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msg_push_service/test/test_tcpserver.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msg_push_service/utils/common.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msg_push_service/utils/token_verify.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../msg_servive/msgservice/views/pipeline.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Group_servive/groupservice/Docs/config" beforeDir="false" afterPath="$PROJECT_DIR$/../Group_servive/groupservice/Docs/config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Group_servive/groupservice/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Group_servive/groupservice/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Group_servive/groupservice/models/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Group_servive/groupservice/models/database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Group_servive/groupservice/utils/parseConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Group_servive/groupservice/utils/parseConfig.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Group_servive/groupservice/views/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Group_servive/groupservice/views/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Group_servive/groupservice/views/groups.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Group_servive/groupservice/views/groups.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/msg_push_service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/msg_push_service.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msg_push_service/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/msg_push_service/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msg_push_service/server/MSGService.py" beforeDir="false" afterPath="$PROJECT_DIR$/msg_push_service/server/MSGService.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msg_push_service/server/req_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/msg_push_service/server/req_method.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msg_push_service/server/tcpservser.py" beforeDir="false" afterPath="$PROJECT_DIR$/msg_push_service/server/tcpservser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msg_push_service/test/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/msg_push_service/test/client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msg_push_service/test/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/msg_push_service/test/test1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msg_push_service/test/test_DBHelper.py" beforeDir="false" afterPath="$PROJECT_DIR$/msg_push_service/test/test_DBHelper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msg_push_service/test/user_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/msg_push_service/test/user_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msg_push_service/utils/DBHelper.py" beforeDir="false" afterPath="$PROJECT_DIR$/msg_push_service/utils/DBHelper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msg_push_service/utils/MessageQueue.py" beforeDir="false" afterPath="$PROJECT_DIR$/msg_push_service/utils/MessageQueue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msg_servive/.idea/msgservive.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_servive/.idea/msgservive.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msg_servive/msgservice/logs/2022-07-30-all.log" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_servive/msgservice/logs/2022-07-30-all.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msg_servive/msgservice/models/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_servive/msgservice/models/database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msg_servive/msgservice/test/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_servive/msgservice/test/client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msg_servive/msgservice/views/message.py" beforeDir="false" afterPath="$PROJECT_DIR$/../msg_servive/msgservice/views/message.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msg_push_service/logs/2022-08-04-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/msg_push_service/logs/2022-08-04-error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../userservive/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../userservive/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../userservive/userservice/logs/2022-07-28-all.log" beforeDir="false" afterPath="$PROJECT_DIR$/../userservive/userservice/logs/2022-07-28-all.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

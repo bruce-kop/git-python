@@ -1,4 +1,12 @@
 flask
 redis
+gevent
+konfig
+PIL
+xml.etree
+sqlalchemy
+sqlalchemy.exc
+flask_login
 flask-wtf
 flask-sqlalchemy
+werkzeug

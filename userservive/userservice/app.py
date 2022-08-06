@@ -1,17 +1,18 @@
-import os
-from flask import Flask, Blueprint,request,g
-from gevent import pywsgi
-from userservice.models.database import db, User
-from userservice.views import blueprints
-from userservice.utils.Logger import logger
-from userservice.utils.requestParse import parser
-from userservice.utils.global_enum import APIS
-from userservice.utils.tokenProc import Jwt,TOKEN_PRODUCE_KEY
-import datetime
-from konfig import Config
-from userservice.utils.RedisOperator import redis
+#encoding=utf8
 
-#from flask_cache import Cache
+import datetime
+from gevent import pywsgi
+
+from konfig import Config
+from flask import Flask, request, g
+from models.database import db
+from views import blueprints
+from utils.Logger import logger
+from utils.requestParse import parser
+from utils.global_enum import APIS
+from utils.tokenProducer import Jwt,TOKEN_PRODUCE_KEY
+from utils.RedisOperator import redis
+from utils.parseConfig import xml_parse
 
 def create_app():
     app = Flask(__name__)
@@ -33,41 +34,47 @@ app = create_app()
 
 @app.before_request
 def authenticate():
-    if request.data:
-        i = request.url.rfind('/api')
-        api =request.url[i:]
-        logger.info(api)
-        if api not in APIS:
-            data = parser.parse_to_dict(request.data)
-            token = data.get('token')
-            g.token = token
-            logger.debug(token)
-
-            try:
-                res = Jwt.decode(token.encode(), TOKEN_PRODUCE_KEY)
-            except ValueError as e:
-                logger.debug(e)
-                g.userid = None
-                return
-
-            if float(res['exp']) < datetime.datetime.now().timestamp():
-                logger.info(datetime.datetime.now().timestamp())
-                g.userid = None
-            token_in_cache = redis.get(res['userid'])
-            if token_in_cache != token:
-                logger.info('token is disabled.')
-                g.userid = None
-            else:
-                logger.info(res)
-                g.userid = res['userid']
-        else:
-            logger.info("reuquest api:{}".format(api))
-            g.userid = None
-    else:
+    if not request.data:
         g.userid = None
+        return
+
+    i = request.url.rfind('/api')
+    api = request.url[i:]
+    if api in APIS:
+        # APIS列表中的API不需要token验证
+        g.userid = None
+        return
+
+    data = parser.parse_to_dict(request.data)
+    token = data.get('token')
+    g.token = token
+
+    try:
+        res = Jwt.decode(token.encode(), TOKEN_PRODUCE_KEY)
+    except ValueError as e:
+        logger.debug(e)
+        g.userid = None
+        return
+
+    #校验token是否过期
+    if float(res['exp']) < datetime.datetime.now().timestamp():
+        g.userid = None
+        return
+
+    #和缓存的token校验，确认该token是否是给这个用户颁发的
+    token_in_cache = redis.get(res['userid'])
+    if token_in_cache != token:
+        logger.debug('token is invalid.')
+        g.userid = None
+    else:
+        logger.info(res)
+        g.userid = res['userid']
+
+    return
 
 if __name__ == '__main__':
-
-    server = pywsgi.WSGIServer(('127.0.0.1', 5000), app)
+    logger.info("start userserver")
+    addr = xml_parse.parse_service_info()
+    server = pywsgi.WSGIServer(addr, app)
     server.serve_forever()
     #app.run()#开发环境运行

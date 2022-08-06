@@ -16,8 +16,8 @@ class ResCode(Enum):
     VERRIFY_CODE_SUCCESS = 300
     VERRIFY_CODE_FAILED = 301
     REGISTER_SUCCESS = 400
-    REGISTER_PWD_INVALID = 401
-    REGISTER_PHONE_FORMAT_INVALID = 402
+    PWD_INVALID = 401
+    PHONE_FORMAT_INVALID = 402
     REGISTER_VERRIFY_CODE_ERROR = 403
     REGISTER_USER_EXISTS = 405
 
@@ -42,6 +42,7 @@ class ResCode(Enum):
 
     PHONE_MODIFY_SUCCESS = 1000
     PHONE_MODIFY_FAILED = 1001
+    OLDER_PHONE_INVALID = 1002
 
 @unique
 class ResMSG(Enum):
@@ -53,8 +54,8 @@ class ResMSG(Enum):
     VERRIFY_CODE_FAILED = 'get verify code faild.'
 
     REGISTER_SUCCESS = 'register success.'
-    REGISTER_PWD_INVALID = "The password is invalid."
-    REGISTER_PHONE_FORMAT_INVALID = "phone format is invalid."
+    PWD_INVALID = "The password is invalid."
+    PHONE_FORMAT_INVALID = "phone format is invalid."
     REGISTER_VERRIFY_CODE_ERROR = "verifycode is error."
     REGISTER_USER_EXISTS = 'user exists'
 
@@ -79,3 +80,4 @@ class ResMSG(Enum):
 
     PHONE_MODIFY_SUCCESS = 'phone is modified.'
     PHONE_MODIFY_FAILED = 'phone modify failure.'
+    OLDER_PHONE_INVALID = 'older phone is invalid.'

@@ -69,3 +69,4 @@ Thu, 04 Aug 2022 20:33:10-root-send_thread.py-[line:37]-ERROR-[日志信息]: Ob
 Thu, 04 Aug 2022 20:33:10-root-send_thread.py-[line:37]-ERROR-[日志信息]: Object of type datetime is not JSON serializable
 Thu, 04 Aug 2022 20:33:10-root-send_thread.py-[line:37]-ERROR-[日志信息]: Object of type datetime is not JSON serializable
 Thu, 04 Aug 2022 20:33:10-root-send_thread.py-[line:37]-ERROR-[日志信息]: Object of type datetime is not JSON serializable
+Thu, 04 Aug 2022 20:35:12-root-send_thread.py-[line:37]-ERROR-[日志信息]: WRONGTYPE Operation against a key holding the wrong kind of value

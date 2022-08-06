@@ -1,0 +1,174 @@
+Fri, 05 Aug 2022 19:49:17-root-auth.py-[line:57]-ERROR-[日志信息]: 'str' object has no attribute 'get'
+Fri, 05 Aug 2022 19:49:17-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/login [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\auth.py", line 61, in login
+    if not login_err_count_verify(CUI):
+UnboundLocalError: local variable 'CUI' referenced before assignment
+Fri, 05 Aug 2022 19:52:24-root-auth.py-[line:58]-ERROR-[日志信息]: 'str' object has no attribute 'get'
+Fri, 05 Aug 2022 19:52:24-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/login [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\auth.py", line 62, in login
+    if not login_err_count_verify(CUI):
+UnboundLocalError: local variable 'CUI' referenced before assignment
+Fri, 05 Aug 2022 19:53:33-root-auth.py-[line:59]-ERROR-[日志信息]: 'str' object has no attribute 'get'
+Fri, 05 Aug 2022 19:53:33-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/login [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\auth.py", line 63, in login
+    if not login_err_count_verify(CUI):
+UnboundLocalError: local variable 'CUI' referenced before assignment
+Fri, 05 Aug 2022 22:06:15-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/register [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\users.py", line 20, in user_register
+    if not g.user:
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\ctx.py", line 51, in __getattr__
+    raise AttributeError(name) from None
+AttributeError: user
+Fri, 05 Aug 2022 22:06:15-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/register [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\users.py", line 20, in user_register
+    if not g.user:
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\ctx.py", line 51, in __getattr__
+    raise AttributeError(name) from None
+AttributeError: user
+Fri, 05 Aug 2022 22:08:46-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/register [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\users.py", line 20, in user_register
+    if not g.user:
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\ctx.py", line 51, in __getattr__
+    raise AttributeError(name) from None
+AttributeError: user
+Fri, 05 Aug 2022 22:08:46-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/register [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\users.py", line 20, in user_register
+    if not g.user:
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\ctx.py", line 51, in __getattr__
+    raise AttributeError(name) from None
+AttributeError: user
+Fri, 05 Aug 2022 22:10:57-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:10:57-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:11:52-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:11:52-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:12:09-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:12:09-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:12:32-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:12:32-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:13:09-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:13:09-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:13:55-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:13:55-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:14:15-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:14:15-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:14:30-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:14:30-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:15:49-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:15:49-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:15:49-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:15:49-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:15:49-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:15:49-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:16:01-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:16:01-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:16:01-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:16:01-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:16:01-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:16:01-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:16:10-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:16:10-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:16:11-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:16:11-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:20:59-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:20:59-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:20:59-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:20:59-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:21:00-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:21:00-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:24:21-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:24:21-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:25:10-root-users.py-[line:61]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:25:10-root-users.py-[line:61]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 23:01:52-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 23:01:52-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 23:01:52-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 23:01:52-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 23:26:02-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/login [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1515, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1857, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "D:\git-python\userservive\userservice\app.py", line 52, in authenticate
+    res = Jwt.decode(token.encode(), TOKEN_PRODUCE_KEY)
+AttributeError: 'NoneType' object has no attribute 'encode'
+Fri, 05 Aug 2022 23:26:02-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/login [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1515, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1857, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "D:\git-python\userservive\userservice\app.py", line 52, in authenticate
+    res = Jwt.decode(token.encode(), TOKEN_PRODUCE_KEY)
+AttributeError: 'NoneType' object has no attribute 'encode'

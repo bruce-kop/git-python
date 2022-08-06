@@ -1,0 +1,436 @@
+Fri, 05 Aug 2022 19:39:02-root-requestParse.py-[line:23]-DEBUG-[日志信息]: json data decode error.
+Fri, 05 Aug 2022 19:42:17-root-requestParse.py-[line:23]-DEBUG-[日志信息]: json data decode error.
+Fri, 05 Aug 2022 19:42:46-root-requestParse.py-[line:23]-DEBUG-[日志信息]: json data decode error.
+Fri, 05 Aug 2022 19:49:17-root-app.py-[line:38]-INFO-[日志信息]: /api/verifycode
+Fri, 05 Aug 2022 19:49:17-root-app.py-[line:63]-INFO-[日志信息]: reuquest api:/api/verifycode
+Fri, 05 Aug 2022 19:49:17-root-app.py-[line:38]-INFO-[日志信息]: /api/login
+Fri, 05 Aug 2022 19:49:17-root-app.py-[line:63]-INFO-[日志信息]: reuquest api:/api/login
+Fri, 05 Aug 2022 19:49:17-root-auth.py-[line:57]-ERROR-[日志信息]: 'str' object has no attribute 'get'
+Fri, 05 Aug 2022 19:49:17-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/login [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\auth.py", line 61, in login
+    if not login_err_count_verify(CUI):
+UnboundLocalError: local variable 'CUI' referenced before assignment
+Fri, 05 Aug 2022 19:50:27-root-parseConfig.py-[line:23]-DEBUG-[日志信息]: [Errno 2] No such file or directory: '.\\Docs\\config'
+Fri, 05 Aug 2022 19:50:27-root-parseConfig.py-[line:32]-DEBUG-[日志信息]: 'XMLParser' object has no attribute 'root'
+Fri, 05 Aug 2022 19:51:41-root-parseConfig.py-[line:23]-DEBUG-[日志信息]: [Errno 2] No such file or directory: '..\\Docs\\config'
+Fri, 05 Aug 2022 19:51:41-root-parseConfig.py-[line:32]-DEBUG-[日志信息]: 'XMLParser' object has no attribute 'root'
+Fri, 05 Aug 2022 19:51:55-root-parseConfig.py-[line:23]-DEBUG-[日志信息]: [Errno 2] No such file or directory: '../Docs/config'
+Fri, 05 Aug 2022 19:51:55-root-parseConfig.py-[line:32]-DEBUG-[日志信息]: 'XMLParser' object has no attribute 'root'
+Fri, 05 Aug 2022 19:52:24-root-app.py-[line:38]-INFO-[日志信息]: /api/verifycode
+Fri, 05 Aug 2022 19:52:24-root-app.py-[line:63]-INFO-[日志信息]: reuquest api:/api/verifycode
+Fri, 05 Aug 2022 19:52:24-root-app.py-[line:38]-INFO-[日志信息]: /api/login
+Fri, 05 Aug 2022 19:52:24-root-app.py-[line:63]-INFO-[日志信息]: reuquest api:/api/login
+Fri, 05 Aug 2022 19:52:24-root-auth.py-[line:58]-ERROR-[日志信息]: 'str' object has no attribute 'get'
+Fri, 05 Aug 2022 19:52:24-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/login [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\auth.py", line 62, in login
+    if not login_err_count_verify(CUI):
+UnboundLocalError: local variable 'CUI' referenced before assignment
+Fri, 05 Aug 2022 19:53:33-root-app.py-[line:38]-INFO-[日志信息]: /api/verifycode
+Fri, 05 Aug 2022 19:53:33-root-app.py-[line:63]-INFO-[日志信息]: reuquest api:/api/verifycode
+Fri, 05 Aug 2022 19:53:33-root-app.py-[line:38]-INFO-[日志信息]: /api/login
+Fri, 05 Aug 2022 19:53:33-root-app.py-[line:63]-INFO-[日志信息]: reuquest api:/api/login
+Fri, 05 Aug 2022 19:53:33-root-auth.py-[line:59]-ERROR-[日志信息]: 'str' object has no attribute 'get'
+Fri, 05 Aug 2022 19:53:33-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/login [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\auth.py", line 63, in login
+    if not login_err_count_verify(CUI):
+UnboundLocalError: local variable 'CUI' referenced before assignment
+Fri, 05 Aug 2022 19:58:41-root-app.py-[line:38]-INFO-[日志信息]: /api/verifycode
+Fri, 05 Aug 2022 19:58:41-root-app.py-[line:63]-INFO-[日志信息]: reuquest api:/api/verifycode
+Fri, 05 Aug 2022 19:58:41-root-app.py-[line:38]-INFO-[日志信息]: /api/login
+Fri, 05 Aug 2022 19:58:41-root-app.py-[line:63]-INFO-[日志信息]: reuquest api:/api/login
+Fri, 05 Aug 2022 19:59:48-root-app.py-[line:38]-INFO-[日志信息]: /api/verifycode
+Fri, 05 Aug 2022 19:59:48-root-app.py-[line:63]-INFO-[日志信息]: reuquest api:/api/verifycode
+Fri, 05 Aug 2022 19:59:48-root-app.py-[line:38]-INFO-[日志信息]: /api/login
+Fri, 05 Aug 2022 19:59:48-root-app.py-[line:63]-INFO-[日志信息]: reuquest api:/api/login
+Fri, 05 Aug 2022 20:15:33-root-app.py-[line:38]-INFO-[日志信息]: /api/verifycode
+Fri, 05 Aug 2022 20:15:33-root-app.py-[line:63]-INFO-[日志信息]: reuquest api:/api/verifycode
+Fri, 05 Aug 2022 20:15:33-root-app.py-[line:38]-INFO-[日志信息]: /api/login
+Fri, 05 Aug 2022 20:15:33-root-app.py-[line:63]-INFO-[日志信息]: reuquest api:/api/login
+Fri, 05 Aug 2022 20:18:58-root-app.py-[line:75]-INFO-[日志信息]: start userserver
+Fri, 05 Aug 2022 20:21:17-root-app.py-[line:75]-INFO-[日志信息]: start userserver
+Fri, 05 Aug 2022 21:26:28-root-app.py-[line:75]-INFO-[日志信息]: start userserver
+Fri, 05 Aug 2022 21:26:56-root-app.py-[line:75]-INFO-[日志信息]: start userserver
+Fri, 05 Aug 2022 21:26:56-root-app.py-[line:75]-INFO-[日志信息]: start userserver
+Fri, 05 Aug 2022 21:27:00-root-app.py-[line:75]-INFO-[日志信息]: start userserver
+Fri, 05 Aug 2022 21:27:00-root-app.py-[line:75]-INFO-[日志信息]: start userserver
+Fri, 05 Aug 2022 21:35:59-root-app.py-[line:75]-INFO-[日志信息]: start userserver
+Fri, 05 Aug 2022 21:35:59-root-app.py-[line:75]-INFO-[日志信息]: start userserver
+Fri, 05 Aug 2022 22:06:15-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/register [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\users.py", line 20, in user_register
+    if not g.user:
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\ctx.py", line 51, in __getattr__
+    raise AttributeError(name) from None
+AttributeError: user
+Fri, 05 Aug 2022 22:06:15-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/register [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\users.py", line 20, in user_register
+    if not g.user:
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\ctx.py", line 51, in __getattr__
+    raise AttributeError(name) from None
+AttributeError: user
+Fri, 05 Aug 2022 22:08:43-root-app.py-[line:75]-INFO-[日志信息]: start userserver
+Fri, 05 Aug 2022 22:08:43-root-app.py-[line:75]-INFO-[日志信息]: start userserver
+Fri, 05 Aug 2022 22:08:46-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/register [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\users.py", line 20, in user_register
+    if not g.user:
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\ctx.py", line 51, in __getattr__
+    raise AttributeError(name) from None
+AttributeError: user
+Fri, 05 Aug 2022 22:08:46-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/register [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\git-python\userservive\userservice\views\users.py", line 20, in user_register
+    if not g.user:
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\ctx.py", line 51, in __getattr__
+    raise AttributeError(name) from None
+AttributeError: user
+Fri, 05 Aug 2022 22:09:15-root-app.py-[line:75]-INFO-[日志信息]: start userserver
+Fri, 05 Aug 2022 22:09:15-root-app.py-[line:75]-INFO-[日志信息]: start userserver
+Fri, 05 Aug 2022 22:09:19-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:09:19-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:10:57-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:10:57-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:10:57-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:10:57-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:11:52-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:11:52-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:11:52-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:11:52-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:12:09-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:12:09-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:12:09-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:12:09-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:12:32-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:12:32-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:12:32-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:12:32-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:13:09-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:13:09-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:13:09-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:13:09-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:13:55-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:13:55-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:13:55-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:13:55-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:14:14-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:14:14-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:14:15-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:14:15-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:14:30-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:14:30-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:14:30-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:14:30-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:15:48-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:15:48-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:15:49-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:15:49-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:15:49-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:15:49-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:15:49-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:15:49-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:15:49-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:15:49-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:15:49-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:15:49-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:16:01-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:16:01-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:16:01-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:16:01-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:16:01-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:16:01-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:16:01-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:16:01-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:16:01-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:16:01-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:16:01-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:16:01-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:16:10-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:16:10-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:16:10-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:16:10-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:16:10-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:16:10-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:16:10-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:16:10-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:16:11-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:16:11-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:20:58-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:20:58-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:20:59-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:20:59-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:20:59-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:20:59-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:20:59-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:20:59-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:20:59-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:20:59-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:20:59-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:20:59-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:21:00-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:21:00-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:24:21-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:24:21-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:24:21-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:24:21-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:24:39-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:24:39-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:25:10-root-users.py-[line:61]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:25:10-root-users.py-[line:61]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 22:34:58-root-app.py-[line:75]-INFO-[日志信息]: start userserver
+Fri, 05 Aug 2022 22:34:58-root-app.py-[line:75]-INFO-[日志信息]: start userserver
+Fri, 05 Aug 2022 22:35:26-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:35:26-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:37:59-root-app.py-[line:75]-INFO-[日志信息]: start userserver
+Fri, 05 Aug 2022 22:37:59-root-app.py-[line:75]-INFO-[日志信息]: start userserver
+Fri, 05 Aug 2022 22:38:08-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:38:08-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:38:49-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:38:49-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:38:49-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:38:49-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:39:36-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:39:36-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:39:36-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:39:36-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:39:36-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:39:36-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:40:03-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:40:03-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:40:03-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:40:03-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:40:03-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 22:40:03-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 23:01:51-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 23:01:51-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 23:01:52-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 23:01:52-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 23:01:52-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 23:01:52-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 23:01:52-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 23:01:52-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 23:01:52-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 23:01:52-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 23:01:52-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 23:01:52-root-users.py-[line:21]-DEBUG-[日志信息]: no token request.
+Fri, 05 Aug 2022 23:01:52-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 23:01:52-root-users.py-[line:58]-ERROR-[日志信息]: None
+Fri, 05 Aug 2022 23:05:29-root-app.py-[line:75]-INFO-[日志信息]: start userserver
+Fri, 05 Aug 2022 23:05:29-root-app.py-[line:75]-INFO-[日志信息]: start userserver
+Fri, 05 Aug 2022 23:06:56-root-app.py-[line:75]-INFO-[日志信息]: start userserver
+Fri, 05 Aug 2022 23:06:56-root-app.py-[line:75]-INFO-[日志信息]: start userserver
+Fri, 05 Aug 2022 23:07:03-root-users.py-[line:56]-DEBUG-[日志信息]: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'qq' for key 'user.name'")
+[SQL: INSERT INTO user (id, name, avatar, phone, pwd, created_at, updated_at) VALUES (%(id)s, %(name)s, %(avatar)s, %(phone)s, %(pwd)s, %(created_at)s, %(updated_at)s)]
+[parameters: {'id': UUID('f7796338-4134-46c0-bf23-85abec2459fc'), 'name': 'qq', 'avatar': None, 'phone': '13777889933', 'pwd': 'pbkdf2:sha256:260000$sb3HTbWDFJpwxi1k$57b1a96e22606a859fcd4f7e49de1f1490660166e68184a555307c8cf3f77a16', 'created_at': datetime.datetime(2022, 8, 5, 23, 7, 3, 254767), 'updated_at': None}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+Fri, 05 Aug 2022 23:07:03-root-users.py-[line:56]-DEBUG-[日志信息]: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'qq' for key 'user.name'")
+[SQL: INSERT INTO user (id, name, avatar, phone, pwd, created_at, updated_at) VALUES (%(id)s, %(name)s, %(avatar)s, %(phone)s, %(pwd)s, %(created_at)s, %(updated_at)s)]
+[parameters: {'id': UUID('f7796338-4134-46c0-bf23-85abec2459fc'), 'name': 'qq', 'avatar': None, 'phone': '13777889933', 'pwd': 'pbkdf2:sha256:260000$sb3HTbWDFJpwxi1k$57b1a96e22606a859fcd4f7e49de1f1490660166e68184a555307c8cf3f77a16', 'created_at': datetime.datetime(2022, 8, 5, 23, 7, 3, 254767), 'updated_at': None}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+Fri, 05 Aug 2022 23:08:29-root-users.py-[line:56]-DEBUG-[日志信息]: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'qq' for key 'user.name'")
+[SQL: INSERT INTO user (id, name, avatar, phone, pwd, created_at, updated_at) VALUES (%(id)s, %(name)s, %(avatar)s, %(phone)s, %(pwd)s, %(created_at)s, %(updated_at)s)]
+[parameters: {'id': UUID('6388920d-042e-4e62-8dd1-dd087546bbd4'), 'name': 'qq', 'avatar': None, 'phone': '13777889933', 'pwd': 'pbkdf2:sha256:260000$Ec0vC2nyJM1cS93t$a28482a0bfae146af6d48535f86d977d6224ab452bff7e3a6e95d81b48e74627', 'created_at': datetime.datetime(2022, 8, 5, 23, 8, 29, 605101), 'updated_at': None}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+Fri, 05 Aug 2022 23:08:29-root-users.py-[line:56]-DEBUG-[日志信息]: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'qq' for key 'user.name'")
+[SQL: INSERT INTO user (id, name, avatar, phone, pwd, created_at, updated_at) VALUES (%(id)s, %(name)s, %(avatar)s, %(phone)s, %(pwd)s, %(created_at)s, %(updated_at)s)]
+[parameters: {'id': UUID('6388920d-042e-4e62-8dd1-dd087546bbd4'), 'name': 'qq', 'avatar': None, 'phone': '13777889933', 'pwd': 'pbkdf2:sha256:260000$Ec0vC2nyJM1cS93t$a28482a0bfae146af6d48535f86d977d6224ab452bff7e3a6e95d81b48e74627', 'created_at': datetime.datetime(2022, 8, 5, 23, 8, 29, 605101), 'updated_at': None}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+Fri, 05 Aug 2022 23:08:30-root-users.py-[line:56]-DEBUG-[日志信息]: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'qq5' for key 'user.name'")
+[SQL: INSERT INTO user (id, name, avatar, phone, pwd, created_at, updated_at) VALUES (%(id)s, %(name)s, %(avatar)s, %(phone)s, %(pwd)s, %(created_at)s, %(updated_at)s)]
+[parameters: {'id': UUID('f5f8b6f7-6db4-4bfe-b68c-3019c9c2f9f2'), 'name': 'qq5', 'avatar': None, 'phone': '13777889937', 'pwd': 'pbkdf2:sha256:260000$BgwNU8FGbSH6PpNR$8c93acc09aac1e80ee751e5c9bc0fc215623b1196eab3424db4195934a04d6e9', 'created_at': datetime.datetime(2022, 8, 5, 23, 8, 29, 864783), 'updated_at': None}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+Fri, 05 Aug 2022 23:08:30-root-users.py-[line:56]-DEBUG-[日志信息]: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'qq5' for key 'user.name'")
+[SQL: INSERT INTO user (id, name, avatar, phone, pwd, created_at, updated_at) VALUES (%(id)s, %(name)s, %(avatar)s, %(phone)s, %(pwd)s, %(created_at)s, %(updated_at)s)]
+[parameters: {'id': UUID('f5f8b6f7-6db4-4bfe-b68c-3019c9c2f9f2'), 'name': 'qq5', 'avatar': None, 'phone': '13777889937', 'pwd': 'pbkdf2:sha256:260000$BgwNU8FGbSH6PpNR$8c93acc09aac1e80ee751e5c9bc0fc215623b1196eab3424db4195934a04d6e9', 'created_at': datetime.datetime(2022, 8, 5, 23, 8, 29, 864783), 'updated_at': None}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+Fri, 05 Aug 2022 23:09:33-root-users.py-[line:56]-DEBUG-[日志信息]: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'qq' for key 'user.name'")
+[SQL: INSERT INTO user (id, name, avatar, phone, pwd, created_at, updated_at) VALUES (%(id)s, %(name)s, %(avatar)s, %(phone)s, %(pwd)s, %(created_at)s, %(updated_at)s)]
+[parameters: {'id': UUID('ec5d454f-9512-44a9-8bf6-5d9aba49ca1c'), 'name': 'qq', 'avatar': None, 'phone': '13777889933', 'pwd': 'pbkdf2:sha256:260000$sLWNco0tV9BxrNlv$4b00a582028d85247d073f526c81286f6a11f676b43c4a69b5bb185b42b29788', 'created_at': datetime.datetime(2022, 8, 5, 23, 9, 32, 921300), 'updated_at': None}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+Fri, 05 Aug 2022 23:09:33-root-users.py-[line:56]-DEBUG-[日志信息]: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'qq' for key 'user.name'")
+[SQL: INSERT INTO user (id, name, avatar, phone, pwd, created_at, updated_at) VALUES (%(id)s, %(name)s, %(avatar)s, %(phone)s, %(pwd)s, %(created_at)s, %(updated_at)s)]
+[parameters: {'id': UUID('ec5d454f-9512-44a9-8bf6-5d9aba49ca1c'), 'name': 'qq', 'avatar': None, 'phone': '13777889933', 'pwd': 'pbkdf2:sha256:260000$sLWNco0tV9BxrNlv$4b00a582028d85247d073f526c81286f6a11f676b43c4a69b5bb185b42b29788', 'created_at': datetime.datetime(2022, 8, 5, 23, 9, 32, 921300), 'updated_at': None}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+Fri, 05 Aug 2022 23:09:50-root-users.py-[line:56]-DEBUG-[日志信息]: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'qq' for key 'user.name'")
+[SQL: INSERT INTO user (id, name, avatar, phone, pwd, created_at, updated_at) VALUES (%(id)s, %(name)s, %(avatar)s, %(phone)s, %(pwd)s, %(created_at)s, %(updated_at)s)]
+[parameters: {'id': UUID('36ceb91a-80d0-40f2-89e5-23718c6d98ee'), 'name': 'qq', 'avatar': None, 'phone': '13777889933', 'pwd': 'pbkdf2:sha256:260000$nbxC3qw6JKzdMycD$dcc631172fa6c6414a299c3a2b1b459a04c5b0430c4219de988c2a9b43bfcf3a', 'created_at': datetime.datetime(2022, 8, 5, 23, 9, 50, 224622), 'updated_at': None}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+Fri, 05 Aug 2022 23:09:50-root-users.py-[line:56]-DEBUG-[日志信息]: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'qq' for key 'user.name'")
+[SQL: INSERT INTO user (id, name, avatar, phone, pwd, created_at, updated_at) VALUES (%(id)s, %(name)s, %(avatar)s, %(phone)s, %(pwd)s, %(created_at)s, %(updated_at)s)]
+[parameters: {'id': UUID('36ceb91a-80d0-40f2-89e5-23718c6d98ee'), 'name': 'qq', 'avatar': None, 'phone': '13777889933', 'pwd': 'pbkdf2:sha256:260000$nbxC3qw6JKzdMycD$dcc631172fa6c6414a299c3a2b1b459a04c5b0430c4219de988c2a9b43bfcf3a', 'created_at': datetime.datetime(2022, 8, 5, 23, 9, 50, 224622), 'updated_at': None}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+Fri, 05 Aug 2022 23:09:50-root-users.py-[line:56]-DEBUG-[日志信息]: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'qq6' for key 'user.name'")
+[SQL: INSERT INTO user (id, name, avatar, phone, pwd, created_at, updated_at) VALUES (%(id)s, %(name)s, %(avatar)s, %(phone)s, %(pwd)s, %(created_at)s, %(updated_at)s)]
+[parameters: {'id': UUID('470657d0-e4b9-4921-8817-438e5148a990'), 'name': 'qq6', 'avatar': None, 'phone': '13777889966', 'pwd': 'pbkdf2:sha256:260000$e6KfSL2rS88DRfFP$43797164f7976c1322b4f952544eb62202b5f817563b5fc588e498fb230aa633', 'created_at': datetime.datetime(2022, 8, 5, 23, 9, 50, 467658), 'updated_at': None}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+Fri, 05 Aug 2022 23:09:50-root-users.py-[line:56]-DEBUG-[日志信息]: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'qq6' for key 'user.name'")
+[SQL: INSERT INTO user (id, name, avatar, phone, pwd, created_at, updated_at) VALUES (%(id)s, %(name)s, %(avatar)s, %(phone)s, %(pwd)s, %(created_at)s, %(updated_at)s)]
+[parameters: {'id': UUID('470657d0-e4b9-4921-8817-438e5148a990'), 'name': 'qq6', 'avatar': None, 'phone': '13777889966', 'pwd': 'pbkdf2:sha256:260000$e6KfSL2rS88DRfFP$43797164f7976c1322b4f952544eb62202b5f817563b5fc588e498fb230aa633', 'created_at': datetime.datetime(2022, 8, 5, 23, 9, 50, 467658), 'updated_at': None}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+Fri, 05 Aug 2022 23:11:30-root-app.py-[line:75]-INFO-[日志信息]: start userserver
+Fri, 05 Aug 2022 23:11:30-root-app.py-[line:75]-INFO-[日志信息]: start userserver
+Fri, 05 Aug 2022 23:11:34-root-users.py-[line:56]-DEBUG-[日志信息]: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'qq' for key 'user.name'")
+[SQL: INSERT INTO user (id, name, avatar, phone, pwd, created_at, updated_at) VALUES (%(id)s, %(name)s, %(avatar)s, %(phone)s, %(pwd)s, %(created_at)s, %(updated_at)s)]
+[parameters: {'id': UUID('46fa019f-ce36-4a9c-8c28-6ccdbf9c1077'), 'name': 'qq', 'avatar': None, 'phone': '13777889933', 'pwd': 'pbkdf2:sha256:260000$grYH9eG7HuX1S6c9$5e4431d9608816713e494b7c1f894a3635ae5a0b4f923d6093a6f7ab3014ab16', 'created_at': datetime.datetime(2022, 8, 5, 23, 11, 34, 267696), 'updated_at': None}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+Fri, 05 Aug 2022 23:11:34-root-users.py-[line:56]-DEBUG-[日志信息]: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'qq' for key 'user.name'")
+[SQL: INSERT INTO user (id, name, avatar, phone, pwd, created_at, updated_at) VALUES (%(id)s, %(name)s, %(avatar)s, %(phone)s, %(pwd)s, %(created_at)s, %(updated_at)s)]
+[parameters: {'id': UUID('46fa019f-ce36-4a9c-8c28-6ccdbf9c1077'), 'name': 'qq', 'avatar': None, 'phone': '13777889933', 'pwd': 'pbkdf2:sha256:260000$grYH9eG7HuX1S6c9$5e4431d9608816713e494b7c1f894a3635ae5a0b4f923d6093a6f7ab3014ab16', 'created_at': datetime.datetime(2022, 8, 5, 23, 11, 34, 267696), 'updated_at': None}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+Fri, 05 Aug 2022 23:11:34-root-users.py-[line:56]-DEBUG-[日志信息]: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'qq6' for key 'user.name'")
+[SQL: INSERT INTO user (id, name, avatar, phone, pwd, created_at, updated_at) VALUES (%(id)s, %(name)s, %(avatar)s, %(phone)s, %(pwd)s, %(created_at)s, %(updated_at)s)]
+[parameters: {'id': UUID('44e3b13d-8a77-42bd-9b2c-ffe910936164'), 'name': 'qq6', 'avatar': None, 'phone': '13777889966', 'pwd': 'pbkdf2:sha256:260000$vZh683WpbI7oiEOk$86c0cf22e23e98819407b9870460ad61e799146d63a11f4955170ee067c2357f', 'created_at': datetime.datetime(2022, 8, 5, 23, 11, 34, 523891), 'updated_at': None}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+Fri, 05 Aug 2022 23:11:34-root-users.py-[line:56]-DEBUG-[日志信息]: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'qq6' for key 'user.name'")
+[SQL: INSERT INTO user (id, name, avatar, phone, pwd, created_at, updated_at) VALUES (%(id)s, %(name)s, %(avatar)s, %(phone)s, %(pwd)s, %(created_at)s, %(updated_at)s)]
+[parameters: {'id': UUID('44e3b13d-8a77-42bd-9b2c-ffe910936164'), 'name': 'qq6', 'avatar': None, 'phone': '13777889966', 'pwd': 'pbkdf2:sha256:260000$vZh683WpbI7oiEOk$86c0cf22e23e98819407b9870460ad61e799146d63a11f4955170ee067c2357f', 'created_at': datetime.datetime(2022, 8, 5, 23, 11, 34, 523891), 'updated_at': None}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+Fri, 05 Aug 2022 23:16:39-root-users.py-[line:56]-DEBUG-[日志信息]: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'qq6' for key 'user.name'")
+[SQL: INSERT INTO user (id, name, avatar, phone, pwd, created_at, updated_at) VALUES (%(id)s, %(name)s, %(avatar)s, %(phone)s, %(pwd)s, %(created_at)s, %(updated_at)s)]
+[parameters: {'id': UUID('3648b49f-db64-4855-a4cc-f01654bca904'), 'name': 'qq6', 'avatar': None, 'phone': '13777889966', 'pwd': 'pbkdf2:sha256:260000$Zx3MPVX8bz625IK6$9400c84931d52c433f08eb25e33adba21f7cd2d18f14976b1ef9d0661520a8d2', 'created_at': datetime.datetime(2022, 8, 5, 23, 16, 39, 448286), 'updated_at': None}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+Fri, 05 Aug 2022 23:16:39-root-users.py-[line:56]-DEBUG-[日志信息]: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'qq6' for key 'user.name'")
+[SQL: INSERT INTO user (id, name, avatar, phone, pwd, created_at, updated_at) VALUES (%(id)s, %(name)s, %(avatar)s, %(phone)s, %(pwd)s, %(created_at)s, %(updated_at)s)]
+[parameters: {'id': UUID('3648b49f-db64-4855-a4cc-f01654bca904'), 'name': 'qq6', 'avatar': None, 'phone': '13777889966', 'pwd': 'pbkdf2:sha256:260000$Zx3MPVX8bz625IK6$9400c84931d52c433f08eb25e33adba21f7cd2d18f14976b1ef9d0661520a8d2', 'created_at': datetime.datetime(2022, 8, 5, 23, 16, 39, 448286), 'updated_at': None}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+Fri, 05 Aug 2022 23:17:12-root-users.py-[line:56]-DEBUG-[日志信息]: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'qq6' for key 'user.name'")
+[SQL: INSERT INTO user (id, name, avatar, phone, pwd, created_at, updated_at) VALUES (%(id)s, %(name)s, %(avatar)s, %(phone)s, %(pwd)s, %(created_at)s, %(updated_at)s)]
+[parameters: {'id': UUID('26fb6cad-b75c-49ae-83db-09cec3552658'), 'name': 'qq6', 'avatar': None, 'phone': '13777889966', 'pwd': 'pbkdf2:sha256:260000$G4BslTVBXlvzDcvz$64b63bc9ee6207a23ae03ba1a69f03c269ae362471f19f14d340800cf9f41a51', 'created_at': datetime.datetime(2022, 8, 5, 23, 17, 12, 189845), 'updated_at': None}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+Fri, 05 Aug 2022 23:17:12-root-users.py-[line:56]-DEBUG-[日志信息]: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'qq6' for key 'user.name'")
+[SQL: INSERT INTO user (id, name, avatar, phone, pwd, created_at, updated_at) VALUES (%(id)s, %(name)s, %(avatar)s, %(phone)s, %(pwd)s, %(created_at)s, %(updated_at)s)]
+[parameters: {'id': UUID('26fb6cad-b75c-49ae-83db-09cec3552658'), 'name': 'qq6', 'avatar': None, 'phone': '13777889966', 'pwd': 'pbkdf2:sha256:260000$G4BslTVBXlvzDcvz$64b63bc9ee6207a23ae03ba1a69f03c269ae362471f19f14d340800cf9f41a51', 'created_at': datetime.datetime(2022, 8, 5, 23, 17, 12, 189845), 'updated_at': None}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+Fri, 05 Aug 2022 23:24:44-root-app.py-[line:75]-INFO-[日志信息]: start userserver
+Fri, 05 Aug 2022 23:24:44-root-app.py-[line:75]-INFO-[日志信息]: start userserver
+Fri, 05 Aug 2022 23:24:54-root-users.py-[line:56]-DEBUG-[日志信息]: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'qq6' for key 'user.name'")
+[SQL: INSERT INTO user (id, name, avatar, phone, pwd, created_at, updated_at) VALUES (%(id)s, %(name)s, %(avatar)s, %(phone)s, %(pwd)s, %(created_at)s, %(updated_at)s)]
+[parameters: {'id': UUID('ede11cb5-2f64-44e2-9f6e-8a30648c9951'), 'name': 'qq6', 'avatar': None, 'phone': '13777889966', 'pwd': 'pbkdf2:sha256:260000$Z47O2g4EjkdodIcR$a9f8eaf16abd06316e60725d43dd9a3e523cb7436285ee22c524d6b19b2bde8f', 'created_at': datetime.datetime(2022, 8, 5, 23, 24, 53, 779482), 'updated_at': None}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+Fri, 05 Aug 2022 23:24:54-root-users.py-[line:56]-DEBUG-[日志信息]: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'qq6' for key 'user.name'")
+[SQL: INSERT INTO user (id, name, avatar, phone, pwd, created_at, updated_at) VALUES (%(id)s, %(name)s, %(avatar)s, %(phone)s, %(pwd)s, %(created_at)s, %(updated_at)s)]
+[parameters: {'id': UUID('ede11cb5-2f64-44e2-9f6e-8a30648c9951'), 'name': 'qq6', 'avatar': None, 'phone': '13777889966', 'pwd': 'pbkdf2:sha256:260000$Z47O2g4EjkdodIcR$a9f8eaf16abd06316e60725d43dd9a3e523cb7436285ee22c524d6b19b2bde8f', 'created_at': datetime.datetime(2022, 8, 5, 23, 24, 53, 779482), 'updated_at': None}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+Fri, 05 Aug 2022 23:25:51-root-app.py-[line:75]-INFO-[日志信息]: start userserver
+Fri, 05 Aug 2022 23:25:51-root-app.py-[line:75]-INFO-[日志信息]: start userserver
+Fri, 05 Aug 2022 23:26:02-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/login [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1515, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1857, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "D:\git-python\userservive\userservice\app.py", line 52, in authenticate
+    res = Jwt.decode(token.encode(), TOKEN_PRODUCE_KEY)
+AttributeError: 'NoneType' object has no attribute 'encode'
+Fri, 05 Aug 2022 23:26:02-app-app.py-[line:1449]-ERROR-[日志信息]: Exception on /api/login [POST]
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1515, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1857, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "D:\git-python\userservive\userservice\app.py", line 52, in authenticate
+    res = Jwt.decode(token.encode(), TOKEN_PRODUCE_KEY)
+AttributeError: 'NoneType' object has no attribute 'encode'
+Fri, 05 Aug 2022 23:28:34-root-app.py-[line:76]-INFO-[日志信息]: start userserver
+Fri, 05 Aug 2022 23:28:34-root-app.py-[line:76]-INFO-[日志信息]: start userserver
+Fri, 05 Aug 2022 23:28:39-root-app.py-[line:70]-INFO-[日志信息]: {'exp': 1660318119.4626122, 'userid': '5d7b6b91-5b7b-4f44-8eb6-ee1dce158ab2'}
+Fri, 05 Aug 2022 23:28:39-root-app.py-[line:70]-INFO-[日志信息]: {'exp': 1660318119.4626122, 'userid': '5d7b6b91-5b7b-4f44-8eb6-ee1dce158ab2'}
+Sat, 06 Aug 2022 10:11:45-root-app.py-[line:70]-INFO-[日志信息]: {'exp': 1660356705.8938813, 'userid': 'd88efdf4-1785-4b1f-b8e0-0d0b767087f5'}
+Sat, 06 Aug 2022 10:11:45-root-app.py-[line:70]-INFO-[日志信息]: {'exp': 1660356705.8938813, 'userid': 'd88efdf4-1785-4b1f-b8e0-0d0b767087f5'}
+Sat, 06 Aug 2022 10:11:46-root-app.py-[line:67]-DEBUG-[日志信息]: token is invalid.
+Sat, 06 Aug 2022 10:11:46-root-app.py-[line:67]-DEBUG-[日志信息]: token is invalid.
+Sat, 06 Aug 2022 10:12:42-root-users.py-[line:56]-DEBUG-[日志信息]: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'qq' for key 'user.name'")
+[SQL: INSERT INTO user (id, name, avatar, phone, pwd, created_at, updated_at) VALUES (%(id)s, %(name)s, %(avatar)s, %(phone)s, %(pwd)s, %(created_at)s, %(updated_at)s)]
+[parameters: {'id': UUID('a818e4c4-f7e8-40af-afc0-5a564edff815'), 'name': 'qq', 'avatar': None, 'phone': '13777889933', 'pwd': 'pbkdf2:sha256:260000$7a2PQLyIVVrfbHPj$1ed001a38c8785f436284051603d420345ba37e0c3db4f32dc635621eb385b59', 'created_at': datetime.datetime(2022, 8, 6, 10, 12, 42, 435747), 'updated_at': None}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+Sat, 06 Aug 2022 10:12:42-root-users.py-[line:56]-DEBUG-[日志信息]: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'qq' for key 'user.name'")
+[SQL: INSERT INTO user (id, name, avatar, phone, pwd, created_at, updated_at) VALUES (%(id)s, %(name)s, %(avatar)s, %(phone)s, %(pwd)s, %(created_at)s, %(updated_at)s)]
+[parameters: {'id': UUID('a818e4c4-f7e8-40af-afc0-5a564edff815'), 'name': 'qq', 'avatar': None, 'phone': '13777889933', 'pwd': 'pbkdf2:sha256:260000$7a2PQLyIVVrfbHPj$1ed001a38c8785f436284051603d420345ba37e0c3db4f32dc635621eb385b59', 'created_at': datetime.datetime(2022, 8, 6, 10, 12, 42, 435747), 'updated_at': None}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+Sat, 06 Aug 2022 10:12:57-root-app.py-[line:70]-INFO-[日志信息]: {'exp': 1660356777.311937, 'userid': '85197003-34ad-4ead-81ab-0f9abcd1577c'}
+Sat, 06 Aug 2022 10:12:57-root-app.py-[line:70]-INFO-[日志信息]: {'exp': 1660356777.311937, 'userid': '85197003-34ad-4ead-81ab-0f9abcd1577c'}
+Sat, 06 Aug 2022 10:12:57-root-users.py-[line:126]-INFO-[日志信息]: 85197003-34ad-4ead-81ab-0f9abcd1577c
+Sat, 06 Aug 2022 10:12:57-root-users.py-[line:126]-INFO-[日志信息]: 85197003-34ad-4ead-81ab-0f9abcd1577c
+Sat, 06 Aug 2022 10:14:52-root-app.py-[line:70]-INFO-[日志信息]: {'exp': 1660356892.231023, 'userid': '85197003-34ad-4ead-81ab-0f9abcd1577c'}
+Sat, 06 Aug 2022 10:14:52-root-app.py-[line:70]-INFO-[日志信息]: {'exp': 1660356892.231023, 'userid': '85197003-34ad-4ead-81ab-0f9abcd1577c'}
+Sat, 06 Aug 2022 10:14:52-root-users.py-[line:126]-INFO-[日志信息]: 85197003-34ad-4ead-81ab-0f9abcd1577c
+Sat, 06 Aug 2022 10:14:52-root-users.py-[line:126]-INFO-[日志信息]: 85197003-34ad-4ead-81ab-0f9abcd1577c
+Sat, 06 Aug 2022 10:16:16-root-app.py-[line:70]-INFO-[日志信息]: {'exp': 1660356976.7067466, 'userid': '85197003-34ad-4ead-81ab-0f9abcd1577c'}
+Sat, 06 Aug 2022 10:16:16-root-app.py-[line:70]-INFO-[日志信息]: {'exp': 1660356976.7067466, 'userid': '85197003-34ad-4ead-81ab-0f9abcd1577c'}
+Sat, 06 Aug 2022 10:16:16-root-users.py-[line:126]-INFO-[日志信息]: 85197003-34ad-4ead-81ab-0f9abcd1577c
+Sat, 06 Aug 2022 10:16:16-root-users.py-[line:126]-INFO-[日志信息]: 85197003-34ad-4ead-81ab-0f9abcd1577c
+Sat, 06 Aug 2022 10:16:16-root-app.py-[line:70]-INFO-[日志信息]: {'exp': 1660356976.9484482, 'userid': '85197003-34ad-4ead-81ab-0f9abcd1577c'}
+Sat, 06 Aug 2022 10:16:16-root-app.py-[line:70]-INFO-[日志信息]: {'exp': 1660356976.9484482, 'userid': '85197003-34ad-4ead-81ab-0f9abcd1577c'}
+Sat, 06 Aug 2022 10:16:16-root-users.py-[line:126]-INFO-[日志信息]: 85197003-34ad-4ead-81ab-0f9abcd1577c
+Sat, 06 Aug 2022 10:16:16-root-users.py-[line:126]-INFO-[日志信息]: 85197003-34ad-4ead-81ab-0f9abcd1577c
+Sat, 06 Aug 2022 10:17:36-root-app.py-[line:70]-INFO-[日志信息]: {'exp': 1660357056.3618028, 'userid': '85197003-34ad-4ead-81ab-0f9abcd1577c'}
+Sat, 06 Aug 2022 10:17:36-root-app.py-[line:70]-INFO-[日志信息]: {'exp': 1660357056.3618028, 'userid': '85197003-34ad-4ead-81ab-0f9abcd1577c'}
+Sat, 06 Aug 2022 10:17:36-root-users.py-[line:126]-INFO-[日志信息]: 85197003-34ad-4ead-81ab-0f9abcd1577c
+Sat, 06 Aug 2022 10:17:36-root-users.py-[line:126]-INFO-[日志信息]: 85197003-34ad-4ead-81ab-0f9abcd1577c

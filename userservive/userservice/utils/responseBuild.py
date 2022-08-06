@@ -13,9 +13,12 @@ class responseBuilder:
     '''The class is use to build the response datagram.'''
 
     @staticmethod
-    def build_response(code = 200, msg = ResMSG.COMMON_SUCCESS.value, **kwargs):
+    def build_response(code=200, msg = ResMSG.COMMON_SUCCESS.value, **kwargs):
         response = {'code': code, 'msg': msg, 'data':{}}
-        for k,v in kwargs.items():
-            response['data'].update({k:v})
+        try:
+            for k,v in kwargs.items():
+                response['data'].update({k:v})
+        except:
+            return None
         return response
 

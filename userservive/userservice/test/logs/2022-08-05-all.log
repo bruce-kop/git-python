@@ -1,0 +1,4 @@
+Fri, 05 Aug 2022 21:34:37-root-parseConfig.py-[line:23]-DEBUG-[日志信息]: [Errno 2] No such file or directory: '.\\Docs\\config'
+Fri, 05 Aug 2022 21:34:37-root-parseConfig.py-[line:32]-DEBUG-[日志信息]: 'XMLParser' object has no attribute 'root'
+Fri, 05 Aug 2022 21:36:05-root-parseConfig.py-[line:23]-DEBUG-[日志信息]: [Errno 2] No such file or directory: './Docs/config'
+Fri, 05 Aug 2022 21:36:05-root-parseConfig.py-[line:32]-DEBUG-[日志信息]: 'XMLParser' object has no attribute 'root'
